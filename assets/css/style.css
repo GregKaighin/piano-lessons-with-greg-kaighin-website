@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+body {
+    font-family: 'Karla', sans-serif;
+    background-color: rgb(240, 229, 229);
+    color: #8B573C;
+}
+
+/*---------------------------------Hero Image*/
+
+.jumbotron{
+  margin:15px 30px 0px 30px;
+  border-radius:10px;
+    background: 
+linear-gradient(
+  rgba(67, 23, 10, 0.15),
+  rgba(139, 87, 60, 0.15)
+),
+url("/assets/images/piano.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+color:rgb(240, 229, 229);
+height:340px;
+}
+
+.page-scroll{
+  height:5000px;
+}
+
+.btn-outline-danger{
+  color:rgb(240, 229, 229);
+  border-color:rgb(240, 229, 229);
+  border-radius:0px;
+  font-weight:100;
+  margin-top:20px;
+}
+.lead{
+  font-family:"Karla", sans-serif;
+  font-weight:100;
+  margin-top:-10px;
+}
+
+/*----------------------------------------------Cover Text*/
+
+#cover-text {
+    font-size: 100%;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    width: 220px;
+    height: 180px;
+    padding-top: 15px;
+    padding-left: 15px;
+    background-color: rgba(158, 143, 130, .9);
+    top:12%;
+    right: 10%;
+    border-radius: 50px 15px;
+    position: absolute;
+
+}  
