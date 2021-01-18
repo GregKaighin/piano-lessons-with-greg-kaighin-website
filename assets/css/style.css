@@ -11,6 +11,7 @@ body {
 .jumbotron{
   margin:15px 15px 15px 15px;
   border-radius:10px;
+  position: relative;
     background: 
 linear-gradient(
   rgba(67, 23, 10, 0.15),
@@ -43,18 +44,18 @@ height:340px;
 /*----------------------------------------------Cover Text*/
 
 #cover-text {
-    font-size: 100%;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     text-align: center;
+    color: rgb(240, 229, 229);
     width: 220px;
-    height: 180px;
-    padding-top: 15px;
-    padding-left: 15px;
+    height: 120px;
+    padding-top: 12px;
+    padding-left: 12px;
     background-color: rgba(158, 143, 130, .9);
-    top:10%;
-    right: 10%;
-    border-radius: 50px 15px;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 48px 18px;
     position: absolute;
 
 }  
