@@ -17,11 +17,11 @@ linear-gradient(
   rgba(67, 23, 10, 0.15),
   rgba(139, 87, 60, 0.15)
 ),
-url("/assets/images/piano.jpg");
+url("/assets/images/piano-reverse.png");
 background-repeat: no-repeat;
 background-attachment: fixed;
 color:rgb(240, 229, 229);
-height:340px;
+height: 320px;
 }
 
 .page-scroll{
