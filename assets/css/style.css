@@ -48,17 +48,17 @@
 }
 /*------------------------------------jumbotron_container display*/
  .jumbotron .container {
-     text-transform: uppercase;
-     padding-top: 10px;
-     letter-spacing: 2px;
-     text-align: center;
-     color: rgb(240, 229, 229);
      width: 240px;
      height: 110px;
+     color: rgb(240, 229, 229);
      background-image: radial-gradient( rgba(158, 143, 130, 0.9),rgba(139, 87, 60, 0.9));
      bottom: 0;
      right: 0;
      border-radius: 18px 48px 0 18px;
+     text-align: center;
+     text-transform: uppercase;
+     padding-top: 10px;
+     letter-spacing: 2px;
      position: absolute;
 }
 /*------------------------------------About me*/
