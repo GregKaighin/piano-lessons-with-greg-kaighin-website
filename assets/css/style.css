@@ -6,14 +6,6 @@ body {
     color: #8B573C;
 }
 
-/* 
-271E37
-708A9C
-FAEEE1
-895234
-E3841D
-*/
-
 /*------------------------------------Navbar*/
 
 .navbar-light {
@@ -55,11 +47,7 @@ E3841D
      color: #43170A;
  }
 
-
-
- 
-
- /*---------------------------------Jumbotron Hero Image*/
+ /*---------------------------------Jumbotron_Hero image*/
 
 .jumbotron {
     margin: 12px 0 12px 0;
@@ -76,7 +64,7 @@ E3841D
   height:5000px;
 }
 
-/*------------------------------------Jumbotron Container*/
+/*------------------------------------Jumbotron_Container display*/
 
 .jumbotron .container {
     text-transform: uppercase;
@@ -88,7 +76,6 @@ E3841D
     padding-top: 12px;
     padding-left: 12px;
     background-image: radial-gradient( rgba(158, 143, 130, 0.9),rgba(139, 87, 60, 0.9));
-    /*background-color: rgba(158, 143, 130, 0.9);*/
     bottom: 0%;
     right: 0%;
     border-radius: 18px 48px 0px 18px;
@@ -100,10 +87,8 @@ E3841D
 
 #about-me {
     color: #8B573C;
-    clear: both;
     margin: 0 auto;
-    text-align: center;
-   
+    text-align: center; 
 }
 
 #about-me h3 {
@@ -111,7 +96,7 @@ E3841D
     font-size: 180%;
     text-transform: uppercase;
     color: #43170A;
-    letter-spacing: 2px;
+    letter-spacing: 2px;   
 }
 
 #about-me p {
@@ -121,6 +106,8 @@ E3841D
     letter-spacing: 1px;
 }
 
+/*------------------------------------About me_Nav-link hover underline*/
+
 #about-me a {
     color: #43170A;
     text-decoration: none;
@@ -129,6 +116,8 @@ E3841D
 #about-me a:hover {
     border-bottom: 1px solid #43170A;
 }
+
+/*------------------------------------About me_collapse*/
 
 #module {
     max-width: fit-content;
