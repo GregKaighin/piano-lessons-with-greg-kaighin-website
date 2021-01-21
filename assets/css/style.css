@@ -92,9 +92,9 @@ E3841D
     padding-left: 12px;
     background-image: radial-gradient( rgba(158, 143, 130, 0.9),rgba(139, 87, 60, 0.9));
     /*background-color: rgba(158, 143, 130, 0.9);*/
-    bottom: 14%;
-    right: 15%;
-    border-radius: 18px 48px;
+    bottom: 0%;
+    right: 0%;
+    border-radius: 18px 48px 0px 18px;
     position: absolute;
 
 }  
