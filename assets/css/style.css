@@ -8,33 +8,27 @@ body {
 
 /*---------------------------------Jumbotron Hero Image*/
 
-.jumbotron{
-  margin:15px 15px 15px 15px;
-  border-radius:18px;
-  position: relative;
+.jumbotron {
+    margin: 15px 0 15px 0;
     background: 
 linear-gradient(
   rgba(67, 23, 10, 0.15),
   rgba(139, 87, 60, 0.15)
 ),
-url("/assets/images/piano-reverse.png");
-background-repeat: no-repeat;
-background-attachment: fixed;
-color:rgb(240, 229, 229);
-height: 320px;
+   url("/assets/images/piano-art2.jpg");
+  border-radius:18px;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 50vh;
 }
-
+  
 .page-scroll{
   height:5000px;
 }
 
-.btn-outline-danger{
-  color:rgb(240, 229, 229);
-  border-color:rgb(240, 229, 229);
-  border-radius:0px;
-  font-weight:100;
-  margin-top:20px;
-}
 .lead{
   font-family:"Karla", sans-serif;
   font-weight:100;
@@ -52,9 +46,9 @@ height: 320px;
     height: 120px;
     padding-top: 12px;
     padding-left: 12px;
-    background-color: rgba(158, 143, 130, .9);
-    bottom: 0%;
-    right: 0%;
+    background-color: rgba(158, 143, 130, 0.8);
+    top: 40%;
+    left: 0%;
     border-radius: 18px 48px;
     position: absolute;
 
