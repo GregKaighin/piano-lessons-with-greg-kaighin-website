@@ -1,132 +1,102 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
-
-body {
-    font-family: 'Karla', sans-serif;
-    background-color: #FDFAF3;
-    color: #8B573C;
+ body {
+     font-family: 'Karla', sans-serif;
+     background-color: #FDFAF3;
+     color: #8B573C;
 }
-
 /*------------------------------------Navbar*/
-
-.navbar-light {
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #43170A;
-    overflow: hidden;
+ .navbar-light {
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     color: #43170A;
+     overflow: hidden;
 }
-
-.navcontainer {
-    background-color: #43170A;
+ .navcontainer {
+     background-color: #43170A;
 }
-
-.bg-light {
-   background-image: radial-gradient( rgba(253, 250, 243),rgba(253, 250, 243));  
+ .bg-light {
+     background-image: radial-gradient( rgba(253, 250, 243),rgba(253, 250, 243));
 }
-
-.navbar-light .navbar-brand {
-    color: #43170A;
+ .navbar-light .navbar-brand {
+     color: #43170A;
 }
-
-.navbar-light .navbar-nav .nav-link {
-    color: #43170A;
+ .navbar-light .navbar-nav .nav-link {
+     color: #43170A;
 }
-
-.navbar-light .navbar-toggler {
-    border-color: #8B573C;
+ .navbar-light .navbar-toggler {
+     border-color: #8B573C;
 }
-
-.navbar-light a.navbar-brand:focus, .navbar-light a.navbar-brand:hover {
-    color: #43170A;
+ .navbar-light a.navbar-brand:focus, .navbar-light a.navbar-brand:hover {
+     color: #43170A;
 }
-
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    color: #43170A;
+ .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+     color: #43170A;
 }
-
  .navbar-light .navbar-nav .nav-link:hover {
      color: #43170A;
- }
-
- /*---------------------------------Jumbotron_Hero image*/
-
-.jumbotron {
-    margin: 12px 0 12px 0;
-    background: url("/assets/images/piano-art2crev.jpg");
-    position: relative;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 50vh;
 }
-  
-.page-scroll{
-  height:5000px;
+/*---------------------------------Jumbotron_Hero image*/
+ .jumbotron {
+     margin: 12px 0 12px 0;
+     background: url("/assets/images/piano-art2crev.jpg");
+     position: relative;
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     height: 50vh;
 }
-
+ .page-scroll{
+     height:5000px;
+}
 /*------------------------------------Jumbotron_Container display*/
-
-.jumbotron .container {
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    text-align: center;
-    color: rgb(240, 229, 229);
-    width: 240px;
-    height: 110px;
-    padding-top: 12px;
-    padding-left: 12px;
-    background-image: radial-gradient( rgba(158, 143, 130, 0.9),rgba(139, 87, 60, 0.9));
-    bottom: 0%;
-    right: 0%;
-    border-radius: 18px 48px 0px 18px;
-    position: absolute;
-
-}  
-
+ .jumbotron .container {
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     text-align: center;
+     color: rgb(240, 229, 229);
+     width: 240px;
+     height: 110px;
+     background-image: radial-gradient( rgba(158, 143, 130, 0.9),rgba(139, 87, 60, 0.9));
+     bottom: 0;
+     right: 0;
+     border-radius: 18px 48px 0 18px;
+     position: absolute;
+}
 /*------------------------------------About me*/
-
-#about-me {
-    color: #8B573C;
-    margin: 0 auto;
-    text-align: center; 
+ #about-me {
+     color: #8B573C;
+     margin: 0 auto;
+     text-align: center;
 }
-
-#about-me h3 {
-  
-    font-size: 180%;
-    text-transform: uppercase;
-    color: #43170A;
-    letter-spacing: 2px;   
+ #about-me h3 {
+     font-size: 180%;
+     text-transform: uppercase;
+     color: #43170A;
+     letter-spacing: 2px;
 }
-
-#about-me p {
-    margin: 0 auto;
-    font-size: 14px;
-    text-align: left;
-    letter-spacing: 1px;
+ #about-me p {
+     margin: 0 auto;
+     font-size: 14px;
+     text-align: left;
+     letter-spacing: 1px;
 }
-
 /*------------------------------------About me_Nav-link hover underline*/
-
-#about-me a {
-    color: #43170A;
-    text-decoration: none;
+ #about-me a {
+     color: #43170A;
+     text-decoration: none;
 }
-
-#about-me a:hover {
-    border-bottom: 1px solid #43170A;
+ #about-me a:hover {
+     border-bottom: 1px solid #43170A;
 }
-
 /*------------------------------------About me_collapse*/
-
-#module {
-    max-width: fit-content;
+ #module {
+     max-width: fit-content;
 }
-
-#module a.collapsed:after {
-    content: '+ Show More';
+ #module .collapsed:after {
+     content: '+ Show More';
 }
-
-#module a:not(.collapsed):after {
-    content: '- Show Less';
+ #module a:not(.collapsed):after {
+     content: '- Show Less';
 }
+ 
