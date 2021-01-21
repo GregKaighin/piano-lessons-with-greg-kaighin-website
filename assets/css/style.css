@@ -6,10 +6,51 @@ body {
     color: #8B573C;
 }
 
-/*---------------------------------Jumbotron Hero Image*/
+/*------------------------------------Navbar*/
+
+.navbar-light {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #43170A;
+    overflow: hidden;
+}
+
+.bg-light {
+   background-image: radial-gradient( rgba(158, 143, 130),rgba(139, 87, 60)) !important;  
+}
+
+.navbar-light .navbar-brand {
+    color: #43170A;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #43170A;
+}
+
+.navbar-light .navbar-toggler{
+    border-color: #8B573C !important;
+}
+
+.navbar-light a.navbar-brand:focus, .navbar-light a.navbar-brand:hover {
+    color: #43170A;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #43170A;
+}
+
+ .navbar-light .navbar-nav .nav-link:hover {
+     color: #43170A;
+ }
+
+
+
+ 
+
+ /*---------------------------------Jumbotron Hero Image*/
 
 .jumbotron {
-    margin: 15px 0 15px 0;
+    margin: 12px 0 12px 0;
     background: linear-gradient(
   rgba(67, 23, 10, 0.15),
   rgba(139, 87, 60, 0.15)
@@ -27,37 +68,6 @@ url("/assets/images/piano-art2.jpg");
   height:5000px;
 }
 
-/*------------------------------------Navbar*/
-
-.navbar-light {
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
-
-.navbar-light .navbar-brand {
-    color: #43170A;
-}
-
-.navbar-light .navbar-nav .nav-link {
-    color: #8B573C;
-}
-
-.navbar-light .navbar-toggler {
-    color: #8B573C;
-}
-
-.navbar-light a.navbar-brand:focus, .navbar-light a.navbar-brand:hover {
-    color: #43170A;
-}
-
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    color: #43170A;
-}
-
- .navbar-light .navbar-nav .nav-link:hover {
-     color: #43170A;
- }
-
 /*------------------------------------Jumbotron Container*/
 
 .jumbotron .container {
@@ -69,10 +79,10 @@ url("/assets/images/piano-art2.jpg");
     height: 120px;
     padding-top: 12px;
     padding-left: 12px;
-    background-image: radial-gradient( rgba(139, 87, 60, 0.9),rgba(67, 23, 0, 0.9));
+    background-image: radial-gradient( rgba(158, 143, 130, 0.9),rgba(139, 87, 60, 0.9));
     /*background-color: rgba(158, 143, 130, 0.9);*/
-    bottom: 12%;
-    right: 12%;
+    bottom: 0%;
+    right: 0%;
     border-radius: 18px 48px;
     position: absolute;
 
