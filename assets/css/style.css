@@ -63,10 +63,7 @@ E3841D
 
 .jumbotron {
     margin: 12px 0 12px 0;
-    background: linear-gradient(
-  rgba(67, 23, 10, 0.15),
-  rgba(139, 87, 60, 0.15)
-),url("/assets/images/piano-art2crev.jpg");
+    background: url("/assets/images/piano-art2crev.jpg");
     position: relative;
     background-position: center;
     background-size: cover;
