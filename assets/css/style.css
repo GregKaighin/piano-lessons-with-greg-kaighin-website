@@ -27,6 +27,37 @@ url("/assets/images/piano-art2.jpg");
   height:5000px;
 }
 
+/*------------------------------------Navbar*/
+
+.navbar-light {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.navbar-light .navbar-brand {
+    color: #43170A;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #8B573C;
+}
+
+.navbar-light .navbar-toggler {
+    color: #8B573C;
+}
+
+.navbar-light a.navbar-brand:focus, .navbar-light a.navbar-brand:hover {
+    color: #43170A;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #43170A;
+}
+
+ .navbar-light .navbar-nav .nav-link:hover {
+     color: #43170A;
+ }
+
 /*------------------------------------Jumbotron Container*/
 
 .jumbotron .container {
@@ -38,9 +69,10 @@ url("/assets/images/piano-art2.jpg");
     height: 120px;
     padding-top: 12px;
     padding-left: 12px;
-    background-color: rgba(158, 143, 130, 0.8);
-    top: 33%;
-    left: 0%;
+    background-image: radial-gradient( rgba(139, 87, 60, 0.9),rgba(67, 23, 0, 0.9));
+    /*background-color: rgba(158, 143, 130, 0.9);*/
+    bottom: 12%;
+    right: 12%;
     border-radius: 18px 48px;
     position: absolute;
 
@@ -53,8 +85,6 @@ url("/assets/images/piano-art2.jpg");
     clear: both;
     margin: 0 auto;
     text-align: center;
-    font-size: 100%;
-    letter-spacing: 1px;
    
 }
 
@@ -70,6 +100,7 @@ url("/assets/images/piano-art2.jpg");
     margin: 0 auto;
     font-size: 14px;
     text-align: left;
+    letter-spacing: 1px;
 }
 
 #about-me a {
