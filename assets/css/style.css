@@ -40,9 +40,10 @@
  .page-scroll{
      height:5000px;
 }
-/*------------------------------------Jumbotron_Container display*/
+/*------------------------------------jumbotron_container display*/
  .jumbotron .container {
      text-transform: uppercase;
+     padding-top: 10px;
      letter-spacing: 2px;
      text-align: center;
      color: rgb(240, 229, 229);
@@ -61,6 +62,7 @@
      text-align: center;
 }
  #about-me h3 {
+     padding-top: 8px;
      font-size: 180%;
      text-transform: uppercase;
      color: #43170A;
@@ -72,7 +74,7 @@
      text-align: left;
      letter-spacing: 1px;
 }
-/*------------------------------------About me_Nav-link hover underline*/
+/*------------------------------------About me_nav-link_hover underline*/
  #about-me a {
      color: #43170A;
      text-decoration: none;
