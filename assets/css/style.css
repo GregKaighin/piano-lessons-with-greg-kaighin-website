@@ -2,9 +2,17 @@
 
 body {
     font-family: 'Karla', sans-serif;
-    background-color: rgb(240, 229, 229);
+    background-color: #FDFAF3;
     color: #8B573C;
 }
+
+/* 
+271E37
+708A9C
+FAEEE1
+895234
+E3841D
+*/
 
 /*------------------------------------Navbar*/
 
@@ -15,8 +23,12 @@ body {
     overflow: hidden;
 }
 
+.navcontainer {
+    background-color: #43170A;
+}
+
 .bg-light {
-   background-image: radial-gradient( rgba(158, 143, 130),rgba(139, 87, 60)) !important;  
+   background-image: radial-gradient( rgba(253, 250, 243),rgba(253, 250, 243));  
 }
 
 .navbar-light .navbar-brand {
@@ -27,8 +39,8 @@ body {
     color: #43170A;
 }
 
-.navbar-light .navbar-toggler{
-    border-color: #8B573C !important;
+.navbar-light .navbar-toggler {
+    border-color: #8B573C;
 }
 
 .navbar-light a.navbar-brand:focus, .navbar-light a.navbar-brand:hover {
@@ -51,11 +63,7 @@ body {
 
 .jumbotron {
     margin: 12px 0 12px 0;
-    background: linear-gradient(
-  rgba(67, 23, 10, 0.15),
-  rgba(139, 87, 60, 0.15)
-),  
-url("/assets/images/piano-art2.jpg");
+    background: url("/assets/images/piano-keyboard-artwork-edited.jpg");
     position: relative;
     background-position: center;
     background-size: cover;
@@ -76,7 +84,7 @@ url("/assets/images/piano-art2.jpg");
     text-align: center;
     color: rgb(240, 229, 229);
     width: 240px;
-    height: 120px;
+    height: 110px;
     padding-top: 12px;
     padding-left: 12px;
     background-image: radial-gradient( rgba(158, 143, 130, 0.9),rgba(139, 87, 60, 0.9));
