@@ -40,13 +40,13 @@
      height: 50vh;
 }
  .page-scroll{
-     height:5000px;
+     height:400px;
 }
 /*------------------------------------jumbotron_container display*/
  .jumbotron .container {
      width: 240px;
      height: 110px;
-     color: rgb(240, 229, 229);
+     color: rgba(253, 250, 243);
      background-image: radial-gradient( rgba(158, 143, 130, 0.9),rgba(139, 87, 60, 0.9));
      bottom: 0;
      right: 0;
@@ -94,20 +94,31 @@
  #module a:not(.collapsed):after {
      content: '- Show Less';
 }
-/*------------------------------------Footer*/
- footer {
-     height: 150px;
+
+/*---------------------------------------------Cards*/
+
+.card {
+    text-align: center;
+    text-transform: uppercase;
+    color: #43170A;
+    background-color: rgba(253, 250, 243);
+    border-style: solid 1px;
+    border-color: #43170A;
 }
+/*------------------------------------Footer*/
+
  .social-networks {
      text-align: center;
 }
  .social-networks li {
      display: inline;
+     margin: 28px;
 }
  .social-networks i {
      font-size: 160%;
-     margin: 1%;
-     padding: 5%;
      color: #43170A;
 }
+
+
+
  
