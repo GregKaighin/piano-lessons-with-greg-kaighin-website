@@ -10,19 +10,17 @@ body {
 
 .jumbotron {
     margin: 15px 0 15px 0;
-    background: 
-linear-gradient(
+    background: linear-gradient(
   rgba(67, 23, 10, 0.15),
   rgba(139, 87, 60, 0.15)
-),
-   url("/assets/images/piano-art2.jpg");
-  border-radius:18px;
-  position: relative;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  height: 50vh;
+),  
+url("/assets/images/piano-art2.jpg");
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 50vh;
 }
   
 .page-scroll{
@@ -41,9 +39,56 @@ linear-gradient(
     padding-top: 12px;
     padding-left: 12px;
     background-color: rgba(158, 143, 130, 0.8);
-    top: 40%;
+    top: 33%;
     left: 0%;
     border-radius: 18px 48px;
     position: absolute;
 
 }  
+
+/*------------------------------------About me*/
+
+#about-me {
+    color: #8B573C;
+    clear: both;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 100%;
+    letter-spacing: 1px;
+   
+}
+
+#about-me h3 {
+  
+    font-size: 180%;
+    text-transform: uppercase;
+    color: #43170A;
+    letter-spacing: 2px;
+}
+
+#about-me p {
+    margin: 0 auto;
+    font-size: 14px;
+    text-align: left;
+}
+
+#about-me a {
+    color: #43170A;
+    text-decoration: none;
+}
+
+#about-me a:hover {
+    border-bottom: 1px solid #43170A;
+}
+
+#module {
+    max-width: fit-content;
+}
+
+#module a.collapsed:after {
+    content: '+ Show More';
+}
+
+#module a:not(.collapsed):after {
+    content: '- Show Less';
+}
