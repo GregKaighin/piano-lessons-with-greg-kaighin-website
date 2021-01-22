@@ -15,6 +15,7 @@
  .bg-light {
      background-image: radial-gradient( rgba(253, 250, 243),rgba(253, 250, 243));
 }
+/*------------------------------------Navbar-colors*/
  .navbar-light .navbar-brand {
      color: #43170A;
 }
@@ -60,7 +61,7 @@
 }
 /*------------------------------------About me*/
  #about-me {
-     color: #8B573C;
+     color: #43170A;
      margin: 0 auto;
      text-align: center;
 }
@@ -133,8 +134,8 @@ padding-top: 8px;
 
 .testimonial .testimonial-content {
     font-size: 14px;
-    padding: 35px 25px 35px 50px;
-    margin-bottom: 35px;
+    padding: 18px 24px 8px 36px;
+    margin-bottom: 24px;
     background: rgb(253, 250, 243);
     border: 1px solid  #8B573C;
     border-radius: 18px 48px 18px 0;
@@ -156,7 +157,7 @@ padding-top: 8px;
 .testimonial .description {
     font-size: 120%;
     font-style: italic;
-    color: #8B573C;
+    color: #43170A;
     line-height: 23px;
     margin: 0;
 }
@@ -172,7 +173,7 @@ padding-top: 8px;
 .testimonial .post {
     display: block;
     font-size: 100%;
-    color: #8B573C;
+    color: #43170A;
 }
 
 
