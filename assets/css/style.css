@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
  body {
      font-family: 'Karla', sans-serif;
      background-color: #FDFAF3;
@@ -72,30 +72,42 @@
      letter-spacing: 2px;
 }
  #about-me p {
-     margin: 0 auto;
+     margin: 0 20px;
      font-size: 14px;
      text-align: left;
      letter-spacing: 1px;
 }
+/*------------------------------------Show-more Button_colours*/
+.btn-light {
+    color: #43170A;
+    background:#FDFAF3; 
+    border-color: #8B573C;
+    font-size: small;
+}
+.btn-light:hover {
+    color: #43170A;
+    background: radial-gradient( rgba(158, 143, 130, 0.9),rgba(139, 87, 60, 0.9));
+    border-color: #8B573C;
+}
+.btn-light:focus {
+    color: #43170A;
+    background: #FDFAF3;
+    border-color: #8B573C;
+}
+.btn-light:active {
+    color: #43170A;
+    background:radial-gradient( rgba(158, 143, 130, 0.9),rgba(139, 87, 60, 0.9));
+    border-color: #8B573C;
+}
 /*------------------------------------About me_nav-link_hover underline*/
  #about-me a {
-     color: #43170A;
+     color: #8B573C;
      text-decoration: none;
 }
  #about-me a:hover {
      border-bottom: 1px solid #43170A;
 }
-/*------------------------------------About me_collapse*/
- #module {
-     max-width: fit-content;
-}
- #module .collapsed:after {
-     content: '+ Show More';
-}
- #module a:not(.collapsed):after {
-     content: '- Show Less';
-}
-/*---------------------------------------------Cards*/
+/*---------------------------------------------Info cards*/
  .card {
      text-align: center;
      text-transform: uppercase;
@@ -168,5 +180,9 @@
      display: block;
      font-size: 100%;
      letter-spacing: 1px;
+}
+ .quote-break {
+     border-style: dotted;
+     border-color: rgba(139, 87, 60, 0.33) 
 }
  
