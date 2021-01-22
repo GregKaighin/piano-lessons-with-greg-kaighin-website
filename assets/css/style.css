@@ -147,7 +147,7 @@ padding-top: 8px;
     background: radial-gradient( rgba(158, 143, 130, 0.9),rgba(139, 87, 60, 0.9));
     border-radius: 18px 48px 0 18px;
     text-align: center;
-    font-size: 120%;
+    font-size: 100%;
     color: rgb(253, 250, 243);
     line-height: 46px;
     position: absolute;
@@ -155,25 +155,26 @@ padding-top: 8px;
     left: -19px;
 }
 .testimonial .description {
-    font-size: 120%;
+    font-size: 100%;
     font-style: italic;
+    letter-spacing: 1px;
     color: #43170A;
     line-height: 24px;
     margin: 0;
 }
 .testimonial .title {
-    display: block;
-    font-size: 120%;
-    font-weight: 400;
     color:  #43170A;
-    text-transform: capitalize;
+    display: block;
+    font-size: 100%;
     letter-spacing: 1px;
     margin: 0 0 5px 0;
 }
 .testimonial .post {
+    color: #43170A;
     display: block;
     font-size: 100%;
-    color: #43170A;
+    letter-spacing: 1px;
+    
 }
 
 
