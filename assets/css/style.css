@@ -79,6 +79,7 @@
 }
 /*------------------------------------Show-more Button_colours*/
 .btn-light {
+    margin-top: 8px;
     color: #43170A;
     background:#FDFAF3; 
     border-color: #8B573C;
@@ -86,7 +87,7 @@
 }
 .btn-light:hover {
     color: #43170A;
-    background: radial-gradient( rgba(158, 143, 130, 0.9),rgba(139, 87, 60, 0.9));
+    background: #FDFAF3;
     border-color: #8B573C;
 }
 .btn-light:focus {
@@ -94,9 +95,10 @@
     background: #FDFAF3;
     border-color: #8B573C;
 }
+
 .btn-light:active {
     color: #43170A;
-    background:radial-gradient( rgba(158, 143, 130, 0.9),rgba(139, 87, 60, 0.9));
+    background:radial-gradient( rgba(158, 143, 130, 0.75),rgba(139, 87, 60, 0.75));
     border-color: #8B573C;
 }
 /*------------------------------------About me_nav-link_hover underline*/
@@ -150,7 +152,7 @@
  .testimonial-content .testimonial-icon {
      width: 36px;
      height: 36px;
-     background: radial-gradient( rgba(158, 143, 130, 0.9),rgba(139, 87, 60, 0.9));
+     background: radial-gradient( rgb(158, 143, 130),rgb(139, 87, 60));
      border-radius: 0 48px 18px 18px;
      text-align: center;
      font-size: 100%;
