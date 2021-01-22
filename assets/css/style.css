@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
-
  body {
      font-family: 'Karla', sans-serif;
      background-color: #FDFAF3;
@@ -96,30 +95,27 @@
  #module a:not(.collapsed):after {
      content: '- Show Less';
 }
-
 /*---------------------------------------------Cards*/
-
-.card {
-    text-align: center;
-    text-transform: uppercase;
-    color: #43170A;
-    background-color: rgba(253, 250, 243);
+ .card {
+     text-align: center;
+     text-transform: uppercase;
+     color: #43170A;
+     background-color: inherit;
 }
 /*------------------------------------Footer*/
-
  .social-networks {
      text-align: center;
 }
  .social-networks li {
      display: inline;
-     margin: 28px;
+     padding: 28px;
 }
  .social-networks i {
      font-size: 180%;
      color: #43170A;
 }
 /*--------------------------------- Testimonials*/
-#quotes h3 {
+ #quotes h3 {
      text-align: center;
      padding-top: 8px;
      font-size: 180%;
@@ -127,56 +123,50 @@
      color: #43170A;
      letter-spacing: 2px;
 }
-
-#quotes h4 {
-padding-top: 8px;
+ #quotes h4 {
+     padding-top: 8px;
 }
-
-.testimonial .testimonial-content {
-    font-size: 14px;
-    padding: 18px 24px 8px 36px;
-    margin-bottom: 24px;
-    background: rgb(253, 250, 243);
-    border: 1px solid  #8B573C;
-    border-radius: 18px 48px 18px 0;
-    position: relative;
+ .testimonial .testimonial-content {
+     font-size: 14px;
+     padding: 18px 24px 8px 36px;
+     margin: 24px 24px 24px 24px;
+     background: rgb(253, 250, 243);
+     border: 1px solid #8B573C;
+     border-radius: 0 48px 18px 18px;
+     position: relative;
 }
-.testimonial-content .testimonial-icon {
-    width: 36px;
-    height: 36px;
-    background: radial-gradient( rgba(158, 143, 130, 0.9),rgba(139, 87, 60, 0.9));
-    border-radius: 18px 48px 0 18px;
-    text-align: center;
-    font-size: 100%;
-    color: rgb(253, 250, 243);
-    line-height: 46px;
-    position: absolute;
-    top: 37px;
-    left: -19px;
+ .testimonial-content .testimonial-icon {
+     width: 36px;
+     height: 36px;
+     background: radial-gradient( rgba(158, 143, 130, 0.9),rgba(139, 87, 60, 0.9));
+     border-radius: 0 48px 18px 18px;
+     text-align: center;
+     font-size: 100%;
+     color: rgb(253, 250, 243);
+     line-height: 46px;
+     top: -12px;
+     left: -19px;
+     position: absolute;
 }
-.testimonial .description {
-    font-size: 100%;
-    font-style: italic;
-    letter-spacing: 1px;
-    color: #43170A;
-    line-height: 24px;
-    margin: 0;
+ .testimonial .description {
+     font-size: 100%;
+     font-style: italic;
+     letter-spacing: 1px;
+     color: #43170A;
+     line-height: 24px;
+     margin: 0;
 }
-.testimonial .title {
-    color:  #43170A;
-    display: block;
-    font-size: 100%;
-    letter-spacing: 1px;
-    margin: 0 0 5px 0;
+ .testimonial .title {
+     color: #43170A;
+     display: block;
+     font-size: 100%;
+     letter-spacing: 1px;
+     margin: 0 0 5px 0;
 }
-.testimonial .post {
-    color: #43170A;
-    display: block;
-    font-size: 100%;
-    letter-spacing: 1px;
-    
+ .testimonial .post {
+     color: #43170A;
+     display: block;
+     font-size: 100%;
+     letter-spacing: 1px;
 }
-
-
-
  
