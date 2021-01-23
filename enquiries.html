@@ -52,7 +52,7 @@
     <section class="container-fluid" id="enquiry-form">
         <div class="bg-color-contact">
             <div class="col">
-                <h4 class="contact-heading text-center">Interested in taking lessons?<br>Get in contact.</h4>
+                <h5 class="contact-heading text-center">Interested in taking lessons?<br>Get in contact.</h5>
 
                 <div class="center-form">
                     <form>
@@ -64,15 +64,34 @@
                             required></textarea>
                         <div class="form-row text-center">
                             <div class="col">
-                                <button type="submit" class="btn btn-light">Send</button>
+                                <button type="submit" class="btn btn-light" data-toggle="modal" data-target="#exampleModalCenter">Send</button>
                             </div>
                         </div>
                     </form>
+                    
                 </div>
             </div>
         </div>
 
     </section>
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Thank you for your enquiry</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        I'll get back to you soon
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-light" data-dismiss="modal">Ok</button>
+      </div>
+    </div>
+  </div>
+</div>
     <footer>
         <div class="row justify-content-center" id="social-networks">
             <div class="col-4">

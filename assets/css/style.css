@@ -38,6 +38,10 @@ h3 {
      color: #43170A;
      border-bottom: 1px solid #43170A;
 }
+
+.navbar-toggler {
+    background-color: #d7cdb7;
+}
 /*---------------------------------Jumbotron_Hero image*/
  .jumbotron {
      margin: 12px 0 12px 0;
@@ -64,14 +68,9 @@ h3 {
      letter-spacing: 2px;
      position: absolute;
 }
-#transparent-scroll {
-     opacity: 0.9;
-     background-image: radial-gradient( rgba(253, 250, 243,0.5),rgba(253, 250, 243,0.5));
-     z-index: 2;
-}
 /*------------------------------------About me*/
  #about-me {
-     color: #43170A;
+    
      margin: 0 auto;
      text-align: center;
 }
@@ -87,13 +86,13 @@ h3 {
     margin-top: 8px;
     color: #43170A;
     text-transform: uppercase;
-    background:#FDFAF3; 
+    background:#d7cdb7; 
     border-color: #8B573C;
     font-size: 10px;
 }
 .btn-light:hover, .btn-light:focus {
     color: #43170A;
-    background: #FDFAF3;
+    background: #d7cdb7;
     border-color: #8B573C;
 }
 .btn-light:active {
@@ -144,8 +143,8 @@ h3 {
      border-radius: 0 48px 18px 18px;
      text-align: center;
      font-size: 100%;
+     line-height: 36px;
      color: rgb(253, 250, 243);
-     line-height: 46px;
      top: -12px;
      left: -19px;
      position: absolute;
@@ -225,4 +224,22 @@ button[type="submit"] {
     color: #8B573C;
     background-color: #8B573C;
     border-color: #43170A;
+}
+
+/*-----------------------------------Portrait image*/
+#circle-container {
+    width: 120px;
+    height: 120px;
+    border-style: solid;
+    border-color:#A08184;
+    border-width: 1px;
+    border-radius: 50%;
+    margin:0 auto;
+
+}
+ 
+#circle-cover-bg {
+    background: url("/assets/images/greg-kaighin.jpg") no-repeat center center;
+    height:100%;
+    border-radius: 50%;
 }
