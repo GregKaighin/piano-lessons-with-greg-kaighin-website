@@ -1,8 +1,11 @@
  @import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
  body {
      font-family: 'Karla', sans-serif;
-     background-color: #FDFAF3;
      color: #43170A;
+     background-color: #FDFAF3;
+     
+     
+     
 }
 h3 {
     color: #43170A;
@@ -10,26 +13,31 @@ h3 {
     text-transform: uppercase;
     letter-spacing: 2px;
 }
-/*------------------------------------Navbar*/
+/*------------------------------------navbar*/
  .navbar-light {
+     color: #43170A;
      text-transform: uppercase;
      letter-spacing: 2px;
-     color: #43170A;
-
+     
 }
  .bg-light {
      opacity: 0.9;
      background-image: radial-gradient( rgba(253, 250, 243,0.5),rgba(253, 250, 243,0.5));
 }
-/*------------------------------------Navbar-colours*/
+/*------------------------------------navbar colours*/
+.navbar-brand, h1 {
+    font-size: 140%;
+}
  .navbar-light .navbar-brand {
      color: #43170A;
 }
  .navbar-light .navbar-nav .nav-link {
      color: #43170A;
 }
+/*------------------------------------navbar toggler and hover colours*/
  .navbar-light .navbar-toggler {
      border-color: #8B573C;
+     background: linear-gradient(to bottom right,rgba(158, 143, 130, 0.25),rgba(139, 87, 60, 0.25));
 }
 .navbar-light .navbar-toggler-icon {
     color: #43170A;
@@ -38,29 +46,33 @@ h3 {
      color: #43170A;
      border-bottom: 1px solid #43170A;
 }
-
 .navbar-toggler {
-    background-color: #d7cdb7;
+    background-color: radial-gradient( rgba(158, 143, 130, 0.9),rgba(139, 87, 60, 0.9));
 }
-/*---------------------------------Jumbotron_Hero image*/
+.navbar-toggler:focus {
+    color: #43170A;
+}
+/*---------------------------------jumbotron hero image*/
  .jumbotron {
+     height: 50vh;
      margin: 12px 0 12px 0;
-     background: url("/assets/images/piano-art2crev.jpg");
-     position: relative;
+     background-color: #FDFAF3;
+     background: url("/assets/images/piano-arxt.jpg");
      background-position: center;
      background-size: cover;
      background-repeat: no-repeat;
-     background-attachment: fixed;
-     height: 50vh;
+     background-attachment: fixed; 
+     position: relative; 
 }
-/*------------------------------------jumbotron_container overlay and text*/
+/*------------------------------------jumbotron container overlay*/
  .jumbotron .container {
      width: 240px;
      height: 110px;
      color: rgb(253, 250, 243);
      background-image: radial-gradient( rgba(158, 143, 130, 0.9),rgba(139, 87, 60, 0.9));
-     bottom: 0;
-     right: 0;
+     bottom: 12px;
+     left: 0;
+/*------------------------------------jumbotron container text*/
      border-radius: 18px 48px 0 18px;
      text-align: center;
      text-transform: uppercase;
@@ -68,26 +80,24 @@ h3 {
      letter-spacing: 2px;
      position: absolute;
 }
-/*------------------------------------About me*/
+/*------------------------------------about me*/
  #about-me {
-    
      margin: 0 auto;
      text-align: center;
 }
-
  #about-me p {
      margin: 0 20px;
      font-size: 14px;
      text-align: left;
      letter-spacing: 1px;
 }
-/*------------------------------------Button_colours*/
+/*------------------------------------button colours*/
 .btn-light {
-    margin-top: 8px;
     color: #43170A;
-    text-transform: uppercase;
-    background:#d7cdb7; 
+    background: linear-gradient(to bottom right,rgba(158, 143, 130, 0.25),rgba(139, 87, 60, 0.25));
     border-color: #8B573C;
+    margin-top: 8px;
+    text-transform: uppercase;
     font-size: 10px;
 }
 .btn-light:hover, .btn-light:focus {
@@ -97,10 +107,10 @@ h3 {
 }
 .btn-light:active {
     color: #43170A;
-    background:radial-gradient( rgba(158, 143, 130, 0.75),rgba(139, 87, 60, 0.75));
+    background: radial-gradient( rgba(158, 143, 130, 0.75),rgba(139, 87, 60, 0.75));
     border-color: rgb(153, 125, 109);
 }
-/*------------------------------------About me_nav-link_hover underline*/
+/*------------------------------------about me page links hover colour and underscore*/
  #about-me a {
      color: #8B573C;
      text-decoration: none;
@@ -108,7 +118,22 @@ h3 {
  #about-me a:hover {
      border-bottom: 1px solid #43170A;
 }
-/*----------------------------------Ethos*/
+/*-----------------------------------portrait image*/
+#circle-container {
+    width: 120px;
+    height: 120px;
+    border-style: solid;
+    border-color:#A08184;
+    border-width: 1px;
+    border-radius: 50%;
+    margin:0 auto;
+}
+#circle-cover-bg {
+    background: url("/assets/images/greg-kaighin.jpg") no-repeat center center;
+    height:100%;
+    border-radius: 50%;
+}
+/*----------------------------------ethos*/
 #ethos {
     text-align: center;
 }
@@ -122,19 +147,22 @@ h3 {
     text-align: left;
     padding: 0 20px 0 20px;
 }
-/*--------------------------------- Testimonials*/
+/*---------------------------------testimonials*/
  #quotes h4 {
      padding-top: 8px;
 }
+/*----------------------------------testimonials speech bubble*/
  .testimonial .testimonial-content {
      font-size: 14px;
      padding: 18px 24px 8px 36px;
      margin: 24px 24px 24px 24px;
      background: rgb(253, 250, 243);
+     background-image: linear-gradient(to bottom right,rgba(158, 143, 130, 0.25),rgba(139, 87, 60, 0.25));
      border: 1px solid #8B573C;
      border-radius: 0 48px 18px 18px;
      position: relative;
 }
+/*------------------------------------testimonials quote icon*/
  .testimonial-content .testimonial-icon {
      width: 36px;
      height: 36px;
@@ -149,11 +177,12 @@ h3 {
      left: -19px;
      position: absolute;
 }
+/*------------------------------------testimonials quote text*/
  .testimonial .description {
+    color: #43170A;
      font-size: 100%;
      font-style: italic;
      letter-spacing: 1px;
-     color: #43170A;
      line-height: 24px;
      margin: 0;
 }
@@ -170,15 +199,15 @@ h3 {
      font-size: 100%;
      letter-spacing: 1px;
 }
-
-/*---------------------------------------------Info cards*/
+/*---------------------------------------------info cards*/
  .card {
+     color: #43170A;
+     border-style: none;
+     background-color: inherit;
      text-align: center;
      text-transform: uppercase;
-     color: #43170A;
-     background-color: inherit;
 }
-/*------------------------------------Footer*/
+/*------------------------------------footer*/
  #social-networks {
      text-align: center;
      font-size: 240%;
@@ -187,59 +216,36 @@ h3 {
 #social-networks i {
      color: #43170A;
 }
-
-/*--------------------------------- Contact Form*/
+/*---------------------------------enquiries form*/
 
 .form-control {
     color: #8B573C; 
     border-color: #8B573C;
     letter-spacing: 2px;
     background-color: rgb(253, 250, 243);
-    
 }
-
 .contact-heading {
     color: #43170A;
-    clear: both;
-    font-family: "Karla", sans-serif;
     font-weight: 300;
     letter-spacing: 2px;
     margin-top: 25px;
     margin-bottom: 20px;
 }
-
 .center-form {
     padding-top: 10px;
     margin: 0 auto;
     max-width: 70%;
 }
-
 button[type="submit"] {
+    color: #43170A;
     margin-top: 15px;
     margin-bottom: 20px;
-    color: #43170A;
+    background-color: linear-gradient(to bottom right,rgba(158, 143, 130, 0.25),rgba(139, 87, 60, 0.25))
 }
-
 .btn-secondary {
     color: #8B573C;
-    background-color: #8B573C;
+    background-color: linear-gradient(to bottom right,rgba(158, 143, 130, 0.25),rgba(139, 87, 60, 0.25));
     border-color: #43170A;
 }
 
-/*-----------------------------------Portrait image*/
-#circle-container {
-    width: 120px;
-    height: 120px;
-    border-style: solid;
-    border-color:#A08184;
-    border-width: 1px;
-    border-radius: 50%;
-    margin:0 auto;
 
-}
- 
-#circle-cover-bg {
-    background: url("/assets/images/greg-kaighin.jpg") no-repeat center center;
-    height:100%;
-    border-radius: 50%;
-}
