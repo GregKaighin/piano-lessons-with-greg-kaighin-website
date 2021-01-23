@@ -2,7 +2,13 @@
  body {
      font-family: 'Karla', sans-serif;
      background-color: #FDFAF3;
-     color: #8B573C;
+     color: #43170A;
+}
+h3 {
+    color: #43170A;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 /*------------------------------------Navbar*/
  .navbar-light {
@@ -24,6 +30,9 @@
  .navbar-light .navbar-toggler {
      border-color: #8B573C;
 }
+.navbar-light .navbar-toggler-icon {
+    color: #43170A;
+}
  .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
      color: #43170A;
      border-bottom: 1px solid #43170A;
@@ -39,15 +48,11 @@
      background-attachment: fixed;
      height: 50vh;
 }
-/*------------------------------------Page scroll height*/
- .page-scroll {
-     height:400px;
-}
 /*------------------------------------jumbotron_container overlay and text*/
  .jumbotron .container {
      width: 240px;
      height: 110px;
-     color: rgba(253, 250, 243);
+     color: rgb(253, 250, 243);
      background-image: radial-gradient( rgba(158, 143, 130, 0.9),rgba(139, 87, 60, 0.9));
      bottom: 0;
      right: 0;
@@ -64,42 +69,31 @@
      margin: 0 auto;
      text-align: center;
 }
- #about-me h3 {
-     padding-top: 8px;
-     font-size: 180%;
-     text-transform: uppercase;
-     color: #43170A;
-     letter-spacing: 2px;
-}
+
  #about-me p {
      margin: 0 20px;
      font-size: 14px;
      text-align: left;
      letter-spacing: 1px;
 }
-/*------------------------------------Show-more Button_colours*/
+/*------------------------------------Button_colours*/
 .btn-light {
     margin-top: 8px;
     color: #43170A;
+    text-transform: uppercase;
     background:#FDFAF3; 
     border-color: #8B573C;
-    font-size: small;
+    font-size: 10px;
 }
-.btn-light:hover {
+.btn-light:hover, .btn-light:focus {
     color: #43170A;
     background: #FDFAF3;
     border-color: #8B573C;
 }
-.btn-light:focus {
-    color: #43170A;
-    background: #FDFAF3;
-    border-color: #8B573C;
-}
-
 .btn-light:active {
     color: #43170A;
     background:radial-gradient( rgba(158, 143, 130, 0.75),rgba(139, 87, 60, 0.75));
-    border-color: #8B573C;
+    border-color: rgb(153, 125, 109);
 }
 /*------------------------------------About me_nav-link_hover underline*/
  #about-me a {
@@ -109,34 +103,21 @@
  #about-me a:hover {
      border-bottom: 1px solid #43170A;
 }
-/*---------------------------------------------Info cards*/
- .card {
-     text-align: center;
-     text-transform: uppercase;
-     color: #43170A;
-     background-color: inherit;
+/*----------------------------------Ethos*/
+#ethos {
+    text-align: center;
 }
-/*------------------------------------Footer*/
- .social-networks {
-     text-align: center;
+#ethos h5 {
+    text-transform: uppercase;
+    padding:0 6px 0 6px;
 }
- .social-networks li {
-     display: inline;
-     padding: 28px;
-}
- .social-networks i {
-     font-size: 180%;
-     color: #43170A;
+#ethos p {
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-align: left;
+    padding: 0 20px 0 20px;
 }
 /*--------------------------------- Testimonials*/
- #quotes h3 {
-     text-align: center;
-     padding-top: 8px;
-     font-size: 180%;
-     text-transform: uppercase;
-     color: #43170A;
-     letter-spacing: 2px;
-}
  #quotes h4 {
      padding-top: 8px;
 }
@@ -152,6 +133,7 @@
  .testimonial-content .testimonial-icon {
      width: 36px;
      height: 36px;
+     background-color: rgb(139, 87, 60);
      background: radial-gradient( rgb(158, 143, 130),rgb(139, 87, 60));
      border-radius: 0 48px 18px 18px;
      text-align: center;
@@ -183,8 +165,20 @@
      font-size: 100%;
      letter-spacing: 1px;
 }
- .quote-break {
-     border-style: dotted;
-     border-color: rgba(139, 87, 60, 0.33) 
+
+/*---------------------------------------------Info cards*/
+ .card {
+     text-align: center;
+     text-transform: uppercase;
+     color: #43170A;
+     background-color: inherit;
 }
- 
+/*------------------------------------Footer*/
+ #social-networks {
+     text-align: center;
+     font-size: 240%;
+}
+
+#social-networks i {
+     color: #43170A;
+}
