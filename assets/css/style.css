@@ -83,8 +83,8 @@ p  {
      height: 100px;
      color: rgb(253, 250, 243);
      background-image: radial-gradient( rgba(158, 143, 130, 0.9),rgba(139, 87, 60, 0.9));
-     bottom: 12px;
-     left: 0;
+     bottom: 36px;
+     left: 12px;
      border-radius: 48px 48px 48px 48px;
      position: absolute;
  }
@@ -224,23 +224,32 @@ button[type="submit"] {
     background-color: linear-gradient(to bottom right,rgba(158, 143, 130, 0.25),rgba(139, 87, 60, 0.25));
     border-color: #43170A;
 }
-/*-------------------------------- Resources Text*/
+/*-------------------------------- Resources List*/
 .resources {
-    text-align: center;
+    text-align: left;
     list-style: inside;
     list-style-type: disc;
     letter-spacing: 2px;
-    color: #8B573C
 }
 .resources ul {
     display: inline-block;
-    text-align: left;
+    text-align: justify;
+    color: #43170A;
+    font-weight: 300;
 }
 .resources li a {
     text-decoration: none;
-    color: #8B573C
+    color: #43170A;
 }
 .resources a:hover {
-    border-bottom: 1px solid #8B573C;
+    border-bottom: 1px solid #43170A;
+}
+/*------------------------------------Enquiry Form Modal*/
+.modal-content {
+    background-color: #FDFAF3;
+    color: #43170A;
+}
+.modal-body {
+    border: none;
 }
 
