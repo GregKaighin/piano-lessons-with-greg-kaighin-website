@@ -5,9 +5,11 @@
  }
      
      
-   
+h1 {
+    font-size: 140%;
+}   
 
-h1, h3 {
+h3 {
     color: #43170A;
     font-weight: 300;
     text-align: center;
@@ -36,14 +38,13 @@ p  {
      background-image: radial-gradient( rgba(253, 250, 243,0.5),rgba(253, 250, 243,0.5));
 }
 /*------------------------------------Navbar Colours*/
- .navbar-light .navbar-brand {
+.navbar-light .navbar-brand {
      color: #43170A;
-     font-size: 120%;
 }
 .navbar-light .navbar-brand:hover {
      color: #43170A;
 }
- .navbar-light .navbar-nav .nav-link {
+.navbar-light .navbar-nav .nav-link {
      color: #43170A;
 }
 .navbar-light .navbar-nav .nav-link:hover {
@@ -67,7 +68,7 @@ p  {
 /*---------------------------------Hero Image*/
  .jumbotron {
      height: 50vh;
-     margin: 12px 0 12px 0;
+     margin: 12px -16px 12px 0;
      background-color: #FDFAF3;
      background: url("/assets/images/piano-arxt.jpg");
      background-position: center;
@@ -100,7 +101,7 @@ p  {
      text-align: center;
 }
 .about-me p {
-    text-align: left;
+    text-align: justify;
 }
 /*------------------------------------Buttons*/
 .btn-light {
@@ -131,7 +132,17 @@ p  {
      border-bottom: 1px solid #43170A;
 }
 /*----------------------------------Ethos*/
- .ethos {
+.ethos {
+    text-align: center;
+}
+
+.ethos h5 {
+    text-align: center;
+}
+ .ethos p {
+    text-align: justify;
+}
+.ethos.rounded-circle {
     text-align: center;
 }
 /*---------------------------------Testimonials*/
@@ -232,6 +243,4 @@ button[type="submit"] {
 .resources a:hover {
     border-bottom: 1px solid #8B573C;
 }
-
-
 
