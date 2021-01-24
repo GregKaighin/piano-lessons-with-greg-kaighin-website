@@ -3,30 +3,39 @@
      font-family: 'Karla', sans-serif;
      color: #43170A;
      background-color: #FDFAF3;
+ }
      
      
      
-}
+
 h3 {
     color: #43170A;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+h5 {
+    text-transform: uppercase;
+    padding:0 6px 0 6px;
+}
+p  {
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 0 20px 0 20px;
+}
 /*------------------------------------navbar*/
  .navbar-light {
      color: #43170A;
      text-transform: uppercase;
      letter-spacing: 2px;
-     
 }
  .bg-light {
      opacity: 0.9;
      background-image: radial-gradient( rgba(253, 250, 243,0.5),rgba(253, 250, 243,0.5));
 }
 /*------------------------------------navbar colours*/
-.navbar-brand, h1 {
-    font-size: 140%;
+ .navbar-brand {
+     font-size: 140%;
 }
  .navbar-light .navbar-brand {
      color: #43170A;
@@ -34,15 +43,18 @@ h3 {
  .navbar-light .navbar-nav .nav-link {
      color: #43170A;
 }
+.navbar-light .navbar-nav .nav-link:hover {
+     color: #43170A;
+}
 /*------------------------------------navbar toggler and hover colours*/
- .navbar-light .navbar-toggler {
+.navbar-light .navbar-toggler {
      border-color: #8B573C;
      background: linear-gradient(to bottom right,rgba(158, 143, 130, 0.25),rgba(139, 87, 60, 0.25));
 }
 .navbar-light .navbar-toggler-icon {
     color: #43170A;
 }
- .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
      color: #43170A;
      border-bottom: 1px solid #43170A;
 }
@@ -67,7 +79,7 @@ h3 {
 /*------------------------------------jumbotron container overlay*/
  .jumbotron .container {
      width: 240px;
-     height: 110px;
+     height: 100px;
      color: rgb(253, 250, 243);
      background-image: radial-gradient( rgba(158, 143, 130, 0.9),rgba(139, 87, 60, 0.9));
      bottom: 12px;
@@ -82,14 +94,7 @@ h3 {
 }
 /*------------------------------------about me*/
  #about-me {
-     margin: 0 auto;
      text-align: center;
-}
- #about-me p {
-     margin: 0 20px;
-     font-size: 14px;
-     text-align: left;
-     letter-spacing: 1px;
 }
 /*------------------------------------button colours*/
 .btn-light {
@@ -102,7 +107,7 @@ h3 {
 }
 .btn-light:hover, .btn-light:focus {
     color: #43170A;
-    background: #d7cdb7;
+    background: linear-gradient(to bottom right,rgba(158, 143, 130, 0.25),rgba(139, 87, 60, 0.25));
     border-color: #8B573C;
 }
 .btn-light:active {
@@ -114,38 +119,14 @@ h3 {
  #about-me a {
      color: #8B573C;
      text-decoration: none;
+     border-bottom: 1px dotted #8B573C;
 }
  #about-me a:hover {
      border-bottom: 1px solid #43170A;
 }
-/*-----------------------------------portrait image*/
-#circle-container {
-    width: 120px;
-    height: 120px;
-    border-style: solid;
-    border-color:#A08184;
-    border-width: 1px;
-    border-radius: 50%;
-    margin:0 auto;
-}
-#circle-cover-bg {
-    background: url("/assets/images/greg-kaighin.jpg") no-repeat center center;
-    height:100%;
-    border-radius: 50%;
-}
 /*----------------------------------ethos*/
-#ethos {
+ #ethos {
     text-align: center;
-}
-#ethos h5 {
-    text-transform: uppercase;
-    padding:0 6px 0 6px;
-}
-#ethos p {
-    font-size: 14px;
-    letter-spacing: 1px;
-    text-align: left;
-    padding: 0 20px 0 20px;
 }
 /*---------------------------------testimonials*/
  #quotes h4 {
@@ -168,56 +149,38 @@ h3 {
      height: 36px;
      background-color: rgb(139, 87, 60);
      background: radial-gradient( rgb(158, 143, 130),rgb(139, 87, 60));
-     border-radius: 48px 48px 48px 48px;
+     border-radius: 48px 48px 0px 48px;
      text-align: center;
      font-size: 100%;
      line-height: 36px;
      color: rgb(253, 250, 243);
-     top: -12px;
-     left: -19px;
+     top: -8px;
+     left: -12px;
      position: absolute;
 }
 /*------------------------------------testimonials quote text*/
  .testimonial .description {
-    color: #43170A;
      font-size: 100%;
      font-style: italic;
      letter-spacing: 1px;
-     line-height: 24px;
-     margin: 0;
-}
- .testimonial .title {
-     color: #43170A;
-     display: block;
-     font-size: 100%;
-     letter-spacing: 1px;
-     margin: 0 0 5px 0;
-}
- .testimonial .post {
-     color: #43170A;
-     display: block;
-     font-size: 100%;
-     letter-spacing: 1px;
 }
 /*---------------------------------------------info cards*/
- .card {
+.card {
      color: #43170A;
      border-style: none;
      background-color: inherit;
      text-align: center;
      text-transform: uppercase;
-}
+ }
 /*------------------------------------footer*/
- #social-networks {
+#social-networks {
      text-align: center;
      font-size: 240%;
 }
-
 #social-networks i {
      color: #43170A;
 }
 /*---------------------------------enquiries form*/
-
 .form-control {
     color: #8B573C; 
     border-color: #8B573C;
@@ -247,5 +210,25 @@ button[type="submit"] {
     background-color: linear-gradient(to bottom right,rgba(158, 143, 130, 0.25),rgba(139, 87, 60, 0.25));
     border-color: #43170A;
 }
+/*-------------------------------- resources text*/
+#resources {
+    text-align: center;
+    list-style: inside;
+    list-style-type: disc;
+    letter-spacing: 2px;
+    color: #8B573C
+}
+#resources ul {
+    display: inline-block;
+    text-align: left;
+}
+#resources li a {
+    text-decoration: none;
+    color: #8B573C
+}
+#resources a:hover {
+    border-bottom: 1px solid #8B573C;
+}
+
 
 
