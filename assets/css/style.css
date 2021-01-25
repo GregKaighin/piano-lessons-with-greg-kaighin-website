@@ -140,7 +140,7 @@
      font-weight: 300;
 }
 /*----------------------------------Testimonials Speech Bubble*/
- .testimonial .testimonial-content {
+ .testimonial-content {
      padding: 18px 24px 8px 36px;
      margin: 24px 24px 24px 24px;
      background: rgb(253, 250, 243);
@@ -150,7 +150,7 @@
      position: relative;
 }
 /*------------------------------------Testimonials Quotation Mark Icon*/
- .testimonial-content .testimonial-icon {
+ .testimonial-icon {
      width: 36px;
      height: 36px;
      background-color: rgb(139, 87, 60);
@@ -207,8 +207,11 @@
      background-color: #FDFAF3;
      color: #43170A;
 }
- .modal-body {
+ .modal-header {
      border: none;
+}
+.modal-footer {
+    border: none;
 }
 /*-------------------------------- Resources List*/
  .resources {
