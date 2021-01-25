@@ -21,7 +21,7 @@
  p {
      font-size: 14px;
      letter-spacing: 1px;
-     padding: 0 20px 0 20px;
+     padding: 0 14px 0 14px;
 }
 /*------------------------------------Navbar Colours*/
  .navbar-light {
@@ -64,7 +64,7 @@
      height: 50vh;
      margin: 12px -16px 12px 0;
      background-color: #FDFAF3;
-     background: url("/assets/images/hero-image-piano-art.jpg");
+     background: url("../images/hero-image-piano-art.jpg");
      background-position: center;
      background-size: cover;
      background-repeat: no-repeat;
@@ -116,7 +116,10 @@
      background: radial-gradient( rgba(158, 143, 130, 0.75),rgba(139, 87, 60, 0.75));
      border-color: rgb(153, 125, 109);
 }
-/*------------------------------------About Me Page Links Hover Colour and Underscore*/
+.btn-light:focus {
+    border-color: #8B573C;
+}
+/*------------------------------------About Me Links Hover Colour and Underscore*/
  .about-me a {
      color: #8B573C;
      text-decoration: none;
@@ -210,26 +213,35 @@
  .modal-header {
      border: none;
 }
-.modal-footer {
+ .modal-footer {
     border: none;
 }
-/*-------------------------------- Resources List*/
+/*-------------------------------- Resources*/
  .resources {
-     text-align: left;
-     list-style: inside;
-     list-style-type: disc;
-     letter-spacing: 2px;
+     text-align: center;
 }
  .resources ul {
+     list-style: inside;
+     list-style-type: disc;
+     text-align: left;
      display: inline-block;
+     letter-spacing: 1px;
+     
      color: #43170A;
      font-weight: 300;
 }
  .resources li a {
      text-decoration: none;
+
      color: #43170A;
 }
  .resources a:hover {
      border-bottom: 1px solid #43170A;
 }
+
+
+
+
+
+
  
