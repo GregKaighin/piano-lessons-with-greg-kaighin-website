@@ -2,31 +2,28 @@
      font-family: 'Karla', sans-serif;
      color: #43170A;
      background-color: #FDFAF3;
- }
-     
-     
-h1 {
-    font-size: 140%;
-}   
-
-h3 {
-    color: #43170A;
-    font-weight: 300;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 2px;
 }
-h5 {
-    text-transform: uppercase;
-    font-weight: 300;
-    padding:0 6px 0 6px;
+ h1 {
+     font-size: 140%;
 }
-p  {
-    font-size: 14px;
-    letter-spacing: 1px;
-    padding: 0 20px 0 20px;
+ h3 {
+     color: #43170A;
+     font-weight: 300;
+     text-align: center;
+     text-transform: uppercase;
+     letter-spacing: 2px;
 }
-/*------------------------------------Navbar*/
+ h5 {
+     text-transform: uppercase;
+     font-weight: 300;
+     padding:0 6px 0 6px;
+}
+ p {
+     font-size: 14px;
+     letter-spacing: 1px;
+     padding: 0 20px 0 20px;
+}
+/*------------------------------------Navbar Colours*/
  .navbar-light {
      color: #43170A;
      text-transform: uppercase;
@@ -37,47 +34,44 @@ p  {
      opacity: 0.9;
      background-image: radial-gradient( rgba(253, 250, 243,0.5),rgba(253, 250, 243,0.5));
 }
-/*------------------------------------Navbar Colours*/
-.navbar-light .navbar-brand {
+/*------------------------------------Navbar Brand and Link Colours*/
+ .navbar-light .navbar-brand {
      color: #43170A;
 }
-.navbar-light .navbar-brand:hover {
+ .navbar-light .navbar-brand:hover {
      color: #43170A;
 }
-.navbar-light .navbar-nav .nav-link {
+ .navbar-light .navbar-nav .nav-link {
      color: #43170A;
 }
-.navbar-light .navbar-nav .nav-link:hover {
+ .navbar-light .navbar-nav .nav-link:hover {
      color: #43170A;
 }
-/*------------------------------------Navbar Toggler and Hover Colours*/
-.navbar-light .navbar-toggler {
+/*------------------------------------Navbar Toggler Colours and Hover Underscore*/
+ .navbar-light .navbar-toggler {
      border-color: #8B573C;
      background: linear-gradient(to bottom right,rgba(158, 143, 130, 0.25),rgba(139, 87, 60, 0.25));
 }
-.navbar-light .navbar-toggler-icon {
-    color: #8B573C;
-}
-.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+ .navbar-light .navbar-nav .nav-link:hover {
      color: #43170A;
      border-bottom: 1px solid #43170A;
 }
-.nav-bar-light .navbar-toggler:focus {
-    border-color: #8B573C;
+ .navbar-light .navbar-toggler:active {
+     background: radial-gradient( rgba(158, 143, 130, 0.75),rgba(139, 87, 60, 0.75));
 }
 /*---------------------------------Hero Image*/
  .jumbotron {
      height: 50vh;
      margin: 12px -16px 12px 0;
      background-color: #FDFAF3;
-     background: url("/assets/images/piano-arxt.jpg");
+     background: url("/assets/images/hero-image-piano-art.jpg");
      background-position: center;
      background-size: cover;
      background-repeat: no-repeat;
-     background-attachment: fixed; 
-     position: relative; 
+     background-attachment: fixed;
+     position: relative;
 }
-/*------------------------------------Hero Image Overlay*/
+/*------------------------------------Hero Image Overlay Shape*/
  .jumbotron .container {
      width: 240px;
      height: 100px;
@@ -87,9 +81,9 @@ p  {
      left: 12px;
      border-radius: 48px 48px 48px 48px;
      position: absolute;
- }
+}
 /*------------------------------------Hero Image Overlay Text*/
-.overlay-text {
+ .overlay-text {
      text-align: center;
      text-transform: uppercase;
      padding: 10px;
@@ -100,27 +94,27 @@ p  {
  .about-me {
      text-align: center;
 }
-.about-me p {
-    text-align: justify;
+ .about-me p {
+     text-align: justify;
 }
 /*------------------------------------Buttons*/
-.btn-light {
-    color: #43170A;
-    background: linear-gradient(to bottom right,rgba(158, 143, 130, 0.25),rgba(139, 87, 60, 0.25));
-    border-color: #8B573C;
-    margin-top: 8px;
-    text-transform: uppercase;
-    font-size: 10px;
+ .btn-light {
+     color: #43170A;
+     background: linear-gradient(to bottom right,rgba(158, 143, 130, 0.25),rgba(139, 87, 60, 0.25));
+     border-color: #8B573C;
+     margin-top: 8px;
+     text-transform: uppercase;
+     font-size: 10px;
 }
-.btn-light:hover, .btn-light:focus {
-    color: #43170A;
-    background: linear-gradient(to bottom right,rgba(158, 143, 130, 0.25),rgba(139, 87, 60, 0.25));
-    border-color: #8B573C;
+ .btn-light:hover, .btn-light:focus {
+     color: #43170A;
+     background: linear-gradient(to bottom right,rgba(158, 143, 130, 0.25),rgba(139, 87, 60, 0.25));
+     border-color: #8B573C;
 }
-.btn-light:active {
-    color: #43170A;
-    background: radial-gradient( rgba(158, 143, 130, 0.75),rgba(139, 87, 60, 0.75));
-    border-color: rgb(153, 125, 109);
+ .btn-light:active {
+     color: #43170A;
+     background: radial-gradient( rgba(158, 143, 130, 0.75),rgba(139, 87, 60, 0.75));
+     border-color: rgb(153, 125, 109);
 }
 /*------------------------------------About Me Page Links Hover Colour and Underscore*/
  .about-me a {
@@ -132,18 +126,14 @@ p  {
      border-bottom: 1px solid #43170A;
 }
 /*----------------------------------Ethos*/
-.ethos {
-    text-align: center;
-}
-
-.ethos h5 {
-    text-align: center;
+ .ethos {
+     text-align: center;
 }
  .ethos p {
-    text-align: justify;
+     text-align: justify;
 }
-.ethos.rounded-circle {
-    text-align: center;
+ .rounded-circle {
+     text-align: center;
 }
 /*---------------------------------Testimonials*/
  .quotes {
@@ -159,12 +149,12 @@ p  {
      border-radius: 48px 48px 48px 48px;
      position: relative;
 }
-/*------------------------------------Testimonials Quote Icon*/
+/*------------------------------------Testimonials Quotation Mark Icon*/
  .testimonial-content .testimonial-icon {
      width: 36px;
      height: 36px;
      background-color: rgb(139, 87, 60);
-     background: radial-gradient( rgb(158, 143, 130),rgb(139, 87, 60));
+     background-image: radial-gradient( rgb(158, 143, 130),rgb(139, 87, 60));
      border-radius: 48px 48px 0 48px;
      text-align: center;
      font-size: 100%;
@@ -180,76 +170,63 @@ p  {
      letter-spacing: 1px;
 }
 /*---------------------------------------------Cards*/
-.card {
+ .card {
      border-style: none;
      background-color: inherit;
      text-align: center;
      text-transform: uppercase;
- }
+}
 /*------------------------------------Footer*/
-.social-networks {
+ .social-networks {
      text-align: center;
      font-size: 240%;
 }
-.social-networks i {
+ .social-networks i {
      color: #43170A;
 }
 /*---------------------------------Enquiries Form*/
-.form-control {
-    color: #8B573C; 
-    border-color: #8B573C;
-    letter-spacing: 2px;
-    background-color: rgb(253, 250, 243);
+ .form-control {
+     border-color: #8B573C;
+     letter-spacing: 2px;
+     background-color: rgb(253, 250, 243);
 }
-.contact-heading {
-    color: #43170A;
-    font-weight: 300;
-    letter-spacing: 2px;
-    margin-top: 25px;
-    margin-bottom: 20px;
+ .contact-heading {
+     color: #43170A;
+     font-weight: 300;
+     letter-spacing: 2px;
+     margin-top: 25px;
+     margin-bottom: 20px;
 }
-.center-form {
-    padding-top: 10px;
-    margin: 0 auto;
-    max-width: 70%;
+ .center-form {
+     padding-top: 10px;
+     margin: 0 auto;
+     max-width: 70%;
 }
-button[type="submit"] {
-    color: #43170A;
-    margin-top: 15px;
-    margin-bottom: 20px;
-    background-color: linear-gradient(to bottom right,rgba(158, 143, 130, 0.25),rgba(139, 87, 60, 0.25))
+/*------------------------------------Enquiries Form Modal*/
+ .modal-content {
+     background-color: #FDFAF3;
+     color: #43170A;
 }
-.btn-secondary {
-    color: #8B573C;
-    background-color: linear-gradient(to bottom right,rgba(158, 143, 130, 0.25),rgba(139, 87, 60, 0.25));
-    border-color: #43170A;
+ .modal-body {
+     border: none;
 }
 /*-------------------------------- Resources List*/
-.resources {
-    text-align: left;
-    list-style: inside;
-    list-style-type: disc;
-    letter-spacing: 2px;
+ .resources {
+     text-align: left;
+     list-style: inside;
+     list-style-type: disc;
+     letter-spacing: 2px;
 }
-.resources ul {
-    display: inline-block;
-    text-align: justify;
-    color: #43170A;
-    font-weight: 300;
+ .resources ul {
+     display: inline-block;
+     color: #43170A;
+     font-weight: 300;
 }
-.resources li a {
-    text-decoration: none;
-    color: #43170A;
+ .resources li a {
+     text-decoration: none;
+     color: #43170A;
 }
-.resources a:hover {
-    border-bottom: 1px solid #43170A;
+ .resources a:hover {
+     border-bottom: 1px solid #43170A;
 }
-/*------------------------------------Enquiry Form Modal*/
-.modal-content {
-    background-color: #FDFAF3;
-    color: #43170A;
-}
-.modal-body {
-    border: none;
-}
-
+ 
