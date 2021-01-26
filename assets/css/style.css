@@ -215,8 +215,11 @@
  .resources {
      text-align: left;
  }
- .resources .p {
+ .resources p {
      text-align: center;
+ }
+.table {
+      color: #43170A;
  }
  .resources td a {
      text-decoration: none;
@@ -225,80 +228,70 @@
  .resources a:hover {
      border-bottom: 1px solid #43170A;
 }
-
-
-
-
-/*---------------------------------- Audio player*/
-
+/*---------------------------------- Audio player -- https://codepen.io/craigstroman/pen/aOyRYx --*/
 .screen-reader-text {
-  /* Reusable, toolbox kind of class */
   position: absolute;
   top: -9999px;
   left: -9999px;
 }
-/*
 .disabled {
-  color: #A08184;
+  color: #8B573C;
   cursor: default;
 }
 .show {
   display: inline-block;
 }
-body .container {
+body .audio-container {
   font-family: 'Karla', sans-serif;
   font-size: 1em;
-  margin: 0 auto;
   width: 500px;
 }
-body .container .player {
+body .audio-container .player {
   height: 60px;
   margin: 0;
   position: relative;
   width: 400px;
 }
-
-body .container .player .large-toggle-btn {
-  border: 1px solid #A08184;
-  border-radius: 2px;
+body .audio-container .player .large-toggle-btn {
+  border: 1px solid #8B573C;
+  border-radius: 1px;
   float: left;
   font-size: 1.5em;
-  height: 50px;
+  height: 48px;
   margin: 0 10px 0 0;
   overflow: hidden;
-  padding: 5px 0 0 0;
   position: relative;
   text-align: center;
   vertical-align: bottom;
-  width: 54px;
+  width: 48px;
 }
-body .container .player .large-toggle-btn .large-play-btn {
+body .audio-container .player .large-toggle-btn .large-play-btn {
   cursor: pointer;
   display: inline-block;
   position: relative;
-  top: -14%;
+  bottom: 14%;
 }
-body .container .player .large-toggle-btn .large-play-btn:before {
+body .audio-container .player .large-toggle-btn .large-play-btn:before {
   content: "\f04b";
   font: 1.5em/1.75 "FontAwesome";
 }
-body .container .player .large-toggle-btn .large-pause-btn {
+body .audio-container .player .large-toggle-btn .large-pause-btn {
   cursor: pointer;
   display: inline-block;
   position: relative;
-  top: -13%;
+  bottom: 14%;
 }
-body .container .player .large-toggle-btn .large-pause-btn:before {
+body .audio-container .player .large-toggle-btn .large-pause-btn:before {
   content: "\f04c";
   font: 1.5em/1.75 "FontAwesome";
 }
-body .container .player .info-box {
+body .audio-container .player .info-box {
   bottom: 10px;
   left: 65px;
   position: absolute;
   top: 15px;
 }
-body .container .player .info-box .track-info-box {
+body .audio-container .player .info-box .track-info-box {
   float: left;
   font-size: 12px;
   margin: 0 0 6px 0;
@@ -306,49 +299,49 @@ body .container .player .info-box .track-info-box {
   width: 400px;
   *zoom: 1;
 }
-body .container .player .info-box .track-info-box .track-title-text {
+body .audio-container .player .info-box .track-info-box .track-title-text {
   display: inline-block;
 }
-body .container .player .info-box .track-info-box .audio-time {
+body .audio-container .player .info-box .track-info-box .audio-time {
   display: inline-block;
   padding: 0 0 0 5px;
   width: 80px;
 }
-body .container .player .info-box .track-info-box:before, body .container .player .info-box .track-info-box:after {
+body .audio-container .player .info-box .track-info-box:before, body .audio-container .player .info-box .track-info-box:after {
   content: " ";
   display: table;
 }
-body .container .player .info-box .track-info-box:after {
+body .audio-container .player .info-box .track-info-box:after {
   clear: both;
   display: block;
   font-size: 0;
   height: 0;
   visibility: hidden;
 }
-body .container .player .progress-box {
+body .audio-container .player .progress-box {
   float: left;
   min-width: 270px;
   position: relative;
 }
-body .container .player .progress-box .progress-cell {
+body .audio-container .player .progress-box .progress-cell {
   height: 12px;
   position: relative;
 }
-body .container .player .progress-box .progress-cell .progress {
+body .audio-container .player .progress-box .progress-cell .progress {
   background: rgb(240, 229, 229);
-  border: 1px solid #A08184;
+  border: 1px solid #8B573C;
   height: 8px;
   position: relative;
   width: auto;
 }
-body .container .player .progress-box .progress-cell .progress .progress-buffer {
-  background: #A08184;
+body .audio-container .player .progress-box .progress-cell .progress .progress-buffer {
+  background: #8B573C;
   height: 100%;
   width: 0;
 }
-body .container .player .progress-box .progress-cell .progress .progress-indicator {
+body .audio-container .player .progress-box .progress-cell .progress .progress-indicator {
   background: rgb(240, 229, 229);
-  border: 1px solid #A08184;
+  border: 1px solid #8B573C;
   border-radius: 3px;
   cursor: pointer;
   height: 10px;
@@ -358,109 +351,109 @@ body .container .player .progress-box .progress-cell .progress .progress-indicat
   top: -2px;
   width: 22px;
 }
-body .container .player .controls-box {
+body .audio-container .player .controls-box {
   bottom: 10px;
   left: 350px;
   position: absolute;
 }
-body .container .player .controls-box .previous-track-btn {
+body .audio-container .player .controls-box .previous-track-btn {
   cursor: pointer;
   display: inline-block;
 }
-body .container .player .controls-box .previous-track-btn:before {
+body .audio-container .player .controls-box .previous-track-btn:before {
   content: "\f049";
   font: 1em "FontAwesome";
 }
-body .container .player .controls-box .next-track-btn {
+body .audio-container .player .controls-box .next-track-btn {
   cursor: pointer;
   display: inline-block;
 }
-body .container .player .controls-box .next-track-btn:before {
+body .audio-container .player .controls-box .next-track-btn:before {
   content: "\f050";
   font: 1em "FontAwesome";
 }
-body .container .player:before, body .container .player:after {
+body .audio-container .player:before, body .audio-container .player:after {
   content: " ";
   display: table;
 }
-body .container .player:after {
+body .audio-container .player:after {
   clear: both;
   display: block;
   font-size: 0;
   height: 0;
   visibility: hidden;
 }
-body .container .play-list {
+body .audio-container .play-list {
   display: block;
   margin: 0 auto 20px auto;
   width: 100%;
 }
-body .container .play-list .play-list-row {
+body .audio-container .play-list .play-list-row {
   display: block;
   margin: 10px 0;
   width: 100%;
   *zoom: 1;
 }
-body .container .play-list .play-list-row .track-title .playlist-track {
+body .audio-container .play-list .play-list-row .track-title .playlist-track {
   color: #43170A;
   text-decoration: none;
 }
-body .container .play-list .play-list-row .track-title .playlist-track:hover {
+body .audio-container .play-list .play-list-row .track-title .playlist-track:hover {
   text-decoration: underline;
 }
-body .container .play-list .play-list-row .small-toggle-btn {
-  border: 1px solid #A08184;
-  border-radius: 2px;
+body .audio-container .play-list .play-list-row .small-toggle-btn {
+  border: 1px solid #8B573C;
+  border-radius: 1px;
   cursor: pointer;
   display: inline-block;
-  height: 20px;
-  margin: 0 auto;
+  height: 24px;
   overflow: hidden;
   position: relative;
   text-align: center;
   vertical-align: middle;
-  width: 20px;
+  width: 24px;
 }
-body .container .play-list .play-list-row .small-toggle-btn .small-play-btn {
+body .audio-container .play-list .play-list-row .small-toggle-btn .small-play-btn {
   display: inline-block;
+  top: 4px;
 }
-body .container .play-list .play-list-row .small-toggle-btn .small-play-btn:before {
+body .audio-container .play-list .play-list-row .small-toggle-btn .small-play-btn:before {
   content: "\f04b";
   font: 0.85em "FontAwesome";
 }
-body .container .play-list .play-list-row .small-toggle-btn .small-pause-btn {
+body .audio-container .play-list .play-list-row .small-toggle-btn .small-pause-btn {
   display: inline-block;
 }
-body .container .play-list .play-list-row .small-toggle-btn .small-pause-btn:before {
+body .audio-container .play-list .play-list-row .small-toggle-btn .small-pause-btn:before {
   content: "\f04c";
   font: 0.85em "FontAwesome";
 }
-body .container .play-list .play-list-row .track-number {
+body .audio-container .play-list .play-list-row .track-number {
   display: inline-block;
 }
-body .container .play-list .play-list-row .track-title {
+body .audio-container .play-list .play-list-row .track-title {
   display: inline-block;
 }
-body .container .play-list .play-list-row .track-title .playlist-track {
+body .audio-container .play-list .play-list-row .track-title .playlist-track {
   text-decoration: none;
 }
-body .container .play-list .play-list-row .track-title .playlist-track:hover {
+body .audio-container .play-list .play-list-row .track-title .playlist-track:hover {
   text-decoration: underline;
 }
-body .container .play-list .play-list-row .track-title.active-track {
+body .audio-container .play-list .play-list-row .track-title.active-track {
   font-weight: bold;
 }
-body .container .play-list .play-list-row:before, body .container .play-list .play-list-row:after {
+body .audio-container .play-list .play-list-row:before, body .audio-container .play-list .play-list-row:after {
   content: " ";
   display: table;
 }
-body .container .play-list .play-list-row:after {
+body .audio-container .play-list .play-list-row:after {
   clear: both;
   display: block;
   font-size: 0;
   height: 0;
   visibility: hidden;
 }
-
+/*---------------------------------- .Audio player*/
 
  

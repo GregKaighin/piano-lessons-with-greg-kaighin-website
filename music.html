@@ -13,10 +13,10 @@
 </head>
 
 <body>
+<!-- Header -->
     <header>
         <div class="container">
-        <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
-            
+            <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
                 <a class="navbar-brand js-scroll-trigger" href="index.html">
                     <h1 class="logo">Piano Lessons</h1>
                     <h5>with Greg Kaighin</h5>
@@ -45,9 +45,10 @@
                         </li>
                     </ul>
                 </div>
-            </div>
+        </div>
         </nav>
     </header>
+    <!-- .Header -->
     <!-- Hero image -->
     <section id="hero-image">
         <div class="jumbotron jumbotron-fluid">
@@ -58,11 +59,10 @@
         </div>
     </section>
     <!-- .Hero image -->
-    <!-- Audio Player -->
-<div class="container audio-container">
-    
+    <!-- Audio Player -- https://codepen.io/craigstroman/pen/aOyRYx -->
+    <div class="container audio-container">
         <audio id="audio" preload="none" tabindex="0">
-            <source src="assets/music/rachprelude.mp3" data-track-number="1" />
+            <source src="assets/music/prelude-in-c-sharp-minor.mp3" data-track-number="1" />
             <source src="assets/music/maple-leaf-rag.mp3" data-track-number="2" />
             <source src="assets/music/the-entertainer.mp3" data-track-number="3" />
             <source src="assets/music/pick-up-the-pieces.mp3" data-track-number="4" />
@@ -74,14 +74,11 @@
             <source src="#" data-track-number="10" />
             Your browser does not support HTML5 audio.
         </audio>
-
         <div class="player">
-
             <div class="large-toggle-btn">
                 <i class="large-play-btn"><span class="screen-reader-text">Large toggle button</span></i>
             </div>
             <!-- /.play-box -->
-
             <div class="info-box">
                 <div class="track-info-box">
                     <div class="track-title-text"></div>
@@ -91,7 +88,6 @@
                     </div>
                 </div>
                 <!-- /.info-box -->
-
                 <div class="progress-box">
                     <div class="progress-cell">
                         <div class="progress">
@@ -100,21 +96,16 @@
                         </div>
                     </div>
                 </div>
-
             </div>
             <!-- /.progress-box -->
-
             <div class="controls-box">
                 <i class="previous-track-btn disabled"><span class="screen-reader-text">Previous track button</span></i>
                 <i class="next-track-btn"><span class="screen-reader-text">Next track button</span></i>
             </div>
             <!-- /.controls-box -->
-
         </div>
         <!-- /.player -->
-
         <div class="play-list">
-
             <div class="play-list-row" data-track-row="1">
                 <div class="small-toggle-btn">
                     <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
@@ -123,7 +114,7 @@
                     1.
                 </div>
                 <div class="track-title">
-                    <a class="playlist-track" href="assets/music/rachprelude.mp3" data-play-track="1">Prelude in C#
+                    <a class="playlist-track" href="assets/music/prelude-in-c-sharp-min.mp3" data-play-track="1">Prelude in C#
                         minor - Rachmaninov - Greg Kaighin</a>
                 </div>
             </div>
@@ -229,14 +220,51 @@
                     <a class="playlist-track" href="#" data-play-track="10">Track 10</a>
                 </div>
             </div>
-
         </div>
-
     </div>
     </section>
     <!-- .Audio Player -->
-    
+    <!-- Footer -->
     <footer>
+        <!-- Cards -->
+        <section id="cards">
+            <div class="card-deck">
+                <div class="card">
+                    <img class="card-img-top" src="assets/images/card-online.jpg" alt="A person using a laptop">
+                    <div class="card-body">
+                        <h5 class="card-title">Online</h5>
+                        <p class="card-text">30 minutes £14</p>
+                        <p class="card-text">1 hour £28</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="assets/images/card-home-piano.jpg" alt="A piano in a room">
+                    <div class="card-body">
+                        <h5 class="card-title">In Your Home</h5>
+                        <p class="card-text">30 minutes £15</p>
+                        <p class="card-text">1 hour £30</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="assets/images/card-band.jpg" alt="A band on stage">
+                    <div class="card-body">
+                        <h5 class="card-title">Workshops</h5>
+                        <p class="card-text">Pop and jazz</p>
+                        <p class="card-text">Learn how to play in a group</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="assets/images/card-piano-keyboard-art.jpg" alt="A piano keyboard">
+                    <div class="card-body">
+                        <h5 class="card-title">Additional Subjects</h5>
+                        <p class="card-text">Music theory</p>
+                        <p class="card-text">Music technology</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- .Cards -->
+        <!-- Social Links -->
         <div class="social-networks row justify-content-center">
             <div class="col-4"><a href="https://www.linkedin.com/in/gregorykaighin/" target="_blank">
                     <i class="fab fa-linkedin"></i></a>
@@ -245,55 +273,15 @@
                     <i class="fab fa-youtube"></i></a>
             </div>
         </div>
+        <!-- .Social Links -->
     </footer>
-    <!-- Cards -->
-    <section id="cards">
-        <div class="card-deck">
-            <div class="card">
-                <img class="card-img-top" src="assets/images/card-online.jpg" alt="A person using a laptop">
-                <div class="card-body">
-                    <h5 class="card-title">Online</h5>
-                    <p class="card-text">30 minutes £14</p>
-                    <p class="card-text">1 hour £28</p>
-                </div>
-            </div>
-            <div class="card">
-                <img class="card-img-top" src="assets/images/card-home-piano.jpg" alt="A piano in a room">
-                <div class="card-body">
-                    <h5 class="card-title">In Your Home</h5>
-                    <p class="card-text">30 minutes £15</p>
-                    <p class="card-text">1 hour £30</p>
-                </div>
-            </div>
-            <div class="card">
-                <img class="card-img-top" src="assets/images/card-band.jpg" alt="A band on stage">
-                <div class="card-body">
-                    <h5 class="card-title">Workshops</h5>
-                    <p class="card-text">Pop and jazz</p>
-                    <p class="card-text">Learn how to play in a group</p>
-                </div>
-            </div>
-            <div class="card">
-                <img class="card-img-top" src="assets/images/card-piano-keyboard-art.jpg" alt="A piano keyboard">
-                <div class="card-body">
-                    <h5 class="card-title">Additional Subjects</h5>
-                    <p class="card-text">Music theory</p>
-                    <p class="card-text">Music technology</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- .Cards -->
-    <script src="https://kit.fontawesome.com/bd2b28ab92.js" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
+    <!-- .Footer -->
+
+    <script src="https://kit.fontawesome.com/bd2b28ab92.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
 </body>
 
 </html>
