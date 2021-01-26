@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Piano Lessons with Greg Kaighin | Music</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,400;1,300&display=swap"
         rel="stylesheet">
@@ -15,8 +14,9 @@
 
 <body>
     <header>
+        <div class="container">
         <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
-            <div class="container">
+            
                 <a class="navbar-brand js-scroll-trigger" href="index.html">
                     <h1 class="logo">Piano Lessons</h1>
                     <h5>with Greg Kaighin</h5>
@@ -58,18 +58,195 @@
         </div>
     </section>
     <!-- .Hero image -->
+    <!-- Audio Player -->
+<div class="container audio-container">
+    
+        <audio id="audio" preload="none" tabindex="0">
+            <source src="assets/music/rachprelude.mp3" data-track-number="1" />
+            <source src="assets/music/maple-leaf-rag.mp3" data-track-number="2" />
+            <source src="assets/music/the-entertainer.mp3" data-track-number="3" />
+            <source src="assets/music/pick-up-the-pieces.mp3" data-track-number="4" />
+            <source src="#" data-track-number="5" />
+            <source src="#" data-track-number="6" />
+            <source src="#" data-track-number="7" />
+            <source src="#" data-track-number="8" />
+            <source src="#" data-track-number="9" />
+            <source src="#" data-track-number="10" />
+            Your browser does not support HTML5 audio.
+        </audio>
 
-    <audio controls
-	data-info-album-art="assets/images/hero-image-piano-art.jpg.jpg"
-	data-info-album-title="Piano Lessons with Greg Kaighin"
-	data-info-artist="Greg Kaighin"
-	data-info-title="Maple Leaf Rag"
-	data-info-composer="Scott Joplin">
-	<source src="assets/music/maple-leaf-rag.mp3" type="audio/mpeg" />
-	<a href="assets/music/maple-leaf-rag.mp3">Maple Leaf Rag</a>
-</audio>
+        <div class="player">
 
-<!-- Cards -->
+            <div class="large-toggle-btn">
+                <i class="large-play-btn"><span class="screen-reader-text">Large toggle button</span></i>
+            </div>
+            <!-- /.play-box -->
+
+            <div class="info-box">
+                <div class="track-info-box">
+                    <div class="track-title-text"></div>
+                    <div class="audio-time">
+                        <span class="current-time">00:00</span> /
+                        <span class="duration">00:00</span>
+                    </div>
+                </div>
+                <!-- /.info-box -->
+
+                <div class="progress-box">
+                    <div class="progress-cell">
+                        <div class="progress">
+                            <div class="progress-buffer"></div>
+                            <div class="progress-indicator"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- /.progress-box -->
+
+            <div class="controls-box">
+                <i class="previous-track-btn disabled"><span class="screen-reader-text">Previous track button</span></i>
+                <i class="next-track-btn"><span class="screen-reader-text">Next track button</span></i>
+            </div>
+            <!-- /.controls-box -->
+
+        </div>
+        <!-- /.player -->
+
+        <div class="play-list">
+
+            <div class="play-list-row" data-track-row="1">
+                <div class="small-toggle-btn">
+                    <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+                </div>
+                <div class="track-number">
+                    1.
+                </div>
+                <div class="track-title">
+                    <a class="playlist-track" href="assets/music/rachprelude.mp3" data-play-track="1">Prelude in C#
+                        minor - Rachmaninov - Greg Kaighin</a>
+                </div>
+            </div>
+            <div class="play-list-row" data-track-row="2">
+                <div class="small-toggle-btn">
+                    <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+                </div>
+                <div class="track-number">
+                    2.
+                </div>
+                <div class="track-title">
+                    <a class="playlist-track" href="assets/music/maple-leaf-rag.mp3" data-play-track="2">Maple Leaf Rag
+                        - Joplin - Greg Kaighin<br></a>
+                </div>
+            </div>
+            <div class="play-list-row" data-track-row="3">
+                <div class="small-toggle-btn">
+                    <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+                </div>
+                <div class="track-number">
+                    3.
+                </div>
+                <div class="track-title">
+                    <a class="playlist-track" href="assets/music/the-entertainer.mp3" data-play-track="3">The
+                        Entertainer - Joplin - Greg Kaighin</a>
+                </div>
+            </div>
+            <div class="play-list-row" data-track-row="4">
+                <div class="small-toggle-btn">
+                    <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+                </div>
+                <div class="track-number">
+                    4.
+                </div>
+                <div class="track-title">
+                    <a class="playlist-track" href="assets/music/pick-up-the-pieces.mp3" data-play-track="4">Pick Up the
+                        Pieces - Average White Band - Kaighin Family</a>
+                </div>
+            </div>
+            <div class="play-list-row" data-track-row="5">
+                <div class="small-toggle-btn">
+                    <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+                </div>
+                <div class="track-number">
+                    5.
+                </div>
+                <div class="track-title">
+                    <a class="playlist-track" href="#" data-play-track="5">Track 5</a>
+                </div>
+            </div>
+            <div class="play-list-row" data-track-row="6">
+                <div class="small-toggle-btn">
+                    <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+                </div>
+                <div class="track-number">
+                    6.
+                </div>
+                <div class="track-title">
+                    <a class="playlist-track" href="#" data-play-track="6">Track 6</a>
+                </div>
+            </div>
+            <div class="play-list-row" data-track-row="7">
+                <div class="small-toggle-btn">
+                    <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+                </div>
+                <div class="track-number">
+                    7.
+                </div>
+                <div class="track-title">
+                    <a class="playlist-track" href="#" data-play-track="7">Track 7</a>
+                </div>
+            </div>
+            <div class="play-list-row" data-track-row="8">
+                <div class="small-toggle-btn">
+                    <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+                </div>
+                <div class="track-number">
+                    8.
+                </div>
+                <div class="track-title">
+                    <a class="playlist-track" href="#" data-play-track="8">Track 8</a>
+                </div>
+            </div>
+            <div class="play-list-row" data-track-row="9">
+                <div class="small-toggle-btn">
+                    <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+                </div>
+                <div class="track-number">
+                    9.
+                </div>
+                <div class="track-title">
+                    <a class="playlist-track" href="#" data-play-track="9">Track 9</a>
+                </div>
+            </div>
+            <div class="play-list-row" data-track-row="10">
+                <div class="small-toggle-btn">
+                    <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+                </div>
+                <div class="track-number">
+                    10.
+                </div>
+                <div class="track-title">
+                    <a class="playlist-track" href="#" data-play-track="10">Track 10</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    </section>
+    <!-- .Audio Player -->
+    
+    <footer>
+        <div class="social-networks row justify-content-center">
+            <div class="col-4"><a href="https://www.linkedin.com/in/gregorykaighin/" target="_blank">
+                    <i class="fab fa-linkedin"></i></a>
+            </div>
+            <div class="col-4"><a href="https://www.youtube.com" target="_blank">
+                    <i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+    <!-- Cards -->
     <section id="cards">
         <div class="card-deck">
             <div class="card">
@@ -107,17 +284,6 @@
         </div>
     </section>
     <!-- .Cards -->
-    
-    <footer>
-        <div class="social-networks row justify-content-center">
-            <div class="col-4"><a href="https://www.linkedin.com/in/gregorykaighin/" target="_blank">
-                    <i class="fab fa-linkedin"></i></a>
-            </div>
-            <div class="col-4"><a href="https://www.youtube.com" target="_blank">
-                    <i class="fab fa-youtube"></i></a>
-            </div>
-        </div>
-    </footer>
     <script src="https://kit.fontawesome.com/bd2b28ab92.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

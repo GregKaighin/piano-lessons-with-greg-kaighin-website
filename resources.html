@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Piano Lessons with Greg Kaighin | Resources</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,400;1,300&display=swap"
         rel="stylesheet">
@@ -15,8 +14,9 @@
 
 <body>
     <header>
+          <div class="container">
         <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
-            <div class="container">
+          
                 <a class="navbar-brand js-scroll-trigger" href="index.html">
                     <h1 class="logo">Piano Lessons</h1>
                     <h5>with Greg Kaighin</h5>
@@ -60,38 +60,62 @@
     <!-- .Hero image -->
     <!-- Resources -->
     <section class="resources">
-        <h3>Sheet Music Downloads</h3>
-        <div id="scales-exercises" class="col col-lg-4 col-md-6 col-sm-8 mx-auto text-center">
-            <ul>
-                <p>A list of sheet music resources in PDF format available as free downloads.</p>
-                <h5>Scales and exercises</h5>
-                <li><a href="assets/pdfs/major-scales-2-octaves.pdf" download>Major scales 1 octave</a></li>
-                <li><a href="assets/pdfs/major-scales-2-octaves.pdf" download>Major scales 2 octaves</a></li>
-                <li><a href="assets/pdfs/major-scales-2-octaves.pdf" download>Major scales 4 octaves</a></li>
-            </ul>
-            </div>
-        <div id="pieces" class="col col-lg-4 col-md-6 col-sm-8 mx-auto text-center">
-        <ul>
-                <h5>Pieces of Music</h5>
-                <li><a href="#">Blues in F</a></li>
-                <li><a href="#">Spring Song</a></li>
-                <li><a href="#">Sonatina in G</a></li>
-            </ul>
-        </div>
-       <hr>
-        <div class="col-10 md-auto text-center" id="website-links">
-            <ul>
-                <h3>External Websites</h3>
-                <p>Some links to useful and interesting websites, including those of the examining boards I use to enter students for graded music exams.</p>
-                <li><a target="_blank" href="https://gb.abrsm.org/en/">ABRSM
-                        graded exams</a></li>
-                <li><a target="_blank" href="https://lcme.uwl.ac.uk/exams">LCM graded exams</a></li>
-                <li><a target="_blank" href="https://www.trinitycollege.com/qualifications/music/grade-exams">TCL graded exams</a></li>
-                <li><a target="_blank" href="https://en.wikipedia.org/wiki/Piano">wikipedia.org/wiki/Piano</a></li>
-            </ul>
-        </div>
-    </section>
-     <!-- .Resources -->
+     <table class="table align-middle resources">
+  <thead class="table-light"><h3>Sheet music</h3>
+    <p>A list of sheet music resources in PDF format available as free downloads.</p>
+            </thead>
+  <tbody>
+      <tr>
+      <th scope="col"><h5>Scales and Exercises</th></h5>
+      <th scope="col"><h5>Pieces of Music</th></h5>
+        <tr>
+            <td><a href="assets/pdfs/major-scales-2-octaves.pdf" download>Major scales 1 octave</a></td>
+      <td><a href="#">Spring Song</a></td>
+        </tr>
+    </tr>
+    <tr>
+            <td><a href="assets/pdfs/major-scales-2-octaves.pdf" download>Major scales 2 octaves</a></td>
+      <td><a href="#">Spring Song</a></td>
+        </tr>
+        <tr>
+            <td><a href="assets/pdfs/major-scales-2-octaves.pdf" download>Major scales 4 octaves</a></td>
+      <td><a href="#">Sonatina in G</a></td>
+        </tr>
+  </tbody>
+</table>
+    <!-- .Resources -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table class="table align-middle resources">
+    <thead class="table-light">
+        <h3>Websites</h3>
+        Links to some useful websites</thead>
+    <tbody>
+        <tr>
+            <td><a target="_blank" href="https://gb.abrsm.org/en/">ABRSM
+                    graded exams</a></td>
+        <tr>
+            <td><a target="_blank" href="https://www.trinitycollege.com/qualifications/music/grade-exams">TCL graded exams</td>
+        <tr>
+            <td><a target="_blank" href="https://lcme.uwl.ac.uk/exams">LCM graded exams</a></td>
+        <tr>
+            <td><a target="_blank" href="https://en.wikipedia.org/wiki/Piano">wikipedia.org/wiki/Piano</a></td>
+    </tbody>
+</table>
+                
      <!-- Cards -->
     <section id="cards">
         <div class="card-deck">
