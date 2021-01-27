@@ -16,7 +16,7 @@
 <!-- Header -->
     <header>
         <div class="container">
-            <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+        <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
                 <a class="navbar-brand js-scroll-trigger" href="index.html">
                     <h1 class="logo">Piano Lessons</h1>
                     <h5>with Greg Kaighin</h5>
@@ -32,8 +32,7 @@
                             <a class="nav-link js-scroll-trigger" href="index.html"><i class="fas fa-home"></i> Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="music.html"><i
-                                    class="fas fa-headphones-alt"></i> Music</a>
+                            <a class="nav-link js-scroll-trigger" href="music.html"><i class="fas fa-headphones-alt"></i> Music</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link js-scroll-trigger" href="resources.html"><i class="fas fa-book-open"></i>
@@ -45,19 +44,17 @@
                         </li>
                     </ul>
                 </div>
-        </div>
         </nav>
+         </div>
     </header>
     <!-- .Header -->
     <!-- Hero image -->
-    <section id="hero-image">
-        <div class="jumbotron jumbotron-fluid">
-            <div class="container overlay-text">
-                <h4 class="display-8">Take a listen</h4>
-                <p>Please enjoy</p>
+        <div class="jumbotron jumbotron-fluid hero-image">
+            <div class="container overlay-shape overlay-text">
+                <h4 class="display-8">Learn to play</h4>
+                <p>Bedfordshire area and online</p>
             </div>
         </div>
-    </section>
     <!-- .Hero image -->
     <!-- Audio Player -- https://codepen.io/craigstroman/pen/aOyRYx -->
     <div class="container audio-container">
@@ -115,8 +112,11 @@
                 </div>
                 <div class="track-title">
                     <a class="playlist-track" href="assets/music/prelude-in-c-sharp-min.mp3" data-play-track="1">Prelude in C#
-                        minor - Rachmaninov - Greg Kaighin</a>
+                        minor - S. Rachmaninov</a>
                 </div>
+                <div class="track-info">
+                            <p>Greg Kaighin</p>
+                        </div>
             </div>
             <div class="play-list-row" data-track-row="2">
                 <div class="small-toggle-btn">
@@ -126,9 +126,11 @@
                     2.
                 </div>
                 <div class="track-title">
-                    <a class="playlist-track" href="assets/music/maple-leaf-rag.mp3" data-play-track="2">Maple Leaf Rag
-                        - Joplin - Greg Kaighin<br></a>
+                    <a class="playlist-track" href="assets/music/maple-leaf-rag.mp3" data-play-track="2">Maple Leaf Rag - Scott Joplin</a>
                 </div>
+                <div class="track-info">
+                            <p>Greg Kaighin</p>
+                        </div>
             </div>
             <div class="play-list-row" data-track-row="3">
                 <div class="small-toggle-btn">
@@ -139,8 +141,11 @@
                 </div>
                 <div class="track-title">
                     <a class="playlist-track" href="assets/music/the-entertainer.mp3" data-play-track="3">The
-                        Entertainer - Joplin - Greg Kaighin</a>
+                        Entertainer - Scott Joplin</a>
                 </div>
+                <div class="track-info">
+                            <p>Greg Kaighin</p>
+                        </div>
             </div>
             <div class="play-list-row" data-track-row="4">
                 <div class="small-toggle-btn">
@@ -151,121 +156,57 @@
                 </div>
                 <div class="track-title">
                     <a class="playlist-track" href="assets/music/pick-up-the-pieces.mp3" data-play-track="4">Pick Up the
-                        Pieces - Average White Band - Kaighin Family</a>
+                        Pieces - Average White Band</a>
+                </div>
+                <div class="track-info">
+                            <p>Kaighin Family</p>
+                        </div>
+            </div>
+            
+    </section>
+    <!-- .Audio Player -->
+  
+      <!-- Footer -->
+    <footer>
+        <!-- Cards -->
+    <section id="cards">
+        <div class="card-deck px-auto">
+            <div class="card">
+                <img class="card-img-top" src="assets/images/card-online.jpg" alt="A person using a laptop">
+                <div class="card-body">
+                    <h5 class="card-title">Online</h5>
+                    <p class="card-text">30 minutes £14</p>
+                    <p class="card-text">1 hour £28</p>
                 </div>
             </div>
-            <div class="play-list-row" data-track-row="5">
-                <div class="small-toggle-btn">
-                    <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
-                </div>
-                <div class="track-number">
-                    5.
-                </div>
-                <div class="track-title">
-                    <a class="playlist-track" href="#" data-play-track="5">Track 5</a>
+            <div class="card">
+                <img class="card-img-top" src="assets/images/card-home-piano.jpg" alt="A piano in a room">
+                <div class="card-body">
+                    <h5 class="card-title">In Your Home</h5>
+                    <p class="card-text">30 minutes £15</p>
+                    <p class="card-text">1 hour £30</p>
                 </div>
             </div>
-            <div class="play-list-row" data-track-row="6">
-                <div class="small-toggle-btn">
-                    <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
-                </div>
-                <div class="track-number">
-                    6.
-                </div>
-                <div class="track-title">
-                    <a class="playlist-track" href="#" data-play-track="6">Track 6</a>
+            <div class="card">
+                <img class="card-img-top" src="assets/images/card-band.jpg" alt="A band on stage">
+                <div class="card-body">
+                    <h5 class="card-title">Workshops</h5>
+                    <p class="card-text">Pop and jazz</p>
+                    <p class="card-text">Learn how to play in a group</p>
                 </div>
             </div>
-            <div class="play-list-row" data-track-row="7">
-                <div class="small-toggle-btn">
-                    <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
-                </div>
-                <div class="track-number">
-                    7.
-                </div>
-                <div class="track-title">
-                    <a class="playlist-track" href="#" data-play-track="7">Track 7</a>
-                </div>
-            </div>
-            <div class="play-list-row" data-track-row="8">
-                <div class="small-toggle-btn">
-                    <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
-                </div>
-                <div class="track-number">
-                    8.
-                </div>
-                <div class="track-title">
-                    <a class="playlist-track" href="#" data-play-track="8">Track 8</a>
-                </div>
-            </div>
-            <div class="play-list-row" data-track-row="9">
-                <div class="small-toggle-btn">
-                    <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
-                </div>
-                <div class="track-number">
-                    9.
-                </div>
-                <div class="track-title">
-                    <a class="playlist-track" href="#" data-play-track="9">Track 9</a>
-                </div>
-            </div>
-            <div class="play-list-row" data-track-row="10">
-                <div class="small-toggle-btn">
-                    <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
-                </div>
-                <div class="track-number">
-                    10.
-                </div>
-                <div class="track-title">
-                    <a class="playlist-track" href="#" data-play-track="10">Track 10</a>
+            <div class="card">
+                <img class="card-img-top" src="assets/images/card-piano-keyboard-art.jpg" alt="A piano keyboard">
+                <div class="card-body">
+                    <h5 class="card-title">Additional Subjects</h5>
+                    <p class="card-text">Music theory</p>
+                    <p class="card-text">Music technology</p>
                 </div>
             </div>
         </div>
-    </div>
     </section>
-    <!-- .Audio Player -->
-    <!-- Footer -->
-    <footer>
-        <!-- Cards -->
-        <section id="cards">
-            <div class="card-deck">
-                <div class="card">
-                    <img class="card-img-top" src="assets/images/card-online.jpg" alt="A person using a laptop">
-                    <div class="card-body">
-                        <h5 class="card-title">Online</h5>
-                        <p class="card-text">30 minutes £14</p>
-                        <p class="card-text">1 hour £28</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="assets/images/card-home-piano.jpg" alt="A piano in a room">
-                    <div class="card-body">
-                        <h5 class="card-title">In Your Home</h5>
-                        <p class="card-text">30 minutes £15</p>
-                        <p class="card-text">1 hour £30</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="assets/images/card-band.jpg" alt="A band on stage">
-                    <div class="card-body">
-                        <h5 class="card-title">Workshops</h5>
-                        <p class="card-text">Pop and jazz</p>
-                        <p class="card-text">Learn how to play in a group</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="assets/images/card-piano-keyboard-art.jpg" alt="A piano keyboard">
-                    <div class="card-body">
-                        <h5 class="card-title">Additional Subjects</h5>
-                        <p class="card-text">Music theory</p>
-                        <p class="card-text">Music technology</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- .Cards -->
-        <!-- Social Links -->
-        <div class="social-networks row justify-content-center">
+    <!-- .Cards -->
+        <div class="row social-networks justify-content-center">
             <div class="col-4"><a href="https://www.linkedin.com/in/gregorykaighin/" target="_blank">
                     <i class="fab fa-linkedin"></i></a>
             </div>
@@ -273,9 +214,8 @@
                     <i class="fab fa-youtube"></i></a>
             </div>
         </div>
-        <!-- .Social Links -->
     </footer>
-    <!-- .Footer -->
+    <!-- Footer -->
 
     <script src="https://kit.fontawesome.com/bd2b28ab92.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>

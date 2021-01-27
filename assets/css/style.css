@@ -1,13 +1,13 @@
  body {
      font-family: 'Karla', sans-serif;
-     color: #43170A;
-     background-color: #FDFAF3;
+     color: #221D17;
+     background-color: #F2F2F2;
 }
  h1 {
      font-size: 140%;
 }
  h3 {
-     color: #43170A;
+     color: #221D17;
      font-weight: 300;
      text-align: center;
      text-transform: uppercase;
@@ -25,46 +25,46 @@
 }
 /*------------------------------------Navbar Colours*/
  .navbar-light {
-     color: #43170A;
+     color: #221D17;
      text-transform: uppercase;
      letter-spacing: 2px;
      font-weight: 300;
 }
  .bg-light {
      opacity: 0.9;
-     background-image: radial-gradient( rgba(253, 250, 243,0.5),rgba(253, 250, 243,0.5));
+     background-image: radial-gradient( rgba(242, 242, 242,0.5),rgba(242, 242, 242,0.5));
 }
 /*------------------------------------Navbar Brand and Link Colours*/
  .navbar-light .navbar-brand {
-     color: #43170A;
+     color: #221D17;
 }
  .navbar-light .navbar-brand:hover {
-     color: #43170A;
+     color: #221D17;
 }
  .navbar-light .navbar-nav .nav-link {
-     color: #43170A;
+     color: #221D17;
 }
  .navbar-light .navbar-nav .nav-link:hover {
-     color: #43170A;
+     color: #221D17;
 }
 /*------------------------------------Navbar Toggler Colours and Hover Underscore*/
  .navbar-light .navbar-toggler {
-     border-color: #8B573C;
-     background: linear-gradient(to bottom right,rgba(158, 143, 130, 0.25),rgba(139, 87, 60, 0.25));
+     border-color: #F29199;
+     background: linear-gradient(to bottom right,rgba(242, 145, 153, 0.25)rgba(89, 71, 37, 0.25));
 }
  .navbar-light .navbar-nav .nav-link:hover {
-     color: #43170A;
-     border-bottom: 1px solid #43170A;
+     color: #221D17;
+     border-bottom: 1px solid #221D17;
 }
  .navbar-light .navbar-toggler:active {
-     background: radial-gradient( rgba(158, 143, 130, 0.75),rgba(139, 87, 60, 0.75));
+     background: linear-gradient(to bottom right,rgba(242, 145, 153, 0.25)rgba(89, 71, 37, 0.25));
 }
 /*---------------------------------Hero Image*/
- .jumbotron {
+ .hero-image {
      height: 50vh;
      margin: 12px -16px 12px 0;
-     background-color: #FDFAF3;
-     background: url("../images/hero-image-piano-art.jpg");
+     background-color: #F2F2F2;
+     background: url("../images/piano-art-3.jpg");
      background-position: center;
      background-size: cover;
      background-repeat: no-repeat;
@@ -72,11 +72,11 @@
      position: relative;
 }
 /*------------------------------------Hero Image Overlay Shape*/
- .jumbotron .container {
+ .hero-image .overlay-shape {
      width: 240px;
      height: 100px;
-     color: rgb(253, 250, 243);
-     background-image: radial-gradient( rgba(158, 143, 130, 0.9),rgba(139, 87, 60, 0.9));
+     color: #221D17;
+     background-image: radial-gradient( rgba(242, 242, 242, 0.6),rgba(89, 71, 37, 0.95));
      bottom: 36px;
      left: 12px;
      border-radius: 48px 48px 48px 48px;
@@ -100,41 +100,38 @@
 }
 /*------------------------------------Buttons*/
  .btn-light {
-     color: #43170A;
-     background: linear-gradient(to bottom right,rgba(158, 143, 130, 0.25),rgba(139, 87, 60, 0.25));
-     border-color: #8B573C;
+     color: #221D17;
+     background: linear-gradient(to bottom right,rgba(242,228,201, 0.25),rgb(242,145,153, 0.25));
+     border-color: #F29199;
      margin-top: 8px;
      text-transform: uppercase;
      font-size: 10px;
 }
  .btn-light:hover, .btn-light:focus {
-     color: #43170A;
-     background: linear-gradient(to bottom right,rgba(158, 143, 130, 0.25),rgba(139, 87, 60, 0.25));
-     border-color: #8B573C;
+     color: #221D17;
+     background: linear-gradient(to bottom right,rgba(242,228,201, 0.25),rgb(242,145,153, 0.25));
+     border-color: #F29199;
 }
  .btn-light:active {
-     color: #43170A;
-     background: radial-gradient( rgba(158, 143, 130, 0.75),rgba(139, 87, 60, 0.75));
-     border-color: rgb(153, 125, 109);
+     color: #221D17;
+     background: linear-gradient(to bottom right,rgba(242,228,201, 0.25),rgb(34,29,23, 0.25));
+     border-color: #F29199;
 }
 .btn-light:focus {
-    border-color: #8B573C;
+    border-color: #F29199;
 }
 /*------------------------------------About Me Links Hover Colour and Underscore*/
  .about-me a {
-     color: #8B573C;
+     color: #F29199;
      text-decoration: none;
-     border-bottom: 1px dotted #8B573C;
+     border-bottom: 1px dotted #F29199;
 }
  .about-me a:hover {
-     border-bottom: 1px solid #43170A;
+     border-bottom: 1px solid #221D17;
 }
 /*----------------------------------Ethos*/
  .ethos {
      margin-top: 24px;
-     text-align: center;
-}
- .rounded-circle {
      text-align: center;
 }
 /*---------------------------------Testimonials*/
@@ -147,7 +144,7 @@
      margin: 24px 24px 24px 24px;
      background: rgb(253, 250, 243);
      background-image: linear-gradient(to bottom right,rgba(158, 143, 130, 0.25),rgba(139, 87, 60, 0.25));
-     border: 1px solid #8B573C;
+     border: 1px solid #F29199;
      border-radius: 48px 48px 48px 48px;
      position: relative;
 }
@@ -172,33 +169,32 @@
      letter-spacing: 1px;
 }
 /*---------------------------------------------Cards*/
-.card-deck {
-    margin-top: 24px;
-}
- .card {
-     border-color: #43170A;
+.card {
+     margin-top: 24px;
+     border-color: #221D17;
      background-color: inherit;
      text-align: center;
      text-transform: uppercase;
-     padding: 12px;
+     padding: 6px;
 }
 /*------------------------------------Footer*/
  .social-networks {
      margin-top: 24px;
-     text-align: center;
      font-size: 240%;
+     text-align: center;
+     
 }
  .social-networks i {
-     color: #43170A;
+     color: #221D17;
 }
 /*---------------------------------Enquiries Form*/
  .form-control {
-     border-color: #8B573C;
+     border-color: #F29199;
      letter-spacing: 2px;
      background-color: rgb(253, 250, 243);
 }
  .contact-heading {
-     color: #43170A;
+     color: #221D17;
      font-weight: 300;
      letter-spacing: 2px;
      margin-top: 25px;
@@ -211,8 +207,8 @@
 }
 /*------------------------------------Enquiries Form Modal*/
  .modal-content {
-     background-color: #FDFAF3;
-     color: #43170A;
+     background-color: #F2F2F2;
+     color: #221D17;
 }
  .modal-header {
      border: none;
@@ -231,14 +227,14 @@
      text-align: center;
  }
 .table {
-      color: #43170A;
+      color: #221D17;
  }
  .resources td a {
      text-decoration: none;
-     color: #43170A;
+     color: #221D17;
 }
  .resources a:hover {
-     border-bottom: 1px solid #43170A;
+     border-bottom: 1px solid #221D17;
 }
 /*---------------------------------- Audio player -- https://codepen.io/craigstroman/pen/aOyRYx --*/
 .screen-reader-text {
@@ -247,7 +243,7 @@
   left: -9999px;
 }
 .disabled {
-  color: #8B573C;
+  color: #F29199;
   cursor: default;
 }
 .show {
@@ -267,7 +263,7 @@ body .audio-container .player {
   width: 400px;
 }
 body .audio-container .player .large-toggle-btn {
-  border: 1px solid #8B573C;
+  border: 1px solid #F29199;
   border-radius: 1px;
   float: left;
   font-size: 1.5em;
@@ -311,7 +307,6 @@ body .audio-container .player .info-box .track-info-box {
   margin: 0 0 6px 0;
   visibility: hidden;
   width: 400px;
-  *zoom: 1;
 }
 body .audio-container .player .info-box .track-info-box .track-title-text {
   display: inline-block;
@@ -343,19 +338,19 @@ body .audio-container .player .progress-box .progress-cell {
 }
 body .audio-container .player .progress-box .progress-cell .progress {
   background: rgb(240, 229, 229);
-  border: 1px solid #8B573C;
+  border: 1px solid #F29199;
   height: 8px;
   position: relative;
   width: auto;
 }
 body .audio-container .player .progress-box .progress-cell .progress .progress-buffer {
-  background: #8B573C;
+  background: #F29199;
   height: 100%;
   width: 0;
 }
 body .audio-container .player .progress-box .progress-cell .progress .progress-indicator {
   background: rgb(240, 229, 229);
-  border: 1px solid #8B573C;
+  border: 1px solid #F29199;
   border-radius: 3px;
   cursor: pointer;
   height: 10px;
@@ -406,17 +401,16 @@ body .audio-container .play-list .play-list-row {
   display: block;
   margin: 10px 0;
   width: 100%;
-  *zoom: 1;
 }
 body .audio-container .play-list .play-list-row .track-title .playlist-track {
-  color: #43170A;
+  color: #221D17;
   text-decoration: none;
 }
 body .audio-container .play-list .play-list-row .track-title .playlist-track:hover {
   text-decoration: underline;
 }
 body .audio-container .play-list .play-list-row .small-toggle-btn {
-  border: 1px solid #8B573C;
+  border: 1px solid #F29199;
   border-radius: 1px;
   cursor: pointer;
   display: inline-block;
