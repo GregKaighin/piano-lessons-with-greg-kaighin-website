@@ -92,7 +92,11 @@
 }
 /*------------------------------------About Me*/
  .about-me {
+     margin-top: 24px;
      text-align: center;
+}
+.about-me p {
+    margin-top: 24px;
 }
 /*------------------------------------Buttons*/
  .btn-light {
@@ -127,6 +131,7 @@
 }
 /*----------------------------------Ethos*/
  .ethos {
+     margin-top: 24px;
      text-align: center;
 }
  .rounded-circle {
@@ -167,6 +172,9 @@
      letter-spacing: 1px;
 }
 /*---------------------------------------------Cards*/
+.card-deck {
+    margin-top: 24px;
+}
  .card {
      border-color: #43170A;
      background-color: inherit;
@@ -176,6 +184,7 @@
 }
 /*------------------------------------Footer*/
  .social-networks {
+     margin-top: 24px;
      text-align: center;
      font-size: 240%;
 }
@@ -215,6 +224,9 @@
  .resources {
      text-align: left;
  }
+ .resources h3 {
+     margin-top: 24px;
+ }
  .resources p {
      text-align: center;
  }
@@ -242,6 +254,8 @@
   display: inline-block;
 }
 body .audio-container {
+    margin-top: 24px;
+    margin-bottom: 24px;
   font-family: 'Karla', sans-serif;
   font-size: 1em;
   width: 500px;
