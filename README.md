@@ -1,17 +1,32 @@
+This website is for my own piano teaching business.
+It's purposes are:
+-to help attract new customers and provide them with a means of getting in contact.
+-to raise awareness of the business.
+-to provide an audio player and file downloads for content related to the business.
+
 This design of this website is in part based on the Love Running website featured in Code Institute's Full Stack Developer programme.
 previous builds of the website can be found here #############. Much of the development of the css styling was done in these earlier builds,
 however it should be noted that the commit messages for these are not always clear or easy to follow.
 This has been fixed in this new build which has clear commit messages.
 
-Hero image: shutterstock
-Card Images:
+The enquiries form is not yet functional.
+
+Languages used:
+HTML5
+CSS3
+JavaScript (for audio player)
+Frameworks:
+Bootstrap 4.1.3
+
+Hero image: Shutterstock
+Card Images: Pexels
 
 Original Content:
 MP3 Audio recordings: Greg Kaighin
 PDF Documents: Greg Kaighin
 
 Colours: Generated with https://color.adobe.com/create/color-wheel to match the hero image displayed at the top of index.html,
-and to ellicit the main colours found on a standard black grand piano.
+and to ellicit the main colours found on a standard grand piano (ebony, ivory, black, brass, red felt)
 
 Audio player: https://codepen.io/craigstroman/pen/aOyRYx
 
@@ -32,7 +47,23 @@ Which features may be added in the future?
 Signup and payments page for group music workshops.
 Automatic student waiting list, which can be easily activated/deactivated as required.
 Improvements to the opacity effect around the hero image.
+Additional content for music.html and resources.html pages. MP3 audio and PDF document files.
 
-Known problems and potential solutions.
-Problem: navbar dropdown menu always appears on the left side. It would sometimes look better positioned on the right.
+Known issues and potential solutions:
+Issue: navbar dropdown menu always appears on the left side. It would sometimes look better positioned on the right.
 Potential solution: change index.html navbar-toggler class IDs.
+
+Issue: Audio player progress bar does not behave as expected.
+Potential solution: JavaScript fix.
+
+Issue: Show more / Show less button on index.html page collapses downwards. An upwards collapse (expand?) would provide better UX and
+flow.
+Potential solution: jspopper? I need to learn how to do this.
+
+Issue: Make the "About Me" section have the same opacity as the navbar. This will improve the overall look of the hero image
+and "open it up" a little.
+Potential solution: JavaScript? I need to learn how to do this.
+
+
+
+
