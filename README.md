@@ -1,8 +1,17 @@
 This design of this website is in part based on the Love Running website featured in Code Institute's Full Stack Developer programme.
+previous builds of the website can be found here #############. Much of the development of the css styling was done in these earlier builds,
+however it should be noted that the commit messages for these are not always clear or easy to follow.
+This has been fixed in this new build which has clear commit messages.
 
-Hero image: https://www.pexels.com/@juanpphotoandvideo/#_=_ Credit: Juan Pablo Serrano Arenas
+Hero image: shutterstock
+Card Images:
 
-Colors: #A08184 #E8CEB9 #9E8F82 #8A4424 #330F07 Generated with http://colormind.io/ to match the hero image.
+Original Content:
+MP3 Audio recordings: Greg Kaighin
+PDF Documents: Greg Kaighin
+
+Colours: Generated with https://color.adobe.com/create/color-wheel to match the hero image displayed at the top of index.html,
+and to ellicit the main colours found on a standard black grand piano.
 
 Audio player: https://codepen.io/craigstroman/pen/aOyRYx
 

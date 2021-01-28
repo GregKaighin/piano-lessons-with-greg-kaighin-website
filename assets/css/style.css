@@ -3,16 +3,6 @@
      color: #221D17;
      background-color: #F2F2F2;
 }
- h1 {
-     font-size: 140%;
-}
- h3 {
-     color: #221D17;
-     font-weight: 300;
-     text-align: center;
-     text-transform: uppercase;
-     letter-spacing: 2px;
-}
  h5 {
      text-transform: uppercase;
      font-weight: 300;
@@ -32,9 +22,11 @@
 }
  .bg-light {
      opacity: 0.9;
-     background-image: radial-gradient( rgba(242, 242, 242,0.5),rgba(242, 242, 242,0.5));
 }
 /*------------------------------------Navbar Brand and Link Colours*/
+.logo {
+     font-size: 140%;
+}
  .navbar-light .navbar-brand {
      color: #221D17;
 }
@@ -49,8 +41,8 @@
 }
 /*------------------------------------Navbar Toggler Colours and Hover Underscore*/
  .navbar-light .navbar-toggler {
-     border-color: #F29199;
-     background: linear-gradient(to bottom right,rgba(242, 145, 153, 0.25)rgba(89, 71, 37, 0.25));
+     border-color: #751f1e;
+     background: linear-gradient(to bottom right,rgba(242,228,201, 0.25),rgb(242,145,153, 0.25));
 }
  .navbar-light .navbar-nav .nav-link:hover {
      color: #221D17;
@@ -77,8 +69,8 @@
      height: 100px;
      color: #221D17;
      background-image: radial-gradient( rgba(242, 242, 242, 0.6),rgba(89, 71, 37, 0.95));
-     bottom: 36px;
-     left: 12px;
+     bottom: 48px;
+     left: 60px;
      border-radius: 48px 48px 48px 48px;
      position: absolute;
 }
@@ -87,7 +79,7 @@
      text-align: center;
      text-transform: uppercase;
      padding: 10px;
-     font-weight: 300;
+     font-weight: 400;
      letter-spacing: 2px;
 }
 /*------------------------------------About Me*/
@@ -95,14 +87,25 @@
      margin-top: 24px;
      text-align: center;
 }
+.about-me h3 {
+     color: #221D17;
+     font-weight: 300;
+     text-align: center;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+}
 .about-me p {
     margin-top: 24px;
+    padding: 0 14px 0 14px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
 }
 /*------------------------------------Buttons*/
  .btn-light {
      color: #221D17;
      background: linear-gradient(to bottom right,rgba(242,228,201, 0.25),rgb(242,145,153, 0.25));
-     border-color: #F29199;
+     border-color: #751f1e;
      margin-top: 8px;
      text-transform: uppercase;
      font-size: 10px;
@@ -110,21 +113,21 @@
  .btn-light:hover, .btn-light:focus {
      color: #221D17;
      background: linear-gradient(to bottom right,rgba(242,228,201, 0.25),rgb(242,145,153, 0.25));
-     border-color: #F29199;
+     border-color: #751f1e;
 }
  .btn-light:active {
      color: #221D17;
      background: linear-gradient(to bottom right,rgba(242,228,201, 0.25),rgb(34,29,23, 0.25));
-     border-color: #F29199;
+     border-color: #751f1e;
 }
 .btn-light:focus {
-    border-color: #F29199;
+    border-color: #751f1e;
 }
 /*------------------------------------About Me Links Hover Colour and Underscore*/
  .about-me a {
-     color: #F29199;
+     color: #751f1e;
      text-decoration: none;
-     border-bottom: 1px dotted #F29199;
+     border-bottom: 1px dotted #751f1e;
 }
  .about-me a:hover {
      border-bottom: 1px solid #221D17;
@@ -134,17 +137,31 @@
      margin-top: 24px;
      text-align: center;
 }
+.ethos h3 {
+     color: #221D17;
+     font-weight: 300;
+     text-align: center;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+}
 /*---------------------------------Testimonials*/
  .quotes {
      font-weight: 300;
 }
 /*----------------------------------Testimonials Speech Bubble*/
- .testimonial-content {
+ .quotes h3 {
+     color: #221D17;
+     font-weight: 300;
+     text-align: center;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+ }
+.testimonial-content {
      padding: 18px 24px 8px 36px;
      margin: 24px 24px 24px 24px;
      background: rgb(253, 250, 243);
      background-image: linear-gradient(to bottom right,rgba(158, 143, 130, 0.25),rgba(139, 87, 60, 0.25));
-     border: 1px solid #F29199;
+     border: 1px solid #751f1e;
      border-radius: 48px 48px 48px 48px;
      position: relative;
 }
@@ -189,7 +206,7 @@
 }
 /*---------------------------------Enquiries Form*/
  .form-control {
-     border-color: #F29199;
+     border-color: #751f1e;
      letter-spacing: 2px;
      background-color: rgb(253, 250, 243);
 }
@@ -222,6 +239,11 @@
  }
  .resources h3 {
      margin-top: 24px;
+     color: #221D17;
+     font-weight: 300;
+     text-align: center;
+     text-transform: uppercase;
+     letter-spacing: 2px;
  }
  .resources p {
      text-align: center;
@@ -243,7 +265,7 @@
   left: -9999px;
 }
 .disabled {
-  color: #F29199;
+  color: #751f1e;
   cursor: default;
 }
 .show {
@@ -263,7 +285,7 @@ body .audio-container .player {
   width: 400px;
 }
 body .audio-container .player .large-toggle-btn {
-  border: 1px solid #F29199;
+  border: 1px solid #751f1e;
   border-radius: 1px;
   float: left;
   font-size: 1.5em;
@@ -338,19 +360,19 @@ body .audio-container .player .progress-box .progress-cell {
 }
 body .audio-container .player .progress-box .progress-cell .progress {
   background: rgb(240, 229, 229);
-  border: 1px solid #F29199;
+  border: 1px solid #751f1e;
   height: 8px;
   position: relative;
   width: auto;
 }
 body .audio-container .player .progress-box .progress-cell .progress .progress-buffer {
-  background: #F29199;
+  background: #751f1e;
   height: 100%;
   width: 0;
 }
 body .audio-container .player .progress-box .progress-cell .progress .progress-indicator {
   background: rgb(240, 229, 229);
-  border: 1px solid #F29199;
+  border: 1px solid #751f1e;
   border-radius: 3px;
   cursor: pointer;
   height: 10px;
@@ -410,7 +432,7 @@ body .audio-container .play-list .play-list-row .track-title .playlist-track:hov
   text-decoration: underline;
 }
 body .audio-container .play-list .play-list-row .small-toggle-btn {
-  border: 1px solid #F29199;
+  border: 1px solid #751f1e;
   border-radius: 1px;
   cursor: pointer;
   display: inline-block;
