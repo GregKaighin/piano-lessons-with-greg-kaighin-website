@@ -1,11 +1,13 @@
 This website is for my own piano teaching business.
 It's purposes are:
+
 -to help attract new customers and provide them with a means of getting in contact.
 -to raise awareness of the business.
 -to provide an audio player and file downloads for content related to the business.
+-to provide links to relevant external websites.
 
 This design of this website is in part based on the Love Running website featured in Code Institute's Full Stack Developer programme.
-previous builds of the website can be found here #############. Much of the development of the css styling was done in these earlier builds,
+Two previous builds of the website can be found here #############. Much of the development of the css styling was done in these earlier builds,
 however it should be noted that the commit messages for these are not always clear or easy to follow.
 This has been fixed in this new build which has clear commit messages.
 
@@ -17,6 +19,8 @@ CSS3
 JavaScript (for audio player)
 Frameworks:
 Bootstrap 4.1.3
+Font Awesome for icons
+jspopper for scroll effects
 
 Hero image: Shutterstock
 Card Images: Pexels
@@ -63,6 +67,14 @@ Potential solution: jspopper? I need to learn how to do this.
 Issue: Make the "About Me" section have the same opacity as the navbar. This will improve the overall look of the hero image
 and "open it up" a little.
 Potential solution: JavaScript? I need to learn how to do this.
+
+Audio player
+The audio player used in this website was created by Craig Stroman https://codepen.io/craigstroman/pen/aOyRYx.
+I have used this player because the standard HTML/CSS audio player does not provide enough funcionality, specifically it does not provide
+a way to have a playlist and a single set of controls for playback, at least not that I have been able to figure out.
+I chose to use this player because it has a simple, clear UI, the code looks well-written, and it performs it's function well.
+The audio player functions as expected, apart from the progress bar slider does not work. This is not ideal, but is a better compromise
+than simply using the HTML audio element
 
 
 

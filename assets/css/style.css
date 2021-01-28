@@ -3,16 +3,6 @@
      color: #221D17;
      background-color: #F2F2F2;
 }
- h5 {
-     text-transform: uppercase;
-     font-weight: 300;
-     padding:0 6px 0 6px;
-}
- p {
-     font-size: 16px;
-     letter-spacing: 1px;
-     padding: 0 14px 0 14px;
-}
 /*------------------------------------Navbar Colours*/
  .navbar-light {
      color: #221D17;
@@ -56,7 +46,7 @@
      height: 50vh;
      margin: 12px -16px 12px 0;
      background-color: #F2F2F2;
-     background: url("../images/piano-art-3.jpg");
+     background: url("../images/hero-image-piano-art.jpg");
      background-position: center;
      background-size: cover;
      background-repeat: no-repeat;
@@ -123,6 +113,11 @@
 .btn-light:focus {
     border-color: #751f1e;
 }
+.btn-light:not(:disabled):not(.disabled).active, .btn-light:not(:disabled):not(.disabled):active, .show>.btn-light.dropdown-toggle {
+    color: #221D17;
+    background-color: #DDA5A1;
+    border-color: #751f1e;
+}
 /*------------------------------------About Me Links Hover Colour and Underscore*/
  .about-me a {
      color: #751f1e;
@@ -144,6 +139,14 @@
      text-transform: uppercase;
      letter-spacing: 2px;
 }
+.ethos h5 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.ethos p {
+    letter-spacing: 1px;
+    font-weight: 400;
+}
 /*---------------------------------Testimonials*/
  .quotes {
      font-weight: 300;
@@ -159,9 +162,8 @@
 .testimonial-content {
      padding: 18px 24px 8px 36px;
      margin: 24px 24px 24px 24px;
-     background: rgb(253, 250, 243);
-     background-image: linear-gradient(to bottom right,rgba(158, 143, 130, 0.25),rgba(139, 87, 60, 0.25));
-     border: 1px solid #751f1e;
+     background-image: linear-gradient(to bottom right,rgba(242, 242, 242, 0.6),rgba(89, 71, 37, 0.4));
+     border: 1px solid #221D17;
      border-radius: 48px 48px 48px 48px;
      position: relative;
 }
@@ -169,13 +171,12 @@
  .testimonial-icon {
      width: 36px;
      height: 36px;
-     background-color: rgb(139, 87, 60);
-     background-image: radial-gradient( rgb(158, 143, 130),rgb(139, 87, 60));
+     background-image: radial-gradient( rgb(242, 242, 242),rgb(89, 71, 37));
      border-radius: 48px 48px 0 48px;
      text-align: center;
      font-size: 100%;
      line-height: 36px;
-     color: rgb(253, 250, 243);
+     color: #221D17;
      top: -8px;
      left: -12px;
      position: absolute;
@@ -188,7 +189,7 @@
 /*---------------------------------------------Cards*/
 .card {
      margin-top: 24px;
-     border-color: #221D17;
+     border-color: #221D17;;
      background-color: inherit;
      text-align: center;
      text-transform: uppercase;
@@ -198,17 +199,20 @@
  .social-networks {
      margin-top: 24px;
      font-size: 240%;
-     text-align: center;
-     
+     text-align: center;   
 }
- .social-networks i {
-     color: #221D17;
+ .linkedin-icon {
+     color: #0e76a8;
+}
+.youtube-icon {
+    color: #ff0000;
 }
 /*---------------------------------Enquiries Form*/
  .form-control {
-     border-color: #751f1e;
-     letter-spacing: 2px;
-     background-color: rgb(253, 250, 243);
+     border-color: #221D17;
+     letter-spacing: 1px;
+     background-color: #f2f2f2;
+     margin-bottom: 12px;
 }
  .contact-heading {
      color: #221D17;
@@ -220,7 +224,7 @@
  .center-form {
      padding-top: 10px;
      margin: 0 auto;
-     max-width: 70%;
+     max-width: 67%;
 }
 /*------------------------------------Enquiries Form Modal*/
  .modal-content {
@@ -234,9 +238,6 @@
     border: none;
 }
 /*-------------------------------- Resources*/
- .resources {
-     text-align: left;
- }
  .resources h3 {
      margin-top: 24px;
      color: #221D17;
@@ -245,8 +246,16 @@
      text-transform: uppercase;
      letter-spacing: 2px;
  }
+ .resources h5 {
+       text-transform: uppercase;
+     font-weight: 300;
+     padding:0 6px 0 6px;
+ }
  .resources p {
      text-align: center;
+     font-size: 16px;
+     letter-spacing: 1px;
+     padding: 0 14px 0 14px;
  }
 .table {
       color: #221D17;
@@ -257,6 +266,15 @@
 }
  .resources a:hover {
      border-bottom: 1px solid #221D17;
+}/* h5 {
+     text-transform: uppercase;
+     font-weight: 300;
+     padding:0 6px 0 6px;
+}
+ /*p {
+     font-size: 16px;
+     letter-spacing: 1px;
+     padding: 0 14px 0 14px;
 }
 /*---------------------------------- Audio player -- https://codepen.io/craigstroman/pen/aOyRYx --*/
 .screen-reader-text {
