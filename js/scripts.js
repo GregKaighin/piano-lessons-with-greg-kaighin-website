@@ -11,13 +11,11 @@ var audioPlayer = function () {
             previousTrackBtn: document.querySelector(".previous-track-btn"),
             smallToggleBtn: document.getElementsByClassName("small-toggle-btn")
         },
-        progressBar: document.querySelector(".progress-box"),
         playListRows: document.getElementsByClassName("play-list-row"),
         trackInfoBox: document.querySelector(".track-info-box")
     };
     var _playAHead = false;
     var _progressCounter = 0;
-    var _progressBarIndicator = _elements.progressBar.children[0].children[0].children[1];
     var _trackLoaded = false;
 
     /**
@@ -32,46 +30,7 @@ var audioPlayer = function () {
         progressBuffer.style.width = bufferedTime + "%";
     };
 
-    /**
-     * A utility function for getting the event cordinates based on browser type.
-     *
-     * @param e The JavaScript event.
-     **/
-    var _getXY = function (e) {
-        var containerX = _elements.progressBar.offsetLeft;
-        var containerY = _elements.progressBar.offsetTop;
-
-        var coords = {
-            x: null,
-            y: null
-        };
-
-        var isTouchSuopported = "ontouchstart" in window;
-
-        if (isTouchSuopported) { //For touch devices
-            coords.x = e.clientX - containerX;
-            coords.y = e.clientY - containerY;
-
-            return coords;
-        } else if (e.offsetX || e.offsetX === 0) { // For webkit browsers
-            coords.x = e.offsetX;
-            coords.y = e.offsetY;
-
-            return coords;
-        } else if (e.layerX || e.layerX === 0) { // For Mozilla firefox
-            coords.x = e.layerX;
-            coords.y = e.layerY;
-
-            return coords;
-        }
-    };
-
-    var _handleProgressIndicatorClick = function (e) {
-        var progressBar = document.querySelector(".progress-box");
-        var xCoords = _getXY(e).x;
-
-        return (xCoords - progressBar.offsetLeft) / progressBar.children[0].offsetWidth;
-    };
+    
 
     /**
      * Initializes the html5 audio player and the playlist.
@@ -189,11 +148,9 @@ var audioPlayer = function () {
             }
         }, false);
 
-        //User is moving progress indicator.
-        _progressBarIndicator.addEventListener("mousedown", _mouseDown, false);
+        
 
-        //User stops moving progress indicator.
-        window.addEventListener("mouseup", _mouseUp, false);
+        
     };
 
     /**
@@ -224,34 +181,6 @@ var audioPlayer = function () {
             _playAHead = false;
         }
     };
-
-    /**
-     * Moves the progress indicator to a new point in the audio.
-     *
-     * @param e The event object.
-     **/
-    var _moveProgressIndicator = function (e) {
-        var newPosition = 0;
-        var progressBarOffsetLeft = _elements.progressBar.offsetLeft;
-        var progressBarWidth = 0;
-        var progressBarIndicator = _elements.progressBar.children[0].children[0].children[1];
-        var progressBarIndicatorWidth = _progressBarIndicator.offsetWidth;
-        var xCoords = _getXY(e).x;
-
-        progressBarWidth = _elements.progressBar.children[0].offsetWidth - progressBarIndicatorWidth;
-        newPosition = xCoords - progressBarOffsetLeft;
-
-        if ((newPosition >= 1) && (newPosition <= progressBarWidth)) {
-            progressBarIndicator.style.left = newPosition + ".px";
-        }
-        if (newPosition < 0) {
-            progressBarIndicator.style.left = "0";
-        }
-        if (newPosition > progressBarWidth) {
-            progressBarIndicator.style.left = progressBarWidth + "px";
-        }
-    };
-
     /**
      * Controls playback of the audio element.
      *
@@ -412,22 +341,7 @@ var audioPlayer = function () {
         }
     };
 
-    /**
-     * Updates the location of the progress indicator according to how much time left in audio.
-     *
-     **/
-    var _updateProgressIndicator = function () {
-        var currentTime = parseFloat(_elements.audio.currentTime);
-        var duration = parseFloat(_elements.audio.duration);
-        var indicatorLocation = 0;
-        var progressBarWidth = parseFloat(_elements.progressBar.offsetWidth);
-        var progressIndicatorWidth = parseFloat(_progressBarIndicator.offsetWidth);
-        var progressBarIndicatorWidth = progressBarWidth - progressIndicatorWidth;
-
-        indicatorLocation = progressBarIndicatorWidth * (currentTime / duration);
-
-        _progressBarIndicator.style.left = indicatorLocation + "px";
-    };
+    
 
     /**
      * Resets all toggle buttons to be play buttons.

@@ -294,7 +294,7 @@ body .container {
     margin-top: 24px;
     margin-bottom: 24px;
   font-family: 'Karla', sans-serif;
-  font-size: 1em;
+  font-size: 16px;
   width: 75vw;
 }
 
@@ -374,48 +374,11 @@ body .container .player .info-box .track-info-box:after {
   visibility: hidden;
 }
 
-body .container .player .progress-box {
-  float: left;
-  position: relative;
-}
-
-body .container .player .progress-box .progress-cell {
-  height: 12px;
-  position: relative;
-}
-
-body .container .player .progress-box .progress-cell .progress {
-  background: #fffff0;
-  border: 1px solid #751f1e;
-  height: 8px;
-  position: relative;
-  width: 50vw;
-}
-
-body .container .player .progress-box .progress-cell .progress .progress-buffer {
-  background: #751f1e;
-  height: 100%;
-  width: 100%;
-}
-
-body .container .player .progress-box .progress-cell .progress .progress-indicator {
-  background: #fffff0;
-  border: 1px solid #751f1e;
-  border-radius: 3px;
-  height: 10px;
-  left: 0;
-  overflow: hidden;
-  position: absolute;
-  top: -2px;
-  width: 67vw;
-  
-}
-
 
 body .container .player .controls-box {
   bottom: 10px;
   right: 0;
-  position: absolute;
+  position: relative;
 }
 
 body .container .player .controls-box .previous-track-btn {
