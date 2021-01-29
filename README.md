@@ -22,6 +22,11 @@ Bootstrap 4.1.3
 Font Awesome for icons
 jspopper for scroll effects
 
+Validation:
+HTML - 
+CSS - https://jigsaw.w3.org/css-validator/ - No Errors Found
+JS -
+
 Hero image: Shutterstock
 Card Images: Pexels
 

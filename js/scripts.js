@@ -14,21 +14,7 @@ var audioPlayer = function () {
         playListRows: document.getElementsByClassName("play-list-row"),
         trackInfoBox: document.querySelector(".track-info-box")
     };
-    var _playAHead = false;
-    var _progressCounter = 0;
     var _trackLoaded = false;
-
-    /**
-     * Determines the buffer progress.
-     *
-     * @param audio The audio element on the page.
-     **/
-    var _bufferProgress = function (audio) {
-        var bufferedTime = (audio.buffered.end(0) * 100) / audio.duration;
-        var progressBuffer = _elements.progressBar.children[0].children[0].children[0];
-
-        progressBuffer.style.width = bufferedTime + "%";
-    };
 
     
 
@@ -153,34 +139,7 @@ var audioPlayer = function () {
         
     };
 
-    /**
-     * Handles the mousedown event by a user and determines if the mouse is being moved.
-     *
-     * @param e The event object.
-     **/
-    var _mouseDown = function (e) {
-        window.addEventListener("mousemove", _moveProgressIndicator, true);
-        audio.removeEventListener("timeupdate", _trackTimeChanged, false);
-
-        _playAHead = true;
-    };
-
-    /**
-     * Handles the mouseup event by a user.
-     *
-     * @param e The event object.
-     **/
-    var _mouseUp = function (e) {
-        if (_playAHead === true) {
-            var duration = parseFloat(audio.duration);
-            var progressIndicatorClick = parseFloat(_handleProgressIndicatorClick(e));
-            window.removeEventListener("mousemove", _moveProgressIndicator, true);
-
-            audio.currentTime = duration * progressIndicatorClick;
-            audio.addEventListener("timeupdate", _trackTimeChanged, false);
-            _playAHead = false;
-        }
-    };
+   
     /**
      * Controls playback of the audio element.
      *
@@ -280,9 +239,6 @@ var audioPlayer = function () {
 
         durationBox.innerHTML = null;
         durationBox.innerHTML = trackDuration;
-
-        _updateProgressIndicator(audio);
-        _bufferProgress(audio);
     };
 
     /**
