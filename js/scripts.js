@@ -16,8 +16,6 @@ var audioPlayer = function () {
     };
     var _trackLoaded = false;
 
-    
-
     /**
      * Initializes the html5 audio player and the playlist.
      *
@@ -27,12 +25,12 @@ var audioPlayer = function () {
         if (_currentTrack === 1 || _currentTrack === null) {
             _elements.playerButtons.previousTrackBtn.disabled = true;
         }
-
+        
         //Adding event listeners to playlist clickable elements.
         for (var i = 0; i < _elements.playListRows.length; i++) {
             var smallToggleBtn = _elements.playerButtons.smallToggleBtn[i];
             var playListLink = _elements.playListRows[i].children[2].children[0];
-
+            
             //Playlist link clicked.
             playListLink.addEventListener("click", function (e) {
                 e.preventDefault();
@@ -51,7 +49,7 @@ var audioPlayer = function () {
                     _playBack(this);
                 }
             }, false);
-
+           
             //Small toggle button clicked.
             smallToggleBtn.addEventListener("click", function (e) {
                 e.preventDefault();
@@ -72,15 +70,14 @@ var audioPlayer = function () {
 
             }, false);
         }
-
         //Audio time has changed so update it.
         _elements.audio.addEventListener("timeupdate", _trackTimeChanged, false);
-
+       
         //Audio track has ended playing.
         _elements.audio.addEventListener("ended", function (e) {
             _trackHasEnded();
         }, false);
-
+        
         //Audio error. 
         _elements.audio.addEventListener("error", function (e) {
             switch (e.target.error.code) {
@@ -103,7 +100,7 @@ var audioPlayer = function () {
             trackLoaded = false;
             _resetPlayStatus();
         }, false);
-
+      
         //Large toggle button clicked.
         _elements.playerButtons.largeToggleBtn.addEventListener("click", function (e) {
             if (_trackLoaded === false) {
@@ -113,7 +110,7 @@ var audioPlayer = function () {
                 _playBack();
             }
         }, false);
-
+      
         //Next track button clicked.
         _elements.playerButtons.nextTrackBtn.addEventListener("click", function (e) {
             if (this.disabled !== true) {
@@ -123,7 +120,7 @@ var audioPlayer = function () {
                 _setTrack();
             }
         }, false);
-
+      
         //Previous track button clicked.
         _elements.playerButtons.previousTrackBtn.addEventListener("click", function (e) {
             if (this.disabled !== true) {
@@ -133,12 +130,7 @@ var audioPlayer = function () {
                 _setTrack();
             }
         }, false);
-
-        
-
-        
     };
-
    
     /**
      * Controls playback of the audio element.
@@ -155,7 +147,7 @@ var audioPlayer = function () {
             document.title = document.title.substr(2);
         }
     };
-
+   
     /**
      * Sets the track if it hasn't already been loaded yet.
      *
@@ -176,7 +168,7 @@ var audioPlayer = function () {
 
         _playBack();
     };
-
+   
     /**
      * Sets the activly playing item within the playlist.
      *
@@ -190,7 +182,7 @@ var audioPlayer = function () {
 
         playListRows[currentTrack - 1].children[2].className = "track-title active-track";
     };
-
+   
     /**
      * Sets the text for the currently playing song.
      *
@@ -207,7 +199,7 @@ var audioPlayer = function () {
 
         document.title = trackTitle;
     };
-
+  
     /**
      * Plays the next track when a track has ended playing.
      *
@@ -221,7 +213,7 @@ var audioPlayer = function () {
 
         _setTrack();
     };
-
+   
     /**
      * Updates the time for the song being played.
      *
@@ -240,7 +232,7 @@ var audioPlayer = function () {
         durationBox.innerHTML = null;
         durationBox.innerHTML = trackDuration;
     };
-
+   
     /**
      * A utility function for converting a time in miliseconds to a readable time of minutes and seconds.
      *
@@ -265,7 +257,7 @@ var audioPlayer = function () {
 
         return time;
     };
-
+   
     /**
      * Updates both the large and small toggle buttons accordingly.
      *
@@ -281,7 +273,6 @@ var audioPlayer = function () {
 
             _elements.playerButtons.smallToggleBtn[_currentTrack - 1].children[0].className = "small-play-btn";
         }
-
         //Update next and previous buttons accordingly
         if (_currentTrack === 1) {
             _elements.playerButtons.previousTrackBtn.disabled = true;
@@ -296,9 +287,7 @@ var audioPlayer = function () {
             _elements.playerButtons.nextTrackBtn.className = "next-track-btn disabled";
         }
     };
-
     
-
     /**
      * Resets all toggle buttons to be play buttons.
      *
@@ -325,5 +314,3 @@ var audioPlayer = function () {
 
     player.initPlayer();
 })();
-
-
