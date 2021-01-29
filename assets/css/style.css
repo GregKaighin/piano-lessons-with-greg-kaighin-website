@@ -1,11 +1,11 @@
  body {
      font-family: 'Karla', sans-serif;
-     color: #221D17;
-     background-color: #F2F2F2;
+     color: #221d17;
+     background-color:#fffff0;
 }
 /*------------------------------------Navbar Colours*/
  .navbar-light {
-     color: #221D17;
+     color: #221d17;
      text-transform: uppercase;
      letter-spacing: 2px;
      font-weight: 300;
@@ -18,34 +18,34 @@
      font-size: 140%;
 }
  .navbar-light .navbar-brand {
-     color: #221D17;
+     color: #221d17;
 }
  .navbar-light .navbar-brand:hover {
-     color: #221D17;
+     color: #221d17;
 }
  .navbar-light .navbar-nav .nav-link {
-     color: #221D17;
+     color: #221d17;
 }
  .navbar-light .navbar-nav .nav-link:hover {
-     color: #221D17;
+     color: #221d17;
 }
 /*------------------------------------Navbar Toggler Colours and Hover Underscore*/
  .navbar-light .navbar-toggler {
      border-color: #751f1e;
-     background: linear-gradient(to bottom right,rgba(242,228,201, 0.25),rgb(242,145,153, 0.25));
+     background: linear-gradient(to bottom right,rgba(242, 228, 201, 0.25),rgb(242,145,153, 0.25));
 }
  .navbar-light .navbar-nav .nav-link:hover {
-     color: #221D17;
-     border-bottom: 1px solid #221D17;
+     color: #221d17;
+     border-bottom: 1px solid #221d17;
 }
  .navbar-light .navbar-toggler:active {
-     background: linear-gradient(to bottom right,rgba(242, 145, 153, 0.25)rgba(89, 71, 37, 0.25));
+     background: #dda5a1;
 }
 /*---------------------------------Hero Image*/
  .hero-image {
      height: 50vh;
      margin: 12px -16px 12px 0;
-     background-color: #F2F2F2;
+     background-color:#fffff0;
      background: url("../images/hero-image-piano-art.jpg");
      background-position: center;
      background-size: cover;
@@ -57,8 +57,8 @@
  .hero-image .overlay-shape {
      width: 240px;
      height: 100px;
-     color: #221D17;
-     background-image: radial-gradient( rgba(242, 242, 242, 0.6),rgba(89, 71, 37, 0.95));
+     color: #221d17;
+     background-image: radial-gradient( rgba(255, 255, 244, 0.9),rgba(89, 71, 37, 0.9));
      bottom: 48px;
      left: 60px;
      border-radius: 48px 48px 48px 48px;
@@ -78,7 +78,7 @@
      text-align: center;
 }
 .about-me h3 {
-     color: #221D17;
+     color: #221d17;
      font-weight: 300;
      text-align: center;
      text-transform: uppercase;
@@ -93,7 +93,7 @@
 }
 /*------------------------------------Buttons*/
  .btn-light {
-     color: #221D17;
+     color: #221d17;
      background: linear-gradient(to bottom right,rgba(242,228,201, 0.25),rgb(242,145,153, 0.25));
      border-color: #751f1e;
      margin-top: 8px;
@@ -114,8 +114,8 @@
     border-color: #751f1e;
 }
 .btn-light:not(:disabled):not(.disabled).active, .btn-light:not(:disabled):not(.disabled):active, .show>.btn-light.dropdown-toggle {
-    color: #221D17;
-    background-color: #DDA5A1;
+    color: #221d17;
+    background-color: #dda5a1;
     border-color: #751f1e;
 }
 /*------------------------------------About Me Links Hover Colour and Underscore*/
@@ -125,7 +125,7 @@
      border-bottom: 1px dotted #751f1e;
 }
  .about-me a:hover {
-     border-bottom: 1px solid #221D17;
+     border-bottom: 1px solid #221d17;
 }
 /*----------------------------------Ethos*/
  .ethos {
@@ -133,7 +133,7 @@
      text-align: center;
 }
 .ethos h3 {
-     color: #221D17;
+     color: #221d17;
      font-weight: 300;
      text-align: center;
      text-transform: uppercase;
@@ -142,6 +142,7 @@
 .ethos h5 {
     text-transform: uppercase;
     letter-spacing: 2px;
+    margin-top: 12px;
 }
 .ethos p {
     letter-spacing: 1px;
@@ -153,7 +154,7 @@
 }
 /*----------------------------------Testimonials Speech Bubble*/
  .quotes h3 {
-     color: #221D17;
+     color: #221d17;
      font-weight: 300;
      text-align: center;
      text-transform: uppercase;
@@ -162,8 +163,8 @@
 .testimonial-content {
      padding: 18px 24px 8px 36px;
      margin: 24px 24px 24px 24px;
-     background-image: linear-gradient(to bottom right,rgba(242, 242, 242, 0.6),rgba(89, 71, 37, 0.4));
-     border: 1px solid #221D17;
+     background-image: linear-gradient(to top left,rgba(242, 242, 242, 0.9),rgba(89, 71, 37, 0.1));
+     border: 1px solid #221d17;
      border-radius: 48px 48px 48px 48px;
      position: relative;
 }
@@ -176,7 +177,7 @@
      text-align: center;
      font-size: 100%;
      line-height: 36px;
-     color: #221D17;
+     color: #221d17;
      top: -8px;
      left: -12px;
      position: absolute;
@@ -189,7 +190,7 @@
 /*---------------------------------------------Cards*/
 .card {
      margin-top: 24px;
-     border-color: #221D17;;
+     border-color: #221d17;;
      background-color: inherit;
      text-align: center;
      text-transform: uppercase;
@@ -209,13 +210,13 @@
 }
 /*---------------------------------Enquiries Form*/
  .form-control {
-     border-color: #221D17;
+     border-color: #221d17;
      letter-spacing: 1px;
-     background-color: #f2f2f2;
-     margin-bottom: 12px;
+     background-color:#fffff0;
+     margin-bottom: 2px;
 }
  .contact-heading {
-     color: #221D17;
+     color: #221d17;
      font-weight: 300;
      letter-spacing: 2px;
      margin-top: 25px;
@@ -228,8 +229,8 @@
 }
 /*------------------------------------Enquiries Form Modal*/
  .modal-content {
-     background-color: #F2F2F2;
-     color: #221D17;
+     background-color:#fffff0;
+     color: #221d17;
 }
  .modal-header {
      border: none;
@@ -238,34 +239,40 @@
     border: none;
 }
 /*-------------------------------- Resources*/
- .resources h3 {
+ .resources-heading {
      margin-top: 24px;
-     color: #221D17;
+     color: #221d17;
      font-weight: 300;
      text-align: center;
      text-transform: uppercase;
      letter-spacing: 2px;
  }
- .resources h5 {
-       text-transform: uppercase;
-     font-weight: 300;
-     padding:0 6px 0 6px;
- }
- .resources p {
+ .resources-subheading{
+     text-transform: uppercase;
      text-align: center;
      font-size: 16px;
      letter-spacing: 1px;
      padding: 0 14px 0 14px;
  }
+ .table-heading {
+     text-transform: uppercase;
+     font-weight: 300;
+     padding:0 6px 0 6px;
+ }
+ .table-item {
+     text-align: center;
+     font-size: 16px;
+     padding: 0 14px 0 14px;
+ }
 .table {
-      color: #221D17;
+      color: #221d17;
  }
  .resources td a {
      text-decoration: none;
-     color: #221D17;
+     color: #221d17;
 }
  .resources a:hover {
-     border-bottom: 1px solid #221D17;
+     border-bottom: 1px solid #221d17;
 }/* h5 {
      text-transform: uppercase;
      font-weight: 300;
@@ -377,19 +384,19 @@ body .audio-container .player .progress-box .progress-cell {
   position: relative;
 }
 body .audio-container .player .progress-box .progress-cell .progress {
-  background: rgb(240, 229, 229);
+  background: #fffff0;
   border: 1px solid #751f1e;
   height: 8px;
   position: relative;
   width: auto;
 }
 body .audio-container .player .progress-box .progress-cell .progress .progress-buffer {
-  background: #751f1e;
+  background: #fffff0;
   height: 100%;
   width: 0;
 }
 body .audio-container .player .progress-box .progress-cell .progress .progress-indicator {
-  background: rgb(240, 229, 229);
+  background: #fffff0;
   border: 1px solid #751f1e;
   border-radius: 3px;
   cursor: pointer;
@@ -443,7 +450,7 @@ body .audio-container .play-list .play-list-row {
   width: 100%;
 }
 body .audio-container .play-list .play-list-row .track-title .playlist-track {
-  color: #221D17;
+  color: #221d17;
   text-decoration: none;
 }
 body .audio-container .play-list .play-list-row .track-title .playlist-track:hover {

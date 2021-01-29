@@ -5,18 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Piano Lessons with Greg Kaighin | Music</title>
+   <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <!-- Font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,400;1,300&display=swap"
         rel="stylesheet">
+    <!-- CSS Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 </head>
 
 <body>
-<!-- Header -->
+    <!-- Header -->
     <header>
+        <!-- Navbar -->
         <div class="container">
-        <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+            <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
                 <a class="navbar-brand js-scroll-trigger" href="index.html">
                     <h1 class="logo">Piano Lessons</h1>
                     <h5>with Greg Kaighin</h5>
@@ -32,7 +36,8 @@
                             <a class="nav-link js-scroll-trigger" href="index.html"><i class="fas fa-home"></i> Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="music.html"><i class="fas fa-headphones-alt"></i> Music</a>
+                            <a class="nav-link js-scroll-trigger" href="music.html"><i
+                                    class="fas fa-headphones-alt"></i> Music</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link js-scroll-trigger" href="resources.html"><i class="fas fa-book-open"></i>
@@ -44,18 +49,21 @@
                         </li>
                     </ul>
                 </div>
-        </nav>
-         </div>
-    </header>
-    <!-- .Header -->
-    <!-- Hero image -->
-        <div class="jumbotron jumbotron-fluid hero-image">
-            <div class="container overlay-shape overlay-text">
-                <h4 class="display-8">Take a Listen</h4>
-                <p>Please enjoy</p>
-            </div>
+            </nav>
         </div>
-    <!-- .Hero image -->
+    </header>
+    <!-- Hero image -->
+    <div class="jumbotron jumbotron-fluid hero-image">
+        <div class="container overlay-shape overlay-text">
+            <h4 class="display-8">Take a Listen</h4>
+            <p>Please enjoy</p>
+        </div>
+    </div>
+
+
+
+
+
     <!-- Audio Player -- https://codepen.io/craigstroman/pen/aOyRYx -->
     <div class="container audio-container">
         <audio id="audio" preload="none" tabindex="0">
@@ -80,7 +88,7 @@
                 <div class="track-info-box">
                     <div class="track-title-text"></div>
                     <div class="audio-time">
-                        <span class="current-time">00:00</span> /
+                        <span class="current-time">00:00</span>
                         <span class="duration">00:00</span>
                     </div>
                 </div>
@@ -111,12 +119,13 @@
                     1.
                 </div>
                 <div class="track-title">
-                    <a class="playlist-track" href="assets/music/prelude-in-c-sharp-min.mp3" data-play-track="1">Prelude in c#
+                    <a class="playlist-track" href="assets/music/prelude-in-c-sharp-min.mp3" data-play-track="1">Prelude
+                        in c#
                         minor - Sergei Rachmaninoff</a>
                 </div>
                 <div class="track-info">
-                            <p>Greg Kaighin</p>
-                        </div>
+                    <p>Greg Kaighin</p>
+                </div>
             </div>
             <div class="play-list-row" data-track-row="2">
                 <div class="small-toggle-btn">
@@ -126,11 +135,12 @@
                     2.
                 </div>
                 <div class="track-title">
-                    <a class="playlist-track" href="assets/music/maple-leaf-rag.mp3" data-play-track="2">Maple Leaf Rag - Scott Joplin</a>
+                    <a class="playlist-track" href="assets/music/maple-leaf-rag.mp3" data-play-track="2">Maple Leaf Rag
+                        - Scott Joplin</a>
                 </div>
                 <div class="track-info">
-                            <p>Greg Kaighin</p>
-                        </div>
+                    <p>Greg Kaighin</p>
+                </div>
             </div>
             <div class="play-list-row" data-track-row="3">
                 <div class="small-toggle-btn">
@@ -144,8 +154,8 @@
                         Entertainer - Scott Joplin</a>
                 </div>
                 <div class="track-info">
-                            <p>Greg Kaighin</p>
-                        </div>
+                    <p>Greg Kaighin</p>
+                </div>
             </div>
             <div class="play-list-row" data-track-row="4">
                 <div class="small-toggle-btn">
@@ -159,31 +169,74 @@
                         Pieces - Average White Band</a>
                 </div>
                 <div class="track-info">
-                            <p>Kaighin Family</p>
-                        </div>
+                    <p>Kaighin Family</p>
+                </div>
             </div>
-            
+        </div>
+    </div>
     </section>
-    <!-- .Audio Player -->
-  
-      <!-- Footer -->
+    <!-- .Audio Player https://codepen.io/craigstroman/pen/aOyRYx-->
+
+
+
+
+
+    <!-- Footer -->
     <footer>
-        
+        <!-- Cards -->
+        <section id="cards">
+            <div class="card-deck px-auto">
+                <div class="card">
+                    <img class="card-img-top" src="assets/images/card-online.jpg" alt="A person using a laptop">
+                    <div class="card-body">
+                        <h5 class="card-title">Online</h5>
+                        <p class="card-text">£15<br>30 minutes</p>
+                        <p class="card-text">£30<br>1 hour</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="assets/images/card-home-piano.jpg" alt="A piano in a room">
+                    <div class="card-body">
+                        <h5 class="card-title">In Your Home</h5>
+                        <p class="card-text"> £16<br>30 minutes</p>
+                        <p class="card-text">£32<br>1 hour</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="assets/images/card-band.jpg" alt="A band on stage">
+                    <div class="card-body">
+                        <h5 class="card-title">Workshops</h5>
+                        <p class="card-text">Pop and jazz</p>
+                        <p class="card-text">Learn how to play in a group</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="assets/images/card-piano-keyboard-art.jpg" alt="A piano keyboard">
+                    <div class="card-body">
+                        <h5 class="card-title">Additional Subjects</h5>
+                        <p class="card-text">Music theory</p>
+                        <p class="card-text">Music technology</p>
+                    </div>
+                </div>
+            </div>
+        </section>
         <div class="row social-networks justify-content-center">
             <div class="col-4"><a href="https://www.linkedin.com/in/gregorykaighin/" target="_blank">
-                    <i class="linked-in-icon fab fa-linkedin"></i></a>
+                    <i class="fab fa-linkedin linked-in-icon"></i></a>
             </div>
             <div class="col-4 youtube-icon"><a href="https://www.youtube.com" target="_blank">
-                    <i class="youtube-icon fab fa-youtube"></i></a>
+                    <i class="fab fa-youtube youtube-icon"></i></a>
             </div>
         </div>
     </footer>
-    <!-- Footer -->
 
+    <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/bd2b28ab92.js"></script>
+    <!-- Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <!-- JavaScript -->
     <script type="text/javascript" src="js/scripts.js"></script>
 </body>
 
