@@ -1,4 +1,4 @@
-var audioPlayer = function () {
+var audioPlayer = function() {
     "use strict";
 
     // Private variables
@@ -20,19 +20,19 @@ var audioPlayer = function () {
      * Initializes the html5 audio player and the playlist.
      *
      **/
-    var initPlayer = function () {
+    var initPlayer = function() {
 
         if (_currentTrack === 1 || _currentTrack === null) {
             _elements.playerButtons.previousTrackBtn.disabled = true;
         }
-        
+
         //Adding event listeners to playlist clickable elements.
         for (var i = 0; i < _elements.playListRows.length; i++) {
             var smallToggleBtn = _elements.playerButtons.smallToggleBtn[i];
             var playListLink = _elements.playListRows[i].children[2].children[0];
-            
+
             //Playlist link clicked.
-            playListLink.addEventListener("click", function (e) {
+            playListLink.addEventListener("click", function(e) {
                 e.preventDefault();
                 var selectedTrack = parseInt(this.parentNode.parentNode.getAttribute("data-track-row"));
 
@@ -49,9 +49,9 @@ var audioPlayer = function () {
                     _playBack(this);
                 }
             }, false);
-           
+
             //Small toggle button clicked.
-            smallToggleBtn.addEventListener("click", function (e) {
+            smallToggleBtn.addEventListener("click", function(e) {
                 e.preventDefault();
                 var selectedTrack = parseInt(this.parentNode.getAttribute("data-track-row"));
 
@@ -72,14 +72,14 @@ var audioPlayer = function () {
         }
         //Audio time has changed so update it.
         _elements.audio.addEventListener("timeupdate", _trackTimeChanged, false);
-       
+
         //Audio track has ended playing.
-        _elements.audio.addEventListener("ended", function (e) {
+        _elements.audio.addEventListener("ended", function(e) {
             _trackHasEnded();
         }, false);
-        
+
         //Audio error. 
-        _elements.audio.addEventListener("error", function (e) {
+        _elements.audio.addEventListener("error", function(e) {
             switch (e.target.error.code) {
                 case e.target.error.MEDIA_ERR_ABORTED:
                     alert('You aborted the video playback.');
@@ -100,9 +100,9 @@ var audioPlayer = function () {
             trackLoaded = false;
             _resetPlayStatus();
         }, false);
-      
+
         //Large toggle button clicked.
-        _elements.playerButtons.largeToggleBtn.addEventListener("click", function (e) {
+        _elements.playerButtons.largeToggleBtn.addEventListener("click", function(e) {
             if (_trackLoaded === false) {
                 _currentTrack = parseInt(1);
                 _setTrack();
@@ -110,9 +110,9 @@ var audioPlayer = function () {
                 _playBack();
             }
         }, false);
-      
+
         //Next track button clicked.
-        _elements.playerButtons.nextTrackBtn.addEventListener("click", function (e) {
+        _elements.playerButtons.nextTrackBtn.addEventListener("click", function(e) {
             if (this.disabled !== true) {
                 _currentTrack++;
                 _trackLoaded = false;
@@ -120,9 +120,9 @@ var audioPlayer = function () {
                 _setTrack();
             }
         }, false);
-      
+
         //Previous track button clicked.
-        _elements.playerButtons.previousTrackBtn.addEventListener("click", function (e) {
+        _elements.playerButtons.previousTrackBtn.addEventListener("click", function(e) {
             if (this.disabled !== true) {
                 _currentTrack--;
                 _trackLoaded = false;
@@ -131,12 +131,12 @@ var audioPlayer = function () {
             }
         }, false);
     };
-   
+
     /**
      * Controls playback of the audio element.
      *
      **/
-    var _playBack = function () {
+    var _playBack = function() {
         if (_elements.audio.paused) {
             _elements.audio.play();
             _updatePlayStatus(true);
@@ -147,12 +147,12 @@ var audioPlayer = function () {
             document.title = document.title.substr(2);
         }
     };
-   
+
     /**
      * Sets the track if it hasn't already been loaded yet.
      *
      **/
-    var _setTrack = function () {
+    var _setTrack = function() {
         var songURL = _elements.audio.children[_currentTrack - 1].src;
 
         _elements.audio.setAttribute("src", songURL);
@@ -168,28 +168,28 @@ var audioPlayer = function () {
 
         _playBack();
     };
-   
+
     /**
      * Sets the activly playing item within the playlist.
      *
      * @param currentTrack The current track number being played.
      * @param playListRows The playlist object.
      **/
-    var _setActiveItem = function (currentTrack, playListRows) {
+    var _setActiveItem = function(currentTrack, playListRows) {
         for (var i = 0; i < playListRows.length; i++) {
             playListRows[i].children[2].className = "track-title";
         }
 
         playListRows[currentTrack - 1].children[2].className = "track-title active-track";
     };
-   
+
     /**
      * Sets the text for the currently playing song.
      *
      * @param currentTrack The current track number being played.
      * @param playListRows The playlist object.
      **/
-    var _setTrackTitle = function (currentTrack, playListRows) {
+    var _setTrackTitle = function(currentTrack, playListRows) {
         var trackTitleBox = document.querySelector(".player .info-box .track-info-box .track-title-text");
         var trackTitle = playListRows[currentTrack - 1].children[2].outerText;
 
@@ -199,12 +199,12 @@ var audioPlayer = function () {
 
         document.title = trackTitle;
     };
-  
+
     /**
      * Plays the next track when a track has ended playing.
      *
      **/
-    var _trackHasEnded = function () {
+    var _trackHasEnded = function() {
         parseInt(_currentTrack);
         _currentTrack = (_currentTrack === _elements.playListRows.length) ? 1 : _currentTrack + 1;
         _trackLoaded = false;
@@ -213,12 +213,12 @@ var audioPlayer = function () {
 
         _setTrack();
     };
-   
+
     /**
      * Updates the time for the song being played.
      *
      **/
-    var _trackTimeChanged = function () {
+    var _trackTimeChanged = function() {
         var currentTimeBox = document.querySelector(".player .info-box .track-info-box .audio-time .current-time");
         var currentTime = audio.currentTime;
         var duration = audio.duration;
@@ -232,7 +232,7 @@ var audioPlayer = function () {
         durationBox.innerHTML = null;
         durationBox.innerHTML = trackDuration;
     };
-   
+
     /**
      * A utility function for converting a time in miliseconds to a readable time of minutes and seconds.
      *
@@ -240,7 +240,7 @@ var audioPlayer = function () {
      *
      * @return time The time in minutes and/or seconds.
      **/
-    var _trackTime = function (seconds) {
+    var _trackTime = function(seconds) {
         var min = 0;
         var sec = Math.floor(seconds);
         var time = 0;
@@ -257,13 +257,13 @@ var audioPlayer = function () {
 
         return time;
     };
-   
+
     /**
      * Updates both the large and small toggle buttons accordingly.
      *
      * @param audioPlaying A booean value indicating if audio is playing or paused.
      **/
-    var _updatePlayStatus = function (audioPlaying) {
+    var _updatePlayStatus = function(audioPlaying) {
         if (audioPlaying) {
             _elements.playerButtons.largeToggleBtn.children[0].className = "large-pause-btn";
 
@@ -287,12 +287,12 @@ var audioPlayer = function () {
             _elements.playerButtons.nextTrackBtn.className = "next-track-btn disabled";
         }
     };
-    
+
     /**
      * Resets all toggle buttons to be play buttons.
      *
      **/
-    var _resetPlayStatus = function () {
+    var _resetPlayStatus = function() {
         var smallToggleBtn = _elements.playerButtons.smallToggleBtn;
 
         _elements.playerButtons.largeToggleBtn.children[0].className = "large-play-btn";
@@ -309,7 +309,7 @@ var audioPlayer = function () {
     };
 };
 
-(function () {
+(function() {
     var player = new audioPlayer();
 
     player.initPlayer();

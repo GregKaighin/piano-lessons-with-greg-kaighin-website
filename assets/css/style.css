@@ -44,7 +44,7 @@
 /*---------------------------------Hero Image*/
  .hero-image {
      margin-top: 100px;
-     height: 50vh;
+     height: 34vh;
      background-color:#fffff0;
      background: url("../images/hero-image-piano-art.jpg");
      background-position: center;
@@ -54,18 +54,18 @@
      position: relative;
 }
 /*------------------------------------Hero Image Overlay Shape*/
- .hero-image .overlay-shape {
+.hero-image .overlay-shape {
      width: 240px;
      height: 100px;
      color: #221d17;
      background-image: radial-gradient( rgba(255, 255, 244, 0.9),rgba(89, 71, 37, 0.9));
      bottom: 48px;
-     left: 60px;
+     left: 48px;
      border-radius: 48px 48px 48px 48px;
      position: absolute;
 }
 /*------------------------------------Hero Image Overlay Text*/
- .overlay-text {
+.overlay-text {
      text-align: center;
      text-transform: uppercase;
      padding: 10px;
@@ -73,7 +73,7 @@
      letter-spacing: 2px;
 }
 /*------------------------------------About Me*/
- .about-me {
+.about-me {
      margin-top: 24px;
      text-align: center;
 }
@@ -148,11 +148,11 @@
     letter-spacing: 1px;
     font-weight: 400;
 }
-/*---------------------------------Testimonials*/
+/*---------------------------------Testimonials Text*/
  .quotes {
      font-weight: 300;
 }
-/*----------------------------------Testimonials Speech Bubble*/
+
  .quotes h3 {
      color: #221d17;
      font-weight: 300;
@@ -160,11 +160,16 @@
      text-transform: uppercase;
      letter-spacing: 2px;
  }
-.testimonial-content {
+  .testimonial .description {
+     font-style: italic;
+     letter-spacing: 1px;
+}
+ /*----------------------------------Testimonials Speech Bubble*/
+.testimonial-bubble {
      padding: 18px 24px 8px 36px;
      margin: 24px 24px 24px 24px;
      background-image: linear-gradient(to top left,rgba(242, 242, 242, 0.9),rgba(89, 71, 37, 0.1));
-     border: 1px solid #221d17;
+     border: 1px solid rgb(34, 29, 23);
      border-radius: 48px 48px 48px 48px;
      position: relative;
 }
@@ -183,10 +188,7 @@
      position: absolute;
 }
 /*------------------------------------Testimonials Quote Text*/
- .testimonial .description {
-     font-style: italic;
-     letter-spacing: 1px;
-}
+
 /*---------------------------------------------Cards*/
 .card {
      margin-top: 24px;
@@ -195,9 +197,6 @@
      text-align: center;
      text-transform: uppercase;
      padding: 6px;
-}
-.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto .info-card{
-    padding:12px;
 }
 /*------------------------------------Footer*/
  .social-networks {
