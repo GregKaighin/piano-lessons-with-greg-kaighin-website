@@ -185,6 +185,9 @@
      left: -12px;
      position: absolute;
 }
+.social-btns{
+      text-align: center;
+     }
 /*---------------------------------------------Cards*
 .card {
      margin-top: 24px;
@@ -194,17 +197,18 @@
      text-transform: uppercase;
      padding: 6px;
 }
-/*------------------------------------Footer*
- .social-networks {
-     margin-top: 24px;
-     font-size: 240%;
-     text-align: center;   
+/*------------------------------------Footer*/
+.social-links {
+    font-size: 240%;
+    text-align: center;
 }
- .linkedin-icon {
+.linkedin-icon {
      color: #0e76a8;
+     margin-right: 36px;
 }
 .youtube-icon {
     color: #ff0000;
+    margin-left: 36px;
 }
 /*---------------------------------Enquiries Form*
  .form-control {
