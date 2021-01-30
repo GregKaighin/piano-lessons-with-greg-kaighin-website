@@ -1,7 +1,13 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+ 
  body {
      font-family: 'Karla', sans-serif;
      color: #221d17;
      background-color:#fffff0;
+     margin: 0 auto;
  }
 /*------------------------------------Navbar Colours*/
  .navbar-light {
@@ -32,7 +38,7 @@
 /*------------------------------------Navbar Toggler Colours and Hover Underscore*/
  .navbar-light .navbar-toggler {
      border-color: #751f1e;
-     background: linear-gradient(to bottom right,rgba(242, 228, 201, 0.25),rgb(242,145,153, 0.25));
+     background: linear-gradient(to bottom right,rgba(255, 255, 240, 0.25),rgb(242,145,153, 0.25));
 }
  .navbar-light .navbar-nav .nav-link:hover {
      color: #221d17;
@@ -145,6 +151,7 @@
 .ethos p {
     letter-spacing: 1px;
     font-weight: 400;
+    margin: 4px 0 4px 0;
 }
 /*---------------------------------Testimonials Text*/
  .quotes {
@@ -272,7 +279,7 @@
  .resources a:hover {
      border-bottom: 1px solid #221d17;
 }
-/*----------------------------------Audio player -- https://codepen.io/craigstroman/pen/aOyRYx*/
+/*----------------------------------Audio player -- https://codepen.io/craigstroman/pen/aOyRYx*
 .screen-reader-text {
   position: absolute;
   top: -9999px;
