@@ -15,7 +15,7 @@
 }
 /*------------------------------------Navbar Brand and Link Colours*/
 .logo {
-     font-size: 130%;
+     font-size: 132%;
 }
  .navbar-light .navbar-brand {
      color: #221d17;
@@ -78,6 +78,7 @@
      text-align: center;
 }
 .about-me h3 {
+    font-size: 140%;
      color: #221d17;
      text-align: center;
      text-transform: uppercase;
@@ -131,6 +132,7 @@
      overflow: hidden;
 }
 .ethos h3 {
+    font-size: 140%;
      margin-top: 24px;
      color: #221d17;
      
@@ -149,6 +151,7 @@
 }
 /*---------------------------------Testimonials Text*/
  .quotes h3 {
+     font-size: 140%;
      margin-top: 24px;
      color: #221d17;
      
