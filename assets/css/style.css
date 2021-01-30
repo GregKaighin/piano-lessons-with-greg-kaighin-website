@@ -85,8 +85,6 @@
      letter-spacing: 2px;
 }
 .about-me p {
-    margin-top: 24px;
-    padding: 0 14px 0 14px;
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 1px;
@@ -187,8 +185,6 @@
      left: -12px;
      position: absolute;
 }
-/*------------------------------------Testimonials Quote Text*/
-
 /*---------------------------------------------Cards*/
 .card {
      margin-top: 24px;
@@ -276,7 +272,7 @@
  .resources a:hover {
      border-bottom: 1px solid #221d17;
 }
-/*---------------------------------- Audio player -- https://codepen.io/craigstroman/pen/aOyRYx --*/
+/*----------------------------------Audio player -- https://codepen.io/craigstroman/pen/aOyRYx*/
 .screen-reader-text {
   position: absolute;
   top: -9999px;
@@ -298,10 +294,9 @@ body .container {
 }
 body .container .player {
   height: 60px;
-  margin: 0;
-  position: relative;
   width: 67vw;
 }
+/*----------------------------------Buttons*/
 body .container .player .large-toggle-btn {
   border: 1px solid #751f1e;
   border-radius: 1px;
@@ -335,6 +330,7 @@ body .container .player .large-toggle-btn .large-pause-btn:before {
   content: "\f04c";
   font: 1.5em/1.75 "FontAwesome";
 }
+/*------------------------------------Info Box*/
 body .container .player .info-box {
   bottom: 10px;
   left: 65px;
@@ -367,6 +363,7 @@ body .container .player .info-box .track-info-box:after {
   height: 0;
   visibility: hidden;
 }
+/*------------------------------------Controls*/
 body .container .player .controls-box {
   top: -2px;
   left: 10px;
@@ -399,6 +396,7 @@ body .container .player:after {
   height: 0;
   visibility: hidden;
 }
+/*------------------------------------Playlist*/
 body .container .play-list {
   display: block;
   margin: 0 auto;
@@ -469,6 +467,6 @@ body .container .play-list .play-list-row:after {
   height: 0;
   visibility: hidden;
 }
-/*---------------------------------- .Audio player*/
+/*---------------------------------- .Audio player -- https://codepen.io/craigstroman/pen/aOyRYx*/
 
  
