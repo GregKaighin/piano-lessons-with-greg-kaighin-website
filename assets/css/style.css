@@ -1,7 +1,7 @@
  body {
      font-family: 'Karla', sans-serif;
      color: #221d17;
-     background-color:#f2f2f2;
+     background-color:#fffff0;
  }
 /*------------------------------------Navbar Colours*/
  .navbar-light {
@@ -45,7 +45,7 @@
  .hero-image {
      margin-top: 100px;
      height: 34vh;
-     background-color:#f2f2f2;
+     background-color:#fffff0;
      background: url("../images/hero-image-piano-art.jpg");
      background-position: center;
      background-size: cover;
@@ -58,7 +58,7 @@
      width: 240px;
      height: 100px;
      color: #221d17;
-     background-image: radial-gradient( rgba(255, 255, 244, 0.9),rgba(89, 71, 37, 0.9));
+     background-image: radial-gradient( rgba(255, 255, 240, 0.9),rgba(89, 71, 37, 0.9));
      bottom: 48px;
      left: 48px;
      border-radius: 48px 48px 48px 48px;
@@ -92,7 +92,7 @@
 /*------------------------------------Buttons*/
  .btn-light {
      color: #221d17;
-     background: linear-gradient(to bottom right,rgba(242,228,201, 0.25),rgb(242,145,153, 0.25));
+     background: linear-gradient(to bottom right,rgba(255, 255, 240, 0.25),rgb(242,145,153, 0.25));
      border-color: #751f1e;
      margin-top: 8px;
      text-transform: uppercase;
@@ -100,12 +100,12 @@
 }
  .btn-light:hover, .btn-light:focus {
      color: #221D17;
-     background: linear-gradient(to bottom right,rgba(242,228,201, 0.25),rgb(242,145,153, 0.25));
+     background: linear-gradient(to bottom right,rgba(255, 255, 240, 0.25),rgb(242,145,153, 0.25));
      border-color: #751f1e;
 }
  .btn-light:active {
      color: #221D17;
-     background: linear-gradient(to bottom right,rgba(242,228,201, 0.25),rgb(34,29,23, 0.25));
+     background: linear-gradient(to bottom right,rgba(255, 255, 240, 0.25),rgb(34,29,23, 0.25));
      border-color: #751f1e;
 }
 .btn-light:focus {
@@ -166,7 +166,7 @@
 .testimonial-bubble {
      padding: 18px 24px 8px 36px;
      margin: 24px 24px 24px 24px;
-     background-image: linear-gradient(to top left,rgba(242, 242, 242, 0.9),rgba(89, 71, 37, 0.1));
+     background-image: linear-gradient(to top left,rgba(255, 255, 240, 0.9),rgba(89, 71, 37, 0.1));
      border: 1px solid rgb(34, 29, 23);
      border-radius: 48px 48px 48px 48px;
      position: relative;
@@ -175,7 +175,7 @@
  .testimonial-icon {
      width: 36px;
      height: 36px;
-     background-image: radial-gradient( rgb(242, 242, 242),rgb(89, 71, 37));
+     background-image: radial-gradient( rgb(255, 255, 240),rgb(89, 71, 37));
      border-radius: 48px 48px 0 48px;
      text-align: center;
      font-size: 100%;
@@ -210,7 +210,7 @@
  .form-control {
      border-color: #221d17;
      letter-spacing: 1px;
-     background-color:#f2f2f2;
+     background-color:#fffff0;
      margin-bottom: 2px;
 }
  .contact-heading {
@@ -227,7 +227,7 @@
 }
 /*------------------------------------Enquiries Form Modal*/
  .modal-content {
-     background-color:#f2f2f2;
+     background-color:#fffff0;
      color: #221d17;
 }
  .modal-header {
