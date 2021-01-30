@@ -9,8 +9,9 @@
      text-transform: uppercase;
      letter-spacing: 2px;
 }
- .bg-ivory {
-     background-color:#fffff0;
+ .bg-ivory{
+     background-color: #fffff0;
+      background: linear-gradient(to bottom right,#fffff0, #fffff0);
 }
 /*------------------------------------Navbar Brand and Link Colours*/
 .logo {
