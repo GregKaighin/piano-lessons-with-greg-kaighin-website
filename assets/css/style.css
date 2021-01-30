@@ -1,22 +1,16 @@
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
- 
  body {
      font-family: 'Karla', sans-serif;
      color: #221d17;
      background-color:#fffff0;
-     margin: 0 auto;
  }
 /*------------------------------------Navbar Colours*/
  .navbar-light {
      color: #221d17;
      text-transform: uppercase;
      letter-spacing: 2px;
-     font-weight: 300;
 }
- .bg-light {
+ .bg-ivory {
+     background-color:#fffff0;
      opacity: 0.9;
 }
 /*------------------------------------Navbar Brand and Link Colours*/
@@ -85,7 +79,7 @@ html, body {
 }
 .about-me h3 {
      color: #221d17;
-     font-weight: 300;
+     
      text-align: center;
      text-transform: uppercase;
      letter-spacing: 2px;
@@ -133,12 +127,14 @@ html, body {
 }
 /*----------------------------------Ethos*/
  .ethos {
-     margin-top: 24px;
+     padding:4px;
      text-align: center;
+     overflow: hidden;
 }
 .ethos h3 {
+    margin-top: 24px;
      color: #221d17;
-     font-weight: 300;
+     
      text-align: center;
      text-transform: uppercase;
      letter-spacing: 2px;
@@ -154,13 +150,10 @@ html, body {
     margin: 4px 0 4px 0;
 }
 /*---------------------------------Testimonials Text*/
- .quotes {
-     font-weight: 300;
-}
-
  .quotes h3 {
+     margin-top: 24px;
      color: #221d17;
-     font-weight: 300;
+     
      text-align: center;
      text-transform: uppercase;
      letter-spacing: 2px;
@@ -192,7 +185,7 @@ html, body {
      left: -12px;
      position: absolute;
 }
-/*---------------------------------------------Cards*/
+/*---------------------------------------------Cards*
 .card {
      margin-top: 24px;
      border-color: #221d17;
@@ -201,7 +194,7 @@ html, body {
      text-transform: uppercase;
      padding: 6px;
 }
-/*------------------------------------Footer*/
+/*------------------------------------Footer*
  .social-networks {
      margin-top: 24px;
      font-size: 240%;
@@ -213,7 +206,7 @@ html, body {
 .youtube-icon {
     color: #ff0000;
 }
-/*---------------------------------Enquiries Form*/
+/*---------------------------------Enquiries Form*
  .form-control {
      border-color: #221d17;
      letter-spacing: 1px;
@@ -222,7 +215,7 @@ html, body {
 }
  .contact-heading {
      color: #221d17;
-     font-weight: 300;
+     
      letter-spacing: 2px;
      margin-top: 25px;
      margin-bottom: 20px;
@@ -232,7 +225,7 @@ html, body {
      margin: 0 auto;
      max-width: 67%;
 }
-/*------------------------------------Enquiries Form Modal*/
+/*------------------------------------Enquiries Form Modal*
  .modal-content {
      background-color:#fffff0;
      color: #221d17;
@@ -243,11 +236,11 @@ html, body {
  .modal-footer {
     border: none;
 }
-/*-------------------------------- Resources*/
+/*-------------------------------- Resources*
  .resources-heading {
      margin-top: 24px;
      color: #221d17;
-     font-weight: 300;
+     
      text-align: center;
      text-transform: uppercase;
      letter-spacing: 2px;
@@ -261,7 +254,7 @@ html, body {
  }
  .table-heading {
      text-transform: uppercase;
-     font-weight: 300;
+     
      padding:0 6px 0 6px;
  }
  .table-item {
@@ -303,7 +296,7 @@ body .container .player {
   height: 60px;
   width: 67vw;
 }
-/*----------------------------------Buttons*/
+/*----------------------------------Buttons*
 body .container .player .large-toggle-btn {
   border: 1px solid #751f1e;
   border-radius: 1px;
@@ -337,7 +330,7 @@ body .container .player .large-toggle-btn .large-pause-btn:before {
   content: "\f04c";
   font: 1.5em/1.75 "FontAwesome";
 }
-/*------------------------------------Info Box*/
+/*------------------------------------Info Box*
 body .container .player .info-box {
   bottom: 10px;
   left: 65px;
@@ -370,7 +363,7 @@ body .container .player .info-box .track-info-box:after {
   height: 0;
   visibility: hidden;
 }
-/*------------------------------------Controls*/
+/*------------------------------------Controls*
 body .container .player .controls-box {
   top: -2px;
   left: 10px;
@@ -403,7 +396,7 @@ body .container .player:after {
   height: 0;
   visibility: hidden;
 }
-/*------------------------------------Playlist*/
+/*------------------------------------Playlist*
 body .container .play-list {
   display: block;
   margin: 0 auto;
