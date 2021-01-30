@@ -1,7 +1,9 @@
  body {
      font-family: 'Karla', sans-serif;
      color: #221d17;
-     background-color:#fffff0;
+     background-color:#f2f2f2;
+     width: 100%;
+     overflow-x: hidden;
 }
 /*------------------------------------Navbar Colours*/
  .navbar-light {
@@ -45,7 +47,7 @@
  .hero-image {
      margin-top: 100px;
      height: 34vh;
-     background-color:#fffff0;
+     background-color:#f2f2f2;
      background: url("../images/hero-image-piano-art.jpg");
      background-position: center;
      background-size: cover;
@@ -210,7 +212,7 @@
  .form-control {
      border-color: #221d17;
      letter-spacing: 1px;
-     background-color:#fffff0;
+     background-color:#f2f2f2;
      margin-bottom: 2px;
 }
  .contact-heading {
@@ -227,7 +229,7 @@
 }
 /*------------------------------------Enquiries Form Modal*/
  .modal-content {
-     background-color:#fffff0;
+     background-color:#f2f2f2;
      color: #221d17;
 }
  .modal-header {
