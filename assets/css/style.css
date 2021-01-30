@@ -50,6 +50,7 @@
      background-position: center;
      background-size: cover;
      background-repeat: no-repeat;
+     background-attachment: fixed;
      position: relative;
 }
 /*------------------------------------Hero Image Overlay Shape*/
@@ -187,7 +188,10 @@
 .social-btns{
       text-align: center;
      }
-/*---------------------------------------------Cards*
+/*---------------------------------------------Cards*/
+.row {
+    margin: 0;
+}
 .card {
      margin-top: 24px;
      border-color: #221d17;
