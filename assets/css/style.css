@@ -9,12 +9,11 @@
      text-transform: uppercase;
      letter-spacing: 2px;
      border: 1px solid rgb(34, 29, 23);
-     
 }
  .bg-ivory{
      background-color: #fffff0;
      background: linear-gradient(to bottom right,#fffff0, #fffff0);
-     opacity: 0.95;
+     opacity: 0.97;
 }
 /*------------------------------------Navbar Brand and Link Colours*/
 .logo {
@@ -31,6 +30,19 @@
 }
  .navbar-light .navbar-nav .nav-link:hover {
      color: #221d17;
+}
+/*------------------------------------Font Awesome Icon Colours*/
+i.fas.fa-home {
+    color: #8b0000
+}
+i.fas.fa-headphones-alt {
+    color: #006400;
+}
+i.fas.fa-book-open {
+    color: #000080;
+}
+i.fas.fa-comment {
+    color: #ffa500;
 }
 /*------------------------------------Navbar Toggler Colours and Hover Underscore*/
  .navbar-light .navbar-toggler {
@@ -59,7 +71,7 @@
      height: 100px;
      color: #221d17;
      background-image: linear-gradient(to bottom right,rgb(255, 255, 240, 1),rgb(247, 178, 178));
-     border: 1px solid darkred;
+     border: 1px solid #8b0000;
      border-radius: 36px;
 }
 /*------------------------------------Hero Image Overlay Shape Colour Music*/
@@ -69,7 +81,7 @@
      height: 100px;
      color: #221d17;
       background-image: linear-gradient(to bottom right,rgb(255, 255, 240, 1),rgb(186, 247, 178));
-     border: 1px solid darkgreen;
+     border: 1px solid #006400;
      border-radius: 36px;
 }
 /*------------------------------------Hero Image Overlay Shape Colour Resources*/
@@ -79,7 +91,7 @@
      height: 100px;
      color: #221d17;
      background-image: linear-gradient(to bottom right,rgb(255, 255, 240, 1),rgb(178, 197, 247));
-     border: 1px solid darkblue;
+     border: 1px solid #00008b;
      border-radius: 36px;
 }
 /*------------------------------------Hero Image Overlay Shape Colour Enquiries*/
@@ -89,7 +101,7 @@
      height: 100px;
      color: #221d17;
      background-image: linear-gradient(to bottom right,rgb(255, 255, 240, 1),rgb(247, 240, 178));
-     border: 1px solid orange;
+     border: 1px solid #ffa500;
      border-radius: 36px;
 }
 
@@ -99,7 +111,6 @@
      padding: 8px;
      text-align: center;
      text-transform: uppercase;
-     font-weight: 400;
      letter-spacing: 2px;
 }
 /*------------------------------------About Me*/
@@ -213,7 +224,7 @@
      width: 36px;
      height: 36px;
      background-image: linear-gradient(to bottom right,rgb(255, 255, 240, 1),rgb(247, 178, 178));
-     border: 1px solid darkred;
+     border: 1px solid #8b0000;
      border-radius: 48px 48px 0 48px;
      text-align: center;
      font-size: 100%;
@@ -275,7 +286,7 @@
 /*------------------------------------Enquiries Form Modal*/
  .modal-content {
      background-color:#fffff0;
-     color: #221d17;
+     border: solid 1px #221d17;
 }
  .modal-header {
      border: none;
