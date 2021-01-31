@@ -43,16 +43,10 @@
 }
 /*---------------------------------Hero Image*/
  .hero-image {
-     margin-top: 100px;
-     min-height: 50vh;
-     min-width: 100vw;
-     max-width: 100vw;
-     max-height: 50vh;
      background-color:#fffff0;
-     background: url("../images/piano-hero-space-top-less.jpg");
-     background-position: center;
-     background-size: cover;
-     position: relative;
+     background: url("../images/bigger-top.jpg");
+     background-repeat: repeat-x;
+     background-size: contain;
 }
 /*------------------------------------Hero Image Overlay Shape*/
 .hero-image .overlay-shape {
@@ -61,10 +55,7 @@
      color: #221d17;
      background-image: radial-gradient( rgb(255, 255, 240, 1),rgb(186, 247, 178));
      border: 1px solid darkgreen;
-     top: 0;
-     left: 64px;
      border-radius: 36px;
-     position: absolute;
 }
 /*------------------------------------Hero Image Overlay Text*/
 .overlay-text {
