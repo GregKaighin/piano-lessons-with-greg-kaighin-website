@@ -44,12 +44,14 @@
 /*---------------------------------Hero Image*/
  .hero-image {
      margin-top: 100px;
-     height: 34vh;
+     min-height: 50vh;
+     min-width: 100vw;
+     max-width: 100vw;
+     max-height: 50vh;
      background-color:#fffff0;
-     background: url("../images/hero-piano.jpg");
+     background: url("../images/piano-hero-space-top-less.jpg");
      background-position: center;
      background-size: cover;
-     background-repeat: no-repeat;
      position: relative;
 }
 /*------------------------------------Hero Image Overlay Shape*/
@@ -57,9 +59,10 @@
      width: 240px;
      height: 100px;
      color: #221d17;
-     background-image: radial-gradient( rgb(255, 255, 240, 1),rgba(89, 71, 37, 1));
-     bottom: -24px;
-     left: 48px;
+     background-image: radial-gradient( rgb(255, 255, 240, 1),rgb(186, 247, 178));
+     border: 1px solid darkgreen;
+     top: 0;
+     left: 64px;
      border-radius: 36px;
      position: absolute;
 }
@@ -73,7 +76,6 @@
 }
 /*------------------------------------About Me*/
 .about-me {
-     margin-top: 24px;
      text-align: center;
 }
 .about-me h3 {
@@ -178,7 +180,8 @@
  .testimonial-icon {
      width: 36px;
      height: 36px;
-     background-image: radial-gradient( rgb(255, 255, 240),rgb(89, 71, 37));
+     background-image: radial-gradient( rgb(255, 255, 240),rgb(183, 192, 243));
+     border: 1px solid navy;
      border-radius: 48px 48px 0 48px;
      text-align: center;
      font-size: 100%;
