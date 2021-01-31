@@ -46,11 +46,10 @@
      margin-top: 100px;
      height: 34vh;
      background-color:#fffff0;
-     background: url("../images/hero-image-piano-art.jpg");
+     background: url("../images/hero-piano.jpg");
      background-position: center;
      background-size: cover;
      background-repeat: no-repeat;
-     background-attachment: fixed;
      position: relative;
 }
 /*------------------------------------Hero Image Overlay Shape*/
@@ -58,8 +57,8 @@
      width: 240px;
      height: 100px;
      color: #221d17;
-     background-image: radial-gradient( rgba(255, 255, 240, 0.9),rgba(89, 71, 37, 0.9));
-     bottom: 48px;
+     background-image: radial-gradient( rgb(255, 255, 240, 1),rgba(89, 71, 37, 1));
+     bottom: -24px;
      left: 48px;
      border-radius: 36px;
      position: absolute;
