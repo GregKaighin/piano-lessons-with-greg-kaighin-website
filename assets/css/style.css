@@ -52,19 +52,46 @@
      background-position: center;
 }
 /*------------------------------------Hero Image Overlay Shape*/
-.hero-image .overlay-shape {
+.hero-image .overlay-shape-1 {
      margin-top: 120px;
      width: 240px;
      height: 100px;
      color: #221d17;
-     background-image: linear-gradient(to bottom right,rgb(255, 255, 240, 1),rgb(186, 247, 178));
+     background-image: linear-gradient(to bottom right,rgb(255, 255, 240, 1),rgb(247, 178, 178));
+     border: 1px solid darkred;
+     border-radius: 36px;
+}
+/*------------------------------------Hero Image Overlay Shape Colour Music*/
+.hero-image .overlay-shape-2 {
+     margin-top: 120px;
+     width: 240px;
+     height: 100px;
+     color: #221d17;
+      background-image: linear-gradient(to bottom right,rgb(255, 255, 240, 1),rgb(186, 247, 178));
      border: 1px solid darkgreen;
      border-radius: 36px;
 }
-.take-a-listen-bg-blue {
-     background-image: linear-gradient(to bottom right,rgb(255, 255, 240, 1),rgb(178, 194, 247));
-     border: 1px solid darkgreen;
+/*------------------------------------Hero Image Overlay Shape Colour Resources*/
+.hero-image .overlay-shape-3 {
+     margin-top: 120px;
+     width: 240px;
+     height: 100px;
+     color: #221d17;
+     background-image: linear-gradient(to bottom right,rgb(255, 255, 240, 1),rgb(178, 197, 247));
+     border: 1px solid darkblue;
+     border-radius: 36px;
 }
+/*------------------------------------Hero Image Overlay Shape Colour Enquiries*/
+.hero-image .overlay-shape-4 {
+     margin-top: 120px;
+     width: 240px;
+     height: 100px;
+     color: #221d17;
+     background-image: linear-gradient(to bottom right,rgb(255, 255, 240, 1),rgb(247, 240, 178));
+     border: 1px solid orange;
+     border-radius: 36px;
+}
+
 /*------------------------------------Hero Image Overlay Text*/
 .overlay-text {
     margin-top: 0;
