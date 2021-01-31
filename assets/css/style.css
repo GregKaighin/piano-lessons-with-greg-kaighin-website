@@ -48,22 +48,33 @@
      background-repeat: repeat-x;
      background-size: contain;
 }
+
 /*------------------------------------Hero Image Overlay Shape*/
+.jumbotron {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+}
 .hero-image .overlay-shape {
+     margin-top: 120px;
      width: 240px;
      height: 100px;
      color: #221d17;
-     background-image: radial-gradient( rgb(255, 255, 240, 1),rgb(186, 247, 178));
+     background-image: linear-gradient(to bottom right,rgb(255, 255, 240, 1),rgb(186, 247, 178));
      border: 1px solid darkgreen;
      border-radius: 36px;
 }
 /*------------------------------------Hero Image Overlay Text*/
 .overlay-text {
-     padding: 10px;
+    margin-top: 0;
+     padding: 8px;
      text-align: center;
      text-transform: uppercase;
      font-weight: 400;
      letter-spacing: 2px;
+}
+body .container .overlay-shape{
+    margin: ;
 }
 /*------------------------------------About Me*/
 .about-me {
@@ -144,7 +155,7 @@
 
 /*---------------------------------Testimonials Text*/
  .quotes h3 {
-     font-size: 132%;
+     font-size: 140%;
      margin-top: 24px;
      color: #221d17;
      
@@ -171,7 +182,7 @@
  .testimonial-icon {
      width: 36px;
      height: 36px;
-     background-image: radial-gradient( rgb(255, 255, 240),rgb(183, 192, 243));
+     background-image: linear-gradient(to bottom right,rgb(255, 255, 240),rgb(183, 192, 243));
      border: 1px solid navy;
      border-radius: 48px 48px 0 48px;
      text-align: center;
