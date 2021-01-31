@@ -45,16 +45,15 @@
  .hero-image {
      background-color:#fffff0;
      background: url("../images/hero-piano.jpg");
-     background-size: contain;
-     min-height: fit-content;
-     background-repeat: no-repeat;
+     min-height:33vh;
+     max-height: 33vh;
+
+     background-repeat: repeat-x;
      background-position: center;
 }
-
 /*------------------------------------Hero Image Overlay Shape*/
 .jumbotron {
-    margin-bottom: 0;
-    margin-top: 0;
+    
 }
 .hero-image .overlay-shape {
      margin-top: 120px;
