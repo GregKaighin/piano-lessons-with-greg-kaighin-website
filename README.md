@@ -90,24 +90,25 @@ Audio player-
 -The audio player used in this website was created by Craig Stroman https://codepen.io/craigstroman/pen/aOyRYx.
 I have used this player because the standard HTML/CSS audio player does not provide enough funcionality, specifically it does not provide
 a way to have a playlist and a single set of controls for playback, at least not that I have been able to figure out.
-I chose to use this player because it has a simple, clear UI, the code looks well-written, and it performs it's function well.
-The audio player functions as expected, apart from the progress bar slider does not work. This is not ideal, but is a better compromise
-than simply using the HTML audio element
+I chose to use this player because it has a simple, clear UI, the code looks well-written, and it performs its function well.
+The audio player functions as expected, apart from the progress bar slider does not work. This is not ideal,
+but is a better compromise than simply using the HTML audio element
 
 User Stories
 
 As a visitor to Piano Lessons with Greg Kaighin I expect/want/need:
 
-1. To be able to navigate the website easily and quickly find the information I am looking for.
+1. To be able to navigate the website easily and to quickly find the information I am looking for.
 2. To get relevant information about Greg Kaighin the piano teacher.
 3. To get information to help me decide if Greg Kaighin is the right piano teacher for me. 
 2. For all information to be presented clearly and logically.
 3. To be able to make contact easily if I decide I want to.
 4. To be able to download sheet music for my piano lessons.
 5. To get information about music exams.
+6. To be able to access the website on my phone, tablet and computer.
 6. To listen to some piano music.
-7. The website to have a coherent look.
-8. Everything to work.
+7. For the website to have a coherent look.
+8. For everything to work.
 
 Design Choices
 
@@ -122,7 +123,7 @@ image, but once I had decided to use the coloured piano keyboard, other design c
 and colour in other areas of the page became more obvious.
 
 The background colour is ivory, of course, and the dark colour of the text is chosen to match the black keys on a piano.
-The black keys in the main jumbotron image are dark blue, as they looked too dark when black.
+The "black" keys in the main jumbotron image are dark blue however, as they looked too dark on screen when completely black.
 
 The font is Karla, from google fonts. I chose this because it is clear and easy to read.
 
@@ -142,6 +143,21 @@ The buttons are silver-grey, to make them noticable but not intrusive, flashing 
 feedback to the user.
 
 The text-shape displayed over the piano keyboard image matches the RGBY theme from the navigation icons,
-and this them is extended through some of the elements throughout
+and this them is extended through some of the elements throughout.
+
+The audio player on the Music page has a simple UI and a small playlist.
+
+The Resources section information is presented using Bootstrap's .table-striped and .table-light classes.
+
+Considerable time was spent toying with the Bootstrap layout classes applied to the elements in order 
+to achieve page designs that are fully responsive.
+
+Overall I am happy with the design and layout at small and medium screen sizes, and I think the website
+looks best at these sizes.
+
+I am not completely happy with the layout at large screen sizes as I feel there is a too much white
+area visible on-screen. In future I may add in more elements that appear at the screen edges on large screens.
+
+
 
 
