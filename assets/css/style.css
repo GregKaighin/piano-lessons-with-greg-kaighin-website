@@ -10,7 +10,7 @@
      letter-spacing: 2px;
      border: 1px solid rgb(34, 29, 23);
 }
- .bg-ivory{
+ .bg-light{
      background-color: #fffff0;
      background: linear-gradient(to bottom right,#fffff0, #fffff0);
      opacity: 0.97;
