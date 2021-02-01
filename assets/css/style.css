@@ -1,7 +1,6 @@
  body {
      font-family: 'Karla', sans-serif;
      color: #221d17;
-     min-height: 100%;
      
      
      
@@ -9,12 +8,10 @@
  .background {
      background: url(../images/sheet-music-manuscript.jpg);
     min-height: 100%;
-    width: 100vw;
-    
+    width: 100%;  
 }
-
 .layer {
- background-color:rgba(255, 255, 240,0.97);
+ background-color:rgba(255, 255, 240,0.96);
     top: 0;
     left: 0;
     width: 100%;
