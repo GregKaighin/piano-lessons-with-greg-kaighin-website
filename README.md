@@ -69,9 +69,6 @@ Secondary features-
 Roadmap features
 Signup and payments page for group music workshops.
 Automatic student waiting list, which can be easily activated/deactivated as required.
-Improvements to the opacity effect around the hero image.
-Additional content for music.html and resources.html pages. MP3 audio and PDF document files.
-
 
 Known issues and potential solutions-
 -Issue: navbar dropdown menu always appears on the left side. It would sometimes look better positioned on the right.
@@ -111,5 +108,40 @@ As a visitor to Piano Lessons with Greg Kaighin I expect/want/need:
 6. To listen to some piano music.
 7. The website to have a coherent look.
 8. Everything to work.
+
+Design Choices
+
+The overall visual style came together quite late in the project after several unsuccesful attempts at using 
+images of paintings. I felt that they looked fine on a laptop, but they didn't scale down to small viewports very well,
+and also had a more artistic aesthetic to the presntation, rather than an educational one.
+
+These were replaced with a more simple image, of piano keyboard outline, to which colour-gradients have
+been added to fill the piano keys. This image, couple with a few areas of colour around the page give a hopefully
+much bolder, cleaner and more appealing look. I was deliberately wary of not designing the website around an 
+image, but once I had decided to use the coloured piano keyboard, other design choices such as icon colours
+and colour in other areas of the page became more obvious.
+
+The background colour is ivory, of course, and the dark colour of the text is chosen to match the black keys on a piano.
+The black keys in the main jumbotron image are dark blue, as they looked too dark when black.
+
+The font is Karla, from google fonts. I chose this because it is clear and easy to read.
+
+After adding the coloured piano image, I found that by enlosing each area in a border, the lines gave a nice clean 
+look against the background and helped make the overal look more coherent to the eye.
+
+The links to other webpages on the resources page are dark blue, as are the PDF file download links.
+
+The internal links in the about me section are coloured BGY to match the navigation icons.
+
+The social link buttons are displayed in their original brand colours to stand out a little.
+
+For page navigation, a simple RGBY colour is given to the navigation icons. The order of the colours here
+matches the order of the colours on the piano keyboard image.
+
+The buttons are silver-grey, to make them noticable but not intrusive, flashing pink when pressed to provide
+feedback to the user.
+
+The text-shape displayed over the piano keyboard image matches the RGBY theme from the navigation icons,
+and this them is extended through some of the elements throughout
 
 
