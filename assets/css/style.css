@@ -1,22 +1,8 @@
  body {
      font-family: 'Karla', sans-serif;
      color: #221d17;
-     
-     
-     
+     background-color:#fffff0;
  }
- .background {
-     background: url(../images/sheet-music-manuscript.jpg);
-    min-height: 100%;
-    width: 100%;  
-}
-.layer {
- background-color:rgba(255, 255, 240,0.96);
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
 /*------------------------------------Navbar Colours*/
  .navbar-light {
      color: #221d17;
@@ -27,7 +13,7 @@
  .bg-light{
      background-color: #fffff0;
      background: linear-gradient(to bottom right,#fffff0, #fffff0);
-     opacity: 0.98;
+     opacity: 0.97;
 }
 /*------------------------------------Navbar Brand and Link Colours*/
 .logo {
@@ -74,7 +60,7 @@ i.fas.fa-comment {
  .jumbo-piano {
      background-color:#fffff0;
      background: url("../images/hero-piano.jpg");
-     border: 1px solid #221d17;
+     border: 2px solid #221d17;
      background-repeat: repeat-x;
      background-position: center;
 }
@@ -85,7 +71,7 @@ i.fas.fa-comment {
      height: 100px;
      color: #221d17;
      background-image: linear-gradient(to bottom right,rgb(255, 255, 240, 1),rgb(247, 178, 178));
-     border: 2px solid #221d17;
+     border: 2px solid #8b0000;
      border-radius: 36px;
 }
 /*------------------------------------Jumbotron Piano Overlay Shape Colour Music*/
@@ -95,7 +81,7 @@ i.fas.fa-comment {
      height: 100px;
      color: #221d17;
       background-image: linear-gradient(to bottom right,rgb(255, 255, 240, 1),rgb(186, 247, 178));
-     border: 2px solid #221d17;
+     border: 2px solid #006400;
      border-radius: 36px;
 }
 /*------------------------------------Jumbotron Piano Overlay Shape Colour Resources*/
@@ -105,7 +91,7 @@ i.fas.fa-comment {
      height: 100px;
      color: #221d17;
      background-image: linear-gradient(to bottom right,rgb(255, 255, 240, 1),rgb(178, 197, 247));
-     border: 2px solid #221d17;
+     border: 2px solid #00008b;
      border-radius: 36px;
 }
 /*------------------------------------Jumbotron Piano Overlay Shape Colour Enquiries*/
@@ -115,7 +101,7 @@ i.fas.fa-comment {
      height: 100px;
      color: #221d17;
      background-image: linear-gradient(to bottom right,rgb(255, 255, 240, 1),rgb(247, 240, 178));
-     border: 2px solid #221d17;
+     border: 1px solid #ffa500;
      border-radius: 36px;
 }
 
@@ -253,7 +239,7 @@ i.fas.fa-comment {
      width: 36px;
      height: 36px;
      background-image: linear-gradient(to bottom right,rgb(255, 255, 240, 1),rgb(247, 178, 178));
-     border: 1px solid #221d17;
+     border: 2px solid #8b0000;
      border-radius: 48px 48px 0 48px;
      text-align: center;
      font-size: 100%;
