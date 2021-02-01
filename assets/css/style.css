@@ -56,16 +56,16 @@ i.fas.fa-comment {
  .navbar-light .navbar-toggler:active {
      background: #dda5a1;
 }
-/*---------------------------------Hero Image*/
- .hero-image {
+/*------------------------------------Jumbotron Piano*/
+ .jumbo-piano {
      background-color:#fffff0;
      background: url("../images/hero-piano.jpg");
      border: 1px solid #221d17;
      background-repeat: repeat-x;
      background-position: center;
 }
-/*------------------------------------Hero Image Overlay Shape*/
-.hero-image .overlay-shape-1 {
+/*------------------------------------Jumbotron Piano Overlay Shape*/
+.jumbo-piano .overlay-shape-1 {
      margin-top: 120px;
      width: 240px;
      height: 100px;
@@ -74,8 +74,8 @@ i.fas.fa-comment {
      border: 1px solid #8b0000;
      border-radius: 36px;
 }
-/*------------------------------------Hero Image Overlay Shape Colour Music*/
-.hero-image .overlay-shape-2 {
+/*------------------------------------Jumbotron Piano Overlay Shape Colour Music*/
+.jumbo-piano .overlay-shape-2 {
      margin-top: 120px;
      width: 240px;
      height: 100px;
@@ -84,8 +84,8 @@ i.fas.fa-comment {
      border: 1px solid #006400;
      border-radius: 36px;
 }
-/*------------------------------------Hero Image Overlay Shape Colour Resources*/
-.hero-image .overlay-shape-3 {
+/*------------------------------------Jumbotron Piano Overlay Shape Colour Resources*/
+.jumbo-piano .overlay-shape-3 {
      margin-top: 120px;
      width: 240px;
      height: 100px;
@@ -94,8 +94,8 @@ i.fas.fa-comment {
      border: 1px solid #00008b;
      border-radius: 36px;
 }
-/*------------------------------------Hero Image Overlay Shape Colour Enquiries*/
-.hero-image .overlay-shape-4 {
+/*------------------------------------Jumbotron Piano Overlay Shape Colour Enquiries*/
+.jumbo-piano .overlay-shape-4 {
      margin-top: 120px;
      width: 240px;
      height: 100px;
@@ -105,7 +105,7 @@ i.fas.fa-comment {
      border-radius: 36px;
 }
 
-/*------------------------------------Hero Image Overlay Text*/
+/*------------------------------------Jumbotron Piano Overlay Text*/
 .overlay-text {
     margin-top: 0;
      padding: 8px;
@@ -193,13 +193,11 @@ i.fas.fa-comment {
     margin: 4px 0 4px 0;
     letter-spacing: 1px;
 }
-
 /*---------------------------------Testimonials Text*/
  .quotes h3 {
      font-size: 150%;
      margin-top: 24px;
      color: #221d17;
-     
      text-align: center;
      text-transform: uppercase;
      letter-spacing: 2px;
@@ -254,15 +252,16 @@ i.fas.fa-comment {
 }
 /*------------------------------------Footer*/
 .social-links {
+    margin-top: 24px;
     font-size: 240%;
     text-align: center;
 }
 .linkedin-icon {
-    margin-right: 36px;
+    margin-right: 72px;
      color: #0e76a8;
 }
 .youtube-icon {
-    margin-left: 36px;
+    margin-left: 72px;
     color: #ff0000;
 }
 /*---------------------------------Enquiries Form*/
@@ -328,7 +327,11 @@ i.fas.fa-comment {
  .resources a:hover {
      border-bottom: 1px solid #221d17;
 }
-/*----------------------------------Audio player -- https://codepen.io/craigstroman/pen/aOyRYx*/
+
+
+
+/*----------------------------------Audio player -- The CSS below this point came from here -- 
+                                                    https://codepen.io/craigstroman/pen/aOyRYx*/
 .screen-reader-text {
   position: absolute;
   top: -9999px;
@@ -524,5 +527,4 @@ body .container .play-list .play-list-row:after {
   visibility: hidden;
 }
 /*---------------------------------- .Audio player -- https://codepen.io/craigstroman/pen/aOyRYx*/
-
- 
+                                                       
