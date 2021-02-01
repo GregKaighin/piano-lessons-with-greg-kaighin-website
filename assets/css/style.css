@@ -130,6 +130,31 @@ i.fas.fa-comment {
     font-weight: 400;
     letter-spacing: 1px;
 }
+/*------------------------------------About Me Page Link Colours*/
+.resources-link {
+    color: #000080;
+     text-decoration: none;
+     border-bottom: 1px dotted #000080;
+}
+.resources-link:hover {
+    border-bottom: 1px dotted #000080;
+}
+.enquiries-link {
+    color: #ff4500;
+     text-decoration: none;
+     border-bottom: 1px dotted #ff4500;
+}
+.enquiries-link:hover {
+    border-bottom: 1px dotted #ff4500;
+}
+.music-link {
+    color: #006400;
+     text-decoration: none;
+     border-bottom: 1px dotted #006400;
+}
+.music-link:hover {
+    border-bottom: 1px dotted #006400;
+}
 /*------------------------------------Buttons*/
  .btn-light {
      margin-top: 8px;
@@ -158,14 +183,6 @@ i.fas.fa-comment {
     border-color: #221d17
 }
 /*------------------------------------About Me Links Hover Colour and Underscore*/
- .about-me a {
-     color: #751f1e;
-     text-decoration: none;
-     border-bottom: 1px dotted #751f1e;
-}
- .about-me a:hover {
-     border-bottom: 1px solid #221d17;
-}
 .portrait-image {
     border: 1px solid rgb(34, 29, 23);
 }
@@ -322,10 +339,10 @@ i.fas.fa-comment {
  }
  .resources td a {
      text-decoration: none;
-     color: #221d17;
+     color: #000080;
 }
  .resources a:hover {
-     border-bottom: 1px solid #221d17;
+     border-bottom: 1px solid #000080;
 }
 
 
