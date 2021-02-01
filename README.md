@@ -1,15 +1,30 @@
-This website is for my own piano teaching business.
-It's purposes are:
+Gregory Kaighin
+Full Stack Developer HND Course
+Milestone Project 1
+February 2021
+
+Piano Lessons with Greg Kaighin website.
+
+This website is for a real-world application, my own piano teaching business, to help increase the number of students
+I currently have. It's purposes are:
 
 -to help attract new customers and provide them with a means of getting in contact.
--to raise awareness of the business.
--to provide an audio player and file downloads for content related to the business.
--to provide links to relevant external websites.
+-to raise awareness of the business among the general public, both online and locally.
+-to provide an juke-box type audio player to showcase some music from myself and my students.
+-to provide file downloads of content directly related to piano teaching.
+-to provide links to relevant external websites, such as music examining boards.
 
-This design of this website is in part based on the Love Running website featured in Code Institute's Full Stack Developer programme.
-Two previous builds of the website can be found here #############. Much of the development of the CSS styling was done in these earlier 
-builds, however it should be noted that the commit messages for these are not always clear.
-The version presented here is a new build with clearer commit messages.
+Based on user scenarios, and feedback from existing students and friends and family, the website is built with a 
+mobile-first design philosophy, but it is responsive enough to look acceptable on large displays too, particularly
+the resources page, where a user is considered to be more likley to acess the site using a laptop or desktop computer.
+
+The layout of the 'ethos' section is based on the 'Love Running' website from Code Institute's Full Stack Developer programme.
+
+Two previous builds of the website can be found here #############, both of which consist of a lot of commit 
+messages of varying clarity, as I learned how to build a website, and use GitHub. The third and final build 
+presented here is put together more logically in sections and with clearer commit messages.
+
+
 
 The enquiries form is not yet functional.
 
@@ -82,6 +97,19 @@ I chose to use this player because it has a simple, clear UI, the code looks wel
 The audio player functions as expected, apart from the progress bar slider does not work. This is not ideal, but is a better compromise
 than simply using the HTML audio element
 
+User Stories
 
+As a visitor to Piano Lessons with Greg Kaighin I expect/want/need:
+
+1. To be able to navigate the website easily and quickly find the information I am looking for.
+2. To get relevant information about Greg Kaighin the piano teacher.
+3. To get information to help me decide if Greg Kaighin is the right piano teacher for me. 
+2. For all information to be presented clearly and logically.
+3. To be able to make contact easily if I decide I want to.
+4. To be able to download sheet music for my piano lessons.
+5. To get information about music exams.
+6. To listen to some piano music.
+7. The website to have a coherent look.
+8. Everything to work.
 
 

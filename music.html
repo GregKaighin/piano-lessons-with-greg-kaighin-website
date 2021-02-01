@@ -66,9 +66,11 @@
 
 
     <!-- Audio Player -- This section is taken from -- https://codepen.io/craigstroman/pen/aOyRYx -->
+    <section>
     <div class="container">
-        <audio id="audio" preload="1" tabindex="0">
-            <source src="assets/music/prelude-in-c-sharp-minor.mp3" data-track-number="1" />
+    
+        <audio id="audio" preload="none" tabindex="0">
+            <source src="assets/music/rachprelude.mp3" data-track-number="1" />
             <source src="assets/music/maple-leaf-rag.mp3" data-track-number="2" />
             <source src="assets/music/the-entertainer.mp3" data-track-number="3" />
             <source src="assets/music/pick-up-the-pieces.mp3" data-track-number="4" />
@@ -80,20 +82,24 @@
             <source src="#" data-track-number="10" />
             Your browser does not support HTML5 audio.
         </audio>
+
         <div class="player">
+
             <div class="large-toggle-btn">
                 <i class="large-play-btn"><span class="screen-reader-text">Large toggle button</span></i>
             </div>
             <!-- /.play-box -->
+
             <div class="info-box">
                 <div class="track-info-box">
                     <div class="track-title-text"></div>
                     <div class="audio-time">
-                        <span class="current-time">00:00</span>
+                        <span class="current-time">00:00</span> /
                         <span class="duration">00:00</span>
                     </div>
                 </div>
                 <!-- /.info-box -->
+
                 <div class="progress-box">
                     <div class="progress-cell">
                         <div class="progress">
@@ -102,82 +108,140 @@
                         </div>
                     </div>
                 </div>
+
             </div>
             <!-- /.progress-box -->
+
             <div class="controls-box">
                 <i class="previous-track-btn disabled"><span class="screen-reader-text">Previous track button</span></i>
                 <i class="next-track-btn"><span class="screen-reader-text">Next track button</span></i>
             </div>
             <!-- /.controls-box -->
+
         </div>
         <!-- /.player -->
+
         <div class="play-list">
+
             <div class="play-list-row" data-track-row="1">
                 <div class="small-toggle-btn">
-                    <i class="small-play-btn"><span class="screen-reader-text">Small play button</span></i>
+                    <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
                 </div>
                 <div class="track-number">
                     1.
                 </div>
                 <div class="track-title">
-                    <a class="playlist-track" href="assets/music/prelude-in-c-sharp-min.mp3" data-play-track="1">Prelude
-                        in c#
-                        minor - Sergei Rachmaninoff</a>
-                </div>
-                <div class="track-info">
-                    <p>Greg Kaighin</p>
+                    <a class="playlist-track" href="assets/music/rachprelude.mp3" data-play-track="1">Prelude in C#
+                        minor - Rachmaninov - Greg Kaighin</a>
                 </div>
             </div>
             <div class="play-list-row" data-track-row="2">
                 <div class="small-toggle-btn">
-                    <i class="small-play-btn"><span class="screen-reader-text">Small play button</span></i>
+                    <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
                 </div>
                 <div class="track-number">
                     2.
                 </div>
                 <div class="track-title">
                     <a class="playlist-track" href="assets/music/maple-leaf-rag.mp3" data-play-track="2">Maple Leaf Rag
-                        - Scott Joplin</a>
-                </div>
-                <div class="track-info">
-                    <p>Greg Kaighin</p>
+                        - Joplin - Greg Kaighin<br></a>
                 </div>
             </div>
             <div class="play-list-row" data-track-row="3">
                 <div class="small-toggle-btn">
-                    <i class="small-play-btn"><span class="screen-reader-text">Small play button</span></i>
+                    <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
                 </div>
                 <div class="track-number">
                     3.
                 </div>
                 <div class="track-title">
                     <a class="playlist-track" href="assets/music/the-entertainer.mp3" data-play-track="3">The
-                        Entertainer - Scott Joplin</a>
-                </div>
-                <div class="track-info">
-                    <p>Greg Kaighin</p>
+                        Entertainer - Joplin - Greg Kaighin</a>
                 </div>
             </div>
             <div class="play-list-row" data-track-row="4">
                 <div class="small-toggle-btn">
-                    <i class="small-play-btn"><span class="screen-reader-text">Small play button</span></i>
+                    <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
                 </div>
                 <div class="track-number">
                     4.
                 </div>
                 <div class="track-title">
                     <a class="playlist-track" href="assets/music/pick-up-the-pieces.mp3" data-play-track="4">Pick Up the
-                        Pieces - Average White Band</a>
-                </div>
-                <div class="track-info">
-                    <p>Kaighin Family</p>
+                        Pieces - Average White Band - Kaighin Family</a>
                 </div>
             </div>
+            <div class="play-list-row" data-track-row="5">
+                <div class="small-toggle-btn">
+                    <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+                </div>
+                <div class="track-number">
+                    5.
+                </div>
+                <div class="track-title">
+                    <a class="playlist-track" href="#" data-play-track="5">Track 5</a>
+                </div>
+            </div>
+            <div class="play-list-row" data-track-row="6">
+                <div class="small-toggle-btn">
+                    <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+                </div>
+                <div class="track-number">
+                    6.
+                </div>
+                <div class="track-title">
+                    <a class="playlist-track" href="#" data-play-track="6">Track 6</a>
+                </div>
+            </div>
+            <div class="play-list-row" data-track-row="7">
+                <div class="small-toggle-btn">
+                    <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+                </div>
+                <div class="track-number">
+                    7.
+                </div>
+                <div class="track-title">
+                    <a class="playlist-track" href="#" data-play-track="7">Track 7</a>
+                </div>
+            </div>
+            <div class="play-list-row" data-track-row="8">
+                <div class="small-toggle-btn">
+                    <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+                </div>
+                <div class="track-number">
+                    8.
+                </div>
+                <div class="track-title">
+                    <a class="playlist-track" href="#" data-play-track="8">Track 8</a>
+                </div>
+            </div>
+            <div class="play-list-row" data-track-row="9">
+                <div class="small-toggle-btn">
+                    <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+                </div>
+                <div class="track-number">
+                    9.
+                </div>
+                <div class="track-title">
+                    <a class="playlist-track" href="#" data-play-track="9">Track 9</a>
+                </div>
+            </div>
+            <div class="play-list-row" data-track-row="10">
+                <div class="small-toggle-btn">
+                    <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+                </div>
+                <div class="track-number">
+                    10.
+                </div>
+                <div class="track-title">
+                    <a class="playlist-track" href="#" data-play-track="10">Track 10</a>
+                </div>
+            </div>
+
         </div>
+
     </div>
-    <!-- .Audio Player https://codepen.io/craigstroman/pen/aOyRYx-->
-
-
+    </section>
     <!-- Social-links -->
     <div class="social-links">
         <a href="https://www.linkedin.com/in/gregorykaighin/" target="_blank" type="button"
