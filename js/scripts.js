@@ -455,3 +455,9 @@ var audioPlayer = function() {
 
   player.initPlayer();
 })();
+
+/**
+   * Resets all toggle buttons to be play buttons.
+   *
+   **/
+

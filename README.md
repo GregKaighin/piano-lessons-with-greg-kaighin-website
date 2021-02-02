@@ -15,7 +15,7 @@ Its purposes are:
 
 - to provide a juke-box type audio player to showcase some music from myself and my students.
 
-- to provide PDF downloads of content related to piano teaching.
+- to provide PDF downloads to content related to piano teaching.
 
 - to provide links to external websites, such as music examining boards.
 
@@ -25,7 +25,9 @@ The layout of the 'ethos' section is based on the 'Love Running' website from Co
 
 Two previous builds of the website can be found here #############, both of which consist of a lot of commit messages of varying clarity, as I learned how to build a website, and to use GitHub. The third and final build presented here is put together more logically in sections and with clearer commit messages.
 
-The enquiries form is not yet functional. All other parts of the website are working as intended.
+The enquiries form is not yet functional.
+
+All other parts of the website are working as intended.
 
 Technologies Used:
 - HTML5
@@ -58,8 +60,8 @@ Features
 
 Primary
 
-- To give a clear, concise and aesthetically pleasing presentation of the business, “Piano Lessons with Greg Kaighin”.
-- To provide a means for potential customers to get in contact.
+- Give a concise and aesthetically pleasing presentation of the business “Piano Lessons with Greg Kaighin”.
+- Provide a way for potential customers to get in contact.
 
 Secondary
 
@@ -70,7 +72,10 @@ Secondary
 Roadmap features
 
 - Signup and payments page for group music workshops.
+
 - Automatic student waiting list, which can be easily activated/deactivated as required and which lets potential customers know how many people are already on the list.
+
+- The header message will be updated as required to reflect current business circumstances.
 
 Known issues and potential solutions
 - Issue: navbar dropdown menu always appears on the left side. It would sometimes look better positioned on the right.
@@ -86,6 +91,7 @@ Potential solution: jspopper? I need to learn how to do this.
 - Issue: Make the "About Me" section have the same opacity as the navbar. This will improve the overall look of the hero image
 and "open it up" a little.
 Potential solution: JavaScript? I need to learn how to do this.
+
 
 
 Audio player
@@ -153,10 +159,10 @@ These were replaced with a simpler image of piano keyboard outline, to which col
 
 - Bootstrap layout classes are applied to the elements in order to achieve page designs that are responsive.
 
-- Overall, I am happy with the design and layout at small and medium screen sizes, and I think the website looks best at these sizes.
+- Overall, I am happy with the design and layout at small and medium screen sizes, and I think it looks best at these sizes.
 
-- I am not completely happy with the layout at large screen sizes as I feel there is a too much white
-area visible on-screen. In future I may add in more elements that appear at the screen edges on large screens.
+- I am not completely happy with the layout at large screen sizes as I feel there is too much white
+space visible on-screen. In future I may add in more elements that appear at the screen edges on large screens.
 
 Credits
 

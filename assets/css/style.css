@@ -347,50 +347,77 @@ i.fas.fa-comment {
 
 
 
-/*----------------------------------Audio player -- The CSS below this point came from here -- 
-                                                    https://codepen.io/craigstroman/pen/aOyRYx*/
+/*---------------------------------- Audio player*/
+
 .screen-reader-text {
+  /* Reusable, toolbox kind of class */
   position: absolute;
   top: -9999px;
   left: -9999px;
 }
+
 .disabled {
-  color: #006400;
+  color: #A08184;
   cursor: default;
 }
+
 .show {
-  display: inline-block;
+  display: inline-block !important;
+}
+
+body {
+  margin: 10px 0 0 0;
 }
 body .container {
-    margin-top: 24px;
-    margin-bottom: 24px;
   font-family: 'Karla', sans-serif;
-  font-size: 16px;
-  width: 75vw;
+  font-size: 1em;
+  margin: 24px auto;
+  width: 500px;
 }
 body .container .player {
   height: 60px;
-  width: 67vw;
+  margin: 0;
+  position: relative;
+  width: 400px;
+  /* Small devices (tablets, 768px and up) */
+  /* Medium devices (desktops, 992px and up) */
+  /* Large devices (large desktops, 1200px and up) */
+  *zoom: 1;
 }
-/*----------------------------------Buttons*/
+@media (min-width: 768px) and (max-width: 991px) {
+  body .container .player {
+    width: 470px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1100px) {
+  body .container .player {
+    width: 470px;
+  }
+}
+@media (min-width: 1200px) {
+  body .container .player {
+    width: 470px;
+  }
+}
 body .container .player .large-toggle-btn {
-  border: 1px solid #006400;
-  border-radius: 1px;
+  border: 1px solid #A08184;
+  border-radius: 2px;
   float: left;
   font-size: 1.5em;
-  height: 48px;
+  height: 50px;
   margin: 0 10px 0 0;
   overflow: hidden;
+  padding: 5px 0 0 0;
   position: relative;
   text-align: center;
   vertical-align: bottom;
-  width: 48px;
+  width: 54px;
 }
 body .container .player .large-toggle-btn .large-play-btn {
   cursor: pointer;
   display: inline-block;
   position: relative;
-  bottom: 14%;
+  top: -14%;
 }
 body .container .player .large-toggle-btn .large-play-btn:before {
   content: "\f04b";
@@ -400,13 +427,12 @@ body .container .player .large-toggle-btn .large-pause-btn {
   cursor: pointer;
   display: inline-block;
   position: relative;
-  bottom: 14%;
+  top: -13%;
 }
 body .container .player .large-toggle-btn .large-pause-btn:before {
   content: "\f04c";
   font: 1.5em/1.75 "FontAwesome";
 }
-/*------------------------------------Info Box*/
 body .container .player .info-box {
   bottom: 10px;
   left: 65px;
@@ -418,7 +444,8 @@ body .container .player .info-box .track-info-box {
   font-size: 12px;
   margin: 0 0 6px 0;
   visibility: hidden;
-  width: 60vw;
+  width: 400px;
+  *zoom: 1;
 }
 body .container .player .info-box .track-info-box .track-title-text {
   display: inline-block;
@@ -439,11 +466,43 @@ body .container .player .info-box .track-info-box:after {
   height: 0;
   visibility: hidden;
 }
-/*------------------------------------Controls*/
-body .container .player .controls-box {
-  top: -2px;
-  left: 10px;
+body .container .player .progress-box {
+  float: left;
+  min-width: 270px;
   position: relative;
+}
+body .container .player .progress-box .progress-cell {
+  height: 12px;
+  position: relative;
+}
+body .container .player .progress-box .progress-cell .progress {
+  background: rgb(240, 229, 229);
+  border: 1px solid #A08184;
+  height: 8px;
+  position: relative;
+  width: auto;
+}
+body .container .player .progress-box .progress-cell .progress .progress-buffer {
+  background: #A08184;
+  height: 100%;
+  width: 0;
+}
+body .container .player .progress-box .progress-cell .progress .progress-indicator {
+  background: rgb(240, 229, 229);
+  border: 1px solid #A08184;
+  border-radius: 3px;
+  cursor: pointer;
+  height: 10px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: -2px;
+  width: 22px;
+}
+body .container .player .controls-box {
+  bottom: 10px;
+  left: 350px;
+  position: absolute;
 }
 body .container .player .controls-box .previous-track-btn {
   cursor: pointer;
@@ -472,16 +531,16 @@ body .container .player:after {
   height: 0;
   visibility: hidden;
 }
-/*------------------------------------Playlist*/
 body .container .play-list {
   display: block;
-  margin: 0 auto;
+  margin: 0 auto 20px auto;
   width: 100%;
 }
 body .container .play-list .play-list-row {
   display: block;
   margin: 10px 0;
   width: 100%;
+  *zoom: 1;
 }
 body .container .play-list .play-list-row .track-title .playlist-track {
   color: #221d17;
@@ -491,20 +550,20 @@ body .container .play-list .play-list-row .track-title .playlist-track:hover {
   text-decoration: underline;
 }
 body .container .play-list .play-list-row .small-toggle-btn {
-  border: 1px solid #006400;
-  border-radius: 1px;
+  border: 1px solid #A08184;
+  border-radius: 2px;
   cursor: pointer;
   display: inline-block;
-  height: 24px;
+  height: 20px;
+  margin: 0 auto;
   overflow: hidden;
   position: relative;
   text-align: center;
   vertical-align: middle;
-  width: 24px;
+  width: 20px;
 }
 body .container .play-list .play-list-row .small-toggle-btn .small-play-btn {
   display: inline-block;
-  top: 4px;
 }
 body .container .play-list .play-list-row .small-toggle-btn .small-play-btn:before {
   content: "\f04b";
@@ -542,6 +601,4 @@ body .container .play-list .play-list-row:after {
   font-size: 0;
   height: 0;
   visibility: hidden;
-}
-/*---------------------------------- .Audio player -- https://codepen.io/craigstroman/pen/aOyRYx*/
-                                                       
+}                                   
