@@ -348,5 +348,7 @@ i.fas.fa-comment {
 
 
 /*---------------------------------- Audio player*/
-
+.audio-container li {
+    list-style: none;
+}
                      
