@@ -8,7 +8,7 @@ body {
      color: #221d17;
      text-transform: uppercase;
      letter-spacing: 2px;
-     border: 1px solid rgb(34, 29, 23);
+     border: 2px solid rgb(34, 29, 23);
 }
  .bg-light{
      background-color: #fffff0;
@@ -60,12 +60,12 @@ i.fas.fa-comment {
 /*------------------------------------Jumbotron Piano*/
  .jumbo-piano {
      background-color:#fffff0;
-     background: url("../images/hero-piano.jpg");
+     background: url("../images/jumbo-piano.jpg");
      border: 2px solid #221d17;
      background-repeat: repeat-x;
      background-position: center;
 }
-/*------------------------------------Jumbotron Piano Overlay Shape*/
+/*------------------------------------Jumbotron Piano Overlay Shape Home Page*/
 .jumbo-piano .overlay-shape-1 {
      margin-top: 120px;
      width: 240px;
@@ -75,7 +75,7 @@ i.fas.fa-comment {
      border: 2px solid #8b0000;
      border-radius: 36px;
 }
-/*------------------------------------Jumbotron Piano Overlay Shape Colour Music*/
+/*------------------------------------Jumbotron Piano Overlay Shape Colour Music Page*/
 .jumbo-piano .overlay-shape-2 {
      margin-top: 120px;
      width: 240px;
@@ -85,7 +85,7 @@ i.fas.fa-comment {
      border: 2px solid #006400;
      border-radius: 36px;
 }
-/*------------------------------------Jumbotron Piano Overlay Shape Colour Resources*/
+/*------------------------------------Jumbotron Piano Overlay Shape Colour Resources Page*/
 .jumbo-piano .overlay-shape-3 {
      margin-top: 120px;
      width: 240px;
@@ -95,7 +95,7 @@ i.fas.fa-comment {
      border: 2px solid #00008b;
      border-radius: 36px;
 }
-/*------------------------------------Jumbotron Piano Overlay Shape Colour Enquiries*/
+/*------------------------------------Jumbotron Piano Overlay Shape Colour Enquiries Page*/
 .jumbo-piano .overlay-shape-4 {
      margin-top: 120px;
      width: 240px;
