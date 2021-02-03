@@ -1,13 +1,14 @@
-Gregory Kaighin
-Full Stack Developer HND Course
-Milestone Project 1
-February 2021
+# Greg Kaighin
+## Full Stack Developer HND Course
+## Code Institute
+### Milestone Project 1
+### February 2021
 
-Piano Lessons with Greg Kaighin website.
+# Piano Lessons with Greg Kaighin Website.
 
 This website is for a real-world application, my own piano teaching business, to help increase the number of students I currently teach, as my employment situation has changed considerably in the past year and I find myself needing more piano-teaching work.
 
-Its purposes are:
+## Its purposes are:
 
 - to help attract new customers and provide them with a means of getting in contact.
 
@@ -29,7 +30,7 @@ The enquiries form is not yet functional.
 
 All other parts of the website are working as intended.
 
-Technologies Used:
+## Technologies Used:
 - HTML5
 - CSS3
 - Font Awesome
@@ -38,11 +39,11 @@ Technologies Used:
 - JavaScript (for audio player and track info popovers only)
 - Adobe Photoshop
 
-Validation:
+### Validation:
 - HTML -
 - CSS - https://jigsaw.w3.org/css-validator/ - No Errors Found / ## Warnings
 
-Original Content:
+### Original Content:
 MP3 Audio recordings: Greg Kaighin
 PDF Documents: Greg Kaighin
 Care has been taken to ensure all sheet music and music recordings chosen are free of copyright restrictions.
@@ -51,25 +52,25 @@ Colours: Gradient fills on piano keys image generated with Photoshop. The colour
 
 Audio player: https://codepen.io/craigstroman/pen/aOyRYx
 
-Target Audience
+### Target Audience
 
 - Internet users who might be considering taking piano lessons.
 - Current piano students
 
-Features
+## Features
 
-Primary
+### Primary
 
 - Give a concise and aesthetically pleasing presentation of the business “Piano Lessons with Greg Kaighin”.
 - Provide a way for potential customers to get in contact.
 
-Secondary
+### Secondary
 
 - Audio playback of music files.
 - Download of sheet music PDFs.
 - Links to external websites.
 
-Roadmap features
+## Roadmap features
 
 - Signup and payments page for group music workshops.
 
@@ -77,7 +78,7 @@ Roadmap features
 
 - The header message will be updated as required to reflect current business circumstances.
 
-Known issues and potential solutions
+## Known issues and potential solutions
 - Issue: navbar dropdown menu always appears on the left side. It would sometimes look better positioned on the right.
 Potential solution: Change index.html navbar-toggler class IDs.
 
@@ -94,7 +95,7 @@ Potential solution: JavaScript? I need to learn how to do this.
 
 
 
-Audio player
+## Audio player
 
 - The audio player used in this website was created by Craig Stroman https://codepen.io/craigstroman/pen/aOyRYx.
 I have used this player because the standard HTML/CSS audio player does not provide enough functionality, specifically it does not provide a way to have a playlist and a single set of controls for playback, at least not that I have been able to figure out.
@@ -102,7 +103,7 @@ I chose this player because it has a simple, clear UI, it functions mainly as ex
 All functions apart from the progress bar slider work, so I have stripped the code out relating to the progress slider. Fortunately, this does not appear to have broken anything, and improves UX of the audio player by giving a cleaner look without a non-functioning progress slider, or symbols that appeared as the audio player was fetching information about track-length. This is not ideal, but is a better compromise than simply using the HTML audio element, particularly from the user’s perspective as they are presented with a simple audio-player that functions as intended. 
 I will look again at the audio player once I have learned more about JavaScript to understand more about how it works.
 
-User Stories
+## User Stories
 
 As a visitor to Piano Lessons with Greg Kaighin I expect/want/need:
 
@@ -128,7 +129,7 @@ As a visitor to Piano Lessons with Greg Kaighin I expect/want/need:
 
 9. For everything to work.
 
-Design Choices
+## Design Choices
 
 The overall visual style came together quite late in the project after several unsuccessful attempts at using images of paintings. I felt that they looked fine on a laptop, however they didn't scale down to small viewports very well, and also seemed to dominate the look of the website.
 
@@ -164,7 +165,7 @@ These were replaced with a simpler image of piano keyboard outline, to which col
 - I am not completely happy with the layout at large screen sizes as I feel there is too much white
 space visible on-screen. In future I may add in more elements that appear at the screen edges on large screens.
 
-Credits
+## Credits
 
 - Thanks to Oluwafemi Medale for all of the expert advice he gave during my mentoring sessions with him, and to all the tutors who put together such an engaging and interesting course.
 - Hero image: Shutterstock
