@@ -81,7 +81,7 @@ i.fas.fa-comment {
      width: 240px;
      height: 100px;
      color: #221d17;
-      background-image: linear-gradient(to bottom right,rgb(255, 255, 240, 1),rgb(186, 247, 178));
+    background-image: linear-gradient(to bottom right,rgb(255, 255, 240, 1),rgb(186, 247, 178));
      border: 2px solid #006400;
      border-radius: 36px;
 }
@@ -362,5 +362,8 @@ i.fas.fa-comment {
 }
 a:not([href]) {
     font-size: 200%;
+}
+.track-divider {
+    border-color: #006400;
 }
                      
