@@ -22,22 +22,22 @@ jQuery(function ($) {
             tracks = [{
                 "track": 1,
                 "name": "Pick Up the Pieces",
-                "length": "02:46",
+                "length": "04:02",
                 "file": "pick-up-the-pieces"
             }, {
                 "track": 2,
                 "name": "The Entertainer",
-                "length": "08:31",
+                "length": "04:03",
                 "file": "the-entertainer"
             }, {
                 "track": 3,
                 "name": "Maple Leaf Rag",
-                "length": "05:02",
+                "length": "03:36",
                 "file": "maple-leaf-rag"
             }, {
                 "track": 4,
                 "name": "Prelude in C-Sharp Minor",
-                "length": "08:32",
+                "length": "04:13",
                 "file": "prelude-in-c-sharp-minor"
             }],
             trackCount = tracks.length,
