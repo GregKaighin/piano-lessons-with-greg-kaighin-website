@@ -5,105 +5,135 @@
 // Add user agent as an attribute on the <html> tag...
 // Inspiration: http://css-tricks.com/ie-10-specific-styles/
 var b = document.documentElement;
-b.setAttribute('data-useragent', navigator.userAgent);
-b.setAttribute('data-platform', navigator.platform);
+b.setAttribute('data-useragent',  navigator.userAgent);
+b.setAttribute('data-platform', navigator.platform );
 
 
 // HTML5 audio player + playlist controls...
 // Inspiration: http://jonhall.info/how_to/create_a_playlist_for_html5_audio
 // Mythium Archive: https://archive.org/details/mythium/
 jQuery(function ($) {
-    var supportsAudio = !!document.createElement('audio').canPlayType;
+    var supportsAudio = !! document.createElement('audio').canPlayType;
     if (supportsAudio) {
         var index = 0,
-            playing = false,
-            mediaPath = 'assets/music/',
-            extension = '',
-            tracks = [{
-                "track": 1,
-                "name": "Pick Up the Pieces",
-                "length": "04:02",
-                "file": "pick-up-the-pieces"
-            }, {
-                "track": 2,
-                "name": "The Entertainer",
-                "length": "04:03",
-                "file": "the-entertainer"
-            }, {
-                "track": 3,
-                "name": "Maple Leaf Rag",
-                "length": "03:36",
-                "file": "maple-leaf-rag"
-            }, {
-                "track": 4,
-                "name": "Prelude in C-Sharp Minor",
-                "length": "04:13",
-                "file": "prelude-in-c-sharp-minor"
-            }],
-            trackCount = tracks.length,
-            npAction = $('#npAction'),
-            npTitle = $('#npTitle'),
-            audio = $('#audio1').bind('play', function () {
-                playing = true;
-                npAction.text('Now Playing...');
-            }).bind('pause', function () {
-                playing = false;
-                npAction.text('Paused...');
-            }).bind('ended', function () {
-                npAction.text('Paused...');
-                if ((index + 1) < trackCount) {
-                    index++;
-                    loadTrack(index);
-                    audio.play();
-                } else {
-                    audio.pause();
-                    index = 0;
-                    loadTrack(index);
-                }
-            }).get(0),
-            btnPrev = $('#btnPrev').click(function () {
-                if ((index - 1) > -1) {
-                    index--;
-                    loadTrack(index);
-                    if (playing) {
-                        audio.play();
-                    }
-                } else {
-                    audio.pause();
-                    index = 0;
-                    loadTrack(index);
-                }
-            }),
-            btnNext = $('#btnNext').click(function () {
-                if ((index + 1) < trackCount) {
-                    index++;
-                    loadTrack(index);
-                    if (playing) {
-                        audio.play();
-                    }
-                } else {
-                    audio.pause();
-                    index = 0;
-                    loadTrack(index);
-                }
-            }),
-            li = $('#plList li').click(function () {
-                var id = parseInt($(this).index());
-                if (id !== index) {
-                    playTrack(id);
-                }
-            }),
-            loadTrack = function (id) {
-                $('.plSel').removeClass('plSel');
-                $('#plList li:eq(' + id + ')').addClass('plSel');
-                npTitle.text(tracks[id].name);
-                index = id;
-                audio.src = mediaPath + tracks[id].file + extension;
-            },
-            playTrack = function (id) {
-                loadTrack(id);
+            playing = false;
+        mediaPath = '../assets/music/',
+        extension = '',
+        tracks = [{
+            "track": 1,
+            "name": "Pick Up the Pieces",
+            "length": "02:46",
+            "file": "pick-up-the-pieces"
+        }, {
+            "track": 2,
+            "name": "The Entertainer",
+            "length": "08:30",
+            "file": "the-entertainer"
+        }, {
+            "track": 3,
+            "name": "Maple Leaf Rag",
+            "length": "05:01",
+            "file": "maple-leaf-rag"
+        }, {
+            "track": 4,
+            "name": "Prelude in C-Sharp Minor",
+            "length": "08:32",
+            "file": "prelude-in-c-sharp-minor"
+        }, {
+            "track": 5,
+            "name": "All The King's Men -- Broadwing Studio (First Mix)",
+            "length": "05:05",
+            "file": "BSFM_ATKM"
+        }, {
+            "track": 6,
+            "name": "All This Is -- Alternate Cuts",
+            "length": "02:49",
+            "file": "AC_ATI"
+        }, {
+            "track": 7,
+            "name": "All The King's Men (Take 1) -- Alternate Cuts",
+            "length": "05:44",
+            "file": "AC_ATKMTake_1"
+        }, {
+            "track": 8,
+            "name": "All The King's Men (Take 2) -- Alternate Cuts",
+            "length": "05:27",
+            "file": "AC_ATKMTake_2"
+        }, {
+            "track": 9,
+            "name": "Magus -- Alternate Cuts",
+            "length": "05:46",
+            "file": "AC_M"
+        }, {
+            "track": 10,
+            "name": "The State Of Wearing Address (fucked up) -- Alternate Cuts",
+            "length": "05:25",
+            "file": "AC_TSOWAfucked_up"
+        }],
+        trackCount = tracks.length,
+        npAction = $('#npAction'),
+        npTitle = $('#npTitle'),
+        audio = $('#audio1').bind('play', function () {
+            playing = true;
+            npAction.text('Now Playing...');
+        }).bind('pause', function () {
+            playing = false;
+            npAction.text('Paused...');
+        }).bind('ended', function () {
+            npAction.text('Paused...');
+            if ((index + 1) < trackCount) {
+                index++;
+                loadTrack(index);
                 audio.play();
-            };
+            } else {
+                audio.pause();
+                index = 0;
+                loadTrack(index);
+            }
+        }).get(0),
+        btnPrev = $('#btnPrev').click(function () {
+            if ((index - 1) > -1) {
+                index--;
+                loadTrack(index);
+                if (playing) {
+                    audio.play();
+                }
+            } else {
+                audio.pause();
+                index = 0;
+                loadTrack(index);
+            }
+        }),
+        btnNext = $('#btnNext').click(function () {
+            if ((index + 1) < trackCount) {
+                index++;
+                loadTrack(index);
+                if (playing) {
+                    audio.play();
+                }
+            } else {
+                audio.pause();
+                index = 0;
+                loadTrack(index);
+            }
+        }),
+        li = $('#plList li').click(function () {
+            var id = parseInt($(this).index());
+            if (id !== index) {
+                playTrack(id);
+            }
+        }),
+        loadTrack = function (id) {
+            $('.plSel').removeClass('plSel');
+            $('#plList li:eq(' + id + ')').addClass('plSel');
+            npTitle.text(tracks[id].name);
+            index = id;
+            audio.src = mediaPath + tracks[id].file + extension;
+        },
+        playTrack = function (id) {
+            loadTrack(id);
+            audio.play();
+        };
         extension = audio.canPlayType('audio/mpeg') ? '.mp3' : audio.canPlayType('audio/ogg') ? '.ogg' : '';
         loadTrack(index);
     }
@@ -114,3 +144,10 @@ jQuery(function ($) {
 $(function () {
   $('[data-toggle="popover"]').popover()
 })
+
+
+
+
+
+
+
