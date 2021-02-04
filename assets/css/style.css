@@ -366,4 +366,8 @@ a:not([href]) {
 .track-divider {
     border-color: #006400;
 }
+.popover-body {
+    background-image: linear-gradient(to bottom right,rgb(255, 255, 240, 1),rgb(186, 247, 178));
+    border: 2px solid darkgreen;
+}
                      
