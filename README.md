@@ -4,21 +4,24 @@
 ### Milestone Project 1
 ### February 2021
 
-# Piano Lessons with Greg Kaighin Website.
+# Piano Lessons with Greg Kaighin Website
 
-This website is for a real-world application, my own piano teaching business, to help increase the number of students I currently teach, as my employment situation has changed considerably in the past year and I find myself needing more piano-teaching work.
+This website is built to meet the requirements of my self-employed piano-teaching business
+"Piano Lessons with Greg Kaighin", and has been designed with the 
 
 ## Its purposes are:
 
-- to help attract new customers and provide them with a means of getting in contact.
+- to advertise the business to potential customers and provide them with a means of getting in contact.
 
 - to raise awareness of the business among the general public, both online and locally.
+
+- to collect contact and other relevant information from prospective customers via a form.
 
 - to provide a juke-box type audio player to showcase some music from myself and my students.
 
 - to provide PDF downloads to content related to piano teaching.
 
-- to provide links to external websites, such as music examining boards.
+- to provide links to useful external websites, such as music examining boards.
 
 Based on user scenarios, and feedback from existing students and friends and family, the website is built with a mobile-first design philosophy, but it is responsive enough to look acceptable on large displays too, particularly the resources page, where, based on user-scenarios, a user is considered to be more likely to access the site using a laptop or desktop computer.
 

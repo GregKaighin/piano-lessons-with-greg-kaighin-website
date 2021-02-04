@@ -108,3 +108,9 @@ jQuery(function ($) {
         loadTrack(index);
     }
 });
+
+//Enable Popovers//
+
+$(function () {
+  $('[data-toggle="popover"]').popover()
+})
