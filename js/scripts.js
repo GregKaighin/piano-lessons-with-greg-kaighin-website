@@ -132,7 +132,6 @@
   function onTimeUpdate() {
     var t = this.currentAudio.currentTime
     timer.innerHTML = this.getMinutes(t);
-    this.setBarProgress();
     if (this.currentAudio.ended) {
       document.querySelector('#icon-play').style.display = 'block';
       document.querySelector('#icon-pause').style.display = 'none';

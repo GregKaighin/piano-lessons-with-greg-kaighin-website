@@ -360,7 +360,6 @@ i.fas.fa-comment {
 }
 .btn-ctn, .infos-ctn{
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 .infos-ctn{
@@ -431,6 +430,7 @@ padding-top: 20px;
   color: #221d17;
   font-size: 20px;
 }
+
 /*-------------------------------- Popovers*/
 .popover-body {
     background-image: linear-gradient(to bottom right,rgb(255, 255, 240, 1),rgb(186, 247, 178));
