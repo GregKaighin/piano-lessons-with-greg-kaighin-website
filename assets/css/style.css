@@ -319,6 +319,14 @@ i.fas.fa-comment {
     border: none;
 }
 /*-------------------------------- Resources*/
+.resources-page-heading {
+     color: #221d17;
+     font-size: 150%;
+     font-weight: 300;
+     text-align: center;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+}
  .resources-heading {
      margin-top: 24px;
      color: #221d17;
