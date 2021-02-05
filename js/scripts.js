@@ -1,3 +1,6 @@
+  
+  //-------------------------------- Audio Player -- https://codepen.io/vanderzak/pen/BayjVep --//
+
   function createTrackItem(index,name,duration){
     var trackItem = document.createElement('div');
     trackItem.setAttribute("class", "playlist-track-ctn");
@@ -207,6 +210,9 @@
       volUp.style.display = "block"
     }
   }
+
+
+  //-------------------------------- .Audio Player -- https://codepen.io/vanderzak/pen/BayjVep --//
 
 
 
