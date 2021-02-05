@@ -1,143 +1,212 @@
-// html5media enables <video> and <audio> tags in all major browsers
-// External File: http://api.html5media.info/1.1.8/html5media.min.js
+  function createTrackItem(index,name,duration){
+    var trackItem = document.createElement('div');
+    trackItem.setAttribute("class", "playlist-track-ctn");
+    trackItem.setAttribute("id", "ptc-"+index);
+    trackItem.setAttribute("data-index", index);
+    document.querySelector(".playlist-ctn").appendChild(trackItem);
 
+    var playBtnItem = document.createElement('div');
+    playBtnItem.setAttribute("class", "playlist-btn-play");
+    playBtnItem.setAttribute("id", "pbp-"+index);
+    document.querySelector("#ptc-"+index).appendChild(playBtnItem);
 
-// Add user agent as an attribute on the <html> tag...
-// Inspiration: http://css-tricks.com/ie-10-specific-styles/
-var b = document.documentElement;
-b.setAttribute('data-useragent',  navigator.userAgent);
-b.setAttribute('data-platform', navigator.platform );
+    var btnImg = document.createElement('i');
+    btnImg.setAttribute("class", "fas fa-play");
+    btnImg.setAttribute("height", "40");
+    btnImg.setAttribute("width", "40");
+    btnImg.setAttribute("id", "p-img-"+index);
+    document.querySelector("#pbp-"+index).appendChild(btnImg);
 
+    var trackInfoItem = document.createElement('div');
+    trackInfoItem.setAttribute("class", "playlist-info-track");
+    trackInfoItem.innerHTML = name
+    document.querySelector("#ptc-"+index).appendChild(trackInfoItem);
 
-// HTML5 audio player + playlist controls...
-// Inspiration: http://jonhall.info/how_to/create_a_playlist_for_html5_audio
-// Mythium Archive: https://archive.org/details/mythium/
-jQuery(function ($) {
-    var supportsAudio = !! document.createElement('audio').canPlayType;
-    if (supportsAudio) {
-        var index = 0,
-            playing = false;
-        mediaPath = '../assets/music/',
-        extension = '.jpg',
-        tracks = [{
-            "track": 1,
-            "name": "Pick Up the Pieces",
-            "length": "02:46",
-            "file": "pick-up-the-pieces"
-        }, {
-            "track": 2,
-            "name": "The Entertainer",
-            "length": "08:30",
-            "file": "the-entertainer"
-        }, {
-            "track": 3,
-            "name": "Maple Leaf Rag",
-            "length": "05:01",
-            "file": "maple-leaf-rag"
-        }, {
-            "track": 4,
-            "name": "Prelude in C-Sharp Minor",
-            "length": "08:32",
-            "file": "prelude-in-c-sharp-minor"
-        }, {
-            "track": 5,
-            "name": "All The King's Men -- Broadwing Studio (First Mix)",
-            "length": "05:05",
-            "file": "BSFM_ATKM"
-        }, {
-            "track": 6,
-            "name": "All This Is -- Alternate Cuts",
-            "length": "02:49",
-            "file": "AC_ATI"
-        }, {
-            "track": 7,
-            "name": "All The King's Men (Take 1) -- Alternate Cuts",
-            "length": "05:44",
-            "file": "AC_ATKMTake_1"
-        }, {
-            "track": 8,
-            "name": "All The King's Men (Take 2) -- Alternate Cuts",
-            "length": "05:27",
-            "file": "AC_ATKMTake_2"
-        }, {
-            "track": 9,
-            "name": "Magus -- Alternate Cuts",
-            "length": "05:46",
-            "file": "AC_M"
-        }, {
-            "track": 10,
-            "name": "The State Of Wearing Address (fucked up) -- Alternate Cuts",
-            "length": "05:25",
-            "file": "AC_TSOWAfucked_up"
-        }],
-        trackCount = tracks.length,
-        npAction = $('#npAction'),
-        npTitle = $('#npTitle'),
-        audio = $('#audio1').bind('play', function () {
-            playing = true;
-            npAction.text('Now Playing...');
-        }).bind('pause', function () {
-            playing = false;
-            npAction.text('Paused...');
-        }).bind('ended', function () {
-            npAction.text('Paused...');
-            if ((index + 1) < trackCount) {
-                index++;
-                loadTrack(index);
-                audio.play();
-            } else {
-                audio.pause();
-                index = 0;
-                loadTrack(index);
-            }
-        }).get(0),
-        btnPrev = $('#btnPrev').click(function () {
-            if ((index - 1) > -1) {
-                index--;
-                loadTrack(index);
-                if (playing) {
-                    audio.play();
-                }
-            } else {
-                audio.pause();
-                index = 0;
-                loadTrack(index);
-            }
-        }),
-        btnNext = $('#btnNext').click(function () {
-            if ((index + 1) < trackCount) {
-                index++;
-                loadTrack(index);
-                if (playing) {
-                    audio.play();
-                }
-            } else {
-                audio.pause();
-                index = 0;
-                loadTrack(index);
-            }
-        }),
-        li = $('#plList li').click(function () {
-            var id = parseInt($(this).index());
-            if (id !== index) {
-                playTrack(id);
-            }
-        }),
-        loadTrack = function (id) {
-            $('.plSel').removeClass('plSel');
-            $('#plList li:eq(' + id + ')').addClass('plSel');
-            npTitle.text(tracks[id].name);
-            index = id;
-            audio.src = mediaPath + tracks[id].file + extension;
-        },
-        playTrack = function (id) {
-            loadTrack(id);
-            audio.play();
-        };
-        extension = audio.canPlayType('audio/mpeg') ? '.mp3' : audio.canPlayType('audio/ogg') ? '.ogg' : '';
-        loadTrack(index);
+    var trackDurationItem = document.createElement('div');
+    trackDurationItem.setAttribute("class", "playlist-duration");
+    trackDurationItem.innerHTML = duration
+    document.querySelector("#ptc-"+index).appendChild(trackDurationItem);
+  }
+
+  var listAudio = [
+    {
+      name:"Pick Up the Pieces",
+      file:"assets/music/pick-up-the-pieces.mp3",
+      duration:"04:02"
+    },
+    {
+      name:"The Entertainer",
+      file:"assets/music/the-entertainer.mp3",
+      duration:"04:03"
+    },
+    {
+      name:"Maple Leaf Rag",
+      file:"assets/music/maple-leaf-rag.mp3",
+      duration:"03:36"
+    },
+    {
+      name:"Prelude in C-Sharp Minor",
+      file:"assets/music/prelude-in-c-sharp-minor.mp3",
+      duration:"04:13"
     }
-});
+  ]
+
+  for (var i = 0; i < listAudio.length; i++) {
+      createTrackItem(i,listAudio[i].name,listAudio[i].duration);
+  }
+  var indexAudio = 0;
+
+  function loadNewTrack(index){
+    var player = document.querySelector('#source-audio')
+    player.src = listAudio[index].file
+    document.querySelector('.title').innerHTML = listAudio[index].name
+    this.currentAudio = document.getElementById("myAudio");
+    this.currentAudio.load()
+    this.toggleAudio()
+    this.updateStylePlaylist(this.indexAudio,index)
+    this.indexAudio = index;
+  }
+
+  var playListItems = document.querySelectorAll(".playlist-track-ctn");
+
+  for (let i = 0; i < playListItems.length; i++){
+    playListItems[i].addEventListener("click", getClickedElement.bind(this));
+  }
+
+  function getClickedElement(event) {
+    for (let i = 0; i < playListItems.length; i++){
+      if(playListItems[i] == event.target){
+        var clickedIndex = event.target.getAttribute("data-index")
+        if (clickedIndex == this.indexAudio ) { // alert('Same audio');
+            this.toggleAudio()
+        }else{
+            loadNewTrack(clickedIndex);
+        }
+      }
+    }
+  }
+
+  document.querySelector('#source-audio').src = listAudio[indexAudio].file
+  document.querySelector('.title').innerHTML = listAudio[indexAudio].name
+
+
+  var currentAudio = document.getElementById("myAudio");
+
+  currentAudio.load()
+  
+  currentAudio.onloadedmetadata = function() {
+        document.getElementsByClassName('duration')[0].innerHTML = this.getMinutes(this.currentAudio.duration)
+  }.bind(this);
+
+  var interval1;
+
+  function toggleAudio() {
+
+    if (this.currentAudio.paused) {
+      document.querySelector('#icon-play').style.display = 'none';
+      document.querySelector('#icon-pause').style.display = 'block';
+      document.querySelector('#ptc-'+this.indexAudio).classList.add("active-track");
+      this.playToPause(this.indexAudio)
+      this.currentAudio.play();
+    }else{
+      document.querySelector('#icon-play').style.display = 'block';
+      document.querySelector('#icon-pause').style.display = 'none';
+      this.pauseToPlay(this.indexAudio)
+      this.currentAudio.pause();
+    }
+  }
+
+  function pauseAudio() {
+    this.currentAudio.pause();
+    clearInterval(interval1);
+  }
+
+  var timer = document.getElementsByClassName('timer')[0]
+
+  
+
+
+  var width = 0;
+
+  function onTimeUpdate() {
+    var t = this.currentAudio.currentTime
+    timer.innerHTML = this.getMinutes(t);
+    this.setBarProgress();
+    if (this.currentAudio.ended) {
+      document.querySelector('#icon-play').style.display = 'block';
+      document.querySelector('#icon-pause').style.display = 'none';
+      this.pauseToPlay(this.indexAudio)
+      if (this.indexAudio < listAudio.length-1) {
+          var index = parseInt(this.indexAudio)+1
+          this.loadNewTrack(index)
+      }
+    }
+  }
+
+  function getMinutes(t){
+    var min = parseInt(parseInt(t)/60);
+    var sec = parseInt(t%60);
+    if (sec < 10) {
+      sec = "0"+sec
+    }
+    if (min < 10) {
+      min = "0"+min
+    }
+    return min+":"+sec
+  }
+
+  function next(){
+    if (this.indexAudio <listAudio.length-1) {
+        var oldIndex = this.indexAudio
+        this.indexAudio++;
+        updateStylePlaylist(oldIndex,this.indexAudio)
+        this.loadNewTrack(this.indexAudio);
+    }
+  }
+
+  function previous(){
+    if (this.indexAudio>0) {
+        var oldIndex = this.indexAudio
+        this.indexAudio--;
+        updateStylePlaylist(oldIndex,this.indexAudio)
+        this.loadNewTrack(this.indexAudio);
+    }
+  }
+
+  function updateStylePlaylist(oldIndex,newIndex){
+    document.querySelector('#ptc-'+oldIndex).classList.remove("active-track");
+    this.pauseToPlay(oldIndex);
+    document.querySelector('#ptc-'+newIndex).classList.add("active-track");
+    this.playToPause(newIndex)
+  }
+
+  function playToPause(index){
+    var ele = document.querySelector('#p-img-'+index)
+    ele.classList.remove("fa-play");
+    ele.classList.add("fa-pause");
+  }
+
+  function pauseToPlay(index){
+    var ele = document.querySelector('#p-img-'+index)
+    ele.classList.remove("fa-pause");
+    ele.classList.add("fa-play");
+  }
+
+
+  function toggleMute(){
+    var btnMute = document.querySelector('#toggleMute');
+    var volUp = document.querySelector('#icon-vol-up');
+    var volMute = document.querySelector('#icon-vol-mute');
+    if (this.currentAudio.muted == false) {
+       this.currentAudio.muted = true
+       volUp.style.display = "none"
+       volMute.style.display = "block"
+    }else{
+      this.currentAudio.muted = false
+      volMute.style.display = "none"
+      volUp.style.display = "block"
+    }
+  }
 
 //Enable Popovers//
 

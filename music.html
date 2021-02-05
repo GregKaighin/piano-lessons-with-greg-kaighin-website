@@ -61,434 +61,59 @@
             <p>Please enjoy</p>
         </div>
     </div>
-<div class="container">
-    <div class="column add-bottom">
-        <div id="mainwrap">
-            <div id="nowPlay">
-                <span id="npAction">Paused...</span><span id="npTitle"></span>
-            </div>
-            <div id="audiowrap">
-                <div id="audio0">
-                    <audio id="audio1" preload controls>Your browser does not support HTML5 Audio!</audio>
-                </div>
-                <div id="tracks">
-                    <a id="btnPrev">&larr;</a><a id="btnNext">&rarr;</a>
-                </div>
-            </div>
-            <div id="plwrap">
-                <ul id="plList"></ul>
-                 <li>
-                        <div class="plItem">
-                            <div class="plNum">01.</div>
-                            <div class="plTitle">Pick Up the Pieces</div>
-                            <div class="plLength">4:02</div>
-                        </div>
-                    </li>
-                     <li>
-                        <div class="plItem">
-                            <div class="plNum">02.</div>
-                            <div class="plTitle">The Entertainer</div>
-                            <div class="plLength">4:03</div>
-                        </div>
-                    </li>
-                     <li>
-                        <div class="plItem">
-                            <div class="plNum">03.</div>
-                            <div class="plTitle">Maple Leaf Rag</div>
-                            <div class="plLength">3:36</div>
-                        </div>
-                    </li>
-                     <li>
-                        <div class="plItem">
-                            <div class="plNum">04.</div>
-                            <div class="plTitle">Prelude in C-Sharp Minor</div>
-                            <div class="plLength">4:13</div>
-                        </div>
-                    </li>
-            </div>
+    <audio id="myAudio" ontimeupdate="onTimeUpdate()">
+  <!-- <source src="audio.ogg" type="audio/ogg"> -->
+  <source id="source-audio" src="" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<div class="player-ctn">
+  <div class="infos-ctn">
+    <div class="timer">00:00</div>
+    <div class="title"></div>
+    <div class="duration">00:00</div>
+  </div>
+  <div id="myProgress">
+    <div id="myBar"></div>
+  </div>
+  <div class="btn-ctn">
+     <div class="btn-action first-btn" onclick="previous()">
+        <div id="btn-faws-back">
+          <i class='fas fa-step-backward'></i>
         </div>
-    </div>
-    <div class="column add-bottom center">
-        
-    </div>
+     </div>
+     <div class="btn-action" onclick="rewind()">
+        <div id="btn-faws-rewind">
+        </div>
+     </div>
+     <div class="btn-action" onclick="toggleAudio()">
+        <div id="btn-faws-play-pause">
+          <i class='fas fa-play' id="icon-play"></i>
+          <i class='fas fa-pause' id="icon-pause" style="display: none"></i>
+        </div>
+     </div>
+     <div class="btn-play" onclick="forward()">
+        <div id="btn-faws-forward">
+        </div>
+     </div>
+     <div class="btn-action" onclick="next()">
+        <div id="btn-faws-next">
+          <i class='fas fa-step-forward'></i>
+        </div>
+     </div>
+     <div class="btn-mute" id="toggleMute" onclick="toggleMute()">
+        <div id="btn-faws-volume">
+          <i id="icon-vol-up" class='fas fa-volume-up'></i>
+          <i id="icon-vol-mute" class='fas fa-volume-mute' style="display: none"></i>
+        </div>
+     </div>
+  </div>
+  <div class="playlist-ctn"></div>
 </div>
 
 
-<!-- Piano Jumbotron --
-<div class="audio-container">
-  <div class="col">
-        <div id="mainwrap">
-            <div id="nowPlay">
-                <span class="left" id="npAction">Paused...</span>
-                <span class="right" id="npTitle"></span>
-            </div>
-            <div id="audiowrap">
-                <div id="audio0">
-                    <audio preload id="audio1" controls="controls">Your browser does not support HTML5 Audio!</audio>
-                </div>
-                <div id="tracks">
-                    <a id="btnPrev">&laquo;</a>
-                    <a id="btnNext">&raquo;</a>
-                </div>
-            </div>
-    </div>
-  
-           
-            <div id="plwrap">
-                <ul id="plList">
-                    <li>
-                        <div class="plItem">
-                            <div class="plNum">01.</div>
-                            <div class="plTitle">Pick Up the Pieces</div>
-                            <div class="plLength">4:02</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="plItem">
-                            <div class="plNum">02.</div>
-                            <div class="plTitle">The Entertainer</div>
-                            <div class="plLength">4:03</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="plItem">
-                            <div class="plNum">03.</div>
-                            <div class="plTitle">Maple Leaf Rag</div>
-                            <div class="plLength">3:36</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="plItem">
-                            <div class="plNum">04.</div>
-                            <div class="plTitle">Prelude in C-Sharp Minor</div>
-                            <div class="plLength">4:13</div>
-                        </div>
-                    </li>
-                     
-                    <li>
-                        <div class="plItem">
-                            <div class="plNum">05.</div>
-                            <div class="plTitle">All The King's Men -- Broadwing Studio (First Mix)</div>
-                            <div class="plLength">5:05</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="plItem">
-                            <div class="plNum">06.</div>
-                            <div class="plTitle">All This Is -- Alternate Cuts</div>
-                            <div class="plLength">2:49</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="plItem">
-                            <div class="plNum">07.</div>
-                            <div class="plTitle">All The King's Men (Take 1) -- Alternate Cuts</div>
-                            <div class="plLength">5:44</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="plItem">
-                            <div class="plNum">08.</div>
-                            <div class="plTitle">All The King's Men (Take 2) -- Alternate Cuts</div>
-                            <div class="plLength">5:27</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="plItem">
-                            <div class="plNum">09.</div>
-                            <div class="plTitle">Magus -- Alternate Cuts</div>
-                            <div class="plLength">5:46</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="plItem">
-                            <div class="plNum">10.</div>
-                            <div class="plTitle">The State Of Wearing Address (fucked up) -- Alternate Cuts</div>
-                            <div class="plLength">5:25</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="plItem">
-                            <div class="plNum">11.</div>
-                            <div class="plTitle">Magus -- Popeye's (New Years '04 - '05)</div>
-                            <div class="plLength">5:53</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="plItem">
-                            <div class="plNum">12.</div>
-                            <div class="plTitle">On The Waterfront -- Popeye's (New Years '04 - '05)</div>
-                            <div class="plLength">4:41</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="plItem">
-                            <div class="plNum">13.</div>
-                            <div class="plTitle">Trance -- Popeye's (New Years '04 - '05)</div>
-                            <div class="plLength">13:16</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="plItem">
-                            <div class="plNum">14.</div>
-                            <div class="plTitle">The Forsaken -- Popeye's (New Years '04 - '05)</div>
-                            <div class="plLength">8:13</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="plItem">
-                            <div class="plNum">15.</div>
-                            <div class="plTitle">The State Of Wearing Address -- Popeye's (New Years '04 - '05)</div>
-                            <div class="plLength">7:02</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="plItem">
-                            <div class="plNum">16.</div>
-                            <div class="plTitle">Magus -- Popeye's (Valentine's Day '05)</div>
-                            <div class="plLength">5:44</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="plItem">
-                            <div class="plNum">17.</div>
-                            <div class="plTitle">Trance -- Popeye's (Valentine's Day '05)</div>
-                            <div class="plLength">10:45</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="plItem">
-                            <div class="plNum">18.</div>
-                            <div class="plTitle">The State Of Wearing Address -- Popeye's (Valentine's Day '05)</div>
-                            <div class="plLength">5:36</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="plItem">
-                            <div class="plNum">19.</div>
-                            <div class="plTitle">All This Is -- Smith St. Basement (01/08/04)</div>
-                            <div class="plLength">2:49</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="plItem">
-                            <div class="plNum">20.</div>
-                            <div class="plTitle">Magus -- Smith St. Basement (01/08/04)</div>
-                            <div class="plLength">5:46</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="plItem">
-                            <div class="plNum">21.</div>
-                            <div class="plTitle">Beneath The Painted Eye -- Smith St. Basement (06/06/03)</div>
-                            <div class="plLength">13:07</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="plItem">
-                            <div class="plNum">22.</div>
-                            <div class="plTitle">Innocence -- Smith St. Basement (06/06/03)</div>
-                            <div class="plLength">5:16</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="plItem">
-                            <div class="plNum">23.</div>
-                            <div class="plTitle">Magus -- Smith St. Basement (06/06/03)</div>
-                            <div class="plLength">5:47</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="plItem">
-                            <div class="plNum">24.</div>
-                            <div class="plTitle">Madness Explored -- Smith St. Basement (06/06/03)</div>
-                            <div class="plLength">4:52</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="plItem">
-                            <div class="plNum">25.</div>
-                            <div class="plTitle">The Forsaken -- Smith St. Basement (06/06/03)</div>
-                            <div class="plLength">8:43</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="plItem">
-                            <div class="plNum">26.</div>
-                            <div class="plTitle">All This Is -- Smith St. Basement (12/28/03)</div>
-                            <div class="plLength">3:00</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="plItem">
-                            <div class="plNum">27.</div>
-                            <div class="plTitle">Magus -- Smith St. Basement (12/28/03)</div>
-                            <div class="plLength">6:09</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="plItem">
-                            <div class="plNum">28.</div>
-                            <div class="plTitle">Madness Explored -- Smith St. Basement (12/28/03)</div>
-                            <div class="plLength">5:06</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="plItem">
-                            <div class="plNum">29.</div>
-                            <div class="plTitle">Trance -- Smith St. Basement (12/28/03)</div>
-                            <div class="plLength">12:33</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="plItem">
-                            <div class="plNum">30.</div>
-                            <div class="plTitle">The Forsaken -- Smith St. Basement (12/28/03)</div>
-                            <div class="plLength">8:57</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="plItem">
-                            <div class="plNum">31.</div>
-                            <div class="plTitle">All This Is (Take 1) -- Smith St. Basement (Nov. '03)</div>
-                            <div class="plLength">4:55</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="plItem">
-                            <div class="plNum">32.</div>
-                            <div class="plTitle">All This Is (Take 2) -- Smith St. Basement (Nov. '03)</div>
-                            <div class="plLength">5:45</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="plItem">
-                            <div class="plNum">33.</div>
-                            <div class="plTitle">Beneath The Painted Eye (Take 1) -- Smith St. Basement (Nov. '03)</div>
-                            <div class="plLength">14:05</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="plItem">
-                            <div class="plNum">34.</div>
-                            <div class="plTitle">Beneath The Painted Eye (Take 2) -- Smith St. Basement (Nov. '03)</div>
-                            <div class="plLength">13:26</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="plItem">
-                            <div class="plNum">35.</div>
-                            <div class="plTitle">The Forsaken (Take 1) -- Smith St. Basement (Nov. '03)</div>
-                            <div class="plLength">8:37</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="plItem">
-                            <div class="plNum">36.</div>
-                            <div class="plTitle">The Forsaken (Take 2) -- Smith St. Basement (Nov. '03)</div>
-                            <div class="plLength">8:36</div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    </div>
-    <div class="column add-bottom center">
-        <p>Created by <a href="http://www.markhillard.com/">mh</a>. Music by <a href="http://www.mythium.net/">Mythium</a>.</p>
-        <p>Download: <a href="https://archive.org/download/mythium/mythium_vbr_mp3.zip">zip</a> / <a href="https://archive.org/download/mythium/mythium_archive.torrent">torrent</a></p>
-    </div>
-</div>
-<!-- Piano Jumbotron --
-    <div class="audio-container d-flex justify-content-center">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="column add-bottom">
-                    <div id="mainwrap">
-                        <div id="nowPlay">
-                            <span class="right" id="npTitle"></span>
-                        </div>
-                        <div id="audiowrap">
-                            <div id="audio0">
-                                <audio preload id="audio1" controls="controls" controlsList="nodownload">Your browser
-                                    does not support HTML5 Audio!</audio>
-                            </div>
-                            <div id="tracks">
-                                <a id="btnPrev" aria-label="Previous">&laquo;</a>
-                                <a id="btnNext" aria-label="Next">&raquo;</a>
-                            </div>
-                        </div>
-                        <div id="plwrap">
-                            <ul id="plList">
-                                <li>
-                                    <div class="plItem">
-                                        <div class="plNum">01</div>
-                                        <div class="plTitle">
-                                            <h5>Pick Up the Pieces</h5>
-                                        </div>
-                                        <div class="plComposer">Average White Band</div>
-                                        <div class="plPerformer">Kaighin Family</div>
-                                    </div>
-                                </li>
-                                <button type="button" class="btn btn-light" data-container="body" data-toggle="popover"
-                                    data-placement="top" data-content="'Pick Up the Pieces' is a 1974 tune by the Average White Band from their second album, AWB.
-                                    This cover version is produced with a mix of acoustic and electronic instruments, and features my Dad, Jeff Kaighin playing
-                                    alto saxophone.">
-                                    More Info
-                                </button>
-                                  <hr class="track-divider">
-                                <li>
-                                  
-                                    <div class="plItem">
-                                        <div class="plNum">02</div>
-                                        <div class="plTitle">
-                                            <h5>The Entertainer</h5>
-                                        </div>
-                                        <div class="plComposer">Scott Joplin</div>
-                                        <div class="plPerformer">Greg Kaighin</div>
-                                    </div>
-                                </li>
-                                <button type="button" class="btn btn-light" data-container="body" data-toggle="popover"
-                                    data-placement="top"
-                                    data-content="Scott Joplin's 'The Entertainer' is the most well-known of all rag-time pieces.">
-                                    More Info
-                                </button>
-                                <li>
-                                    <hr class="track-divider">
-                                    <div class="plItem">
-                                        <div class="plNum">03.</div>
-                                        <div class="plTitle">
-                                            <h5>Maple Leaf Rag</h5>
-                                        </div>
-                                        <div class="plComposer">Scott Joplin</div>
-                                        <div class="plPerformer">Greg Kaighin</div>
-                                    </div>
-                                </li>
-                                <button type="button" class="btn btn-light" data-container="body" data-toggle="popover"
-                                    data-placement="top" data-content="">
-                                    More Info
-                                </button>
-                                <li>
-                                    <hr class="track-divider">
-                                    <div class="plItem">
-                                        <div class="plNum">04.</div>
-                                        <div class="plTitle">
-                                            <h5>Prelude in C-Sharp Minor</h5>
-                                        </div>
-                                        <div class="plComposer">Sergei Rachmaninoff</div>
-                                        <div class="plPerformer">Greg Kaighin</div>
-                                    </div>
-                                </li>
-                                <button type="button" class="btn btn-light" data-container="body" data-toggle="popover"
-                                    data-placement="top" data-content="">
-                                    More Info
-                                </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
+    
     <!-- Footer -->
     <footer>
         <!-- Cards -->
