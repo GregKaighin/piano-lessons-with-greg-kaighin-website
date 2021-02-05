@@ -30,22 +30,22 @@
 
   var listAudio = [
     {
-      name:"Pick Up the Pieces",
+      name:"Pick Up the Pieces, Average White Band",
       file:"assets/music/pick-up-the-pieces.mp3",
       duration:"04:02"
     },
     {
-      name:"The Entertainer",
+      name:"The Entertainer, Joplin",
       file:"assets/music/the-entertainer.mp3",
       duration:"04:03"
     },
     {
-      name:"Maple Leaf Rag",
+      name:"Maple Leaf Rag, Joplin",
       file:"assets/music/maple-leaf-rag.mp3",
       duration:"03:36"
     },
     {
-      name:"Prelude in C-Sharp Minor",
+      name:"Prelude in C-Sharp Minor, Rachmaninoff",
       file:"assets/music/prelude-in-c-sharp-minor.mp3",
       duration:"04:13"
     },
@@ -132,6 +132,7 @@
   function onTimeUpdate() {
     var t = this.currentAudio.currentTime
     timer.innerHTML = this.getMinutes(t);
+
     if (this.currentAudio.ended) {
       document.querySelector('#icon-play').style.display = 'block';
       document.querySelector('#icon-pause').style.display = 'none';
