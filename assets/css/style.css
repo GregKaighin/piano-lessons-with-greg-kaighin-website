@@ -293,7 +293,7 @@ i.fas.fa-comment {
  .form-control {
      margin-bottom: 2px;
      border-color: #221d17;
-     background-color:#fffff0;
+     background-color:lightyellow;
      letter-spacing: 1px;    
 }
  .contact-heading {
@@ -370,6 +370,7 @@ i.fas.fa-comment {
 .btn-ctn, .infos-ctn{
   display: flex;
   justify-content: center;
+  height: fit-content;
 }
 .infos-ctn{
 padding-top: 20px;
@@ -394,7 +395,7 @@ padding-top: 20px;
   border-radius: 12px;
   width:66vw;
   background-image: linear-gradient(to bottom right,rgb(255, 255, 240),rgb(186, 247, 178));
-  border: 2px solid darkgreen;
+  border: 2px solid #221d17;
   margin:auto;
   margin-top: 24px;
 }
