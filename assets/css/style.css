@@ -368,7 +368,7 @@ i.fas.fa-comment {
 padding-top: 20px;
 }
 .btn-ctn > div {
- padding: 12px;
+ padding: 8px;
  margin-top: 18px;
  margin-bottom: 18px;
 }
@@ -377,20 +377,19 @@ padding-top: 20px;
  color: #221d17;
 }
 .first-btn{
-  margin-left: 3px;
+  margin-left: 4px;
 }
 .duration{
   margin-left: 10px;
 }
 .title{
-  margin-left: 10px;
   width: 67vw;
   text-align: center;
 }
 .player-ctn{
-  border-radius: 15px;
+  border-radius: 12px;
   width:66vw;
-  padding: 10px;
+  padding: 12px;
   background-image: linear-gradient(to bottom,rgb(255, 255, 240),rgb(186, 247, 178));
   border: 2px solid #221d17;
   margin:auto;
@@ -398,7 +397,6 @@ padding-top: 20px;
 }
 .playlist-track-ctn{
   display: flex;
-  
   border-radius: 24px;
   cursor: pointer;
 }
