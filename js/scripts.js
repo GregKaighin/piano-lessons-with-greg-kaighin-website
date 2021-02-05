@@ -18,7 +18,7 @@ jQuery(function ($) {
         var index = 0,
             playing = false;
         mediaPath = '../assets/music/',
-        extension = '',
+        extension = '.jpg',
         tracks = [{
             "track": 1,
             "name": "Pick Up the Pieces",
