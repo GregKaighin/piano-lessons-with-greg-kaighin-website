@@ -45,7 +45,7 @@
       duration:"03:36"
     },
     {
-      name:"Prelude in C-Sharp Minor, Rachmaninoff",
+      name:"Prelude in C# Minor, Rachmaninoff",
       file:"assets/music/prelude-in-c-sharp-minor.mp3",
       duration:"04:13"
     },
@@ -207,13 +207,6 @@
       volUp.style.display = "block"
     }
   }
-
-//Enable Popovers//
-
-$(function () {
-  $('[data-toggle="popover"]').popover()
-})
-
 
 
 

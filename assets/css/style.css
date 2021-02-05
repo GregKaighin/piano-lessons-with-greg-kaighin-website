@@ -129,6 +129,7 @@ i.fas.fa-comment {
      letter-spacing: 2px;
 }
 .about-me p {
+    margin-top: 16px;
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 1px;
@@ -378,14 +379,12 @@ padding-top: 20px;
   margin-left: 10px;
 }
 .title{
-    width: 33vw;
+  width: 33vw;
   text-align: center;
-  font-size: 120%
 }
 .player-ctn{
   border-radius: 12px;
   width:66vw;
-  padding: 12px;
   background-image: linear-gradient(to bottom right,rgb(255, 255, 240),rgb(186, 247, 178));
   border: 2px solid #221d17;
   margin:auto;
@@ -432,16 +431,5 @@ padding-top: 20px;
   font-size: 20px;
 }
 
-/*-------------------------------- Popovers*/
-.popover-body {
-    background-image: linear-gradient(to bottom right,rgb(255, 255, 240, 1),rgb(186, 247, 178));
-    border: 2px solid darkgreen;
-    border-radius: 24px;
-}
-.popover {
-    border: none;
-    background-color: #fffff0;
-    opacity: 1;
-}
 
                      
