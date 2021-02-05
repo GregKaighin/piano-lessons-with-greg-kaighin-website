@@ -134,22 +134,20 @@ As a visitor to Piano Lessons with Greg Kaighin I expect/want/need:
 
 ## Design Choices
 
-The overall visual style came together quite late in the project after several unsuccessful attempts at using images of paintings. I felt that they looked fine on a laptop, however they didn't scale down to small viewports very well, and also seemed to dominate the look of the website.
+The visual style came together quite late in the project after several unsuccessful attempts at using images of paintings as a "hero" type image. I felt that they looked fine on a laptop, however they didn't scale down to small viewports very well, and also seemed to dominate the look of the website too much.
 
-These were replaced with a simpler image of piano keyboard outline, to which colour-gradients have been applied to fill the piano keys. This image, couple with a few areas of colour around the page give a hopefully much bolder, cleaner and more appealing look. I was deliberately wary of not designing the website around an image, but once I had decided to use the coloured piano keyboard, other design choices such as icon colours and colour in other areas of the page became more obvious.
-- The background colour is ivory, of course, and the dark colour of the text is chosen to match the black keys on a piano.
+These were replaced with a simpler image of a piano keyboard outline, to which colour-gradient fills have been applied to the piano keys. This image was chosen because it is visually striking, and together with the logo next to it, instanly relays the subject matter of the website to the user upon opening a page.
+- The background colour is ivory #fffff0, of course, and the dark colour of the text is chosen to match the black keys on a piano #221d17.
 
 - The "black" keys in the main jumbotron image have been coloured dark blue, as they looked too dark on screen when completely black.
 
-- The font is Karla, from Google fonts. I chose this because it is clear and easy to read.
-
-- After adding the coloured piano image, I found that by enclosing areas in solid borders gave a nice clean look against the background and helped to make the overall look more coherent to the eye.
+- The font is Roboto, from Google fonts. I chose this because it is very clear and easy to read.
 
 - The links to other webpages on the resources page are dark blue, as are the PDF file download links.
 
 - The internal links in the about me section are coloured BGY to match the navigation icons.
 
-- The social link buttons are displayed in their original brand colours to stand out a little.
+- The social link button icons are displayed in their original brand colours to stand out.
 
 - For page navigation, a simple RGBY colour is given to the navigation icons. The order of the colours here matches the order of the colours on the piano keyboard image.
 
