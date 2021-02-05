@@ -48,7 +48,8 @@
       name:"Prelude in C-Sharp Minor",
       file:"assets/music/prelude-in-c-sharp-minor.mp3",
       duration:"04:13"
-    }
+    },
+
   ]
 
   for (var i = 0; i < listAudio.length; i++) {
@@ -194,7 +195,6 @@
 
 
   function toggleMute(){
-    var btnMute = document.querySelector('#toggleMute');
     var volUp = document.querySelector('#icon-vol-up');
     var volMute = document.querySelector('#icon-vol-mute');
     if (this.currentAudio.muted == false) {

@@ -356,8 +356,7 @@ i.fas.fa-comment {
 /*-------------------------------- Audio Player -- https://codepen.io/vanderzak/pen/BayjVep --*/
 .btn-action{
   cursor: pointer;
-  padding-top: 10px;
-  width: 30px;
+ 
 }
 .btn-ctn, .infos-ctn{
   display: flex;
@@ -368,7 +367,7 @@ i.fas.fa-comment {
 padding-top: 20px;
 }
 .btn-ctn > div {
- padding: 8px;
+ padding: 16px;
  margin-top: 18px;
  margin-bottom: 18px;
 }
@@ -376,15 +375,13 @@ padding-top: 20px;
  margin-bottom: 8px;
  color: #221d17;
 }
-.first-btn{
-  margin-left: 4px;
-}
 .duration{
   margin-left: 10px;
 }
 .title{
-  width: 67vw;
+    width: 33vw;
   text-align: center;
+  font-size: 120%
 }
 .player-ctn{
   border-radius: 12px;
