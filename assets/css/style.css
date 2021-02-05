@@ -409,9 +409,6 @@ padding-top: 20px;
   font-size: 16px;
   pointer-events: none;
 }
-.playlist-ctn{
-   padding-bottom: 20px;
-}
 .active-track{
   background: lightgreen;
   border: 2px solid darkgreen;
