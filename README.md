@@ -25,11 +25,7 @@ I teach.
 
 - to provide links to useful external websites, such as music examining boards.
 
-It is built with a mobile-first design philosophy, but it is also responsive enough to look acceptable on large displays too, particularly the resources page, where, based on user-stories, a user is considered to be more likely to access the site using a laptop or desktop computer.
-
-The layout of the 'ethos' section is based on the 'Love Running' website from Code Institute's Full Stack Developer programme, but reworked using Bootstraps layout features.
-
-A previous version of the website can be found here #############, which consists of commit messages of varying clarity, as I learned how to build a website, and to use GitHub. The third and final build presented here is put together more logically in sections and with clearer commit messages.
+It is built with a mobile-first design, but it is also responsive enough to look acceptable on large displays too, particularly the resources page, where, based on user-stories, a user is considered to be more likely to access the site using a laptop or desktop computer.
 
 The enquiries form is not yet functional.
 
@@ -37,10 +33,8 @@ All other parts of the website are working as intended.
 
 # UX
 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 The website is for people who may be considering taking piano lessons with GK, to provide them with the information they need to decide whether or not to take piano lessons with GK.
 It is also for existing students, to provide a place where teaching resources in PDF file format can be downloaded.
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 
 ## User Stories
 - As a potential piano student, I want to find out information about GK the person and the business 'Piano Lessons with GK', to enable me to decide whether to take lessons or not.
@@ -48,9 +42,33 @@ In particular, as part of this section we recommend that you provide a list of U
 - As an existing piano student, I want to download some music to practice.
 - I would like to listen to some of GK's music.
 
-As a user type, I want to perform an action, so that I can achieve a goal.
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
+# User Stories
+
+As a visitor to Piano Lessons with Greg Kaighin I expect/want/need:
+
+1. To be able to navigate the website easily and to quickly find the information I am looking for.
+
+2. To get relevant information about GK the piano teacher.
+
+3. To get information to help me decide if GK is the right piano teacher for me. 
+
+2. For all information to be presented clearly and logically.
+
+3. To be able to make contact easily if I decide I want to.
+
+4. To be able to download sheet music for my piano lessons.
+
+5. To get information about music exams.
+
+6. To be able to access the website on my phone, tablet and computer.
+
+7. To listen to some piano music.
+
+8. For the website to have a coherent look.
+
+9. For everything to work.
 
 # Technologies Used:
 
@@ -163,31 +181,7 @@ I chose this player because it has a simple, clear UI, it functions mainly as ex
 All functions apart from the progress bar slider work, so I have stripped the code out relating to the progress slider. Fortunately, this does not appear to have broken anything, and improves UX of the audio player by giving a cleaner look without a non-functioning progress slider, or symbols that appeared as the audio player was fetching information about track-length. This is not ideal, but is a better compromise than simply using the HTML audio element, particularly from the user’s perspective as they are presented with a simple audio-player that functions as intended. 
 I will look again at the audio player once I have learned more about JavaScript to understand more about how it works.
 
-# User Stories
 
-As a visitor to Piano Lessons with Greg Kaighin I expect/want/need:
-
-1. To be able to navigate the website easily and to quickly find the information I am looking for.
-
-2. To get relevant information about GK the piano teacher.
-
-3. To get information to help me decide if GK is the right piano teacher for me. 
-
-2. For all information to be presented clearly and logically.
-
-3. To be able to make contact easily if I decide I want to.
-
-4. To be able to download sheet music for my piano lessons.
-
-5. To get information about music exams.
-
-6. To be able to access the website on my phone, tablet and computer.
-
-7. To listen to some piano music.
-
-8. For the website to have a coherent look.
-
-9. For everything to work.
 
 # Design Choices
 
