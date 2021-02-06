@@ -7,7 +7,7 @@
 
 ![Piano Lessons with Greg Kaighin](assets/images/screenshot-devices.png)
 
-The website is built for my own established self-employed piano-teaching business "Piano Lessons with Greg Kaighin" 
+The website is built for my own established self-employed piano-teaching business "Piano Lessons with Greg Kaighin", 
 to advertise the business to prospective students and to provide them with a means of getting in contact. It is also
 created to be of value to current students by providing downloads of teaching resources and links to relevant external
 websites.
