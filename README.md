@@ -127,7 +127,7 @@ icon, in their original brand colours, in order to stand out a little from the r
 and also information about additional subjects available from 'Piano Lessons with GK' such as workshops, and music
 technology, and music theory lessons.
 
-- Audio Player. This was adapted from https://codepen.io/vanderzak/pen/BayjVep. I have included the HTML and JavaScript
+- Audio Player. This was adapted from (https://codepen.io/vanderzak/pen/BayjVep). I have included the HTML and JavaScript
 largely unchanged from the original, but have stripped out the parts relating to the progress bar, as I don't require 
 the player to have that functionality. The CSS styling of the audio player I have done myself. It's purpose is to give 
 a simple juke-box style audio player with a set playlist.
@@ -135,7 +135,7 @@ a simple juke-box style audio player with a set playlist.
 - Resources Section. This section uses Bootstrap's table class to provide a table of links of PDF downloads, and links
 to external websites relevant to piano lessons.
 
-- Enquiries Form. A Boostrap's form clas is used to create a simple enquiry form with a modal popup to say thank 
+- Enquiries Form. A Boostrap's form class is used to create a simple enquiry form with a modal popup to say thank 
 you once it has been submitted. The form is not yet functional, this will be rectified once I have learned how to
 do it.
 
