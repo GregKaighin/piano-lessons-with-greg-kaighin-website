@@ -1,3 +1,5 @@
+![Piano Lessons with Greg Kaighin](assets/images/screenshot-devices.jpg)
+
 # Piano Lessons with Greg Kaighin Website
 ## Greg Kaighin
 ## Code Institute - Full Stack Developer HND
@@ -88,7 +90,10 @@ striking, and it sets the tone for the rest of the website's visual design.
 
 - About-Me Section. The purpose of this section is to give information about GK. This is the first section to appear
 after the header as, based on user stories, it is most likely the first thing that prospective piano students will want
-to read.
+to read. As there is a lot of text, some of it is hidden behind a 'Show More / Show Less' button. This is not ideal,
+it could be improved by revealing the hidden text with an upwards scroll, rather than a downwards one, a fix for 
+the future.
+
 
 - Ethos Section. This section is designed to relay the ethos of 'Piano Lessons with GK'. It is displayed directly
 below the 'About-Me', and is designed to complement the information found there. The layout of this section was inspired
@@ -106,7 +111,8 @@ technology, and music theory lessons.
 
 - Audio Player. This was adapted from https://codepen.io/vanderzak/pen/BayjVep. I have included the HTML and JavaScript
 largely unchanged from the original, but have stripped out the parts relating to the progress bar, as I don't require 
-the player to have that functionality. The CSS styling of the audio player I have done myself.
+the player to have that functionality. The CSS styling of the audio player I have done myself. It's purpose is to give 
+a simple juke-box style audio player with a set playlist.
 
 - Resources Section. This section uses Bootstrap's table class to provide a table of links of PDF downloads, and links
 to external websites relevant to piano lessons.
