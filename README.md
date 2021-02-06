@@ -1,25 +1,25 @@
-# Greg Kaighin
-## Full Stack Developer HND Course
-## Code Institute
+# Piano Lessons with Greg Kaighin Website
+## Greg Kaighin
+## Code Institute - Full Stack Developer HND
 ### Milestone Project 1
+### User-Centric Front-End
 ### February 2021
 
-# Piano Lessons with Greg Kaighin Website
-
-This website is built to meet the requirements of my self-employed piano-teaching business
-"Piano Lessons with Greg Kaighin", and has been designed with the 
+The website is built for my own established self-employed piano-teaching business "Piano Lessons with Greg Kaighin" 
+to advertise the business to propective students, as I am currently looking to increase the number of students 
+I teach.
 
 ## Its purposes are:
 
-- to advertise the business to potential customers and provide them with a means of getting in contact.
+- to advertise the business to potential customers and to provide them with a means of getting in contact.
 
 - to raise awareness of the business among the general public, both online and locally.
 
 - to collect contact and other relevant information from prospective customers via a form.
 
-- to provide a juke-box type audio player to showcase some music from myself and my students.
+- to provide a juke-box type audio player to showcase some music recordings.
 
-- to provide PDF downloads to content related to piano teaching.
+- to provide PDF downloads of content related to piano teaching (Pieces of music, scales & exercises).
 
 - to provide links to useful external websites, such as music examining boards.
 
@@ -33,7 +33,25 @@ The enquiries form is not yet functional.
 
 All other parts of the website are working as intended.
 
-## Technologies Used:
+# UX
+
+Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+The website is for people who may be considering taking piano lessons with GK, to provide them with the information they need to decide whether or not to take piano lessons with GK.
+It is also for existing students, to provide a place where teaching resources in PDF file format can be downloaded.
+In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+
+## User Stories
+- As a potential piano student, I want to find out information about GK the person and the business 'Piano Lessons with GK', to enable me to decide whether to take lessons or not.
+- I have decided that I am interested in Piano Lessons with GK and would like to get in contact.
+- As an existing piano student, I want to download some music to practice.
+- I would like to listen to some of GK's music.
+
+As a user type, I want to perform an action, so that I can achieve a goal.
+This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+
+
+# Technologies Used:
+
 - HTML5
 - CSS3
 - Font Awesome
@@ -49,20 +67,53 @@ All other parts of the website are working as intended.
 ### Original Content:
 MP3 Audio recordings: Greg Kaighin
 PDF Documents: Greg Kaighin
-Care has been taken to ensure all sheet music and music recordings chosen are free of copyright restrictions.
-
+All sheet music and music recordings are free of copyright restrictions.
 Colours: Gradient fills on piano keys image generated with Photoshop. The colour scheme was chosen to give an ‘educational’ aesthetic to the website, and features pastel-coloured gradients surrounded by solid 2-pixel borders. 
-
-Audio player: https://codepen.io/craigstroman/pen/aOyRYx
 
 ### Target Audience
 
 - Internet users who might be considering taking piano lessons.
 - Current piano students
 
-## Features
+# Features
 
 ### Primary
+
+- Navbar. Bootstrap's navbar-light and fixed-top class are used to create an intuitive navbar which is always
+present at the top of the viewport. Each page link is named (Home, Music, Resources, Enquiries), and also
+given a primary coloured font-awesome icon, to provide users with a further visual cue. 
+
+- Hero Image. The image used in the page header is of a coloured piano keyboard. This was chosen as it is visually
+striking, and it sets the tone for the rest of the website's visual design.
+
+- About-Me Section. The purpose of this section is to give information about GK. This is the first section to appear
+after the header as, based on user stories, it is most likely the first thing that prospective piano students will want
+to read.
+
+- Ethos Section. This section is designed to relay the ethos of 'Piano Lessons with GK'. It is displayed directly
+below the 'About-Me', and is designed to complement the information found there. The layout of this section was inspired
+by the ethos section of the 'Love Running' website on the Code Institute's FSD course.
+
+- Testimonial Section. This section is for displaying comments from existing piano students. For data-protection
+purposes, adult names are used with permission. Comments from children are displayed with an alias. 
+
+- Social Links. These are displayed at the top of the footer, as a Bootstrap button, displayed as a font-awesome
+icon, in their original brand colours, in order to stand out a little from the rest of the content on the page.
+
+- Cards Section. Bootstrap cards are displayed at the bottom of the footer, containing information about pricing,
+and also information about additional subjects available from 'Piano Lessons with GK' such as workshops, and music
+technology, and music theory lessons.
+
+- Audio Player. This was adapted from https://codepen.io/vanderzak/pen/BayjVep. I have included the HTML and JavaScript
+largely unchanged from the original, but have stripped out the parts relating to the progress bar, as I don't require 
+the player to have that functionality. The CSS styling of the audio player I have done myself.
+
+- Resources Section. This section uses Bootstrap's table class to provide a table of links of PDF downloads, and links
+to external websites relevant to piano lessons.
+
+- Enquiries Form. A Boostrap's form clas is used to create a simple enquiry form with a modal popup to say thank 
+you once it has been submitted. The form is not yet functional, this will be rectified once I have learned how to
+do it.
 
 - Give a concise and aesthetically pleasing presentation of the business “Piano Lessons with Greg Kaighin”.
 - Provide a way for potential customers to get in contact.
@@ -73,7 +124,7 @@ Audio player: https://codepen.io/craigstroman/pen/aOyRYx
 - Download of sheet music PDFs.
 - Links to external websites.
 
-## Roadmap features
+# Roadmap features
 
 - Signup and payments page for group music workshops.
 
@@ -81,7 +132,7 @@ Audio player: https://codepen.io/craigstroman/pen/aOyRYx
 
 - The header message will be updated as required to reflect current business circumstances.
 
-## Known issues and potential solutions
+# Known issues and potential solutions
 - Issue: navbar dropdown menu always appears on the left side. It would sometimes look better positioned on the right.
 Potential solution: Change index.html navbar-toggler class IDs.
 
@@ -106,7 +157,7 @@ I chose this player because it has a simple, clear UI, it functions mainly as ex
 All functions apart from the progress bar slider work, so I have stripped the code out relating to the progress slider. Fortunately, this does not appear to have broken anything, and improves UX of the audio player by giving a cleaner look without a non-functioning progress slider, or symbols that appeared as the audio player was fetching information about track-length. This is not ideal, but is a better compromise than simply using the HTML audio element, particularly from the user’s perspective as they are presented with a simple audio-player that functions as intended. 
 I will look again at the audio player once I have learned more about JavaScript to understand more about how it works.
 
-## User Stories
+# User Stories
 
 As a visitor to Piano Lessons with Greg Kaighin I expect/want/need:
 
@@ -132,7 +183,7 @@ As a visitor to Piano Lessons with Greg Kaighin I expect/want/need:
 
 9. For everything to work.
 
-## Design Choices
+# Design Choices
 
 The visual style came together quite late in the project after several unsuccessful attempts at using images of paintings as a "hero" type image. I felt that they looked fine on a laptop, however they didn't scale down to small viewports very well, and also seemed to dominate the look of the website too much.
 
@@ -166,7 +217,7 @@ These were replaced with a simpler image of a piano keyboard outline, to which c
 - I am not completely happy with the layout at large screen sizes as I feel there is too much white
 space visible on-screen. In future I may add in more elements that appear at the screen edges on large screens.
 
-## Credits
+# Credits
 
 - Thanks to Oluwafemi Medale for all of the expert advice he gave during my mentoring sessions with him, and to all the tutors who put together such an engaging and interesting course.
 - Hero image: Shutterstock
