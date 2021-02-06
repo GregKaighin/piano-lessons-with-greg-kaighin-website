@@ -1,14 +1,14 @@
-![Piano Lessons with Greg Kaighin](assets/images/screenshot-devices.jpg)
-
-# Piano Lessons with Greg Kaighin Website
+# Piano Lessons with Greg Kaighin
 ## Greg Kaighin
 ## Code Institute - Full Stack Developer HND
 ### Milestone Project 1
 ### User-Centric Front-End
 ### February 2021
 
+![Piano Lessons with Greg Kaighin](assets/images/screenshot-devices.png)
+
 The website is built for my own established self-employed piano-teaching business "Piano Lessons with Greg Kaighin" 
-to advertise the business to propective students, as I am currently looking to increase the number of students 
+to advertise the business to prospective students, as I am currently looking to increase the number of students 
 I teach.
 
 ## Its purposes are:
@@ -25,11 +25,11 @@ I teach.
 
 - to provide links to useful external websites, such as music examining boards.
 
-Based on user scenarios, and feedback from existing students and friends and family, the website is built with a mobile-first design philosophy, but it is responsive enough to look acceptable on large displays too, particularly the resources page, where, based on user-scenarios, a user is considered to be more likely to access the site using a laptop or desktop computer.
+It is built with a mobile-first design philosophy, but it is also responsive enough to look acceptable on large displays too, particularly the resources page, where, based on user-stories, a user is considered to be more likely to access the site using a laptop or desktop computer.
 
 The layout of the 'ethos' section is based on the 'Love Running' website from Code Institute's Full Stack Developer programme, but reworked using Bootstraps layout features.
 
-Two previous builds of the website can be found here #############, both of which consist of a lot of commit messages of varying clarity, as I learned how to build a website, and to use GitHub. The third and final build presented here is put together more logically in sections and with clearer commit messages.
+A previous version of the website can be found here #############, which consists of commit messages of varying clarity, as I learned how to build a website, and to use GitHub. The third and final build presented here is put together more logically in sections and with clearer commit messages.
 
 The enquiries form is not yet functional.
 
