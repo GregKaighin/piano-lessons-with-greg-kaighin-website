@@ -9,7 +9,7 @@
 
 The website is built for my own established self-employed piano-teaching business "Piano Lessons with Greg Kaighin", 
 to advertise the business to prospective students and to provide them with a means of getting in contact. It is also
-created to be of value to current students by providing downloads of teaching resources and links to relevant external
+created to be of value to current students by providing links to downloads of teaching resources and to relevant external
 websites.
 
 ## Its purposes are:
@@ -26,7 +26,7 @@ websites.
 
 - to provide links to useful external websites, such as music examining boards.
 
-It is built with a mobile-first design, but it is also responsive enough to look acceptable on large displays too, particularly the resources page, where, based on user-stories, a user is considered to be more likely to access the site using a laptop or desktop computer.
+It is built with a mobile-first design, but it is also responsive enough to look acceptable on large displays, particularly the resources page, where, based on user-stories, a user is considered to be more likely to access the site using a laptop or desktop computer.
 
 The enquiries form is not yet functional.
 
@@ -37,15 +37,9 @@ All other parts of the website are working as intended.
 The website is for people who may be considering taking piano lessons with GK, to provide them with the information they need to decide whether or not to take piano lessons with GK.
 It is also for existing students, to provide a place where teaching resources in PDF file format can be downloaded.
 
+
+
 ## User Stories
-- As a potential piano student, I want to find out information about GK the person and the business 'Piano Lessons with GK', to enable me to decide whether to take lessons or not.
-- I have decided that I am interested in Piano Lessons with GK and would like to get in contact.
-- As an existing piano student, I want to download some music to practice.
-- I would like to listen to some of GK's music.
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
-
-# User Stories
 
 As a visitor to Piano Lessons with Greg Kaighin I expect/want/need:
 
@@ -71,6 +65,8 @@ As a visitor to Piano Lessons with Greg Kaighin I expect/want/need:
 
 9. For everything to work.
 
+This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+A prototype version of this website can be found here https://github.com/GregKaighin/piano-lessons-with-greg-kaighin-1.0-msp1-code-institute.
 # Technologies Used:
 
 - HTML5
