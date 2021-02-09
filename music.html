@@ -71,47 +71,47 @@
             <p>Some well-known pieces of music, performed, recorded and produced by Greg Kaighin.</p>
         </div>
         <!-- Audio Player -- https://codepen.io/vanderzak/pen/BayjVep -->
-        <div class ="audio-player" aria-label="Audio Player" role="region">
-        <audio id="myAudio" ontimeupdate="onTimeUpdate()">
-            <!-- <source src="audio.ogg" type="audio/ogg"> -->
-            <source id="source-audio" src="" type="audio/mpeg">
-            Your browser does not support the audio element.
-        </audio>
-        <div class="player-ctn">
-            <div class="infos-ctn">
-                <div class="timer">00:00</div>
-                <div class="title"></div>
-                <div class="duration">00:00</div>
-            </div>
+        <div class="audio-player" aria-label="Audio Player" role="region">
+            <audio id="myAudio" ontimeupdate="onTimeUpdate()">
+                <!-- <source src="audio.ogg" type="audio/ogg"> -->
+                <source id="source-audio" src="" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <div class="player-ctn">
+                <div class="infos-ctn">
+                    <div class="timer">00:00</div>
+                    <div class="title"></div>
+                    <div class="duration">00:00</div>
+                </div>
 
-            <div class="btn-ctn">
-                <div class="btn-action first-btn" aria-label="previous track" onclick="previous()">
-                    <div id="btn-faws-back">
-                        <i class='fas fa-step-backward'></i>
+                <div class="btn-ctn">
+                    <div class="btn-action first-btn" aria-label="previous track" onclick="previous()">
+                        <div id="btn-faws-back">
+                            <i class='fas fa-step-backward'></i>
+                        </div>
+                    </div>
+                    <div class="btn-action" aria-label="play toggle" onclick="toggleAudio()">
+                        <div id="btn-faws-play-pause">
+                            <i class='fas fa-play' id="icon-play"></i>
+                            <i class='fas fa-pause' id="icon-pause" style="display: none"></i>
+                        </div>
+                    </div>
+                    <div class="btn-action" aria-label="next track" onclick="next()">
+                        <div id="btn-faws-next">
+                            <i class='fas fa-step-forward'></i>
+                        </div>
+                    </div>
+                    <div class="btn-mute" id="toggleMute" aria-label="mute toggle" onclick="toggleMute()">
+                        <div id="btn-faws-volume">
+                            <i id="icon-vol-up" class='fas fa-volume-up'></i>
+                            <i id="icon-vol-mute" class='fas fa-volume-mute' style="display: none"></i>
+                        </div>
                     </div>
                 </div>
-                <div class="btn-action" aria-label="play toggle" onclick="toggleAudio()">
-                    <div id="btn-faws-play-pause">
-                        <i class='fas fa-play' id="icon-play"></i>
-                        <i class='fas fa-pause' id="icon-pause" style="display: none"></i>
-                    </div>
-                </div>
-                <div class="btn-action" aria-label="next track" onclick="next()">
-                    <div id="btn-faws-next">
-                        <i class='fas fa-step-forward'></i>
-                    </div>
-                </div>
-                <div class="btn-mute" id="toggleMute" aria-label="mute toggle" onclick="toggleMute()">
-                    <div id="btn-faws-volume">
-                        <i id="icon-vol-up" class='fas fa-volume-up'></i>
-                        <i id="icon-vol-mute" class='fas fa-volume-mute' style="display: none"></i>
-                    </div>
-                </div>
-            </div>
 
-        </div>
-        <div class="playlist-ctn"></div>
-        <hr>
+            </div>
+            <div class="playlist-ctn"></div>
+            <hr>
         </div>
 
         <section class="about-me">
