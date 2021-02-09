@@ -108,9 +108,18 @@ body {
      border-radius: 12px;
 }
 /*------------------------------------Jumbotron Piano Overlay Text*/
- .overlay-text {
+ .overlay-heading {
      margin-top: 0;
-     padding: 8px;
+     padding: 4px;
+     font-size: 140%;
+     font-weight: 300;
+     text-align: center;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+}
+.overlay-text {
+     margin-top: 0;
+     font-size: 100%;
      font-weight: 300;
      text-align: center;
      text-transform: uppercase;
