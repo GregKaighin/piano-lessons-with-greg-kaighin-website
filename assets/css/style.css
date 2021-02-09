@@ -16,10 +16,12 @@ body {
      opacity: 0.98;
 }
 /*------------------------------------Navbar Brand and Link Colours*/
-.logo {
-     font-size: 150%;
-     font-weight: 300;
-}
+ .logo {
+     font-size: 160%;
+ }
+ .logo-name {
+     font-size: 100%;
+ }
  .navbar-light .navbar-brand {
      color: #221d17;
 }
@@ -33,17 +35,17 @@ body {
      color: #221d17;
 }
 /*------------------------------------Font Awesome Icon Colours*/
-i.fas.fa-home {
-    color: #8b0000
+ i.fas.fa-home {
+     color: #8b0000 
 }
-i.fas.fa-headphones-alt {
-    color: #006400;
+ i.fas.fa-headphones-alt {
+     color: #006400;
 }
-i.fas.fa-book-open {
-    color: #000080;
+ i.fas.fa-book-open {
+     color: #000080;
 }
-i.fas.fa-comment {
-    color: #ffa500;
+ i.fas.fa-comment {
+     color: #ffa500;
 }
 /*------------------------------------Navbar Toggler Colours and Hover Underscore*/
  .navbar-light .navbar-toggler {
@@ -66,7 +68,7 @@ i.fas.fa-comment {
      background-position: center;
 }
 /*------------------------------------Jumbotron Piano Overlay Shape Home Page*/
-.jumbo-piano .overlay-shape-1 {
+ .jumbo-piano .overlay-shape-1 {
      margin-top: 140px;
      width: 240px;
      height: 100px;
@@ -76,17 +78,17 @@ i.fas.fa-comment {
      border-radius: 12px;
 }
 /*------------------------------------Jumbotron Piano Overlay Shape Colour Music Page*/
-.jumbo-piano .overlay-shape-2 {
+ .jumbo-piano .overlay-shape-2 {
      margin-top: 140px;
      width: 240px;
      height: 100px;
      color: #221d17;
-    background-image: linear-gradient(to bottom right,rgb(255, 255, 240, 1),rgb(186, 247, 178));
+     background-image: linear-gradient(to bottom right,rgb(255, 255, 240, 1),rgb(186, 247, 178));
      border: 2px solid #006400;
      border-radius: 12px;
 }
 /*------------------------------------Jumbotron Piano Overlay Shape Colour Resources Page*/
-.jumbo-piano .overlay-shape-3 {
+ .jumbo-piano .overlay-shape-3 {
      margin-top: 140px;
      width: 240px;
      height: 100px;
@@ -96,7 +98,7 @@ i.fas.fa-comment {
      border-radius: 12px;
 }
 /*------------------------------------Jumbotron Piano Overlay Shape Colour Enquiries Page*/
-.jumbo-piano .overlay-shape-4 {
+ .jumbo-piano .overlay-shape-4 {
      margin-top: 140px;
      width: 240px;
      height: 100px;
@@ -105,10 +107,9 @@ i.fas.fa-comment {
      border: 1px solid #ffa500;
      border-radius: 12px;
 }
-
 /*------------------------------------Jumbotron Piano Overlay Text*/
-.overlay-text {
-    margin-top: 0;
+ .overlay-text {
+     margin-top: 0;
      padding: 8px;
      font-weight: 300;
      text-align: center;
@@ -116,48 +117,48 @@ i.fas.fa-comment {
      letter-spacing: 2px;
 }
 /*------------------------------------About Me*/
-.about-me {
+ .about-me {
      text-align: center;
 }
-.about-me h3 {
-    margin-top: 64px;
-    font-size: 150%;
-    font-weight: 300;
+ .about-me h3 {
+     margin-top: 64px;
+     font-size: 150%;
+     font-weight: 300;
      color: #221d17;
      text-align: center;
      text-transform: uppercase;
      letter-spacing: 2px;
 }
-.about-me p {
-    margin-top: 16px;
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 1px;
+ .about-me p {
+     margin-top: 16px;
+     font-size: 16px;
+     font-weight: 400;
+     letter-spacing: 1px;
 }
 /*------------------------------------About Me Page Link Colours*/
-.resources-link {
-    color: #000080;
+ .resources-link {
+     color: #000080;
      text-decoration: none;
      border-bottom: 1px dotted #000080;
 }
-.resources-link:hover {
-    border-bottom: 1px dotted #000080;
+ .resources-link:hover {
+     border-bottom: 1px dotted #000080;
 }
-.enquiries-link {
-    color: #ff4500;
+ .enquiries-link {
+     color: #ff4500;
      text-decoration: none;
      border-bottom: 1px dotted #ff4500;
 }
-.enquiries-link:hover {
-    border-bottom: 1px dotted #ff4500;
+ .enquiries-link:hover {
+     border-bottom: 1px dotted #ff4500;
 }
-.music-link {
-    color: #006400;
+ .music-link {
+     color: #006400;
      text-decoration: none;
      border-bottom: 1px dotted #006400;
 }
-.music-link:hover {
-    border-bottom: 1px dotted #006400;
+ .music-link:hover {
+     border-bottom: 1px dotted #006400;
 }
 /*------------------------------------Buttons*/
  .btn-light {
@@ -178,17 +179,17 @@ i.fas.fa-comment {
      background: linear-gradient(to bottom right,rgba(255, 255, 250, 0.25),rgb(209, 209, 209));
      border-color: #221d17;
 }
-.btn-light:focus {
-    border-color: #221d17
+ .btn-light:focus {
+     border-color: #221d17 
 }
-.btn-light:not(:disabled):not(.disabled).active, .btn-light:not(:disabled):not(.disabled):active, .show>.btn-light.dropdown-toggle {
-    color: #221d17;
-    background-color: #dda5a1;
-    border-color: #221d17
+ .btn-light:not(:disabled):not(.disabled).active, .btn-light:not(:disabled):not(.disabled):active, .show>.btn-light.dropdown-toggle {
+     color: #221d17;
+     background-color: #dda5a1;
+     border-color: #221d17 
 }
 /*------------------------------------About Me Links Hover Colour and Underscore*/
-.portrait-image {
-    border: 1px solid rgb(34, 29, 23);
+ .portrait-image {
+     border: 1px solid rgb(34, 29, 23);
 }
 /*----------------------------------Ethos*/
  .ethos {
@@ -196,25 +197,24 @@ i.fas.fa-comment {
      text-align: center;
      overflow: hidden;
 }
-.ethos h3 {
-    font-size: 150%;
-    font-weight: 300;
+ .ethos h3 {
+     font-size: 150%;
+     font-weight: 300;
      margin-top: 24px;
      color: #221d17;
-     
      text-align: center;
      text-transform: uppercase;
      letter-spacing: 2px;
 }
-.ethos h5 {
-    margin-top: 12px;
-    font-weight: 300;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+ .ethos h5 {
+     margin-top: 12px;
+     font-weight: 300;
+     text-transform: uppercase;
+     letter-spacing: 2px;
 }
-.ethos p {
-    margin: 4px 0 4px 0;
-    letter-spacing: 1px;
+ .ethos p {
+     margin: 4px 0 4px 0;
+     letter-spacing: 1px;
 }
 /*---------------------------------Testimonials Text*/
  .quotes h3 {
@@ -225,13 +225,13 @@ i.fas.fa-comment {
      text-align: center;
      text-transform: uppercase;
      letter-spacing: 2px;
- }
-  .testimonial-text {
+}
+ .testimonial-text {
      font-style: italic;
      letter-spacing: 1px;
 }
- /*----------------------------------Testimonials Speech Bubble*/
-.testimonial-bubble {
+/*----------------------------------Testimonials Speech Bubble*/
+ .testimonial-bubble {
      margin-top: 24px;
      padding-top: 12px;
      padding-left: 28px;
@@ -256,14 +256,14 @@ i.fas.fa-comment {
      left: -12px;
      position: absolute;
 }
-.social-btns{
-      text-align: center;
-     }
-/*---------------------------------------------Cards*/
-.row {
-    margin: 0;
+ .social-btns{
+     text-align: center;
 }
-.card {
+/*---------------------------------------------Cards*/
+ .row {
+     margin: 0;
+}
+ .card {
      margin-top: 24px;
      padding: 2px;
      border-color: #221d17;
@@ -271,36 +271,36 @@ i.fas.fa-comment {
      text-align: center;
      text-transform: uppercase;
 }
-.card-title {
-    padding-top: 12px;
-    font-weight: 300;
+ .card-title {
+     padding-top: 12px;
+     font-weight: 300;
 }
 /*------------------------------------Footer*/
-.social-links {
-    margin-top: 24px;
-    font-size: 240%;
-    text-align: center;
+ .social-links {
+     margin-top: 24px;
+     font-size: 240%;
+     text-align: center;
 }
-.linkedin-icon {
-    margin-right: 72px;
+ .linkedin-icon {
+     margin-right: 72px;
      color: #0e76a8;
 }
-.youtube-icon {
-    margin-left: 72px;
-    color: #ff0000;
+ .youtube-icon {
+     margin-left: 72px;
+     color: #ff0000;
 }
 /*---------------------------------Enquiries Form*/
  .form-control {
      margin-bottom: 2px;
      border-color: #221d17;
      background-color:lightyellow;
-     letter-spacing: 1px;    
+     letter-spacing: 1px;
 }
  .contact-heading {
      margin-top: 25px;
      margin-bottom: 20px;
      color: #221d17;
-     letter-spacing: 2px;  
+     letter-spacing: 2px;
 }
  .center-form {
      padding-top: 10px;
@@ -316,10 +316,10 @@ i.fas.fa-comment {
      border: none;
 }
  .modal-footer {
-    border: none;
+     border: none;
 }
 /*-------------------------------- Resources*/
-.resources-page-heading {
+ .resources-page-heading {
      color: #221d17;
      font-size: 150%;
      font-weight: 300;
@@ -334,26 +334,26 @@ i.fas.fa-comment {
      text-align: center;
      text-transform: uppercase;
      letter-spacing: 2px;
- }
+}
  .resources-subheading{
      padding: 0 14px 0 14px;
      text-transform: uppercase;
      text-align: center;
      font-size: 16px;
      letter-spacing: 1px;
- }
+}
  .table-heading {
      padding:0 6px 0 6px;
      font-weight: 300;
-     text-transform: uppercase;  
- }
+     text-transform: uppercase;
+}
  .table-item {
      padding: 0 14px 0 14px;
      font-size: 16px;
- }
-.table {
-      color: #221d17;
- }
+}
+ .table {
+     color: #221d17;
+}
  .resources td a {
      text-decoration: none;
      color: #000080;
@@ -362,81 +362,78 @@ i.fas.fa-comment {
      border-bottom: 1px solid #000080;
 }
 /*-------------------------------- Audio Player -- https://codepen.io/vanderzak/pen/BayjVep --*/
-.btn-action{
-  cursor: pointer;
+ .btn-action{
+     cursor: pointer;
+}
+ .btn-ctn, .infos-ctn{
+     display: flex;
+     justify-content: center;
+     height: fit-content;
+}
+ .infos-ctn{
+     padding-top: 20px;
+}
+ .btn-ctn > div {
+     padding: 16px;
+     margin-top: 18px;
+     margin-bottom: 18px;
+}
+ .infos-ctn > div {
+     margin-bottom: 8px;
+     color: #221d17;
+}
+ .duration{
+     margin-left: 10px;
+}
+ .title{
+     width: 33vw;
+     text-align: center;
+}
+ .player-ctn{
+     border-radius: 12px;
+     width:66vw;
+     background-image: linear-gradient(to bottom right,rgb(255, 255, 240),rgb(186, 247, 178));
+     border: 2px solid #221d17;
+     margin:auto;
+     margin-top: 24px;
+}
+ .playlist-track-ctn{
+     display: flex;
+     border-radius: 24px;
+     margin-left: 2vw;
+     text-align: left;
+     cursor: pointer;
+}
+ .playlist-track-ctn > div{
+     margin:10px;
+}
+ .playlist-info-track{
+     width: 80vw;
+}
+ .playlist-info-track,.playlist-duration{
+     padding-top: 7px;
+     padding-bottom: 7px;
+     color: #221d17;
+     font-size: 16px;
+     pointer-events: none;
+     text-align: left;
+}
+ .active-track{
+     background: lightgreen;
+     border: 2px solid darkgreen;
+     color: #221d17;
+     font-weight: bold;
+}
+ .active-track > .playlist-info-track,.active-track >.playlist-duration,.active-track > .playlist-btn-play{
+     color: #221d17;
+}
+ .playlist-btn-play{
+     pointer-events: none;
+     padding-top: 4px;
+     padding-bottom: 4px;
+}
+ .fas{
+     color: #221d17;
+     font-size: 20px;
+}
  
-}
-.btn-ctn, .infos-ctn{
-  display: flex;
-  justify-content: center;
-  height: fit-content;
-}
-.infos-ctn{
-padding-top: 20px;
-}
-.btn-ctn > div {
- padding: 16px;
- margin-top: 18px;
- margin-bottom: 18px;
-}
-.infos-ctn > div {
- margin-bottom: 8px;
- color: #221d17;
-}
-.duration{
-  margin-left: 10px;
-}
-.title{
-  width: 33vw;
-  text-align: center;
-}
-.player-ctn{
-  border-radius: 12px;
-  width:66vw;
-  background-image: linear-gradient(to bottom right,rgb(255, 255, 240),rgb(186, 247, 178));
-  border: 2px solid #221d17;
-  margin:auto;
-  margin-top: 24px;
-}
-.playlist-track-ctn{
-  display: flex;
-  border-radius: 24px;
-  margin-left: 2vw;
-  text-align: left;
-  cursor: pointer;
-}
-.playlist-track-ctn > div{
-  margin:10px;
-}
-.playlist-info-track{
-  width: 80vw;
-}
-.playlist-info-track,.playlist-duration{
-  padding-top: 7px;
-  padding-bottom: 7px;
-  color: #221d17;
-  font-size: 16px;
-  pointer-events: none;
-  text-align: left;
-}
-.active-track{
-  background: lightgreen;
-  border: 2px solid darkgreen;
-  color: #221d17;
-  font-weight: bold;
-}
-.active-track > .playlist-info-track,.active-track >.playlist-duration,.active-track > .playlist-btn-play{
-  color: #221d17;
-}
-.playlist-btn-play{
-  pointer-events: none;
-  padding-top: 4px;
-  padding-bottom: 4px;
-}
-.fas{
-  color: #221d17;
-  font-size: 20px;
-}
-
-
-                     
