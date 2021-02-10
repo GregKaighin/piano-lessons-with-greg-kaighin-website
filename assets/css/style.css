@@ -269,23 +269,7 @@ body {
  .social-btns{
      text-align: center;
 }
-/*---------------------------------------------Cards*/
- .row {
-     margin: 0;
-}
- .card {
-     margin-top: 24px;
-     padding: 2px;
-     border-color: #221d17;
-     background-color: #fffff0;
-     text-align: center;
-     text-transform: uppercase;
-}
- .card-title {
-     padding-top: 12px;
-     font-weight: 300;
-}
-/*------------------------------------Footer*/
+/*------------------------------------Footer Social Links*/
  .social-links {
      margin-top: 24px;
      font-size: 240%;
@@ -298,6 +282,23 @@ body {
  .youtube-icon {
      margin-left: 72px;
      color: #ff0000;
+}
+/*------------------------------------Footer Cards*/
+ .row {
+     margin: 0;
+}
+ .card {
+     margin-top: 24px;
+     margin-bottom: 4px;
+     padding: 2px;
+     border-color: #221d17;
+     background-color: #fffff0;
+     text-align: center;
+     text-transform: uppercase;
+}
+ .card-title {
+     padding-top: 12px;
+     font-weight: 300;
 }
 /*-------------------------------- Resources*/
  .resources-page-heading {
