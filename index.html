@@ -24,11 +24,11 @@
 <body>
     <!-- Header -- The navbar displays a toggle button menu on small viewports only, expanding to become a horizontal menu without
          a toggle button on larger viewports from the medium breakpoint. Font-Awesome icons, in conjunction with a RGBY colour
-          scheme, are assigned to each of the menu items to provide visual cues and additional context to each menu item. The RGBY colour
-           scheme is extended throughout the website by highlighting a few elements on each page with the relevant colour. This has
-            the dual purposes of aiding the user's visual navigation of the website, and improving the visual aesthetics. If I wish
-             to expand the website in future by adding more pages, this colour scheme can also be extended by following the order of colours
-              found on the hero-image piano-keyboard.  -->
+         scheme, are assigned to each of the menu items to provide visual cues and additional context to each menu item. The RGBY colour
+         scheme is extended throughout the website by highlighting a few elements on each page with the relevant colour. This has
+         the dual purposes of aiding the user's visual navigation of the website, and improving the visual aesthetics. If I wish
+         to expand the website in future by adding more pages, this colour scheme can be further extended by following the order
+         of colours found on the hero-image piano-keyboard.  -->
     <header>
         <div class="container">
             <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
@@ -64,16 +64,16 @@
 
         </div>
         <!-- Piano Jumbotron -->
-    <div class="jumbotron jumbo-piano">
-        <div class="container overlay-shape-1">
-            <h3 class="overlay-heading">Learn to play</h3>
-            <p class="overlay-text">Bedfordshire area and online</p>
+        <div class="jumbotron jumbo-piano">
+            <div class="container overlay-shape-1">
+                <h3 class="overlay-heading">Learn to play</h3>
+                <p class="overlay-text">Bedfordshire area and online</p>
+            </div>
         </div>
-    </div>
-    </header> 
+    </header>
     <!-- About me -- The about-me section has a "Show more / Show less" button after the first paragraph to reduce the amount
-                      of text initially displayed. It is controlled with the data-toggle and data-target attributes. The width 
-                       of the text is set reduce on larger viewports, to prevent the text from becoming too stretched-out.  -->
+                     of text initially displayed. It is controlled with the data-toggle and data-target attributes. The width 
+                     of the text is set reduce on larger viewports, to prevent the text from becoming too stretched-out.  -->
     <section class="about-me">
         <div class="col col-lg-8 col-sm-10 mx-auto text-center">
             <h3>About Me</h3>
@@ -106,11 +106,12 @@
         </div>
     </section>
     <!-- Ethos --  The layout of this section is based on the "club-ethos" section from the "Love Running" website on the Code
-         Institute's Full Stack Developer course. Bootstrap is used here to give a responsive layout. The portrait image is displayed
-          above the text on small viewports, moving to be in the center of the text on medium viewports. This is achieved by applying 
-          the order-sm-12 and order-sm-1 classes respectively, to the portrait image and to the paragraph it switches places with. -->
+                   Institute's Full Stack Developer course. Bootstrap is used here to give a responsive layout. The portrait image
+                   is displayed above the text on small viewports, moving to be in the center of the text on medium viewports. This 
+                   is achieved by applying the order-sm-12 and order-sm-1 classes respectively, to the portrait image and to the 
+                   paragraph it switches places with. -->
     <section class="ethos">
-        <h3>Why Learn Piano with Me?</h3>
+        <h3 class="ethos-section-heading">Why Learn Piano with Me?</h3>
         <div class="row">
             <div class="col-12 order-sm-12">
                 <div><img src="assets/images/portrait-greg-kaighin.jpg" class="rounded-circle portrait-image"
@@ -118,14 +119,14 @@
                 </div>
             </div>
             <div class="col col-lg-2 col-sm-6 mx-auto text-center order-sm-1">
-                <h5 class="ethos-headings">Experienced Teacher</h5>
+                <h3 class="ethos-heading">Experienced Teacher</h3>
                 <p>
                     I have more than twenty years of experience as a teacher.
                     I studied at Leeds College of Music where I gained a BA (Hons) degree in Jazz Studies.
                 </p>
             </div>
             <div class="col col-lg-2 col-sm-6 mx-auto text-center">
-                <h5>Professional Musician</h5>
+                <h3 class="ethos-heading">Professional Musician</h3>
                 <p>
                     I perform regularly as a bandleader
                     and also accompany well-known acts in shows around the UK.
@@ -134,14 +135,14 @@
         </div>
         <div class="row">
             <div class="col col-lg-2 col-sm-6 mx-auto text-center">
-                <h5>Tailored Learning</h5>
+                <h3 class="ethos-heading">Tailored Learning</h3>
                 <p>
                     Each of my students follows a well-structured learning plan, suited to their individual
                     requirements.
                 </p>
             </div>
             <div class="col col-lg-2 col-sm-6 mx-auto text-center">
-                <h5>All Ages and Abilities Welcome</h5>
+                <h3 class="ethos-heading">All Ages and Abilities Welcome</h3>
                 <p>
                     I believe that piano lessons and music-making should be enjoyable and
                     accessible for everyone.
@@ -198,21 +199,21 @@
         </div>
     </section>
     <!-- Footer -- The same footer is displayed on all pages of the website. It contains button icon links to social networks,
-          and below that some cards displaying pricing information and information about workshops and additional subjects.-->
+                   and below that some cards displaying pricing information and information about workshops and additional subjects.-->
     <footer>
-         <!-- Social-links -->
-    <div class="social-links">
-        <a href="https://www.linkedin.com/in/gregorykaighin/" target="_blank" rel="noopener" type="button"
-            aria-label="LinkedIn Link" class="btn-xxl ">
-            <i class="linked-in-icon fab fa-linkedin"></i></a>
-        <a a href="https://www.youtube.com" target="_blank" rel="noopener" type="button" class="btn-xxl"
-            aria-label="Facebook link">
-            <i class="youtube-icon fab fa-youtube"></i></a>
-    </div>
+        <!-- Social-links -->
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/gregorykaighin/" target="_blank" rel="noopener" type="button"
+                aria-label="LinkedIn Link" class="btn-xxl ">
+                <i class="linked-in-icon fab fa-linkedin"></i></a>
+            <a a href="https://www.youtube.com" target="_blank" rel="noopener" type="button" class="btn-xxl"
+                aria-label="Facebook link">
+                <i class="youtube-icon fab fa-youtube"></i></a>
+        </div>
         <!-- Cards -- To achieve a satisfactory layout at different viewport sizes, Bootstrap cards are set 
-                       to display 4-in-a-row on large viewports, 2-in-a-row on medium, and a single card
-                        in-a-row on small viewports.  mb-4 gives each card a margin-bottom of 4px and gives a
-                         little space between the cards. -->
+                      to display 4-in-a-row on large viewports, 2-in-a-row on medium, and a single card
+                      in-a-row on small viewports.  mb-4 gives each card a margin-bottom of 4px and gives a
+                      little space between the cards. -->
         <div class="row">
             <div class="col-md-3 col-sm-6 col-xs-12 mb-4">
                 <div class="card h-100">

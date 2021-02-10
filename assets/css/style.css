@@ -206,7 +206,7 @@ body {
      text-align: center;
      overflow: hidden;
 }
- .ethos h3 {
+ .ethos-section-heading {
      font-size: 150%;
      font-weight: 300;
      margin-top: 24px;
@@ -215,7 +215,8 @@ body {
      text-transform: uppercase;
      letter-spacing: 2px;
 }
- .ethos h5 {
+ .ethos-heading {
+     font-size: 120%;
      margin-top: 12px;
      font-weight: 300;
      text-transform: uppercase;
