@@ -129,8 +129,8 @@ body {
  .about-me {
      text-align: center;
 }
- .about-me h3 {
-     margin-top: 64px;
+ .about-me .about-me-heading {
+     margin-top: 36px;
      font-size: 150%;
      font-weight: 300;
      color: #221d17;
@@ -227,7 +227,7 @@ body {
      letter-spacing: 1px;
 }
 /*---------------------------------Testimonials Text*/
- .quotes h3 {
+ .quotes-heading {
      font-size: 150%;
      font-weight: 300;
      margin-top: 24px;
