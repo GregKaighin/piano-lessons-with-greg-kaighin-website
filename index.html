@@ -14,21 +14,24 @@
     <!-- Font -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap">
     <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
-    <!-- Icons -->
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <!-- Icons - These are included to improve UX on tablets and smartphones and also browser tabs -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" sizes="192x192" href="android-chrome-192x192.png">
+    <link rel="icon" sizes="512x512" href="android-chrome-512x512.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
 </head>
 
 <body>
-    <!-- Header - The navbar displays a toggle button menu on small viewports only, expanding to become a horizontal menu without
-                a toggle button on larger viewports from the medium breakpoint. Font-Awesome icons, in conjunction with a RGBY colour
-                scheme, are assigned to each of the menu items to provide visual cues and additional context to each menu item. The RGBY colour
-                scheme is extended throughout the website by highlighting a few elements on each page with the relevant colour. This has
-                the dual purposes of aiding the user's visual navigation of the website, and improving the visual aesthetics. If I wish
-                to expand the website in future by adding more pages, this colour scheme can be further extended by following the order
-                of colours found on the hero-image piano-keyboard.  -->
+    <!-- Header - The navbar displays a toggle button menu on small viewports only, expanding to become a horizontal menu without a
+         toggle button on larger viewports from the medium breakpoint. Font-Awesome icons, in conjunction with a RGBY colour scheme, 
+         are assigned to each of the menu items to provide visual cues and additional context to each menu item. The RGBY colour scheme 
+         is extended throughout the website by highlighting a few elements on each page with the relevant colour. This has the dual 
+         purposes of aiding the user's visual navigation of the website, and improving the visual aesthetics. If I wish to expand the 
+         website in future by adding more pages, this colour scheme can be further extended by following the order of colours found on 
+         the hero-image piano-keyboard.  -->
     <header>
         <div class="container">
             <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
@@ -209,13 +212,12 @@
                 aria-label="Facebook link">
                 <i class="youtube-icon fab fa-youtube"></i></a>
         </div>
-        <!-- Cards - To achieve a satisfactory layout at different viewport sizes, Bootstrap cards are set 
-                     to display 4-in-a-row on large viewports, 2-in-a-row on medium, and a single card
-                     in-a-row on small viewports.  mb-4 gives each card a margin-bottom of 4px and gives a
-                     little space between the cards. -->
+        <!-- Cards - To achieve a satisfactory layout at different viewport sizes, Bootstrap cards are set to display 4-in-a-row on 
+                     large viewports, 2-in-a-row on medium, and a single card in-a-row on small viewports.  mb-4 gives each card a 
+                     margin-bottom of 4px and gives a little space between the cards. -->
         <div class="row">
             <div class="col-md-3 col-sm-6 col-xs-12 mb-4">
-                <div class="card h-100">
+                <div class="card info-card h-100">
                     <img class="card-img-top" src="assets/images/card-online.webp"
                         alt="A person making a video call and taking notes">
                     <div class="card-block">
@@ -226,7 +228,7 @@
                 </div>
             </div>
             <div class="col-md-3 col-sm-6 col-xs-12 mb-4">
-                <div class="card h-100">
+                <div class="card info-card h-100">
                     <img class="card-img-top" src="assets/images/card-piano-home.webp" alt="A piano in a room">
                     <div class="card-block">
                         <h4 class="card-title">In Your Home</h4>
@@ -236,7 +238,7 @@
                 </div>
             </div>
             <div class="col-md-3 col-sm-6 col-xs-12 mb-4">
-                <div class="card h-100">
+                <div class="card info-card h-100">
                     <img class="card-img-top" src="assets/images/card-workshops.webp" alt="A band on stage">
                     <div class="card-block">
                         <h4 class="card-title">Workshops</h4>
@@ -246,7 +248,7 @@
                 </div>
             </div>
             <div class="col-md-3 col-sm-6 col-xs-12 mb-4">
-                <div class="card h-100">
+                <div class="card info-card h-100">
                     <img class="card-img-top" src="assets/images/card-theory.webp" alt="A piano keyboard drawing">
                     <div class="card-block">
                         <h4 class="card-title">Additional Subjects</h4>
