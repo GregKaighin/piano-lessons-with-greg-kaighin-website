@@ -35,16 +35,16 @@ body {
      color: #221d17;
 }
 /*------------------------------------Font Awesome Icon Colours*/
- i.fas.fa-home {
+ .container .fa-home {
      color: #8b0000 
 }
- i.fas.fa-headphones-alt {
+ .container .fa-headphones-alt {
      color: #006400;
 }
- i.fas.fa-book-open {
+ .container .fa-book-open {
      color: #000080;
 }
- i.fas.fa-comment {
+ .container .fa-comment {
      color: #ffa500;
 }
 /*------------------------------------Navbar Toggler Colours and Hover Underscore*/
