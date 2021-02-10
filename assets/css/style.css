@@ -299,35 +299,6 @@ body {
      margin-left: 72px;
      color: #ff0000;
 }
-/*---------------------------------Enquiries Form*/
- .form-control {
-     margin-bottom: 2px;
-     border-color: #221d17;
-     background-color:lightyellow;
-     letter-spacing: 1px;
-}
- .contact-heading {
-     margin-top: 25px;
-     margin-bottom: 20px;
-     color: #221d17;
-     letter-spacing: 2px;
-}
- .center-form {
-     padding-top: 10px;
-     margin: 0 auto;
-     max-width: 67%;
-}
-/*------------------------------------Enquiries Form Modal*/
- .modal-content {
-     background-color:#fffff0;
-     border: solid 1px #221d17;
-}
- .modal-header {
-     border: none;
-}
- .modal-footer {
-     border: none;
-}
 /*-------------------------------- Resources*/
  .resources-page-heading {
      color: #221d17;
@@ -370,6 +341,35 @@ body {
 }
  .resources a:hover {
      border-bottom: 1px solid #000080;
+}
+/*---------------------------------Enquiries Form*/
+ .form-control {
+     margin-bottom: 2px;
+     border-color: #221d17;
+     background-color:lightyellow;
+     letter-spacing: 1px;
+}
+ .contact-heading {
+     margin-top: 25px;
+     margin-bottom: 20px;
+     color: #221d17;
+     letter-spacing: 2px;
+}
+ .center-form {
+     padding-top: 10px;
+     margin: 0 auto;
+     max-width: 67%;
+}
+/*------------------------------------Enquiries Form Modal*/
+ .modal-content {
+     background-color:#fffff0;
+     border: solid 1px #221d17;
+}
+ .modal-header {
+     border: none;
+}
+ .modal-footer {
+     border: none;
 }
 /*-------------------------------- Audio Player -- https://codepen.io/vanderzak/pen/BayjVep --*/
  .btn-action{
