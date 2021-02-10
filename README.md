@@ -77,8 +77,11 @@ A prototype version of this website can be found here https://github.com/GregKai
 - JavaScript (for audio player and track info popovers only)
 - Adobe Photoshop
 
+# Testing
+The website has been tested using a number of different manual and automatic methods listed below:
+
 ### Validation:
-- HTML -
+- HTML - https://validator.w3.org/ - 
 - CSS - https://jigsaw.w3.org/css-validator/ - No Errors Found / ## Warnings
 
 ### Original Content:
