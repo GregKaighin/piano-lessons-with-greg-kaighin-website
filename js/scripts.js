@@ -190,7 +190,6 @@ function pauseToPlay(index) {
     ele.classList.add("fa-play");
 }
 
-
 function toggleMute() {
     var volUp = document.querySelector('#icon-vol-up');
     var volMute = document.querySelector('#icon-vol-mute');
