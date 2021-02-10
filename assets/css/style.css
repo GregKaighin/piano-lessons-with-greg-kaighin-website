@@ -298,6 +298,7 @@ body {
 }
  .card-title {
      padding-top: 12px;
+     font-size: 120%;
      font-weight: 300;
 }
 /*-------------------------------- Resources*/
