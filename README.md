@@ -74,7 +74,11 @@ Table of PDF resources and links to external websites
 ### Enquiries page
 A contact form
 
-A wireframe was created to outline the basic structure of the site. (assets/wireframes/plwgk.pdf)
+These wireframes were created to outline the basic structure of the site.
+![Piano Lessons with Greg Kaighin | Home](assets/wireframes/Home.png)
+![Piano Lessons with Greg Kaighin | Music](assets/wireframes/Music.png)
+![Piano Lessons with Greg Kaighin | Resources](assets/wireframes/Resources.png)
+![Piano Lessons with Greg Kaighin | Enquiries](assets/wireframes/Enquiries.png)
 A prototype version of this website can be found here https://github.com/GregKaighin/piano-lessons-with-greg-kaighin-1.0-msp1-code-institute.
 I was initially going to develop this version further for my project, but after deciding that I would use Bootstrap for a more 
 responsive layout, I started a new build in a new repository. Also, I realised that my earlier commit messages were not frequent
