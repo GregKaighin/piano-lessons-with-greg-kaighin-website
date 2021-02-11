@@ -33,7 +33,6 @@ The website is built for my own established self-employed piano-teaching busines
 -  [Design Choices](#design-choices)
 
 -  [Wireframes](#wireframes)
-- 
 # UX
 The website is for people who may be considering taking piano lessons with GK, to provide them with the information they need to decide whether or not to take piano lessons with GK. It is also for existing students, to provide teaching resources in PDF file format and links to relevant external websites such as music exam boards.
 
@@ -335,8 +334,6 @@ Potential solution: JavaScript? I need to learn how to do this.
 
   
 
-- Thanks to Oluwafemi Medale for all of the expert advice he gave during my mentoring sessions with him, and to all the tutors who put together such an engaging and interesting course.
+- Thanks to Oluwafemi Medale for all of the great advice he gave during my mentoring sessions with him, and to all the Code Institute tutors for putting together such an engaging and interesting course. Bring on the JavaScript module!
 
-- Hero image: Shutterstock
-
-- Card Images: Pexels
+- All images with the exception of the portrait image are sourced from https://www.shutterstock.com/home, with a paid-for license allowing for web distribution.
