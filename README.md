@@ -37,8 +37,6 @@ All other parts of the website are working as intended.
 The website is for people who may be considering taking piano lessons with GK, to provide them with the information they need to decide whether or not to take piano lessons with GK.
 It is also for existing students, to provide a place where teaching resources in PDF file format can be downloaded.
 
-
-
 ## User Stories
 
 As a visitor to Piano Lessons with Greg Kaighin I expect/want/need:
@@ -98,6 +96,7 @@ The website has been tested using a number of different manual and automatic met
 ### Validation:
 - HTML - https://validator.w3.org/ - 
 - CSS - https://jigsaw.w3.org/css-validator/ - No Errors Found / ## Warnings
+- JavaScript 
 
 ### Original Content:
 MP3 Audio recordings: Greg Kaighin
@@ -127,7 +126,6 @@ to read. As there is a lot of text, some of it is hidden behind a 'Show More / S
 it could be improved by revealing the hidden text with an upwards scroll, rather than a downwards one, a fix for 
 the future.
 
-
 - Ethos Section. This section is designed to relay the ethos of 'Piano Lessons with GK'. It is displayed directly
 below the 'About-Me', and is designed to complement the information found there. The layout of this section was inspired
 by the ethos section of the 'Love Running' website on the Code Institute's FSD course.
@@ -153,9 +151,6 @@ to external websites relevant to piano lessons.
 - Enquiries Form. A Boostrap's form class is used to create a simple enquiry form with a modal popup to say thank 
 you once it has been submitted. The form is not yet functional, this will be rectified once I have learned how to
 do it.
-
-- Give a concise and aesthetically pleasing presentation of the business “Piano Lessons with Greg Kaighin”.
-- Provide a way for potential customers to get in contact.
 
 ### Secondary
 
@@ -185,18 +180,6 @@ Potential solution: jspopper? I need to learn how to do this.
 - Issue: Make the "About Me" section have the same opacity as the navbar. This will improve the overall look of the hero image
 and "open it up" a little.
 Potential solution: JavaScript? I need to learn how to do this.
-
-
-
-## Audio player
-
-- The audio player used in this website was created by Craig Stroman https://codepen.io/craigstroman/pen/aOyRYx.
-I have used this player because the standard HTML/CSS audio player does not provide enough functionality, specifically it does not provide a way to have a playlist and a single set of controls for playback, at least not that I have been able to figure out.
-I chose this player because it has a simple, clear UI, it functions mainly as expected, and the code looks well-written to my, admittedly untrained eye.
-All functions apart from the progress bar slider work, so I have stripped the code out relating to the progress slider. Fortunately, this does not appear to have broken anything, and improves UX of the audio player by giving a cleaner look without a non-functioning progress slider, or symbols that appeared as the audio player was fetching information about track-length. This is not ideal, but is a better compromise than simply using the HTML audio element, particularly from the user’s perspective as they are presented with a simple audio-player that functions as intended. 
-I will look again at the audio player once I have learned more about JavaScript to understand more about how it works.
-
-
 
 # Design Choices
 
