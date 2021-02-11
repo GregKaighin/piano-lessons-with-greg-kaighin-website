@@ -26,7 +26,7 @@ websites.
 
 - to provide links to useful external websites, such as music examining boards.
 
-It is built with a mobile-first design, but it is also responsive enough to look acceptable on large displays, particularly the resources page, where, based on user-stories, a user is considered to be more likely to access the site using a laptop or desktop computer.
+It is built with a mobile-first design, but it is also responsive enough to look acceptable on large displays, particularly the resources page, where, based on user-stories, a user is considered to be more likely to access the site using a laptop or desktop computer. It is built to be compatable with the vast majority of modern smartphones, tablets and personal computers.
 
 The enquiries form is not yet functional.
 
