@@ -65,8 +65,23 @@ As a visitor to Piano Lessons with Greg Kaighin I expect/want/need:
 
 9. For everything to work.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+These user stories were used to inform the design of the site. I decided that the website structure would consist of four pages
+to fulfill specific needs, as follows.
+### Home page
+About Me, Ethos, Testimonial
+### Music page
+Audio Player
+### Resources page
+Table of PDF resources and links to external websites
+### Enquiries page
+A contact form
+
+A wireframe was created to outline the basic structure of the site. (assets/wiredframes/plwgk.pdf)
 A prototype version of this website can be found here https://github.com/GregKaighin/piano-lessons-with-greg-kaighin-1.0-msp1-code-institute.
+I was initially going to develop this version further for my project, but after deciding that I would use Bootstrap for a more 
+responsive layout, I started a new build in a new repository. Also, I realised that my earlier commit messages were not frequent
+or complete enough. Now that I have become more accustomed to using GitHub, I avoid making commits that contain a large number of
+changes, and try to keep commit messages concise.
 # Technologies Used:
 
 - HTML5
