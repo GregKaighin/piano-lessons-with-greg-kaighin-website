@@ -7,13 +7,39 @@
 ![Piano Lessons with Greg Kaighin](assets/images/screenshot-devices.png)
 The website is built for my own established self-employed piano-teaching business "Piano Lessons with Greg Kaighin", to advertise the business to prospective students and to provide them with a means of getting in contact. It is also created to be of value to current students by providing links to downloads of teaching resources and to relevant external websites.
 ## Table of Contents
-1.  [UX](#ux)
--  [Goals](#goals)
--  [Visitor Goals](#visitor-goals)
--  [Business Goals](#business-goals)
--  [User Stories](#user-stories)
--  [Design Choices](#design-choices)
--  [Wireframes](#wireframes) 
+1. [UX](#ux)
+    -  [Goals](#goals)
+    -  [Visitor Goals](#visitor-goals)
+    -  [Business Goals](#business-goals)
+    -  [User Stories](#user-stories)
+    -  [Design Choices](#design-choices)
+    -  [Wireframes](#wireframes)
+2. [Features](#features)
+    - [Existing Features](#existing-features)
+    - [Elements on every Page](#elements-on-every-page)
+    - [Home Page](#home-page)
+    - [Music Page](#music-page)
+    - [resources Page](#resources-page)
+    - [Enquiries Page](#enquiries-page)
+    - [Features for Future Releases](#features-for-future-releases)
+3. [Technologies Used](#technologies-used)
+    - [Tools](#tools)
+    - [Libraries](#libraries)
+    - [Languages](#languages)
+4. [Testing](#testing)
+    - See separate [TESTING.md](TESTING.md) file.
+
+5. [Deployment](#deployment)
+    - [How to run this project locally](#how-to-run-this-project-locally)
+    - [Heroku Deployment](#heroku-deployment)
+
+6. [Credits](#credits)
+    - [Content](#content)
+    - [Images](#images)
+    - [Code](#code)
+    - [Acknowledgements](#acknowledgements)
+
+8. [Contact](#contact)
 # UX
 The website is for people who may be considering taking piano lessons with GK, to provide them with the information they need to decide whether or not to take piano lessons with GK. It is also for existing students, to provide teaching resources in PDF file format and links to relevant external websites such as music exam boards.
 ## Target Audience
@@ -80,13 +106,9 @@ These wireframes were created to outline the basic structure of the site.
 
 ![Piano Lessons with Greg Kaighin | Enquiries](assets/wireframes/Enquiries.png)
 
-A prototype version of this website can be found here https://github.com/GregKaighin/piano-lessons-with-greg-kaighin-1.0-msp1-code-institute.
+A prototype version of the website can be found here https://github.com/GregKaighin/piano-lessons-with-greg-kaighin-1.0-msp1-code-institute.
 
-I was initially going to develop this version further for my project, but after deciding that I would use Bootstrap for a more responsive layout, I started a new build in a new repository. Also, I realised that my earlier commit messages were not frequent
-or complete enough. Now that I have become more accustomed to using GitHub, I avoid making commits that contain a large number of changes, and try to keep commit messages concise.
-It is built with a mobile-first design, but it is also responsive enough to look acceptable on large displays, particularly the resources page, where, based on user-stories, a user is considered to be more likely to access the site using a laptop or desktop computer. It is built to be compatible with the vast majority of modern smartphones, tablets and personal computers.
-The enquiries form is not yet functional.
-All other parts of the website are working as intended.
+I was initially going to develop this version further for my project, but after deciding that I would use Bootstrap for a more responsive layout, I started a new build in a new repository. Also, I realised that my earlier commit messages were not frequent or complete enough. Now that I have become more accustomed to using GitHub, I avoid making commits that contain a large number of changes, and try to keep commit messages concise. It is built with a mobile-first design, but it is also responsive enough to look acceptable on large displays, particularly the resources page, where, based on user-stories, a user is considered to be more likely to access the site using a laptop or desktop computer. It is built to be compatible with the vast majority of modern smartphones, tablets and personal computers. The enquiries form is not yet functional. All other parts of the website are working as intended.
 # Technologies Used:
 - HTML5
 - CSS3
