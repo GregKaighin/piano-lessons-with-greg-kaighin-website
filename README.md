@@ -70,8 +70,24 @@ Audio Player
 Table of PDF resources and links to external websites
 ### Enquiries page
 A contact form
-
-# Wireframes
+# Design Choices
+The visual style came together quite late in the project after several unsuccessful attempts at using images of paintings as a "hero" type image. I felt that they looked fine on a laptop, however they didn't scale down to small viewports very well, and also seemed to dominate the look of the website too much.
+-These were replaced with a simpler image of a piano keyboard outline, to which colour-gradient fills have been applied to the piano keys. This image was chosen because it is visually striking, and together with the logo next to it, instantly relays the subject matter of the website to the user upon opening a page.
+- The background colour is ivory #fffff0, of course, and the dark colour of the text is chosen to match the black keys on a piano #221d17.
+- The "black" keys in the main jumbotron image have been coloured dark blue, as they looked too dark on screen when completely black.
+- The font is Roboto, from Google fonts. I chose this because it is very clear and easy to read.
+- The links to other webpages on the resources page are dark blue, as are the PDF file download links.
+- The internal links in the about me section are coloured BGY to match the navigation icons.
+- The social link button icons are displayed in their original brand colours to stand out.
+- For page navigation, a simple RGBY colour is given to the navigation icons. The order of the colours here matches the order of the colours on the piano keyboard image.
+- The buttons are silver-grey, to make them noticeable but not intrusive, flashing pink when pressed to provide feedback to the user.
+- The overlay shapes displayed over the piano keyboard image on each page matches the RGBY theme of the corresponding navigation icons, and this theme is extended through some of the elements throughout.
+- The audio player on the Music page has a simple UI, with intuitive controls. Green borders are applied to the buttons to tie the player into the colour scheme used in the navbar icons.
+- The Resources section information is presented using Bootstrap's .table-striped and .table-light classes.
+- Bootstrap layout classes are applied to the elements in order to achieve page designs that are responsive.
+- Overall, I am happy with the design and layout at small and medium screen sizes, and I think it looks best at these sizes.
+- I am not completely happy with the layout at large screen sizes as I feel there is too much white space visible on-screen. In future I may add in more elements that appear at the viewport edges on large screen sizes.
+# Wireframes & Prototype build
 These wireframes were created to outline the basic structure of the site.
 
 ![Piano Lessons with Greg Kaighin | Home](assets/wireframes/Home.png)
@@ -84,13 +100,8 @@ These wireframes were created to outline the basic structure of the site.
 
 A prototype version of this website can be found here https://github.com/GregKaighin/piano-lessons-with-greg-kaighin-1.0-msp1-code-institute.
 
-I was initially going to develop this version further for my project, but after deciding that I would use Bootstrap for a more
-
-responsive layout, I started a new build in a new repository. Also, I realised that my earlier commit messages were not frequent
-
-or complete enough. Now that I have become more accustomed to using GitHub, I avoid making commits that contain a large number of
-
-changes, and try to keep commit messages concise.
+I was initially going to develop this version further for my project, but after deciding that I would use Bootstrap for a more responsive layout, I started a new build in a new repository. Also, I realised that my earlier commit messages were not frequent
+or complete enough. Now that I have become more accustomed to using GitHub, I avoid making commits that contain a large number of changes, and try to keep commit messages concise.
 
 
   
@@ -315,69 +326,8 @@ Potential solution: JavaScript? I need to learn how to do this.
 
   
 
-# Design Choices
 
-  
 
-The visual style came together quite late in the project after several unsuccessful attempts at using images of paintings as a "hero" type image. I felt that they looked fine on a laptop, however they didn't scale down to small viewports very well, and also seemed to dominate the look of the website too much.
-
-  
-
-These were replaced with a simpler image of a piano keyboard outline, to which colour-gradient fills have been applied to the piano keys. This image was chosen because it is visually striking, and together with the logo next to it, instanly relays the subject matter of the website to the user upon opening a page.
-
-- The background colour is ivory #fffff0, of course, and the dark colour of the text is chosen to match the black keys on a piano #221d17.
-
-  
-
-- The "black" keys in the main jumbotron image have been coloured dark blue, as they looked too dark on screen when completely black.
-
-  
-
-- The font is Roboto, from Google fonts. I chose this because it is very clear and easy to read.
-
-  
-
-- The links to other webpages on the resources page are dark blue, as are the PDF file download links.
-
-  
-
-- The internal links in the about me section are coloured BGY to match the navigation icons.
-
-  
-
-- The social link button icons are displayed in their original brand colours to stand out.
-
-  
-
-- For page navigation, a simple RGBY colour is given to the navigation icons. The order of the colours here matches the order of the colours on the piano keyboard image.
-
-  
-
-- The buttons are silver-grey, to make them noticeable but not intrusive, flashing pink when pressed to provide feedback to the user.
-
-  
-
-- The overlay shapes displayed over the piano keyboard image on each page matches the RGBY theme of the corresponding navigation icons, and this theme is extended through some of the elements throughout.
-
-  
-
-- The audio player on the Music page has a simple UI, with intuitive controls. Green borders are applied to the buttons to tie the player into the colour scheme used in the navbar icons.
-
-  
-
-- The Resources section information is presented using Bootstrap's .table-striped and .table-light classes.
-
-  
-
-- Bootstrap layout classes are applied to the elements in order to achieve page designs that are responsive.
-
-  
-
-- Overall, I am happy with the design and layout at small and medium screen sizes, and I think it looks best at these sizes.
-
-  
-
-- I am not completely happy with the layout at large screen sizes as I feel there is too much white space visible on-screen. In future I may add in more elements that appear at the screen edges on large screens.
 
   
 
