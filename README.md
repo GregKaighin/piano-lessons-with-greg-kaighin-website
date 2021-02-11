@@ -336,4 +336,4 @@ Potential solution: JavaScript? I need to learn how to do this.
 
 - Thanks to Oluwafemi Medale for all of the great advice he gave during my mentoring sessions with him, and to all the Code Institute tutors for putting together such an engaging and interesting course. Bring on the JavaScript module!
 
-- All images with the exception of the portrait image are sourced from https://www.shutterstock.com/home, with a paid-for license allowing for web distribution.
+- All images, with the exception of the portrait image, are sourced from https://www.shutterstock.com/home, with a paid-for license allowing for web distribution.
