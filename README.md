@@ -141,15 +141,23 @@ The website has been tested using a number of different manual and automatic met
 -All sheet music and music recordings are free of copyright restrictions.
 -Colours: Gradient fills on piano keys image generated with Photoshop. The colour scheme was chosen to give an ‘educational’ aesthetic to the website, and features pastel-coloured gradients surrounded by solid 2-pixel borders.
 # Features
+## Existing Features
+### Elements on every page
+#### Header
 - Navbar. Bootstrap's navbar-light and fixed-top class are used to create an intuitive navbar which is always present at the top of the viewport. Each page link is named (Home, Music, Resources, Enquiries), and also given a primary coloured font-awesome icon, to provide users with a further visual cue.
 - Hero Image. The image used in the page header is of a coloured piano keyboard. This was chosen as it is visually striking, and it sets the tone for the rest of the website's visual design.
+#### Footer
+- Social Links. These are displayed at the top of the footer, as a Bootstrap button, displayed as a font-awesome icon, in their original brand colours, in order to stand out a little from the rest of the content on the page.
+- Cards Section. Bootstrap cards are displayed at the bottom of the footer, containing information about pricing, and also information about additional subjects available from 'Piano Lessons with GK' such as workshops, and music technology, and music theory lessons.
+### Home Page
 - About-Me Section. The purpose of this section is to give information about GK. This is the first section to appear after the header as, based on user stories, it is most likely the first thing that prospective piano students will want to read. As there is a lot of text, some of it is hidden behind a 'Show More / Show Less' button. This is not ideal, it could be improved by revealing the hidden text with an upwards scroll, rather than a downwards one, a fix for the future.
 - Ethos Section. This section is designed to relay the ethos of 'Piano Lessons with GK'. It is displayed directly below the 'About-Me', and is designed to complement the information found there. The layout of this section was inspired by the ethos section of the 'Love Running' website on the Code Institute's FSD course.
 - Testimonial Section. This section is for displaying comments from existing piano students. For data-protection purposes, adult names are used with permission. Comments from children are displayed with an alias.
-- Social Links. These are displayed at the top of the footer, as a Bootstrap button, displayed as a font-awesome icon, in their original brand colours, in order to stand out a little from the rest of the content on the page.
-- Cards Section. Bootstrap cards are displayed at the bottom of the footer, containing information about pricing, and also information about additional subjects available from 'Piano Lessons with GK' such as workshops, and music technology, and music theory lessons.
+### Music Page
 - Audio Player. This was adapted from (https://codepen.io/vanderzak/pen/BayjVep). I have included the HTML, CSS and JavaScript largely unchanged from the original, but have stripped out the parts relating to the progress bar, as I don't require the player to have that functionality. The CSS has been edited to make the audio player fit in with the visual design of the website. It's purpose is to give a simple juke-box style audio player with a set playlist.
+### Resources Page
 - Resources Section. This section uses Bootstrap's table class to provide a table of links of PDF downloads, and links to external websites relevant to piano lessons.
+### Enquiries Page
 - Enquiries Form. A Bootstrap's form class is used to create a simple enquiry form with a modal popup to say thank you once it has been submitted. The form is not yet functional, this will be rectified once I have learned how to do it.
 # Roadmap features
 - Signup and payments page for group music workshops.
