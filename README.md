@@ -162,13 +162,13 @@ The website has been tested using a number of different manual and automatic met
 # Roadmap features
 - Signup and payments page for group music workshops.
 - Automatic student waiting list, which can be easily activated/deactivated as required and which lets potential customers know how many people are already on the list.
-- The header message will be updated as required to reflect current business circumstances.
+- The header message will be updated as required to reflect current business circumstances (i.e. am I currently taking on new students or not).
 - An additional audio player on the resources page for the playback of backing track audio files.
 # Known issues and potential solutions
-- Issue: navbar dropdown menu always appears on the left side. It would sometimes look better positioned on the right. Potential solution: Change index.html navbar-toggler class IDs.
-- Issue: Audio player progress bar does not behave as expected. Potential solution: JavaScript fix.
+- Issue: the enquiries for is not yet functional. Fix: I need to learn how to do this.
+- Issue: navbar dropdown menu always appears on the left side. It would sometimes look better positioned on the right (on smarthpones larger than iPhone 5). Potential solution: Change index.html navbar-toggler class IDs.
 - Issue: Show more / Show less button on index.html page collapses downwards. An upwards collapse (expand?) would provide better UX and flow. Potential solution: jspopper? I need to learn how to do this.
 # Credits
-- Thanks to Oluwafemi Medale for all of the expert advice he gave during my mentoring sessions with him, and to all the tutors who put together such an engaging and interesting course.
-- Hero image and card images: https://www.shutterstock.com/
+- Thanks to Oluwafemi Medale for all of the great advice he gave me during my mentoring sessions with him, and to all the Code Institute staff and tutors who put together such an engaging and interesting course.
+- Hero image and card images: https://www.shutterstock.com/ (Paid for licence with permission for web distribution).
 - Portrait image: Sheila Kaighin, thanks Mum!
