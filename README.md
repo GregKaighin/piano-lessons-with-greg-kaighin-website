@@ -97,14 +97,16 @@ The visual style came together quite late in the project after several unsuccess
 - Overall, I am happy with the design and layout at small and medium screen sizes, and I think it looks best at these sizes.
 - I am not completely happy with the layout at large screen sizes as I feel there is too much white space visible on-screen. In future I may add in more elements that appear at the viewport edges on large screen sizes.
 - Elements which have square corners (e.g. buttons) have been rounded off to slighty soften the overall look.
-
 ##Colours
-
 In order to obtain a coherent look, I have tried to use structure when choosing colours, as follows:
 -The background colour is ivory #fffff0, chosen because it's the classic colour of white piano keys. Similarly, the colour of the text and borders, #221d17 was chosen because it closely matches the colour of the black keys on a piano.
 -For menu navigation icons, primary colours RGBY are used.
 -On the main piano image in the header, the white keys are coloured in a sequence of pastel shades of red, green, blue, yellow, orange, purple, silver. These colours are chosen to be softer than the navigation icon colours.
 The idea is to give the site an 'educational' look, somewhat akin to that of a school textbook.
+##Styling
+-Colour gradients are used on many elements to add interest to the visual design.
+-Rounded edges are used on most elements.
+-A hint of transpareny has been added to the navbar, care has been taken to ensure all text is still clearly ledgible. This makes the page look better, and provides subtle feedback to the user when they scroll the page.
 # Wireframes & Prototype build
 These wireframes were created to outline the basic structure of the site.
 
