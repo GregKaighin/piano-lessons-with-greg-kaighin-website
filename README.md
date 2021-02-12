@@ -42,19 +42,20 @@ The website is built for my own established self-employed piano-teaching busines
 8. [Contact](#contact)
 # UX
 The website is for people who may be considering taking piano lessons with GK, to provide them with the information they need to decide whether or not to take piano lessons with GK. It is also for existing students, to provide teaching resources in PDF file format and links to relevant external websites such as music exam boards.
-## Target Audience
-- Internet users who might be considering taking piano lessons.
-- Current piano students.
+The target audience is internet users who might be considering taking piano lessons, either for themselves or someone they know, and also for current piano students I already teach.
 ## Visitor Goals
-- find a piano teacher.
-- find out information about the business.
-- listen to some music.
-- download piano lesson resources.
-- make an enquiry about piano lessons.
+- Find a piano teacher.
+- Find out information about the business.
+- Download piano lesson resources.
+- Make an enquiry about piano lessons.
+- Listen to some music.
 ## Business Goals
-- advertise the business to potential customers and to provide them with a means of getting in contact.
-- raise awareness of the business among the general public, both online and locally.
-- collect contact and other relevant information from prospective customers via a form.
+- Advertise the business to potential customers and to provide them with a means of getting in contact.
+- Raise awareness of the business among the general public, both online and locally.
+- Collect contact and other relevant information from prospective customers via a form.
+Piano Lessons with Greg Kaighin meets these needs because:
+Relevant information is displayed clearly and is easily navigable.
+The design of the site is based on user-stories and my own years of experience as piano teacher.
 ## User Stories
 As a visitor to Piano Lessons with Greg Kaighin I expect/want/need:
 1. To be able to navigate the website easily and to quickly find the information I am looking for.
@@ -80,11 +81,10 @@ Table of PDF resources and links to external websites
 A contact form
 # Design Choices
 The visual style came together quite late in the project after several unsuccessful attempts at using images of paintings as a "hero" type image. I felt that they looked fine on a laptop, however they didn't scale down to small viewports very well, and also seemed to dominate the look of the website too much.
--These were replaced with a simpler image of a piano keyboard outline, to which colour-gradient fills have been applied to the piano keys. This image was chosen because it is visually striking, and together with the logo next to it, instantly relays the subject matter of the website to the user upon opening a page.
+-These were replaced with a simpler image of a piano keyboard outline, to which colour-gradient fills have been applied to the piano keys. This image was chosen because it is visually striking, and together with the text logo, instantly relays the subject matter of the website to the user upon opening a page.
 - The background colour is ivory #fffff0, of course, and the dark colour of the text is chosen to match the black keys on a piano #221d17.
-- The "black" keys in the main jumbotron image have been coloured dark blue, as they looked too dark on screen when completely black.
-- The font is Roboto, from Google fonts. I chose this because it is very clear and easy to read.
-- The links to other webpages on the resources page are dark blue, as are the PDF file download links.
+- The "black" keys in the main jumbotron image have actually been coloured dark blue, as they looked too dark on screen when completely black.
+- The font is Roboto, from Google fonts. I chose this because it is very clear and easy to read, and it's bold lines fit in nicely with the rest of the page design.
 - The internal links in the about me section are coloured BGY to match the navigation icons.
 - The social link button icons are displayed in their original brand colours to stand out.
 - For page navigation, a simple RGBY colour is given to the navigation icons. The order of the colours here matches the order of the colours on the piano keyboard image.
@@ -92,9 +92,19 @@ The visual style came together quite late in the project after several unsuccess
 - The overlay shapes displayed over the piano keyboard image on each page matches the RGBY theme of the corresponding navigation icons, and this theme is extended through some of the elements throughout.
 - The audio player on the Music page has a simple UI, with intuitive controls. Green borders are applied to the buttons to tie the player into the colour scheme used in the navbar icons.
 - The Resources section information is presented using Bootstrap's .table-striped and .table-light classes.
+- The links to other webpages on the resources page are dark blue, as are the PDF file download links.
 - Bootstrap layout classes are applied to the elements in order to achieve page designs that are responsive.
 - Overall, I am happy with the design and layout at small and medium screen sizes, and I think it looks best at these sizes.
 - I am not completely happy with the layout at large screen sizes as I feel there is too much white space visible on-screen. In future I may add in more elements that appear at the viewport edges on large screen sizes.
+- Elements which have square corners (e.g. buttons) have been rounded off to slighty soften the overall look.
+
+##Colours
+
+In order to obtain a coherent look, I have tried to use structure when choosing colours, as follows:
+-The background colour is ivory #fffff0, chosen because it's the classic colour of white piano keys. Similarly, the colour of the text and borders, #221d17 was chosen because it closely matches the colour of the black keys on a piano.
+-For menu navigation icons, primary colours RGBY are used.
+-On the main piano image in the header, the white keys are coloured in a sequence of pastel shades of red, green, blue, yellow, orange, purple, silver. These colours are chosen to be softer than the navigation icon colours.
+The idea is to give the site an 'educational' look, somewhat akin to that of a school textbook.
 # Wireframes & Prototype build
 These wireframes were created to outline the basic structure of the site.
 
