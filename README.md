@@ -1,10 +1,11 @@
-![Piano Lessons with Greg Kaighin](assets/images/logo-plwgk.jpg)
 # Piano Lessons with Greg Kaighin
 ## Greg Kaighin
-## Code Institute - Full Stack Developer HND
-### Milestone Project 1
-### User-Centric Front-End
-### February 2021
+## Code Institute
+## Full Stack Developer HND
+## Milestone Project 1
+## User-Centric Front-End
+## February 2021
+![Piano Lessons with Greg Kaighin](assets/images/logo-plwgk.png)
 ![Piano Lessons with Greg Kaighin](assets/images/screenshots-plwgk.png)
 The website is built for my own established self-employed piano-teaching business "Piano Lessons with Greg Kaighin" to advertise the business to prospective students and to provide them with a means of getting in contact. It is also created to be of value to my current students by providing links to downloads of teaching resources and to relevant external websites.
 ## Table of Contents
