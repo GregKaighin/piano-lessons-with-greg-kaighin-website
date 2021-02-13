@@ -172,18 +172,22 @@ https://web.dev/measure/
 - Resources Section. This section uses Bootstrap's table-light class to provide a table of links of PDF downloads, and links to external websites relevant to piano lessons.
 ### Enquiries Page
 - Enquiries Form. Bootstrap's form class is used to create a simple enquiry form with a modal popup to say thank you once it has been submitted. The form is not yet functional, this will be rectified once I have learned how to do it.
+
 # Features for Future Releases
 - Signup page with payment for group workshops.
 - Automatic student waiting list, which can be easily activated/deactivated as required and which lets potential customers know how many people are already on the list.
 - The header message will be updated as required to reflect current business circumstances (i.e. am I currently taking on new students or not).
 - An additional audio player on the resources page for the playback of backing track audio files.
 - Expansion of the resources table as new material is added. Feedback from current students will help to inform further development of this.
+
 # Known Issues and Potential Solutions
 - Issue: the enquiries for is not yet functional. Fix: I need to learn how to do this (MySQL, PHP?)
 - Issue: navbar dropdown menu always appears on the left side. It would sometimes look better positioned on the right (on smarthpones larger than iPhone 5). Potential solution: Change index.html navbar-toggler class IDs.
 - Issue: Show more / Show less button on index.html page collapses downwards at present. An upwards collapse (expand?) would provide better UX and flow, and also stop my portrait photo from being used as a virtual basketball. Potential solution: jspopper? I need to learn how to do this.
+
 # Deployment
 For the purposes of assesment the website has been deployed on GitHub pages. Once I have learned how to make the enquiries form functional, I will deploy it again using a paid-for website hosting service, and it will become useful for my piano teaching business. 
+
 # Credits
 ## Original Content
 - Portrait photo: Sheila and Jeff Kaighin, thanks Mum and Dad.
@@ -194,6 +198,7 @@ For the purposes of assesment the website has been deployed on GitHub pages. Onc
 - Piano-keyboard image and card images: https://www.shutterstock.com/ (Paid-for licence with permission for web distribution).
 ## Acknowledgements
 - Thanks to Oluwafemi Medale for the great advice he gave me during my mentoring sessions, and to the Code Institute staff and tutors for putting together such an engaging and interesting course.
+
 # Contact
 Greg Kaighin
 gregkaighin@hotmail.com
