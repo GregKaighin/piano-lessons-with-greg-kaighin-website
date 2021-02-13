@@ -8,7 +8,7 @@
 ## February 2021
 ## Home Page (https://gregkaighin.github.io/piano-lessons-with-greg-kaighin-v2.0-msp1-code-institute/)
 ![Piano Lessons with Greg Kaighin Screenshots](assets/images/screenshots-plwgk.png)
-The website is made for my own established self-employed piano-teaching business "Piano Lessons with Greg Kaighin" to advertise the business to prospective students and to provide them with a means of getting in contact. It is also created to be of value to my current students by providing links to downloads of teaching resources and to relevant external websites.
+The website is made for my own established self-employed piano-teaching business "Piano Lessons with Greg Kaighin" to advertise the business to prospective students and to provide them with a means of getting in contact. It is also created to be of value to my current students by providing links to downloads of learning resources and to relevant external websites.
 ## Table of Contents
 1. [UX](#ux)
     -  [Visitor Goals](#visitor-goals)
@@ -36,8 +36,8 @@ The website is made for my own established self-employed piano-teaching business
     - [Acknowledgements](#acknowledgements)
 8. [Contact](#contact)
 # UX
-The website is for people who may be considering taking piano lessons with GK, to provide them with the information they need to decide whether or not to take piano lessons with GK. It is also for existing students, to provide teaching resources in PDF file format and links to relevant external websites such as music exam boards.
-The target audience is internet users who might be considering taking piano lessons, either for themselves or someone they know, and also for current piano students I already teach.
+The website is for people who may be considering taking piano lessons with GK, to provide them with the information they need to help them decide whether or not to take piano lessons with GK. It is also for existing students, to provide teaching resources in PDF file format and links to relevant external websites such as music exam boards.
+The target audience is internet users who might be considering taking piano lessons for themselves or someone they know, and also current students.
 ## Visitor Goals
 - Find a piano teacher.
 - Find out information about the business.
@@ -49,22 +49,22 @@ The target audience is internet users who might be considering taking piano less
 - Raise awareness of the business among the general public, both online and locally.
 - Collect contact and other relevant information from prospective customers via a form.
 Piano Lessons with Greg Kaighin meets these needs because:
-Relevant information is displayed clearly and is easily navigable.
-The design of the site is based on user-stories and my own years of experience as piano teacher.
+1. Relevant information is displayed clearly and is easily navigable.
+2. The design of the site is based on user-stories and my own years of experience as piano teacher.
 ## User Stories
 As a visitor to Piano Lessons with Greg Kaighin I expect/want/need:
-1. To be able to navigate the website easily and to quickly find the information I am looking for.
+1. To be able to navigate the website easily and quickly find the information I am looking for.
 2. To get relevant information about GK the piano teacher.
 3. To get information to help me decide if GK is the right piano teacher for me.
 4. For all information to be presented clearly and logically.
-5. To be able to make contact easily if I decide I want to.
-6. To be able to download sheet music for my piano lessons.
+5. To make contact easily if I decide I want to.
+6. To download sheet music for my piano lessons.
 7. To get information about music exams.
-8. To be able to access the website on my phone, tablet and computer.
+8. To access the website on my phone, tablet and computer.
 9. To listen to some piano music.
 10. For the website to have a coherent look.
 11. For everything to work.
- - Based on these, I decided that the website structure shall consist of four pages with different features to meet specific user requirements, as follows:
+ - Based on these, I decided that the website structure shall consist of four pages with different features on each to meet specific user requirements, as follows:
 ## Home Page
 About Me, Ethos and Testimonial sections.
 ## Music Page
