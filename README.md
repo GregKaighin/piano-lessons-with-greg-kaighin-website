@@ -10,7 +10,6 @@
 The website is made for my own established self-employed piano-teaching business "Piano Lessons with Greg Kaighin" to advertise the business to prospective students and to provide them with a means of getting in contact. It is also created to be of value to my current students by providing links to downloads of teaching resources and to relevant external websites.
 ## Table of Contents
 1. [UX](#ux)
-    -  [Goals](#goals)
     -  [Visitor Goals](#visitor-goals)
     -  [Business Goals](#business-goals)
     -  [User Stories](#user-stories)
@@ -29,18 +28,13 @@ The website is made for my own established self-employed piano-teaching business
     - [Libraries](#libraries)
     - [Languages](#languages)
 4. [Testing](#testing)
-    - See separate [TESTING.md](TESTING.md) file.
-
 5. [Deployment](#deployment)
     - [How to run this project locally](#how-to-run-this-project-locally)
-    - [Heroku Deployment](#heroku-deployment)
-
 6. [Credits](#credits)
     - [Content](#content)
     - [Images](#images)
     - [Code](#code)
     - [Acknowledgements](#acknowledgements)
-
 8. [Contact](#contact)
 # UX
 The website is for people who may be considering taking piano lessons with GK, to provide them with the information they need to decide whether or not to take piano lessons with GK. It is also for existing students, to provide teaching resources in PDF file format and links to relevant external websites such as music exam boards.
@@ -72,45 +66,43 @@ As a visitor to Piano Lessons with Greg Kaighin I expect/want/need:
 10. For the website to have a coherent look.
 11. For everything to work.
  
-These user stories were used to inform the design of the site. I decided that the website structure would consist of four pages to fulfil specific needs, as follows.
-### Home page
-About Me, Ethos, Testimonial
-### Music page
-Audio Player
-### Resources page
-Table of PDF resources and links to external websites
-### Enquiries page
-A contact form
+Based on these user stories, I decided that the website structure shall consist of four pages with different feature to meet specific user requirements, as follows:
+## Home page
+About Me, Ethos and Testimonial sections.
+## Music page
+Audio Player.
+##  Resources page
+Table of PDF resources and links to external websites.
+## Enquiries page
+Contact form.
 # Design Choices
-The visual style came together quite late in the project after several unsuccessful attempts at using images of paintings as a "hero" type image. I felt that they looked fine on a laptop, however they didn't scale down to small viewports very well, and also seemed to dominate the look of the website too much.
--These were replaced with a simpler image of a piano keyboard outline, to which colour-gradient fills have been applied to the piano keys. This image was chosen because it is visually striking, and together with the text logo, instantly relays the subject matter of the website to the user upon opening a page.
-- The background colour is ivory #fffff0, of course, and the dark colour of the text is chosen to match the black keys on a piano #221d17.
-- The "black" keys in the main jumbotron image have actually been coloured dark blue, as they looked too dark on screen when completely black.
-- The font is Roboto, from Google fonts. I chose this because it is very clear and easy to read, and it's bold lines fit in nicely with the rest of the page design.
-- The internal links in the about me section are coloured BGY to match the navigation icons.
+- The font is Roboto, from Google fonts. I chose this because it is very clear and easy to read, and it's bold lines fit in well with the rest of the page design.
+- The main image, displayed below the logo on each page, is a simple outline drawing of a piano-keyboard, to which pastel coloured gradient fills have been applied. This image was chosen because it is visually striking, and together with the text logo, instantly relays the subject matter of the website to the user upon them opening a page.
+- The "black" keys in the main piano image have been coloured dark blue, as they looked too dark on screen when completely black.
+- The background colour is ivory #fffff0, to match the white keys on a piano. Text and borders are black #221d17, to match the black keys on a piano.
+- For page navigation, a simple primary RGBY colour is given to each of the navigation icons. The order of the colours here matches the order of the colours on the piano keyboard image.
+- The internal links in the 'about me' section are coloured RGBY to match the navigation icons.
 - The social link button icons are displayed in their original brand colours to stand out.
-- For page navigation, a simple RGBY colour is given to the navigation icons. The order of the colours here matches the order of the colours on the piano keyboard image.
 - The buttons are silver-grey, to make them noticeable but not intrusive, flashing pink when pressed to provide feedback to the user.
 - The overlay shapes displayed over the piano keyboard image on each page matches the RGBY theme of the corresponding navigation icons, and this theme is extended through some of the elements throughout.
-- The audio player on the Music page has a simple UI, with intuitive controls. Green borders are applied to the buttons to tie the player into the colour scheme used in the navbar icons.
-- The Resources section information is presented using Bootstrap's .table-striped and .table-light classes.
+- The audio player on the music page has a simple UI, with intuitive controls. Green borders are applied to the buttons to tie the player into the colour scheme used in the navbar icons.
+- The resources section information is presented using Bootstrap's .table-striped and .table-light classes.
 - The links to other webpages on the resources page are dark blue, as are the PDF file download links.
-- Bootstrap layout classes are applied to the elements in order to achieve page designs that are responsive.
-- Overall, I am happy with the design and layout at small and medium screen sizes, and I think it looks best at these sizes.
-- I am not completely happy with the layout at large screen sizes as I feel there is too much white space visible on-screen. In future I may add in more elements that appear at the viewport edges on large screen sizes.
 - Elements which have square corners (e.g. buttons) have been rounded off to slighty soften the overall look.
+- Bootstrap is used throughout, for the convenience of it's prebuilt components which can be readily modified to suit, and for it's grid and sizing system.
+Overall, I am happy with the design and layout at small and medium screen sizes, and I think it looks best at these sizes. I am not completely happy with the layout at large screen sizes as I feel there is too much white space visible at the edge of the screen. In future I may rectify this by adding in more elements that appear at viewport edges on large screen sizes.
 ## Colours
-In order to obtain a coherent look, I have tried to use structure when choosing colours, as follows:
--The background colour is ivory #fffff0, chosen because it's the classic colour of white piano keys. Similarly, the colour of the text and borders, #221d17 was chosen because it closely matches the colour of the black keys on a piano.
--For menu navigation icons, primary colours RGBY are used.
--On the main piano image in the header, the white keys are coloured in a sequence of pastel shades of red, green, blue, yellow, orange, purple, silver. These colours are chosen to be softer than the navigation icon colours.
-The idea is to give the site an 'educational' look, somewhat akin to that of a school textbook.
-##Styling
--Colour gradients are used on many elements to add interest to the visual design.
--Rounded edges are used on most elements.
--A hint of transpareny has been added to the navbar, care has been taken to ensure all text is still clearly ledgible. This makes the page look better, and provides subtle feedback to the user when they scroll the page.
+In order to obtain a coherent look, I have used structure when choosing colours. There are essentially three distinct pallettes, as follows:
+- The background colour is ivory #fffff0, chosen because it's the classic colour of white piano keys. Similarly, the colour of the text and borders, #221d17 was chosen because it closely matches the colour of the black keys on a piano.
+- For menu navigation icons, primary colours RGBY are used.
+- On the main piano image in the header, the white keys are coloured in a sequence of pastel shades of red, green, blue, yellow, orange, purple, silver. These colours are chosen to be softer than the navigation icon colours.
+The idea is to give the site an 'educational' look, somewhat akin in style to that of a school textbook.
+## Styling
+- Colour gradients are used on many elements to add interest to the visual design.
+- Rounded edges are used on many elements to soften the overall look.
+- A hint of transpareny has been added to the navbar, whilst care has been taken to ensure all text is still clearly ledgible. This makes the page look better, and also provides subtle feedback to the user when they scroll the page.
 # Wireframes & Prototype build
-These wireframes were created to outline the basic structure of the site.
+These wireframes were created to outline the basic structure of the site. The fnished version is fairly close to these, the main changes are the logo, which has been changed to two lines to fit onto small screen sizes, and the social links, which have been moved to be above the cards in the footer, as I thought they may not be noticed right at the bottom of the page.
 
 ![Piano Lessons with Greg Kaighin | Home](assets/wireframes/Home.png)
 
@@ -158,18 +150,19 @@ The website has been tested using a number of different manual and automatic met
 ### Music Page
 - Audio Player. This was adapted from (https://codepen.io/vanderzak/pen/BayjVep). I have included the HTML, CSS and JavaScript largely unchanged from the original, but have stripped out the parts relating to the progress bar, as I don't require the player to have that functionality. The CSS has been edited to make the audio player fit in with the visual design of the website. It's purpose is to give a simple juke-box style audio player with a set playlist.
 ### Resources Page
-- Resources Section. This section uses Bootstrap's table class to provide a table of links of PDF downloads, and links to external websites relevant to piano lessons.
+- Resources Section. This section uses Bootstrap's table-light class to provide a table of links of PDF downloads, and links to external websites relevant to piano lessons.
 ### Enquiries Page
-- Enquiries Form. A Bootstrap's form class is used to create a simple enquiry form with a modal popup to say thank you once it has been submitted. The form is not yet functional, this will be rectified once I have learned how to do it.
-# Roadmap features
-- Signup and payments page for group music workshops.
+- Enquiries Form. Bootstrap's form class is used to create a simple enquiry form with a modal popup to say thank you once it has been submitted. The form is not yet functional, this will be rectified once I have learned how to do it.
+# Features for Future Releases
+- Signup page with payment for group workshops.
 - Automatic student waiting list, which can be easily activated/deactivated as required and which lets potential customers know how many people are already on the list.
 - The header message will be updated as required to reflect current business circumstances (i.e. am I currently taking on new students or not).
 - An additional audio player on the resources page for the playback of backing track audio files.
+- Expansion of the resources table as new material is added. Feedback from current students will help to inform further development of this.
 # Known issues and potential solutions
-- Issue: the enquiries for is not yet functional. Fix: I need to learn how to do this.
+- Issue: the enquiries for is not yet functional. Fix: I need to learn how to do this (MySQL, PHP?)
 - Issue: navbar dropdown menu always appears on the left side. It would sometimes look better positioned on the right (on smarthpones larger than iPhone 5). Potential solution: Change index.html navbar-toggler class IDs.
-- Issue: Show more / Show less button on index.html page collapses downwards. An upwards collapse (expand?) would provide better UX and flow. Potential solution: jspopper? I need to learn how to do this.
+- Issue: Show more / Show less button on index.html page collapses downwards at present. An upwards collapse (expand?) would provide better UX and flow, and also stop my portrait photo from being used as a virtual basketball. Potential solution: jspopper? I need to learn how to do this.
 # Credits
 - Thanks to Oluwafemi Medale for all of the great advice he gave me during my mentoring sessions with him, and to all the Code Institute staff and tutors who put together such an engaging and interesting course.
 - Hero image and card images: https://www.shutterstock.com/ (Paid for licence with permission for web distribution).
