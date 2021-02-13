@@ -64,7 +64,7 @@ As a visitor to Piano Lessons with Greg Kaighin I expect/want/need:
 10. For the website to have a coherent look.
 11. For everything to work.
  
-Based on these user stories, I decided that the website structure shall consist of four pages with different feature to meet specific user requirements, as follows:
+Based on these, I decided that the website structure shall consist of four pages with different features to meet specific user requirements, as follows:
 ## Home Page
 About Me, Ethos and Testimonial sections.
 ## Music Page
