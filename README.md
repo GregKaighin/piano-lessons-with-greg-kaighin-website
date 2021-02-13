@@ -5,8 +5,8 @@
 ## Milestone Project 1
 ## User-Centric Front-End
 ## February 2021
-![Piano Lessons with Greg Kaighin](assets/images/logo-plwgk.png)
-![Piano Lessons with Greg Kaighin](assets/images/screenshots-plwgk.png)
+![Piano Lessons with Greg Kaighin Logo](assets/images/logo-plwgk.png)
+![Piano Lessons with Greg Kaighin Screenshots](assets/images/screenshots-plwgk.png)
 The website is made for my own established self-employed piano-teaching business "Piano Lessons with Greg Kaighin" to advertise the business to prospective students and to provide them with a means of getting in contact. It is also created to be of value to my current students by providing links to downloads of teaching resources and to relevant external websites.
 ## Table of Contents
 1. [UX](#ux)
@@ -29,7 +29,6 @@ The website is made for my own established self-employed piano-teaching business
     - [Languages](#languages)
 4. [Testing](#testing)
 5. [Deployment](#deployment)
-    - [How to run this project locally](#how-to-run-this-project-locally)
 6. [Credits](#credits)
     - [Content](#content)
     - [Images](#images)
@@ -67,13 +66,13 @@ As a visitor to Piano Lessons with Greg Kaighin I expect/want/need:
 11. For everything to work.
  
 Based on these user stories, I decided that the website structure shall consist of four pages with different feature to meet specific user requirements, as follows:
-## Home page
+## Home Page
 About Me, Ethos and Testimonial sections.
-## Music page
+## Music Page
 Audio Player.
-##  Resources page
+##  Resources Page
 Table of PDF resources and links to external websites.
-## Enquiries page
+## Enquiries Page
 Contact form.
 # Design Choices
 - The font is Roboto, from Google fonts. I chose this because it is very clear and easy to read, and it's bold lines fit in well with the rest of the page design.
@@ -101,7 +100,7 @@ The idea is to give the site an 'educational' look, somewhat akin in style to th
 - Colour gradients are used on many elements to add interest to the visual design.
 - Rounded edges are used on many elements to soften the overall look.
 - A hint of transpareny has been added to the navbar, whilst care has been taken to ensure all text is still clearly ledgible. This makes the page look better, and also provides subtle feedback to the user when they scroll the page.
-# Wireframes & Prototype build
+# Wireframes & Prototype Build
 These wireframes were created to outline the basic structure of the site. The fnished version is fairly close to these, the main changes are the logo, which has been changed to two lines to fit onto small screen sizes, and the social links, which have been moved to be above the cards in the footer, as I thought they may not be noticed right at the bottom of the page.
 
 ![Piano Lessons with Greg Kaighin | Home](assets/wireframes/Home.png)
@@ -124,16 +123,18 @@ I was initially going to develop this version further for my project, but after 
 - JavaScript (for audio player and track info popovers only)
 - Adobe Photoshop
 # Testing
-The website has been tested using a number of different manual and automatic methods listed below:
+The website has been validated and tested using the methods listed below:
 ### Validation:
 - HTML - (https://validator.w3.org/) -
 - CSS - (https://jigsaw.w3.org/css-validator/) - No Errors Found / ## Warnings
 - JavaScript
+### Performance Measurment:
+https://web.dev/measure/
+![Piano Lessons with Greg Kaighin lighthouse-test](assets/images/lighthouse-test-plwgk.png)
 ### Original Content
--MP3 Audio recordings: Greg Kaighin
--PDF Documents: Greg Kaighin
--All sheet music and music recordings are free of copyright restrictions.
--Colours: Gradient fills on piano keys image generated with Photoshop. The colour scheme was chosen to give an ‘educational’ aesthetic to the website, and features pastel-coloured gradients surrounded by solid 2-pixel borders.
+- MP3 Audio recordings: Greg Kaighin
+- PDF Documents: Greg Kaighin
+- All sheet music and music recordings are free of copyright restrictions.
 # Features
 ## Existing Features
 ### Elements on every page
@@ -159,11 +160,13 @@ The website has been tested using a number of different manual and automatic met
 - The header message will be updated as required to reflect current business circumstances (i.e. am I currently taking on new students or not).
 - An additional audio player on the resources page for the playback of backing track audio files.
 - Expansion of the resources table as new material is added. Feedback from current students will help to inform further development of this.
-# Known issues and potential solutions
+# Known Issues and Potential Solutions
 - Issue: the enquiries for is not yet functional. Fix: I need to learn how to do this (MySQL, PHP?)
 - Issue: navbar dropdown menu always appears on the left side. It would sometimes look better positioned on the right (on smarthpones larger than iPhone 5). Potential solution: Change index.html navbar-toggler class IDs.
 - Issue: Show more / Show less button on index.html page collapses downwards at present. An upwards collapse (expand?) would provide better UX and flow, and also stop my portrait photo from being used as a virtual basketball. Potential solution: jspopper? I need to learn how to do this.
+# Deployment
+For the purposes of assesment the website has been deployed on GitHub pages. Once I have learned how to make the enquiries form functional, I will deploy it again using a paid-for website hosting service, and it will become useful for my piano teaching business. 
 # Credits
-- Thanks to Oluwafemi Medale for all of the great advice he gave me during my mentoring sessions with him, and to all the Code Institute staff and tutors who put together such an engaging and interesting course.
+- Thanks to Oluwafemi Medale for all of the great advice he gave me during my mentoring sessions, and to all the Code Institute staff and tutors who put together such an engaging and interesting course.
 - Hero image and card images: https://www.shutterstock.com/ (Paid for licence with permission for web distribution).
 - Portrait image: Sheila Kaighin, thanks Mum!
