@@ -1,5 +1,5 @@
 
-//-------------------------------- Audio Player - Imported from - https://codepen.io/vanderzak/pen/BayjVep --//
+//-------------------------------- Audio Player - IMPORTED FROM - https://codepen.io/vanderzak/pen/BayjVep --//
 function createTrackItem(index, name, duration) {
     var trackItem = document.createElement('div');
     trackItem.setAttribute("class", "playlist-track-ctn");
