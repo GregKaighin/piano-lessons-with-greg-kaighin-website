@@ -205,9 +205,6 @@ function toggleMute() {
 }
 
 
-  //-------------------------------- .Audio Player -- https://codepen.io/vanderzak/pen/BayjVep --//
-
-
 
 
 
