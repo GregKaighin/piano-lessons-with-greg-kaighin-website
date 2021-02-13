@@ -30,9 +30,8 @@ The website is made for my own established self-employed piano-teaching business
 4. [Testing](#testing)
 5. [Deployment](#deployment)
 6. [Credits](#credits)
-    - [Content](#content)
-    - [Images](#images)
-    - [Code](#code)
+    - [Original Content](#originalcontent)
+    - [Other Content](#othercontent)
     - [Acknowledgements](#acknowledgements)
 8. [Contact](#contact)
 # UX
@@ -84,7 +83,7 @@ Contact form.
 - The audio player on the music page has a simple UI, with intuitive controls. Green highlights are applied to tie the player in to the colour scheme used for the navbar icons.
 - The resource section's information is presented using Bootstrap's .table-striped and .table-light classes.
 - The links to other webpages on the resources page are dark blue, as are the PDF file download links.
-- Elements which have square corners (e.g. buttons) have been rounded off to slighty soften the overall look.
+- Elements which have square corners (e.g. buttons) have been rounded to slighty soften the overall look.
 - Bootstrap is used throughout, for the convenience of it's prebuilt components which can be readily modified to suit, and for it's grid and sizing systems.
 Overall, I am happy with the design and layout at small and medium screen sizes, and I think it looks best at these sizes. I am not completely happy with the layout at large screen sizes as I feel there is too much white space visible at the edge of the screen. In future I may rectify this by adding in more elements that appear at viewport edges on large screen sizes.
 ## Colours
@@ -113,26 +112,27 @@ A prototype version of the website can be found here https://github.com/GregKaig
 
 I was initially going to develop this version further for my project, but after deciding that I would use Bootstrap for a more responsive layout, I started a new build in a new repository. Also, I realised that my earlier commit messages were not frequent or complete enough. Now that I have become more accustomed to using GitHub, I avoid making commits that contain a large number of changes, and try to keep commit messages concise. It is built with a mobile-first design, but it is also responsive enough to look acceptable on large displays, particularly the resources page, where, based on user-stories, a user is considered to be more likely to access the site using a laptop or desktop computer. It is built to be compatible with the vast majority of modern smartphones, tablets and personal computers. The enquiries form is not yet functional. All other parts of the website are working as intended.
 # Technologies Used:
-- HTML5
-- CSS3
+## Libraries
 - Font Awesome
 - Bootstrap 4.1.3
 - js popper
-- JavaScript (for audio player and track info popovers only)
+## Languages
+- HTML5
+- CSS3
+- JavaScript (imported from (https://codepen.io/vanderzak/pen/BayjVep) for the audio player.)
+## Tools
 - Adobe Photoshop
+- Balsamiq Wireframes
+- GitHub
 # Testing
 The website has been validated and tested using the methods listed below. The results of these tests have been used to refine the code as much as possible to my current level of knowledge.
-### Validation:
+## Validation:
 - HTML - (https://validator.w3.org/) -
 - CSS - (https://jigsaw.w3.org/css-validator/) - No Errors Found / ## Warnings
 - JavaScript
-### Performance Measurment:
+## Performance Measurment:
 https://web.dev/measure/
 ![Piano Lessons with Greg Kaighin lighthouse-test](assets/images/lighthouse-test-plwgk.png)
-### Original Content
-- MP3 Audio recordings: Greg Kaighin
-- PDF Documents: Greg Kaighin
-- All sheet music and music recordings are free of copyright restrictions.
 # Features
 ## Existing Features
 ### Elements on every page
@@ -163,9 +163,17 @@ https://web.dev/measure/
 - Issue: navbar dropdown menu always appears on the left side. It would sometimes look better positioned on the right (on smarthpones larger than iPhone 5). Potential solution: Change index.html navbar-toggler class IDs.
 - Issue: Show more / Show less button on index.html page collapses downwards at present. An upwards collapse (expand?) would provide better UX and flow, and also stop my portrait photo from being used as a virtual basketball. Potential solution: jspopper? I need to learn how to do this.
 # Deployment
-For the purposes of assesment the website has been deployed on GitHub pages. Once I have learned how to make the enquiries form functional, I will deploy it again using a paid-for website hosting service, and it will become useful for my piano teaching business. 
+For the purposes of assesment the website has been deployed on GitHub pages. Once I have learned how to make the Enquiries form functional, I will deploy it again using a paid-for website hosting service, and it will become useful for my piano teaching business. 
 # Credits
-## content
-- Hero image and card images: https://www.shutterstock.com/ (Paid-for licence with permission for web distribution).
-- Portrait image: Sheila and Jeff Kaighin, thanks Mum and Dad.
+## Original Content
+- Portrait photo: Sheila and Jeff Kaighin, thanks Mum and Dad.
+- MP3 Audio recordings: Greg Kaighin
+- PDF Documents: Greg Kaighin
+- All sheet music and music recordings are free of copyright restrictions.
+## Other Content
+- Piano-keyboard image and card images: https://www.shutterstock.com/ (Paid-for licence with permission for web distribution).
+## Acknowledgements
 - Thanks to Oluwafemi Medale for the great advice he gave me during my mentoring sessions, and to the Code Institute staff and tutors for putting together such an engaging and interesting course.
+# Contact
+Greg Kaighin
+gregkaighin@hotmail.com
