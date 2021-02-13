@@ -124,6 +124,7 @@ I was initially going to develop this version further for my project, but after 
 - Adobe Photoshop
 - Balsamiq Wireframes
 - GitHub
+- realfavicongenerator.net
 # Testing
 The website has been validated and tested using the methods listed below. The results of these tests have been used to refine the code as much as possible to my current level of knowledge.
 ## Validation:
@@ -163,14 +164,14 @@ https://web.dev/measure/
 - Issue: navbar dropdown menu always appears on the left side. It would sometimes look better positioned on the right (on smarthpones larger than iPhone 5). Potential solution: Change index.html navbar-toggler class IDs.
 - Issue: Show more / Show less button on index.html page collapses downwards at present. An upwards collapse (expand?) would provide better UX and flow, and also stop my portrait photo from being used as a virtual basketball. Potential solution: jspopper? I need to learn how to do this.
 # Deployment
-For the purposes of assesment the website has been deployed on GitHub pages. Once I have learned how to make the Enquiries form functional, I will deploy it again using a paid-for website hosting service, and it will become useful for my piano teaching business. 
+For the purposes of assesment the website has been deployed on GitHub pages. Once I have learned how to make the enquiries form functional, I will deploy it again using a paid-for website hosting service, and it will become useful for my piano teaching business. 
 # Credits
 ## Original Content
 - Portrait photo: Sheila and Jeff Kaighin, thanks Mum and Dad.
 - MP3 Audio recordings: Greg Kaighin
 - PDF Documents: Greg Kaighin
 - All sheet music and music recordings are free of copyright restrictions.
-## Other Content
+## Images
 - Piano-keyboard image and card images: https://www.shutterstock.com/ (Paid-for licence with permission for web distribution).
 ## Acknowledgements
 - Thanks to Oluwafemi Medale for the great advice he gave me during my mentoring sessions, and to the Code Institute staff and tutors for putting together such an engaging and interesting course.
