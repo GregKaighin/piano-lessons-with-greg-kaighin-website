@@ -77,31 +77,29 @@ Contact form.
 # Design Choices
 - The font is Roboto, from Google fonts. I chose this because it is very clear and easy to read, and it's bold lines fit in well with the rest of the page design.
 - The main image, displayed below the logo on each page, is a simple outline drawing of a piano-keyboard, to which pastel coloured gradient fills have been applied. This image was chosen because it is visually striking, and together with the text logo, instantly relays the subject matter of the website to the user upon them opening a page.
-- The "black" keys in the main piano image have been coloured dark blue, as they looked too dark on screen when completely black.
-- The background colour is ivory #fffff0, to match the white keys on a piano. Text and borders are black #221d17, to match the black keys on a piano.
-- For page navigation, a simple primary RGBY colour is given to each of the navigation icons. The order of the colours here matches the order of the colours on the piano keyboard image.
-- The internal links in the 'about me' section are coloured RGBY to match the navigation icons.
+- The internal page links in the 'about me' section are coloured RGBY to match the navigation icons.
 - The social link button icons are displayed in their original brand colours to stand out.
 - The buttons are silver-grey, to make them noticeable but not intrusive, flashing pink when pressed to provide feedback to the user.
-- The overlay shapes displayed over the piano keyboard image on each page matches the RGBY theme of the corresponding navigation icons, and this theme is extended through some of the elements throughout.
-- The audio player on the music page has a simple UI, with intuitive controls. Green borders are applied to the buttons to tie the player into the colour scheme used in the navbar icons.
-- The resources section information is presented using Bootstrap's .table-striped and .table-light classes.
+- The overlay shapes displayed over the piano-keyboard image on each page match the RGBY theme of the corresponding navigation icons, and this theme is extended further onto particular elements on each page.
+- The audio player on the music page has a simple UI, with intuitive controls. Green highlights are applied to tie the player in to the colour scheme used for the navbar icons.
+- The resource section's information is presented using Bootstrap's .table-striped and .table-light classes.
 - The links to other webpages on the resources page are dark blue, as are the PDF file download links.
 - Elements which have square corners (e.g. buttons) have been rounded off to slighty soften the overall look.
-- Bootstrap is used throughout, for the convenience of it's prebuilt components which can be readily modified to suit, and for it's grid and sizing system.
+- Bootstrap is used throughout, for the convenience of it's prebuilt components which can be readily modified to suit, and for it's grid and sizing systems.
 Overall, I am happy with the design and layout at small and medium screen sizes, and I think it looks best at these sizes. I am not completely happy with the layout at large screen sizes as I feel there is too much white space visible at the edge of the screen. In future I may rectify this by adding in more elements that appear at viewport edges on large screen sizes.
 ## Colours
-In order to obtain a coherent look, I have used structure when choosing colours. There are essentially three distinct pallettes, as follows:
-- The background colour is ivory #fffff0, chosen because it's the classic colour of white piano keys. Similarly, the colour of the text and borders, #221d17 was chosen because it closely matches the colour of the black keys on a piano.
-- For menu navigation icons, primary colours RGBY are used.
-- On the main piano image in the header, the white keys are coloured in a sequence of pastel shades of red, green, blue, yellow, orange, purple, silver. These colours are chosen to be softer than the navigation icon colours.
+In order to obtain a coherent look, I have used structure when choosing colours. There are three distinct pallettes, as follows:
+1. The background colour is ivory #fffff0, chosen because it is the classic colour of white piano keys. Similarly, the colour of the text and borders, black #221d17 was chosen because it closely matches the colour of the black keys on a piano.
+2. The four menu navigation icons are assigned primary colours RGBY. The order of these matches the order of the first four colours on the piano-keyboard image.
+3. On the main piano image in the header, the white keys are coloured in a sequence of pastel shade gradients of red, green, blue, yellow, orange, purple, silver. These colours are chosen to be softer than the navigation icon colours.
+- The black keys in the main piano image have been coloured dark-blue, as they looked too dark on screen when completely black.
 The idea is to give the site an 'educational' look, somewhat akin in style to that of a school textbook.
 ## Styling
 - Colour gradients are used on many elements to add interest to the visual design.
 - Rounded edges are used on many elements to soften the overall look.
-- A hint of transpareny has been added to the navbar, whilst care has been taken to ensure all text is still clearly ledgible. This makes the page look better, and also provides subtle feedback to the user when they scroll the page.
+- A hint of transpareny has been added to the navbar, whilst care has been taken to ensure all text is still clearly legible. This makes the page look nicer, and also provides subtle feedback to the user when they scroll the page.
 # Wireframes & Prototype Build
-These wireframes were created to outline the basic structure of the site. The fnished version is fairly close to these, the main changes are the logo, which has been changed to two lines to fit onto small screen sizes, and the social links, which have been moved to be above the cards in the footer, as I thought they may not be noticed right at the bottom of the page.
+These wireframes were created to outline the basic structure of the site. The fnished version is fairly close to these, the main changes are the logo text, which has been changed to two lines to fit better onto small screen sizes, and the social links, which have been moved to be above the cards in the footer, as I thought they might not be noticed right at the bottom of the page.
 
 ![Piano Lessons with Greg Kaighin | Home](assets/wireframes/Home.png)
 
@@ -111,7 +109,7 @@ These wireframes were created to outline the basic structure of the site. The fn
 
 ![Piano Lessons with Greg Kaighin | Enquiries](assets/wireframes/Enquiries.png)
 
-A prototype version of the website can be found here https://github.com/GregKaighin/piano-lessons-with-greg-kaighin-1.0-msp1-code-institute.
+A prototype version of the website can be found here https://github.com/GregKaighin/piano-lessons-with-greg-kaighin-v1.0-msp1-code-institute.
 
 I was initially going to develop this version further for my project, but after deciding that I would use Bootstrap for a more responsive layout, I started a new build in a new repository. Also, I realised that my earlier commit messages were not frequent or complete enough. Now that I have become more accustomed to using GitHub, I avoid making commits that contain a large number of changes, and try to keep commit messages concise. It is built with a mobile-first design, but it is also responsive enough to look acceptable on large displays, particularly the resources page, where, based on user-stories, a user is considered to be more likely to access the site using a laptop or desktop computer. It is built to be compatible with the vast majority of modern smartphones, tablets and personal computers. The enquiries form is not yet functional. All other parts of the website are working as intended.
 # Technologies Used:
@@ -167,6 +165,6 @@ https://web.dev/measure/
 # Deployment
 For the purposes of assesment the website has been deployed on GitHub pages. Once I have learned how to make the enquiries form functional, I will deploy it again using a paid-for website hosting service, and it will become useful for my piano teaching business. 
 # Credits
-- Thanks to Oluwafemi Medale for all of the great advice he gave me during my mentoring sessions, and to all the Code Institute staff and tutors who put together such an engaging and interesting course.
-- Hero image and card images: https://www.shutterstock.com/ (Paid for licence with permission for web distribution).
-- Portrait image: Sheila Kaighin, thanks Mum!
+- Hero image and card images: https://www.shutterstock.com/ (Paid-for licence with permission for web distribution).
+- Portrait image: Sheila and Jeff Kaighin, thanks Mum and Dad.
+- Thanks to Oluwafemi Medale for the great advice he gave me during my mentoring sessions, and to the Code Institute staff and tutors for putting together such an engaging and interesting course.
