@@ -8,7 +8,7 @@
 ## Milestone Project 1
 ## User-Centric Front-End
 ## February 2021
-## Home Page (https://gregkaighin.github.io/piano-lessons-with-greg-kaighin-v2.0-msp1-code-institute/)
+## Home Page https://gregkaighin.github.io/piano-lessons-with-greg-kaighin-v2.0-msp1-code-institute/
 
 ![Piano Lessons with Greg Kaighin Screenshots](assets/images/screenshots-plwgk.png)
 This website is made for my own established self-employed piano-teaching business 'Piano Lessons with Greg Kaighin' to advertise the business to prospective students and to provide them with a means of getting in contact. It is also created to be of value to my current students by providing links to downloads of learning resources and to relevant external websites.
@@ -57,7 +57,7 @@ The target audience is internet users who might be considering taking piano less
 
 Piano Lessons with Greg Kaighin meets these needs because:
 - Relevant information is displayed clearly and is easily navigable.
-- The design of the site is based on user-stories and my own years of experience as piano teacher.
+- The design of the site is based on user-stories and my experience as piano teacher.
 
 ## User Stories
 
@@ -91,8 +91,8 @@ Contact form.
 # Design Choices
 
 - The font is Roboto, from Google fonts. I chose this because it is very clear and easy to read, and it's bold lines fit in well with the rest of the page design.
-- The main image, displayed below the logo on each page, is a simple outline drawing of a piano-keyboard, to which pastel coloured gradient fills have been applied. This image was chosen because it is visually striking, and together with the text logo, instantly relays the subject matter of the website to the user upon them opening a page.
-- The internal page links in the 'about me' section are coloured RGBY to match the navigation icons.
+- The main image, displayed below the logo on each page, is a simple outline drawing of a piano-keyboard, to which pastel coloured gradient fills have been applied using Adobe Photoshop. This image was chosen because it is visually striking, and together with the text logo, instantly relays the subject matter of the website to the user upon them opening a page.
+- The internal page links in the 'about me' section text are coloured RGBY to match the navigation icons.
 - The social link button icons are displayed in their original brand colours to stand out.
 - The buttons are silver-grey, to make them noticeable but not intrusive, flashing pink when pressed to provide feedback to the user.
 - The overlay shapes displayed over the piano-keyboard image on each page match the RGBY theme of the corresponding navigation icons, and this theme is extended further onto particular elements on each page.
@@ -117,7 +117,7 @@ The black keys in the main piano image have been coloured dark-blue, as they loo
 - Rounded edges are used on many elements to soften the overall look.
 - A hint of transpareny has been added to the navbar, whilst care has been taken to ensure text is still clearly legible at all scroll positions. This makes the page look nicer, and also provides subtle feedback to the user when they scroll the page.
 # Wireframes & Prototype Build
-These wireframes were created to outline the basic structure of the site. The fnished version is fairly close to these, the main changes are the logo text, which has been changed to two lines to fit better onto small screen sizes, and the social links, which have been moved to be above the cards in the footer, as I thought they might not be noticed right at the bottom of the page.
+These wireframes were created to outline the basic structure of the site. The current version is fairly close to these, the main changes are to the logo text, which has been changed to spread over two lines instead of one, to fit better onto small screen sizes, and to the social links, which have been moved to be above the cards in the footer, as I thought they might not be noticed right at the bottom of the page.
 
 ![Piano Lessons with Greg Kaighin | Home](assets/wireframes/Home.png)
 
@@ -127,18 +127,17 @@ These wireframes were created to outline the basic structure of the site. The fn
 
 ![Piano Lessons with Greg Kaighin | Enquiries](assets/wireframes/Enquiries.png)
 
-A prototype version of the website can be found here https://github.com/GregKaighin/piano-lessons-with-greg-kaighin-v1.0-msp1-code-institute.
-- I was initially going to develop this version further for my project, but after deciding that I would use Bootstrap for a more responsive layout, I started a new build in a new repository. Also, I realised that my Github commit messages in this previous build were not frequent or concise enough. Now that I have become more accustomed to using GitHub, I avoid making commits that contain a large number of changes, and try to keep commit messages brief and concise.
-- The new version of the website is built with a mobile-first design, but it is also responsive enough to look acceptable on large displays, particularly the resources page, where a user is considered to be more likely to access the site using a laptop or desktop computer. It is built to be compatible with the vast majority of modern smartphones, tablets and personal computers. The enquiries form is not yet functional. All other parts of the website are working as intended.
+A prototype version of the website can be found here https://github.com/GregKaighin/piano-lessons-with-greg-kaighin-v1.0-msp1-code-institute. I was initially going to develop this version further for my project, but after deciding that I would use Bootstrap for a more responsive layout, I started a new build in a new repository. Also, I realised that my Github commit messages in this previous build were not frequent or concise enough. Now that I have become more accustomed to using GitHub, I avoid making commits that contain a large number of changes, and try to keep commit messages brief and concise.\
+The new version of the website is built with a mobile-first design, but it is also responsive enough to look acceptable on large displays, particularly the resources page, where a user is considered to be more likely to access the site using a laptop or desktop computer. It is built to be compatible with the vast majority of modern smartphones, tablets and personal computers. The enquiries form is not yet functional. All other parts of the website are working as intended.
 # Technologies Used:
 ## Libraries
-- Font Awesome
-- Bootstrap 4.1.3
+- Bootstrap
+- Font-Awesome
 - js popper
 ## Languages
 - HTML5
 - CSS3
-- JavaScript (imported from (https://codepen.io/vanderzak/pen/BayjVep) for the audio player.)
+- JavaScript (imported from https://codepen.io/vanderzak/pen/BayjVep for the audio player.)
 ## Tools
 - Adobe Photoshop
 - Balsamiq Wireframes
@@ -147,8 +146,8 @@ A prototype version of the website can be found here https://github.com/GregKaig
 # Testing
 The website has been validated and tested using the methods listed below. The results of these tests have been used to refine the code as much as possible to my current level of knowledge.
 ## Validation:
-- HTML - (https://validator.w3.org/) -
-- CSS - (https://jigsaw.w3.org/css-validator/) - No Errors Found / ## Warnings
+- HTML - https://validator.w3.org/ -
+- CSS - https://jigsaw.w3.org/css-validator/ - No Errors Found / ## Warnings
 - JavaScript
 ## Performance Measurment:
 https://web.dev/measure/
@@ -169,15 +168,15 @@ https://web.dev/measure/
 - Ethos Section. This section is designed to relay the ethos of 'Piano Lessons with GK'. It is displayed directly below the 'About-Me', and is designed to complement the information found there. The layout of this section was inspired by the ethos section of the 'Love Running' website on the Code Institute's FSD course.
 - Testimonial Section. This section is for displaying comments from existing piano students. For data-protection purposes, adult names are used with permission. Comments from children are displayed with an alias.
 #### Music Page
-- Audio Player. This was adapted from (https://codepen.io/vanderzak/pen/BayjVep). I have included the HTML, CSS and JavaScript largely unchanged from the original, but have stripped out the parts relating to the progress bar, as I don't require the player to have that functionality. The CSS has been edited to make the audio player fit in with the visual design of the website. It's purpose is to give a simple juke-box style audio player with a set playlist.
+- Audio Player. This was adapted from https://codepen.io/vanderzak/pen/BayjVep. I have included the HTML, CSS and JavaScript largely unchanged from the original, but have stripped out the parts relating to the progress bar, as I don't require the player to have that functionality. The CSS has been edited to make the audio player fit in with the visual design of the website. It's purpose is to give a simple juke-box style audio player with a set playlist.
 #### Resources Page
 - Resources Section. This section uses Bootstrap's table-light class to provide a table of links of PDF downloads, and links to external websites relevant to piano lessons.
 #### Enquiries Page
 - Enquiries Form. Bootstrap's form class is used to create a simple enquiry form with a modal popup to say thank you once it has been submitted. The form is not yet functional, this will be rectified once I have learned how to do it.
 
 ## Features for Future Releases
-- Signup page with payment for group workshops.
-- Automatic student waiting list, which can be easily activated/deactivated as required and which lets potential customers know how many people are already on the list.
+- Signup page with payment form for group workshops.
+- Automatic student waiting list, which can be easily activated/deactivated as required and which lets potential students know how many people are already on the list.
 - Update the message on the header overlay text on the home page as required to reflect current business circumstances (i.e. whether I am currently taking on new students or not).
 - An additional audio player on the resources page for the playback of backing track audio files.
 - Expansion and redesign of the resources table when more material is added.
@@ -188,7 +187,7 @@ https://web.dev/measure/
 - Issue: Show more / Show less button on index.html page collapses downwards at present. An upwards collapse would provide better UX and flow, and also stop my portrait photo from being used as a virtual basketball. Solution: I need to learn how to do this.
 
 # Deployment
-For the purposes of assesment the website has been deployed on GitHub pages. Once I have learned how to make the enquiries form functional, I will deploy it again using a paid-for website hosting service, and it will become useful for my piano teaching business. 
+For the purposes of assesment the website has been deployed on GitHub pages here: https://gregkaighin.github.io/piano-lessons-with-greg-kaighin-v2.0-msp1-code-institute/. Once I have learned how to make the enquiries form functional, I will deploy it again using a paid-for website hosting service, and it will become useful for my piano teaching business. 
 
 # Credits
 ## Original Content
