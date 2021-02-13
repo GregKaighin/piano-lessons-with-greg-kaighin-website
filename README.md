@@ -1,3 +1,4 @@
+![Piano Lessons with Greg Kaighin](assets/images/logo-PLWGK.png)
 # Piano Lessons with Greg Kaighin
 ## Greg Kaighin
 ## Code Institute - Full Stack Developer HND
@@ -5,7 +6,7 @@
 ### User-Centric Front-End
 ### February 2021
 ![Piano Lessons with Greg Kaighin](assets/images/screenshot-devices.png)
-The website is built for my own established self-employed piano-teaching business "Piano Lessons with Greg Kaighin", to advertise the business to prospective students and to provide them with a means of getting in contact. It is also created to be of value to current students by providing links to downloads of teaching resources and to relevant external websites.
+The website is built for my own established self-employed piano-teaching business "Piano Lessons with Greg Kaighin" to advertise the business to prospective students and to provide them with a means of getting in contact. It is also created to be of value to my current students by providing links to downloads of teaching resources and to relevant external websites.
 ## Table of Contents
 1. [UX](#ux)
     -  [Goals](#goals)
@@ -19,7 +20,7 @@ The website is built for my own established self-employed piano-teaching busines
     - [Elements on every Page](#elements-on-every-page)
     - [Home Page](#home-page)
     - [Music Page](#music-page)
-    - [resources Page](#resources-page)
+    - [Resources Page](#resources-page)
     - [Enquiries Page](#enquiries-page)
     - [Features for Future Releases](#features-for-future-releases)
 3. [Technologies Used](#technologies-used)
