@@ -1,5 +1,7 @@
 # Piano Lessons with Greg Kaighin
+
 ![Piano Lessons with Greg Kaighin Logo](assets/images/logo-plwgk.png)
+
 ## Greg Kaighin
 ## Code Institute
 ## Full Stack Developer HND
@@ -7,8 +9,11 @@
 ## User-Centric Front-End
 ## February 2021
 ## Home Page (https://gregkaighin.github.io/piano-lessons-with-greg-kaighin-v2.0-msp1-code-institute/)
+
 ![Piano Lessons with Greg Kaighin Screenshots](assets/images/screenshots-plwgk.png)
-The website is made for my own established self-employed piano-teaching business "Piano Lessons with Greg Kaighin" to advertise the business to prospective students and to provide them with a means of getting in contact. It is also created to be of value to my current students by providing links to downloads of learning resources and to relevant external websites.
+
+This website is made for my own established self-employed piano-teaching business 'Piano Lessons with Greg Kaighin' to advertise the business to prospective students and to provide them with a means of getting in contact. It is also created to be of value to my current students by providing links to downloads of learning resources and to relevant external websites.
+
 ## Table of Contents
 1. [UX](#ux)
     -  [Visitor Goals](#visitor-goals)
@@ -25,9 +30,9 @@ The website is made for my own established self-employed piano-teaching business
     - [Enquiries Page](#enquiries-page)
     - [Features for Future Releases](#features-for-future-releases)
 3. [Technologies Used](#technologies-used)
-    - [Tools](#tools)
-    - [Libraries](#libraries)
     - [Languages](#languages)
+    - [Libraries](#libraries)
+    - [Tools](#tools)
 4. [Testing](#testing)
 5. [Deployment](#deployment)
 6. [Credits](#credits)
@@ -35,23 +40,28 @@ The website is made for my own established self-employed piano-teaching business
     - [Other Content](#othercontent)
     - [Acknowledgements](#acknowledgements)
 8. [Contact](#contact)
+
 # UX
-The website is for people who may be considering taking piano lessons with GK, to provide them with the information they need to help them decide whether or not to take piano lessons with GK. It is also for existing students, to provide teaching resources in PDF file format and links to relevant external websites such as music exam boards.
 The target audience is internet users who might be considering taking piano lessons for themselves or someone they know, and also current students.
+
 ## Visitor Goals
 - Find a piano teacher.
 - Find out information about the business.
 - Download piano lesson resources.
 - Make an enquiry about piano lessons.
 - Listen to some music.
+
 ## Business Goals
 - Advertise the business to potential customers and provide them with a means of getting in contact.
 - Raise awareness of the business among the general public, both online and locally.
 - Collect contact and other relevant information from prospective customers via a form.
+
 Piano Lessons with Greg Kaighin meets these needs because:
-1. Relevant information is displayed clearly and is easily navigable.
-2. The design of the site is based on user-stories and my own years of experience as piano teacher.
+- Relevant information is displayed clearly and is easily navigable.
+- The design of the site is based on user-stories and my own years of experience as piano teacher.
+
 ## User Stories
+
 As a visitor to Piano Lessons with Greg Kaighin I expect/want/need:
 1. To be able to navigate the website easily and quickly find the information I am looking for.
 2. To get relevant information about GK the piano teacher.
@@ -64,16 +74,23 @@ As a visitor to Piano Lessons with Greg Kaighin I expect/want/need:
 9. To listen to some piano music.
 10. For the website to have a coherent look.
 11. For everything to work.
- - Based on these, I decided that the website structure shall consist of four pages with different features on each to meet specific user requirements, as follows:
+
+Based on these, I decided that the website structure shall consist of four pages with different features on each to meet specific user requirements, as follows:
+
 ## Home Page
 About Me, Ethos and Testimonial sections.
+
 ## Music Page
 Audio Player.
+
 ##  Resources Page
 Table of PDF resources and links to external websites.
+
 ## Enquiries Page
 Contact form.
+
 # Design Choices
+
 - The font is Roboto, from Google fonts. I chose this because it is very clear and easy to read, and it's bold lines fit in well with the rest of the page design.
 - The main image, displayed below the logo on each page, is a simple outline drawing of a piano-keyboard, to which pastel coloured gradient fills have been applied. This image was chosen because it is visually striking, and together with the text logo, instantly relays the subject matter of the website to the user upon them opening a page.
 - The internal page links in the 'about me' section are coloured RGBY to match the navigation icons.
@@ -85,18 +102,21 @@ Contact form.
 - The links to other webpages on the resources page are dark blue, as are the PDF file download links.
 - Elements which have square corners (e.g. buttons) have been rounded to slighty soften the overall look.
 - Bootstrap is used throughout, for the convenience of it's prebuilt components which can be readily modified to suit, and for it's grid and sizing systems.
-Overall, I am happy with the design and layout at small and medium screen sizes, and I think it looks best at these sizes. I am not completely happy with the layout at large screen sizes as I feel there is too much white space visible at the edge of the screen. In future I may rectify this by adding in more elements that appear at viewport edges on large screen sizes.
+
+Overall, I am most happy with the design and layout at small and medium screen sizes, and I think it looks best at these sizes. In future I may add more elements that appear near the viewport edges on large screen sizes.
+
 ## Colours
+The idea is to give the site an 'educational' look, somewhat akin in style to that of a school textbook.
 In order to obtain a coherent look, I have used structure when choosing colours. There are three distinct pallettes, as follows:
 1. The background colour is ivory #fffff0, chosen because it is the classic colour of white piano keys. Similarly, the colour of the text and borders, black #221d17 was chosen because it closely matches the colour of the black keys on a piano.
 2. The four menu navigation icons are assigned primary colours RGBY. The order of these matches the order of the first four colours on the piano-keyboard image.
-3. On the main piano image in the header, the white keys are coloured in a sequence of pastel shade gradients of red, green, blue, yellow, orange, purple, silver. These colours are chosen to be softer than the navigation icon colours.
-- The black keys in the main piano image have been coloured dark-blue, as they looked too dark on screen when completely black.
-The idea is to give the site an 'educational' look, somewhat akin in style to that of a school textbook.
+3. On the main piano image in the header, the white keys are filled in a sequence of gradients with pastel shades of red, green, blue, yellow, orange, purple, silver. These colours are chosen to be softer than the navigation icon colours.
+The black keys in the main piano image have been coloured dark-blue, as they looked too dark on screen when completely black.\
+
 ## Styling
 - Colour gradients are used on many elements to add interest to the visual design.
 - Rounded edges are used on many elements to soften the overall look.
-- A hint of transpareny has been added to the navbar, whilst care has been taken to ensure all text is still clearly legible. This makes the page look nicer, and also provides subtle feedback to the user when they scroll the page.
+- A hint of transpareny has been added to the navbar, whilst care has been taken to ensure text is still clearly legible at all scroll positions. This makes the page look nicer, and also provides subtle feedback to the user when they scroll the page.
 # Wireframes & Prototype Build
 These wireframes were created to outline the basic structure of the site. The fnished version is fairly close to these, the main changes are the logo text, which has been changed to two lines to fit better onto small screen sizes, and the social links, which have been moved to be above the cards in the footer, as I thought they might not be noticed right at the bottom of the page.
 
@@ -109,8 +129,8 @@ These wireframes were created to outline the basic structure of the site. The fn
 ![Piano Lessons with Greg Kaighin | Enquiries](assets/wireframes/Enquiries.png)
 
 A prototype version of the website can be found here https://github.com/GregKaighin/piano-lessons-with-greg-kaighin-v1.0-msp1-code-institute.
-
-I was initially going to develop this version further for my project, but after deciding that I would use Bootstrap for a more responsive layout, I started a new build in a new repository. Also, I realised that my earlier commit messages were not frequent or complete enough. Now that I have become more accustomed to using GitHub, I avoid making commits that contain a large number of changes, and try to keep commit messages concise. It is built with a mobile-first design, but it is also responsive enough to look acceptable on large displays, particularly the resources page, where, based on user-stories, a user is considered to be more likely to access the site using a laptop or desktop computer. It is built to be compatible with the vast majority of modern smartphones, tablets and personal computers. The enquiries form is not yet functional. All other parts of the website are working as intended.
+- I was initially going to develop this version further for my project, but after deciding that I would use Bootstrap for a more responsive layout, I started a new build in a new repository. Also, I realised that my Github commit messages in this previous build were not frequent or concise enough. Now that I have become more accustomed to using GitHub, I avoid making commits that contain a large number of changes, and try to keep commit messages brief and concise.
+- The new version of the website is built with a mobile-first design, but it is also responsive enough to look acceptable on large displays, particularly the resources page, where a user is considered to be more likely to access the site using a laptop or desktop computer. It is built to be compatible with the vast majority of modern smartphones, tablets and personal computers. The enquiries form is not yet functional. All other parts of the website are working as intended.
 # Technologies Used:
 ## Libraries
 - Font Awesome
