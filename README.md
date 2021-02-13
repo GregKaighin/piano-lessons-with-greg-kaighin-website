@@ -1,11 +1,11 @@
-![Piano Lessons with Greg Kaighin](assets/images/logo-PLWGK.png)
+![Piano Lessons with Greg Kaighin](assets/images/logo-plwgk.jpg)
 # Piano Lessons with Greg Kaighin
 ## Greg Kaighin
 ## Code Institute - Full Stack Developer HND
 ### Milestone Project 1
 ### User-Centric Front-End
 ### February 2021
-![Piano Lessons with Greg Kaighin](assets/images/screenshot-devices.png)
+![Piano Lessons with Greg Kaighin](assets/images/screenshots-plwgk.png)
 The website is built for my own established self-employed piano-teaching business "Piano Lessons with Greg Kaighin" to advertise the business to prospective students and to provide them with a means of getting in contact. It is also created to be of value to my current students by providing links to downloads of teaching resources and to relevant external websites.
 ## Table of Contents
 1. [UX](#ux)
@@ -98,7 +98,7 @@ The visual style came together quite late in the project after several unsuccess
 - Overall, I am happy with the design and layout at small and medium screen sizes, and I think it looks best at these sizes.
 - I am not completely happy with the layout at large screen sizes as I feel there is too much white space visible on-screen. In future I may add in more elements that appear at the viewport edges on large screen sizes.
 - Elements which have square corners (e.g. buttons) have been rounded off to slighty soften the overall look.
-##Colours
+## Colours
 In order to obtain a coherent look, I have tried to use structure when choosing colours, as follows:
 -The background colour is ivory #fffff0, chosen because it's the classic colour of white piano keys. Similarly, the colour of the text and borders, #221d17 was chosen because it closely matches the colour of the black keys on a piano.
 -For menu navigation icons, primary colours RGBY are used.
