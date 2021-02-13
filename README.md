@@ -11,7 +11,6 @@
 ## Home Page (https://gregkaighin.github.io/piano-lessons-with-greg-kaighin-v2.0-msp1-code-institute/)
 
 ![Piano Lessons with Greg Kaighin Screenshots](assets/images/screenshots-plwgk.png)
-
 This website is made for my own established self-employed piano-teaching business 'Piano Lessons with Greg Kaighin' to advertise the business to prospective students and to provide them with a means of getting in contact. It is also created to be of value to my current students by providing links to downloads of learning resources and to relevant external websites.
 
 ## Table of Contents
