@@ -123,7 +123,7 @@ I was initially going to develop this version further for my project, but after 
 - JavaScript (for audio player and track info popovers only)
 - Adobe Photoshop
 # Testing
-The website has been validated and tested using the methods listed below:
+The website has been validated and tested using the methods listed below. The results of these tests have been used to refine the code as much as possible to my current level of knowledge.
 ### Validation:
 - HTML - (https://validator.w3.org/) -
 - CSS - (https://jigsaw.w3.org/css-validator/) - No Errors Found / ## Warnings
