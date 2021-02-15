@@ -19,7 +19,7 @@ This website is made for my own established self-employed piano-teaching busines
     -  [Business Goals](#business-goals)
     -  [User Stories](#user-stories)
     -  [Design Choices](#design-choices)
-    -  [Wireframes](#wireframes)
+    -  [Wireframes and Prototype Build](#wireframes-and-prototype-build)
 2. [Features](#features)
     - [Existing Features](#existing-features)
     - [Elements on every Page](#elements-on-every-page)
@@ -33,6 +33,8 @@ This website is made for my own established self-employed piano-teaching busines
     - [Libraries](#libraries)
     - [Tools](#tools)
 4. [Testing](#testing)
+    - [Validation](#validation)
+    - [Performance](#performance)
 5. [Deployment](#deployment)
 6. [Credits](#credits)
     - [Images](#images)
@@ -103,7 +105,7 @@ The black keys in the main piano image have been coloured dark-blue, as they loo
 - Colour gradients are used on many elements to add interest to the visual design.
 - Rounded edges are used on many elements to soften the overall look.
 - A hint of transpareny has been added to the navbar, whilst care has been taken to ensure text is still clearly legible at all scroll positions. This makes the page look nicer, and also provides subtle feedback to the user when they scroll the page.
-# Wireframes & Prototype Build
+# Wireframes and Prototype Build
 These wireframes were created to outline the basic structure of the site. The current version is fairly close to these, the main changes are to the logo text, which has been changed to spread over two lines instead of one, to fit better onto small screen sizes, and to the social links, which have been moved to be above the cards in the footer, as I thought they might not be noticed right at the bottom of the page.
 
 [Piano Lessons with Greg Kaighin | Home](https://drive.google.com/file/d/1JsqgKQF5_L_WCHw1bg1dEbcjS0MShLmw/view?usp=sharing)
@@ -117,15 +119,15 @@ These wireframes were created to outline the basic structure of the site. The cu
 A prototype version of the website can be found here [github.com/GregKaighin/piano-lessons-with-greg-kaighin-v1.0-msp1-code-institute](https://github.com/GregKaighin/piano-lessons-with-greg-kaighin-v1.0-msp1-code-institute). I was initially going to develop this version further for my project, but after deciding that I would use Bootstrap for a more responsive layout, I started a new build in a new repository. Also, I realised that my Github commit messages in this previous build were not frequent or concise enough. Now that I have become more accustomed to using GitHub, I avoid making commits that contain a large number of changes, and try to keep commit messages brief and concise.\
 The new version of the website is built with a mobile-first design, but it is also responsive enough to look acceptable on large displays.
 # Technologies Used:
+## Languages
+- HTML5
+- CSS3
+- JavaScript (imported from [codepen.io/vanderzak/pen/BayjVep](https://codepen.io/vanderzak/pen/BayjVep) for the audio player.)
 ## Libraries
 - Bootstrap
 - Font-Awesome
 - Google Fonts
 - js popper
-## Languages
-- HTML5
-- CSS3
-- JavaScript (imported from [codepen.io/vanderzak/pen/BayjVep](https://codepen.io/vanderzak/pen/BayjVep) for the audio player.)
 ## Tools
 - [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html) For editing the images and encoding in .webp format.
 - [Balsamiq Wireframes](https://balsamiq.com/) For creating the wireframes.
@@ -136,7 +138,7 @@ The website has been validated and tested using the methods listed below. The re
 ## Validation:
 - HTML: [validator.w3.org](https://validator.w3.org/) -
 - CSS: - [jigsaw.w3.org/css-validator](https://jigsaw.w3.org/css-validator/) - No Errors Found / ## Warnings
-## Performance Measurment:
+## Performance:
 [web.dev/measure/](https://web.dev/measure/)
 ![Piano Lessons with Greg Kaighin lighthouse-test](assets/images/lighthouse-test-plwgk.png)
 # Features
