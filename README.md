@@ -41,7 +41,8 @@ This website is made for my own established self-employed piano-teaching busines
 8. [Contact](#contact)
 
 # UX
-The target audience is internet users who might be considering taking piano lessons for themselves or someone they know, and also current students.
+The target audience is internet users who might be considering taking piano lessons for themselves or someone they know, and also current students.\
+The enquiries form is not yet functional. All other parts of the website are working as intended.
 
 ## Visitor Goals
 - Find a piano teacher.
@@ -88,7 +89,7 @@ As a visitor to Piano Lessons with Greg Kaighin I expect/want/need:
 - Elements which have square corners (e.g. buttons) have been rounded to slighty soften the overall look.
 - Bootstrap is used throughout, both for the convenience of it's prebuilt components which can be readily modified to suit, and for it's grid and sizing systems.
 
-Overall, I am most happy with the design and layout at small and medium screen sizes. In future I may add more elements that appear near the viewport edges on large screen sizes.
+I am most happy with the design and layout at small and medium screen sizes. In future I will consider adding in more elements that appear near the viewport edges on large screen sizes, to fill some of the empty space.
 
 ## Colours
 The idea is to give the site an 'educational' look, somewhat akin in style to that of a school textbook.
@@ -114,7 +115,7 @@ These wireframes were created to outline the basic structure of the site. The cu
 [Piano Lessons with Greg Kaighin | Enquiries](https://drive.google.com/file/d/1m3KIKxftatb8t8JhpfAypRh5SQ-9QoYm/view?usp=sharing)
 
 A prototype version of the website can be found here [github.com/GregKaighin/piano-lessons-with-greg-kaighin-v1.0-msp1-code-institute](https://github.com/GregKaighin/piano-lessons-with-greg-kaighin-v1.0-msp1-code-institute). I was initially going to develop this version further for my project, but after deciding that I would use Bootstrap for a more responsive layout, I started a new build in a new repository. Also, I realised that my Github commit messages in this previous build were not frequent or concise enough. Now that I have become more accustomed to using GitHub, I avoid making commits that contain a large number of changes, and try to keep commit messages brief and concise.\
-The new version of the website is built with a mobile-first design, but it is also responsive enough to look acceptable on large displays, particularly the resources page, where a user is considered to be more likely to access the site using a laptop or desktop computer. It is built to be compatible with the vast majority of modern smartphones, tablets and personal computers. The enquiries form is not yet functional. All other parts of the website are working as intended.
+The new version of the website is built with a mobile-first design, but it is also responsive enough to look acceptable on large displays.
 # Technologies Used:
 ## Libraries
 - Bootstrap
@@ -185,7 +186,7 @@ For the purposes of assesment the website has been deployed on GitHub pages here
 - All sheet music and music recordings are my own work and are free of copyright restrictions.
 ## Acknowledgements
 - Thanks to Zakari Abdessamad for sharing the audio player code used in this website at [codepen.io/vanderzak/pen/BayjVep](https://codepen.io/vanderzak/pen/BayjVep).
-- Thanks to [Oluwafemi Medale](https://github.com/omedale) for the advice he gave me during my mentoring sessions, and to the [Code Institute's](https://codeinstitute.net/) staff and tutors for putting together such an engaging course.
+- Thanks to [Oluwafemi Medale](https://github.com/omedale) for the advice he gave me during my mentoring sessions, and to the [Code Institute](https://codeinstitute.net/) staff and tutors for putting together such an engaging course.
 
 # Contact
 Greg Kaighin
