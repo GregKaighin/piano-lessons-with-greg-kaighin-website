@@ -84,12 +84,12 @@ As a visitor to Piano Lessons with Greg Kaighin I expect/want/need:
 - The navbar [Font-Awesome](https://fontawesome.com/) icons in the navbar-menu and also the page links in the 'about me' section text are coloured RGBY, sequentially.
 - The overlay shapes displayed over the piano-keyboard image on each page match the RGBY theme of the corresponding navigation icons, and this theme is extended further onto particular elements on each page.
 - The social link button icons are displayed in their original brand colours to stand out.
-- The 'show-more/show-less' and 'send' buttons are silver-grey, to make them noticeable but not intrusive, flashing pink when pressed to provide feedback to the user.
+- The menu-toggle, 'show-more/show-less' and 'send' buttons are silver-grey, to make them noticeable but not intrusive, flashing pink when pressed to provide feedback to the user.
 - The audio player on the music page has a simple UI, with intuitive controls. Green highlights are applied to tie the player in to the colour scheme used for the navbar icons.
 - The resource section's information is presented using Bootstrap's .table-striped and .table-light classes.
 - The links to other webpages on the resources page are dark blue, as are the PDF file download links.
-- Elements which have square corners (e.g. buttons) have been rounded to slighty soften the overall look.
-- [Bootstrap](https://getbootstrap.com/) is used throughout, both for the convenience of it's prebuilt components which can be readily modified to suit, and for it's grid and sizing systems.
+- Elements which have square corners by default have been rounded to slighty soften the overall look.
+- [Bootstrap](https://getbootstrap.com/) is used throughout, both for the convenience of it's prebuilt components which can be readily modified to suit, and for it's relativley straightforward grid system.
 
 I am most happy with the design and layout at small and medium screen sizes. In future I will consider adding in more elements that appear near the viewport edges on large screen sizes, to fill some of the empty space.
 
