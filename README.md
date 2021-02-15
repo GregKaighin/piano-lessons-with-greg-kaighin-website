@@ -19,15 +19,16 @@ This website is made for my own established self-employed piano-teaching busines
     -  [Business Goals](#business-goals)
     -  [User Stories](#user-stories)
     -  [Design Choices](#design-choices)
-    -  [Wireframes and Prototype Build](#wireframes-and-prototype-build)
+    -  [Wireframes And Prototype Build](#wireframes-and-prototype-build)
 2. [Features](#features)
     - [Existing Features](#existing-features)
-    - [Elements on every Page](#elements-on-every-page)
+    - [Elements On Every Page](#elements-on-every-page)
+    - [Elements Unique To Each Page](#elements-unique-to-each-page)
     - [Home Page](#home-page)
     - [Music Page](#music-page)
     - [Resources Page](#resources-page)
     - [Enquiries Page](#enquiries-page)
-    - [Features for Future Releases](#features-for-future-releases)
+    - [Features For Future Releases](#features-for-future-releases)
 3. [Technologies Used](#technologies-used)
     - [Languages](#languages)
     - [Libraries](#libraries)
@@ -82,7 +83,7 @@ As a visitor to Piano Lessons with Greg Kaighin I expect/want/need:
 - The Roboto font, from [Google Fonts](https://fonts.google.com/) is used throughout the website. I chose this because it is very clear and easy to read, and it's bold lines fit in well with the rest of the page design.
 - The main image, displayed below the logo on each page, is a simple outline drawing of a piano-keyboard, to which pastel coloured gradient fills have been applied using [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html). This image was chosen because it is visually striking, and together with the text logo, instantly relays the subject matter of the website to the user upon them opening a page.
 - The navbar [Font-Awesome](https://fontawesome.com/) icons in the navbar-menu and also the page links in the 'about me' section text are coloured RGBY, sequentially.
-- The overlay shapes displayed over the piano-keyboard image on each page match the RGBY theme of the corresponding navigation icons, and this theme is extended further onto particular elements on each page.
+- The overlay shapes displayed over the piano-keyboard image on each page match the RGBY theme of the corresponding navigation icons, and this theme is extended further onto slected elements on each page.
 - The social link button icons are displayed in their original brand colours to stand out.
 - The menu-toggle, 'show-more/show-less' and 'send' buttons are silver-grey, to make them noticeable but not intrusive, flashing pink when pressed to provide feedback to the user.
 - The audio player on the music page has a simple UI, with intuitive controls. Green highlights are applied to tie the player in to the colour scheme used for the navbar icons.
@@ -134,7 +135,7 @@ The new version of the website is built with a mobile-first design, but it is al
 - [GitHub](https://github.com/) For storing the repository.
 - [realfavicongenerator](https://realfavicongenerator.net/) For generating the favicons.
 # Testing
-The website has been validated and tested using the methods listed below. The results of these tests have been used to refine the code as much as possible to my current level of knowledge.
+The website has been validated and tested using the methods listed below. The results of these tests have been used to help refine the code as much as possible to my current level of knowledge.
 ## Validation:
 - HTML: [validator.w3.org](https://validator.w3.org/) -
 - CSS: - [jigsaw.w3.org/css-validator](https://jigsaw.w3.org/css-validator/) - No Errors Found / ## Warnings
