@@ -74,20 +74,6 @@ As a visitor to Piano Lessons with Greg Kaighin I expect/want/need:
 10. For the website to have a coherent look.
 11. For everything to work.
 
-Based on these, I decided that the website structure shall consist of four pages with different features on each to meet specific user requirements, as follows:
-
-## Home Page
-About Me, Ethos and Testimonial sections.
-
-## Music Page
-Audio Player.
-
-##  Resources Page
-Table of PDF resources and links to external websites.
-
-## Enquiries Page
-Contact form.
-
 # Design Choices
 
 - The font is Roboto, from Google fonts. I chose this because it is very clear and easy to read, and it's bold lines fit in well with the rest of the page design.
