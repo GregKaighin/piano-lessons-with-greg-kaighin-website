@@ -51,7 +51,7 @@ The enquiries form is not yet functional. All other parts of the website are wor
 - Find out information about the business.
 - Download piano lesson resources.
 - Make an enquiry about piano lessons.
-- Listen to some music.
+- Listen to some piano music to evaluate GK's skill level. 
 
 ## Business Goals
 - Advertise the business to potential customers and provide them with a means of getting in contact.
@@ -79,8 +79,8 @@ As a visitor to Piano Lessons with Greg Kaighin I expect/want/need:
 
 # Design Choices
 
-- The font is Roboto, from Google fonts. I chose this because it is very clear and easy to read, and it's bold lines fit in well with the rest of the page design.
-- The main image, displayed below the logo on each page, is a simple outline drawing of a piano-keyboard, to which pastel coloured gradient fills have been applied using Adobe Photoshop. This image was chosen because it is visually striking, and together with the text logo, instantly relays the subject matter of the website to the user upon them opening a page.
+- The font is Roboto, from [Google Fonts](https://fonts.google.com/). I chose this because it is very clear and easy to read, and it's bold lines fit in well with the rest of the page design.
+- The main image, displayed below the logo on each page, is a simple outline drawing of a piano-keyboard, to which pastel coloured gradient fills have been applied using [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html). This image was chosen because it is visually striking, and together with the text logo, instantly relays the subject matter of the website to the user upon them opening a page.
 - The internal page links in the 'about me' section text are coloured RGBY to match the navigation icons.
 - The social link button icons are displayed in their original brand colours to stand out.
 - The buttons are silver-grey, to make them noticeable but not intrusive, flashing pink when pressed to provide feedback to the user.
@@ -89,7 +89,7 @@ As a visitor to Piano Lessons with Greg Kaighin I expect/want/need:
 - The resource section's information is presented using Bootstrap's .table-striped and .table-light classes.
 - The links to other webpages on the resources page are dark blue, as are the PDF file download links.
 - Elements which have square corners (e.g. buttons) have been rounded to slighty soften the overall look.
-- Bootstrap is used throughout, both for the convenience of it's prebuilt components which can be readily modified to suit, and for it's grid and sizing systems.
+- [Bootstrap](https://getbootstrap.com/) is used throughout, both for the convenience of it's prebuilt components which can be readily modified to suit, and for it's grid and sizing systems.
 
 I am most happy with the design and layout at small and medium screen sizes. In future I will consider adding in more elements that appear near the viewport edges on large screen sizes, to fill some of the empty space.
 
@@ -124,10 +124,10 @@ The new version of the website is built with a mobile-first design, but it is al
 - CSS3
 - JavaScript (imported from [codepen.io/vanderzak/pen/BayjVep](https://codepen.io/vanderzak/pen/BayjVep) for the audio player.)
 ## Libraries
-- Bootstrap
-- Font-Awesome
-- Google Fonts
-- js popper
+- [Bootstrap](https://getbootstrap.com/) Is used for it's prebuilt components, and relatively straigthforward sizing and layout capabilities.
+- [Font-Awesome](https://fontawesome.com/) Font-Awesome icons are used for the nav-menu items.
+- [Google Fonts](https://fonts.google.com/) The Roboto font from Google Fonts is used throughout the website.
+- [js popper](https://popper.js.org/) Is used to enable functionality of the drop-down menu and show more/show less button.
 ## Tools
 - [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html) For editing the images and encoding in .webp format.
 - [Balsamiq Wireframes](https://balsamiq.com/) For creating the wireframes.
