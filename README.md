@@ -79,12 +79,12 @@ As a visitor to Piano Lessons with Greg Kaighin I expect/want/need:
 
 # Design Choices
 
-- The font is Roboto, from [Google Fonts](https://fonts.google.com/). I chose this because it is very clear and easy to read, and it's bold lines fit in well with the rest of the page design.
+- The Roboto font, from [Google Fonts](https://fonts.google.com/) is used throughout the website. I chose this because it is very clear and easy to read, and it's bold lines fit in well with the rest of the page design.
 - The main image, displayed below the logo on each page, is a simple outline drawing of a piano-keyboard, to which pastel coloured gradient fills have been applied using [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html). This image was chosen because it is visually striking, and together with the text logo, instantly relays the subject matter of the website to the user upon them opening a page.
-- The internal page links in the 'about me' section text are coloured RGBY to match the navigation icons.
-- The social link button icons are displayed in their original brand colours to stand out.
-- The buttons are silver-grey, to make them noticeable but not intrusive, flashing pink when pressed to provide feedback to the user.
+- The navbar [Font-Awesome](https://fontawesome.com/) icons in the navbar-menu and also the page links in the 'about me' section text are coloured RGBY, sequentially.
 - The overlay shapes displayed over the piano-keyboard image on each page match the RGBY theme of the corresponding navigation icons, and this theme is extended further onto particular elements on each page.
+- The social link button icons are displayed in their original brand colours to stand out.
+- The 'show-more/show-less' and 'send' buttons are silver-grey, to make them noticeable but not intrusive, flashing pink when pressed to provide feedback to the user.
 - The audio player on the music page has a simple UI, with intuitive controls. Green highlights are applied to tie the player in to the colour scheme used for the navbar icons.
 - The resource section's information is presented using Bootstrap's .table-striped and .table-light classes.
 - The links to other webpages on the resources page are dark blue, as are the PDF file download links.
