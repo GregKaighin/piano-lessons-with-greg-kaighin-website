@@ -2,13 +2,13 @@
 
 ![Piano Lessons with Greg Kaighin Logo](assets/images/logo-plwgk.png)
 
-## Greg Kaighin
-## Code Institute
+## [Greg Kaighin](https://github.com/GregKaighin)
+## [Code Institute](https://codeinstitute.net/)
 ## Full Stack Developer HND
 ## Milestone Project 1
 ## User-Centric Front-End
 ## February 2021
-## Home Page: [Piano Lessons with Greg Kaighin](https://gregkaighin.github.io/piano-lessons-with-greg-kaighin-v2.0-msp1-code-institute/)
+## Home Page: [gregkaighin.github.io/piano-lessons-with-greg-kaighin-v2.0-msp1-code-institute](https://gregkaighin.github.io/piano-lessons-with-greg-kaighin-v2.0-msp1-code-institute/)
 
 ![Piano Lessons with Greg Kaighin Screenshots](assets/images/screenshots-plwgk.png)
 This website is made for my own established self-employed piano-teaching business 'Piano Lessons with Greg Kaighin' to advertise the business to prospective students and to provide them with a means of getting in contact. It is also created to be of value to my current students by providing links to downloads of learning resources and to relevant external websites.
@@ -133,28 +133,28 @@ The new version of the website is built with a mobile-first design, but it is al
 ## Libraries
 - Bootstrap
 - Font-Awesome
+- Google Fonts
 - js popper
 ## Languages
 - HTML5
 - CSS3
 - JavaScript (imported from https://codepen.io/vanderzak/pen/BayjVep for the audio player.)
 ## Tools
-- Adobe Photoshop
-- Balsamiq Wireframes
-- GitHub
-- realfavicongenerator.net
+- [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html) For editing the images and encoding in .webp format.
+- [Balsamiq Wireframes](https://balsamiq.com/) For creating the wireframes.
+- [GitHub](https://github.com/) For storing the repository.
+- [realfavicongenerator](https://realfavicongenerator.net/) For generating the favicons.
 # Testing
 The website has been validated and tested using the methods listed below. The results of these tests have been used to refine the code as much as possible to my current level of knowledge.
 ## Validation:
-- HTML - https://validator.w3.org/ -
-- CSS - https://jigsaw.w3.org/css-validator/ - No Errors Found / ## Warnings
-- JavaScript
+- HTML - [validator.w3.org](https://validator.w3.org/) -
+- CSS - [jigsaw.w3.org/css-validator](https://jigsaw.w3.org/css-validator/) - No Errors Found / ## Warnings
 ## Performance Measurment:
-https://web.dev/measure/
+[web.dev/measure/](https://web.dev/measure/)
 ![Piano Lessons with Greg Kaighin lighthouse-test](assets/images/lighthouse-test-plwgk.png)
 # Features
 ## Existing Features
-### Elements on every page
+### Elements On Every page
 #### Header
 - Navbar. Bootstrap's navbar-light and fixed-top class are used to create an intuitive navbar which is always present at the top of the viewport. Each page link is named (Home, Music, Resources, Enquiries), and also given a primary coloured Font-Awesome icon, to provide users with a further visual cue.
 - Hero Image. The image used in the page header is of a coloured piano keyboard. This was chosen as it is visually striking, and it sets the tone for the rest of the website's visual design.
@@ -162,13 +162,13 @@ https://web.dev/measure/
 - Social Links. These are displayed at the top of the footer, as a Bootstrap button, displayed as a font-awesome icon, in their original brand colours, in order to stand out a little from the rest of the content on the page.
 - Cards Section. Bootstrap cards are displayed at the bottom of the footer, containing information about pricing, and also information about additional subjects available from 'Piano Lessons with GK' such as workshops, and music technology, and music theory lessons.
 
-### Pages
+### Elements Unique To Each Page
 #### Home Page
 - About-Me Section. The purpose of this section is to give information about GK. This is the first section to appear after the header as, based on user stories, it is most likely the first thing that prospective piano students will want to read. As there is a lot of text, some of it is hidden behind a 'Show More / Show Less' button. This is not ideal, it could be improved by revealing the hidden text with an upwards scroll, rather than a downwards one, a fix for the future.
 - Ethos Section. This section is designed to relay the ethos of 'Piano Lessons with GK'. It is displayed directly below the 'About-Me', and is designed to complement the information found there. The layout of this section was inspired by the ethos section of the 'Love Running' website on the Code Institute's FSD course.
 - Testimonial Section. This section is for displaying comments from existing piano students. For data-protection purposes, adult names are used with permission. Comments from children are displayed with an alias.
 #### Music Page
-- Audio Player. This was adapted from https://codepen.io/vanderzak/pen/BayjVep. I have included the HTML, CSS and JavaScript largely unchanged from the original, but have stripped out the parts relating to the progress bar, as I don't require the player to have that functionality. The CSS has been edited to make the audio player fit in with the visual design of the website. It's purpose is to give a simple juke-box style audio player with a set playlist.
+- Audio Player. This was adapted from code created by Zakari Abdessamad and imported from [codepen.io/vanderzak/pen/BayjVep](https://codepen.io/vanderzak/pen/BayjVep). I have included the HTML, CSS and JavaScript largely unchanged from the original, but have stripped out the parts relating to the progress bar, as I don't require the player to have that functionality. The CSS has been edited to make the audio player fit in with the visual design of the website. It's purpose is to give a simple juke-box style audio player with a set playlist.
 #### Resources Page
 - Resources Section. This section uses Bootstrap's table-light class to provide a table of links of PDF downloads, and links to external websites relevant to piano lessons.
 #### Enquiries Page
@@ -187,18 +187,19 @@ https://web.dev/measure/
 - Issue: Show more / Show less button on index.html page collapses downwards at present. An upwards collapse would provide better UX and flow, and also stop my portrait photo from being used as a virtual basketball. Solution: I need to learn how to do this.
 
 # Deployment
-For the purposes of assesment the website has been deployed on GitHub pages here: https://gregkaighin.github.io/piano-lessons-with-greg-kaighin-v2.0-msp1-code-institute/. Once I have learned how to make the enquiries form functional, I will deploy it again using a paid-for website hosting service, and it will become useful for my piano teaching business. 
+For the purposes of assesment the website has been deployed on GitHub pages here: [gregkaighin.github.io/piano-lessons-with-greg-kaighin-v2.0-msp1-code-institute](https://gregkaighin.github.io/piano-lessons-with-greg-kaighin-v2.0-msp1-code-institute/). Once I have learned how to make the enquiries form functional, I will deploy it again using a paid-for website hosting service, and it will become useful for my piano teaching business. 
 
 # Credits
 ## Images
 - Portrait photo: Sheila and Jeff Kaighin, thanks Mum and Dad.
-- Piano-keyboard image and card images: https://www.shutterstock.com/ (Paid-for licence with permission for web distribution).
+- Piano-keyboard image and card images: [shutterstock.com](https://www.shutterstock.com/) (Paid-for licence with permission for web distribution).
 ## Original Content
 - MP3 Audio recordings: Greg Kaighin
 - PDF Documents: Greg Kaighin
 - All sheet music and music recordings are free of copyright restrictions.
 ## Acknowledgements
-- Thanks to Oluwafemi Medale for the advice he gave me during my mentoring sessions, and to the Code Institute's staff and tutors for putting together such an engaging course.
+- Thanks to Zakari Abdessamad for sharing the audio player code at [codepen.io/vanderzak/pen/BayjVep](https://codepen.io/vanderzak/pen/BayjVep)
+- Thanks to [Oluwafemi Medale](https://github.com/omedale) for the advice he gave me during my mentoring sessions, and to the Code Institute's staff and tutors for putting together such an engaging course.
 
 # Contact
 Greg Kaighin
