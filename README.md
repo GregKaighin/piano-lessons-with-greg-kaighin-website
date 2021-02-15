@@ -102,7 +102,7 @@ Contact form.
 - Elements which have square corners (e.g. buttons) have been rounded to slighty soften the overall look.
 - Bootstrap is used throughout, both for the convenience of it's prebuilt components which can be readily modified to suit, and for it's grid and sizing systems.
 
-Overall, I am most happy with the design and layout at small and medium screen sizes, and I think it looks best at these sizes. In future I may add more elements that appear near the viewport edges on large screen sizes.
+Overall, I am most happy with the design and layout at small and medium screen sizes. In future I may add more elements that appear near the viewport edges on large screen sizes.
 
 ## Colours
 The idea is to give the site an 'educational' look, somewhat akin in style to that of a school textbook.
@@ -138,7 +138,7 @@ The new version of the website is built with a mobile-first design, but it is al
 ## Languages
 - HTML5
 - CSS3
-- JavaScript (imported from https://codepen.io/vanderzak/pen/BayjVep for the audio player.)
+- JavaScript (imported from [codepen.io/vanderzak/pen/BayjVep](https://codepen.io/vanderzak/pen/BayjVep) for the audio player.)
 ## Tools
 - [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html) For editing the images and encoding in .webp format.
 - [Balsamiq Wireframes](https://balsamiq.com/) For creating the wireframes.
@@ -147,8 +147,8 @@ The new version of the website is built with a mobile-first design, but it is al
 # Testing
 The website has been validated and tested using the methods listed below. The results of these tests have been used to refine the code as much as possible to my current level of knowledge.
 ## Validation:
-- HTML - [validator.w3.org](https://validator.w3.org/) -
-- CSS - [jigsaw.w3.org/css-validator](https://jigsaw.w3.org/css-validator/) - No Errors Found / ## Warnings
+- HTML: [validator.w3.org](https://validator.w3.org/) -
+- CSS: - [jigsaw.w3.org/css-validator](https://jigsaw.w3.org/css-validator/) - No Errors Found / ## Warnings
 ## Performance Measurment:
 [web.dev/measure/](https://web.dev/measure/)
 ![Piano Lessons with Greg Kaighin lighthouse-test](assets/images/lighthouse-test-plwgk.png)
@@ -196,10 +196,10 @@ For the purposes of assesment the website has been deployed on GitHub pages here
 ## Original Content
 - MP3 Audio recordings: Greg Kaighin
 - PDF Documents: Greg Kaighin
-- All sheet music and music recordings are free of copyright restrictions.
+- All sheet music and music recordings are my own work and are free of copyright restrictions.
 ## Acknowledgements
-- Thanks to Zakari Abdessamad for sharing the audio player code at [codepen.io/vanderzak/pen/BayjVep](https://codepen.io/vanderzak/pen/BayjVep)
-- Thanks to [Oluwafemi Medale](https://github.com/omedale) for the advice he gave me during my mentoring sessions, and to the Code Institute's staff and tutors for putting together such an engaging course.
+- Thanks to Zakari Abdessamad for sharing the audio player code used in this website at [codepen.io/vanderzak/pen/BayjVep](https://codepen.io/vanderzak/pen/BayjVep).
+- Thanks to [Oluwafemi Medale](https://github.com/omedale) for the advice he gave me during my mentoring sessions, and to the [Code Institute's](https://codeinstitute.net/) staff and tutors for putting together such an engaging course.
 
 # Contact
 Greg Kaighin
