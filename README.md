@@ -8,7 +8,7 @@
 ## Milestone Project 1
 ## User-Centric Front-End
 ## February 2021
-## Home Page https://gregkaighin.github.io/piano-lessons-with-greg-kaighin-v2.0-msp1-code-institute/
+## Home Page: [Piano Lessons with Greg Kaighin](https://gregkaighin.github.io/piano-lessons-with-greg-kaighin-v2.0-msp1-code-institute/)
 
 ![Piano Lessons with Greg Kaighin Screenshots](assets/images/screenshots-plwgk.png)
 This website is made for my own established self-employed piano-teaching business 'Piano Lessons with Greg Kaighin' to advertise the business to prospective students and to provide them with a means of getting in contact. It is also created to be of value to my current students by providing links to downloads of learning resources and to relevant external websites.
@@ -35,8 +35,8 @@ This website is made for my own established self-employed piano-teaching busines
 4. [Testing](#testing)
 5. [Deployment](#deployment)
 6. [Credits](#credits)
-    - [Original Content](#originalcontent)
-    - [Other Content](#othercontent)
+    - [Images](#images)
+    - [Original Content](#original-content)
     - [Acknowledgements](#acknowledgements)
 8. [Contact](#contact)
 
@@ -100,7 +100,7 @@ Contact form.
 - The resource section's information is presented using Bootstrap's .table-striped and .table-light classes.
 - The links to other webpages on the resources page are dark blue, as are the PDF file download links.
 - Elements which have square corners (e.g. buttons) have been rounded to slighty soften the overall look.
-- Bootstrap is used throughout, for the convenience of it's prebuilt components which can be readily modified to suit, and for it's grid and sizing systems.
+- Bootstrap is used throughout, both for the convenience of it's prebuilt components which can be readily modified to suit, and for it's grid and sizing systems.
 
 Overall, I am most happy with the design and layout at small and medium screen sizes, and I think it looks best at these sizes. In future I may add more elements that appear near the viewport edges on large screen sizes.
 
@@ -110,7 +110,7 @@ In order to obtain a coherent look, I have used structure when choosing colours.
 1. The background colour is ivory #fffff0, chosen because it is the classic colour of white piano keys. Similarly, the colour of the text and borders, black #221d17 was chosen because it closely matches the colour of the black keys on a piano.
 2. The four menu navigation icons are assigned primary colours RGBY. The order of these matches the order of the first four colours on the piano-keyboard image.
 3. On the main piano image in the header, the white keys are filled in a sequence of gradients with pastel shades of red, green, blue, yellow, orange, purple, silver. These colours are chosen to be softer than the navigation icon colours.
-The black keys in the main piano image have been coloured dark-blue, as they looked too dark on screen when completely black.\
+The black keys in the main piano image have been coloured dark-blue, as they looked too dark on screen when completely black.
 
 ## Styling
 - Colour gradients are used on many elements to add interest to the visual design.
@@ -119,15 +119,15 @@ The black keys in the main piano image have been coloured dark-blue, as they loo
 # Wireframes & Prototype Build
 These wireframes were created to outline the basic structure of the site. The current version is fairly close to these, the main changes are to the logo text, which has been changed to spread over two lines instead of one, to fit better onto small screen sizes, and to the social links, which have been moved to be above the cards in the footer, as I thought they might not be noticed right at the bottom of the page.
 
-![Piano Lessons with Greg Kaighin | Home](assets/wireframes/Home.png)
+[Piano Lessons with Greg Kaighin | Home](https://drive.google.com/file/d/1JsqgKQF5_L_WCHw1bg1dEbcjS0MShLmw/view?usp=sharing)
 
-![Piano Lessons with Greg Kaighin | Music](assets/wireframes/Music.png)
+[Piano Lessons with Greg Kaighin | Music](https://drive.google.com/file/d/1blL3jhX2EMzTMdUZ2P2wOghH89ClmTWB/view?usp=sharing)
 
-![Piano Lessons with Greg Kaighin | Resources](assets/wireframes/Resources.png)
+[Piano Lessons with Greg Kaighin | Resources](https://drive.google.com/file/d/1eb1m-NoGh9VAodiyHJRttJ_tbaRS8uHp/view?usp=sharing)
 
-![Piano Lessons with Greg Kaighin | Enquiries](assets/wireframes/Enquiries.png)
+[Piano Lessons with Greg Kaighin | Enquiries](https://drive.google.com/file/d/1m3KIKxftatb8t8JhpfAypRh5SQ-9QoYm/view?usp=sharing)
 
-A prototype version of the website can be found here https://github.com/GregKaighin/piano-lessons-with-greg-kaighin-v1.0-msp1-code-institute. I was initially going to develop this version further for my project, but after deciding that I would use Bootstrap for a more responsive layout, I started a new build in a new repository. Also, I realised that my Github commit messages in this previous build were not frequent or concise enough. Now that I have become more accustomed to using GitHub, I avoid making commits that contain a large number of changes, and try to keep commit messages brief and concise.\
+A prototype version of the website can be found here [github.com/GregKaighin/piano-lessons-with-greg-kaighin-v1.0-msp1-code-institute](https://github.com/GregKaighin/piano-lessons-with-greg-kaighin-v1.0-msp1-code-institute). I was initially going to develop this version further for my project, but after deciding that I would use Bootstrap for a more responsive layout, I started a new build in a new repository. Also, I realised that my Github commit messages in this previous build were not frequent or concise enough. Now that I have become more accustomed to using GitHub, I avoid making commits that contain a large number of changes, and try to keep commit messages brief and concise.\
 The new version of the website is built with a mobile-first design, but it is also responsive enough to look acceptable on large displays, particularly the resources page, where a user is considered to be more likely to access the site using a laptop or desktop computer. It is built to be compatible with the vast majority of modern smartphones, tablets and personal computers. The enquiries form is not yet functional. All other parts of the website are working as intended.
 # Technologies Used:
 ## Libraries
@@ -190,15 +190,15 @@ https://web.dev/measure/
 For the purposes of assesment the website has been deployed on GitHub pages here: https://gregkaighin.github.io/piano-lessons-with-greg-kaighin-v2.0-msp1-code-institute/. Once I have learned how to make the enquiries form functional, I will deploy it again using a paid-for website hosting service, and it will become useful for my piano teaching business. 
 
 # Credits
-## Original Content
+## Images
 - Portrait photo: Sheila and Jeff Kaighin, thanks Mum and Dad.
+- Piano-keyboard image and card images: https://www.shutterstock.com/ (Paid-for licence with permission for web distribution).
+## Original Content
 - MP3 Audio recordings: Greg Kaighin
 - PDF Documents: Greg Kaighin
 - All sheet music and music recordings are free of copyright restrictions.
-## Images
-- Piano-keyboard image and card images: https://www.shutterstock.com/ (Paid-for licence with permission for web distribution).
 ## Acknowledgements
-- Thanks to Oluwafemi Medale for the great advice he gave me during my mentoring sessions, and to the Code Institute staff and tutors for putting together such an engaging and interesting course.
+- Thanks to Oluwafemi Medale for the advice he gave me during my mentoring sessions, and to the Code Institute's staff and tutors for putting together such an engaging course.
 
 # Contact
 Greg Kaighin
