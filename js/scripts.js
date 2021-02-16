@@ -31,6 +31,21 @@ function createTrackItem(index, name, duration) {
 }
 
 var listAudio = [
+     {
+        name: "Bagatelle 'Fur Elise', Beethoven",
+        file: "assets/music/bagatelle-fur-elise.mp3",
+        duration: "02:25"
+    },
+     {
+        name: "Prelude in C# Minor, Rachmaninoff",
+        file: "assets/music/prelude-in-c-sharp-minor.mp3",
+        duration: "04:13"
+    },
+    {
+        name: "Waltz in F Minor, Chopin",
+        file: "assets/music/waltz-f-minor.mp3",
+        duration: "02:32"
+    },
     {
         name: "Pick Up the Pieces, Average White Band",
         file: "assets/music/pick-up-the-pieces.mp3",
@@ -46,21 +61,8 @@ var listAudio = [
         file: "assets/music/maple-leaf-rag.mp3",
         duration: "03:36"
     },
-    {
-        name: "Prelude in C# Minor, Rachmaninoff",
-        file: "assets/music/prelude-in-c-sharp-minor.mp3",
-        duration: "04:13"
-    },
-    {
-        name: "Waltz in F Minor, Chopin",
-        file: "assets/music/waltz-f-minor.mp3",
-        duration: "02:32"
-    },
-    {
-        name: "Bagatelle 'Fur Elise', Beethoven",
-        file: "assets/music/bagatelle-fur-elise.mp3",
-        duration: "02:25"
-    },
+   
+    
 ]
 
 for (var i = 0; i < listAudio.length; i++) {
