@@ -51,6 +51,16 @@ var listAudio = [
         file: "assets/music/prelude-in-c-sharp-minor.mp3",
         duration: "04:13"
     },
+    {
+        name: "Waltz in F Minor, Chopin",
+        file: "assets/music/waltz-f-minor.mp3",
+        duration: "02:32"
+    },
+    {
+        name: "Bagatelle 'Fur Elise', Beethoven",
+        file: "assets/music/bagatelle-fur-elise.mp3",
+        duration: "02:25"
+    },
 ]
 
 for (var i = 0; i < listAudio.length; i++) {
