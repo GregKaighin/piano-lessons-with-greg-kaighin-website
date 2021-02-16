@@ -125,20 +125,20 @@ The new version of the website is built with a mobile-first design, but it is al
 - CSS3
 - JavaScript (imported from [codepen.io/vanderzak/pen/BayjVep](https://codepen.io/vanderzak/pen/BayjVep) for the audio player.)
 ## Libraries
-- [Bootstrap](https://getbootstrap.com/) Is used for it's prebuilt components, and relatively straigthforward sizing and layout capabilities.
-- [Font-Awesome](https://fontawesome.com/) Font-Awesome icons are used for the nav-menu items.
-- [Google Fonts](https://fonts.google.com/) The Roboto font from Google Fonts is used throughout the website.
-- [js popper](https://popper.js.org/) Is used to enable functionality of the drop-down menu and show more/show less button.
+- [Bootstrap](https://getbootstrap.com/) for it's prebuilt components and relatively straigthforward sizing and layout capabilities.
+- [Font-Awesome](https://fontawesome.com/) for the navbar menu items.
+- [Google Fonts](https://fonts.google.com/) for the Roboto font, which is used throughout the website.
+- [js popper](https://popper.js.org/) for the navbar menu-toggle button and the show more/show less button in the 'about-me'.
 ## Tools
-- [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html) For editing the images and encoding in .webp format.
-- [Balsamiq Wireframes](https://balsamiq.com/) For creating the wireframes.
-- [GitHub](https://github.com/) For storing the repository.
-- [realfavicongenerator](https://realfavicongenerator.net/) For generating the favicons.
+- [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html) for editing the images and encoding in .webp format.
+- [Balsamiq Wireframes](https://balsamiq.com/) for creating the wireframes.
+- [GitHub](https://github.com/) for storing the repository.
+- [realfavicongenerator](https://realfavicongenerator.net/) for generating the favicons.
 # Testing
 The website has been validated and tested using the methods listed below. The results of these tests have been used to help refine the code as much as possible to my current level of knowledge.
 ## Validation:
 - HTML: [validator.w3.org](https://validator.w3.org/) - No errors or warnings to show.
-- CSS: - [jigsaw.w3.org/css-validator](https://jigsaw.w3.org/css-validator/) - No Errors Found
+- CSS: - [jigsaw.w3.org/css-validator](https://jigsaw.w3.org/css-validator/) - No Errors Found.
 <p>
     <a href="http://jigsaw.w3.org/css-validator/check/referer">
         <img style="border:0;width:88px;height:31px"
