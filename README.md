@@ -186,7 +186,7 @@ For the purposes of assesment the website has been deployed on GitHub pages here
 ## Original Content
 - MP3 Audio recordings: Greg Kaighin
 - PDF Documents: Greg Kaighin
-- All sheet music and music recordings are my own work and are free of copyright restrictions.
+- All sheet music and music recordings featured on this website were created by Greg Kaighin. Original composers have been credited.
 ## Acknowledgements
 - Thanks to Zakari Abdessamad for sharing the audio player code used in this website at [codepen.io/vanderzak/pen/BayjVep](https://codepen.io/vanderzak/pen/BayjVep).
 - Thanks to [Oluwafemi Medale](https://github.com/omedale) for the advice he gave me during my mentoring sessions, and to the [Code Institute](https://codeinstitute.net/) staff and tutors for putting together such an engaging course.

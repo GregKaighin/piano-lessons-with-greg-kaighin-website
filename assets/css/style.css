@@ -345,6 +345,15 @@ body {
      border-bottom: 1px solid #000080;
 }
 /*---------------------------------Enquiries Form*/
+.enquiries-heading {
+     font-size: 150%;
+     font-weight: 300;
+     margin-top: 24px;
+     color: #221d17;
+     text-align: center;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+}
  .form-control {
      margin-bottom: 2px;
      border-color: #221d17;
@@ -374,6 +383,15 @@ body {
      border: none;
 }
 /*-------------------------------- Audio Player -- https://codepen.io/vanderzak/pen/BayjVep --*/
+.music-heading {
+     font-size: 150%;
+     font-weight: 300;
+     margin-top: 24px;
+     color: #221d17;
+     text-align: center;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+}
  .btn-action{
      cursor: pointer;
 }
