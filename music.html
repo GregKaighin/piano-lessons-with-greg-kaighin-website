@@ -81,7 +81,7 @@
         <div class="audio-player" aria-label="Audio Player" role="region">
             <audio id="myAudio" ontimeupdate="onTimeUpdate()">
                 <!-- <source src="audio.ogg" type="audio/ogg"> -->
-                <source id="source-audio" src="" type="audio/mpeg">
+                <source id="source-audio" src="#" type="audio/mpeg">
                 Your browser does not support the audio element.
             </audio>
             <div class="player-ctn">
@@ -92,23 +92,23 @@
                 </div>
 
                 <div class="btn-ctn">
-                    <div class="btn-action first-btn" aria-label="previous track" onclick="previous()">
+                    <div class="btn-action first-btn" onclick="previous()">
                         <div id="btn-faws-back">
                             <i class='fas fa-step-backward'></i>
                         </div>
                     </div>
-                    <div class="btn-action" aria-label="play toggle" onclick="toggleAudio()">
+                    <div class="btn-action" onclick="toggleAudio()">
                         <div id="btn-faws-play-pause">
                             <i class='fas fa-play' id="icon-play"></i>
                             <i class='fas fa-pause' id="icon-pause" style="display: none"></i>
                         </div>
                     </div>
-                    <div class="btn-action" aria-label="next track" onclick="next()">
+                    <div class="btn-action" onclick="next()">
                         <div id="btn-faws-next">
                             <i class='fas fa-step-forward'></i>
                         </div>
                     </div>
-                    <div class="btn-mute" id="toggleMute" aria-label="mute toggle" onclick="toggleMute()">
+                    <div class="btn-mute" id="toggleMute" onclick="toggleMute()">
                         <div id="btn-faws-volume">
                             <i id="icon-vol-up" class='fas fa-volume-up'></i>
                             <i id="icon-vol-mute" class='fas fa-volume-mute' style="display: none"></i>
@@ -120,16 +120,19 @@
             <div class="playlist-ctn"></div>
             <hr>
         </div>
+    
 
-        <section class="about-me">
+        <div class="about-me">
             <div class="col col-lg-8 col-sm-10 mx-auto text-center">
                 <p> Equipment used: Nord Stage 2 digital piano, Korg Kronos 2 music workstation, Crumar Mojo digital
                     organ, Pianoteq,
                     SubZero Paradigm semi-hollow electric guitar, Dell XPS 8940 PC, Cockos Reaper Digital Audio
                     Workstation software,
                     RME Babyface Pro FS audio interface.<br>
-                    <hr><br>'Pick Up the Pieces' features my Dad, Jeff Kaighin on alto saxophone.</p>
+                    <hr><br><p>'Pick Up the Pieces' features my Dad, Jeff Kaighin on alto saxophone.</p>
             </div>
+            </div>
+            </section>
             <!-- Footer -->
             <footer>
                 <!-- Social-links -->
@@ -195,7 +198,7 @@
             <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
             <!-- JavaScript -->
-            <script type="text/javascript" src="js/scripts.js"></script>
+            <script src="js/scripts.js"></script>
 
 </body>
 

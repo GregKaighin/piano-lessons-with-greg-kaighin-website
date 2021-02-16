@@ -138,7 +138,15 @@ The new version of the website is built with a mobile-first design, but it is al
 The website has been validated and tested using the methods listed below. The results of these tests have been used to help refine the code as much as possible to my current level of knowledge.
 ## Validation:
 - HTML: [validator.w3.org](https://validator.w3.org/) -
-- CSS: - [jigsaw.w3.org/css-validator](https://jigsaw.w3.org/css-validator/) - No Errors Found / ## Warnings
+- CSS: - [jigsaw.w3.org/css-validator](https://jigsaw.w3.org/css-validator/) - No Errors Found
+<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+          
 ## Performance:
 [web.dev/measure/](https://web.dev/measure/)
 ![Piano Lessons with Greg Kaighin lighthouse-test](assets/images/lighthouse-test-plwgk.png)
