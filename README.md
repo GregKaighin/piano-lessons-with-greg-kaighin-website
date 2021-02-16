@@ -66,7 +66,7 @@ Piano Lessons with Greg Kaighin meets these needs because:
 ## User Stories
 
 As a visitor to Piano Lessons with Greg Kaighin I expect/want/need:
-1. To be able to navigate the website easily and quickly find the information I am looking for.
+1. To be able to navigate the website easily and to quickly find the information I am looking for.
 2. To get relevant information about GK the piano teacher.
 3. To get information to help me decide if GK is the right piano teacher for me.
 4. For all information to be presented clearly and logically.
