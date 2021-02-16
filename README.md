@@ -145,8 +145,10 @@ The website has been validated and tested using the methods listed below. The re
             src="http://jigsaw.w3.org/css-validator/images/vcss"
             alt="Valid CSS!" />
     </a>
-</p>      
-## Performance:
+</p> 
+
+## Performance
+
 [web.dev/measure/](https://web.dev/measure/)
 ![Piano Lessons with Greg Kaighin lighthouse-test](assets/images/lighthouse-test-plwgk.png)
 # Features
