@@ -182,7 +182,7 @@ The website has been validated and tested using the methods listed below. The re
 
 # Known Issues and Potential Solutions
 - Issue: the enquiries form is not yet functional. Fix: I need to learn how to do this.
-- Issue: navbar dropdown menu always appears on the left side. It would sometimes look better positioned on the right (on smarthpones larger than iPhone 5). Potential solution: Change index.html navbar-toggler class IDs.
+- Issue: navbar dropdown menu always appears on the left side. It would sometimes look better positioned on the right (on smartphones larger than iPhone 5). Potential solution: Change index.html navbar-toggler class IDs.
 - Issue: Show more / Show less button on index.html page collapses downwards at present. An upwards collapse would provide better UX and flow, and also stop my portrait photo from being used as a virtual basketball. Solution: I need to learn how to do this.
 - Issue: All images are currently served in .webp format. I understand that this may cause compatibilty issues with older Apple devices. Solution: Provide fallback images for devices which don't support .webp files. 
 # Deployment
