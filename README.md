@@ -156,7 +156,7 @@ The website has been validated and tested using the methods listed below. The re
 ### Elements On Every page
 #### Header
 - Navbar. Bootstrap's navbar-light and fixed-top class are used to create an intuitive navbar which is always present at the top of the viewport. Each page link is named (Home, Music, Resources, Enquiries), and also given a primary coloured Font-Awesome icon, to provide users with a further visual cue.
-- Hero Image. The image used in the page header is of a coloured piano keyboard. This was chosen as it is visually striking, and it sets the tone for the rest of the website's visual design.
+- Hero Image. The image used in the page header is of a coloured piano keyboard. This was chosen because it is visually striking, and it sets the tone for the rest of the website's visual design.
 #### Footer
 - Social Links. These are displayed at the top of the footer, as a Bootstrap button, displayed as a font-awesome icon, in their original brand colours, in order to stand out a little from the rest of the content on the page.
 - Cards Section. Bootstrap cards are displayed at the bottom of the footer, containing information about pricing, and also information about additional subjects available from 'Piano Lessons with GK' such as workshops, and music technology, and music theory lessons.
