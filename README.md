@@ -52,7 +52,7 @@ The enquiries form is not yet functional. All other parts of the website are wor
 - Find out information about the business.
 - Download piano lesson resources.
 - Make an enquiry about piano lessons.
-- Listen to some piano music to evaluate GK's skill level. 
+- Listen to some piano music to evaluate GK's musical skill level. 
 
 ## Business Goals
 - Advertise the business to potential customers and provide them with a means of getting in contact.
