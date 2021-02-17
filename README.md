@@ -83,11 +83,11 @@ As a visitor to Piano Lessons with Greg Kaighin I expect/want/need:
 - The Roboto font, from [Google Fonts](https://fonts.google.com/) is used throughout the website. I chose this because it is very clear and easy to read, and it's bold lines fit in well with the rest of the page design.
 - The main image, displayed below the logo on each page, is a simple outline drawing of a piano-keyboard, to which pastel coloured gradient fills have been applied using [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html). This image was chosen because it is visually striking, and together with the text logo, instantly relays the subject matter of the website to the user upon them opening a page.
 - The navbar [Font-Awesome](https://fontawesome.com/) icons in the navbar-menu and also the page links in the 'about me' section text are coloured RGBY, sequentially.
-- The overlay shapes displayed over the piano-keyboard image on each page match the RGBY theme of the corresponding navigation icons, and this theme is extended further onto slected elements on each page.
+- The overlay shapes displayed over the piano-keyboard image on each page match the RGBY theme of the corresponding navigation icons, and this theme is extended further onto selected elements on each page.
 - The social link button icons are displayed in their original brand colours to stand out.
 - The menu-toggle, 'show-more/show-less' and 'send' buttons are silver-grey, to make them noticeable but not intrusive, flashing pink when pressed to provide feedback to the user.
 - The audio player on the music page has a simple UI, with intuitive controls. Green highlights are applied to tie the player in to the colour scheme used for the navbar icons.
-- The resource section's information is presented using Bootstrap's .table-striped and .table-light classes.
+- Information in the on the resources page is presented using Bootstraps .table-striped and .table-light classes.
 - The links to other webpages on the resources page are dark blue, as are the PDF file download links.
 - Elements which have square corners by default have been rounded to slighty soften the overall look.
 - [Bootstrap](https://getbootstrap.com/) is used throughout, both for the convenience of it's prebuilt components which can be readily modified to suit, and for it's relativley straightforward grid system.
@@ -96,7 +96,7 @@ I am most happy with the design and layout at small and medium screen sizes. In 
 
 ## Colours
 The idea is to give the site an 'educational' look, somewhat akin in style to that of a school textbook.
-In order to obtain a coherent look, I have used structure when choosing colours. There are three distinct pallettes, as follows:
+To obtain a coherent look I have used structure when choosing colours. There are three distinct pallettes, as follows:
 1. The background colour is ivory #fffff0, chosen because it is the classic colour of white piano keys. Similarly, the colour of the text and borders, black #221d17 was chosen because it closely matches the colour of the black keys on a piano.
 2. The four menu navigation icons are assigned primary colours RGBY. The order of these matches the order of the first four colours on the piano-keyboard image.
 3. On the main piano image in the header, the white keys are filled in a sequence of gradients with pastel shades of red, green, blue, yellow, orange, purple, silver. These colours are chosen to be softer than the navigation icon colours.
@@ -125,7 +125,7 @@ The new version of the website is built with a mobile-first design, but it is al
 - CSS3
 - JavaScript (imported from [codepen.io/vanderzak/pen/BayjVep](https://codepen.io/vanderzak/pen/BayjVep) for the audio player.)
 ## Libraries
-- [Bootstrap](https://getbootstrap.com/) for it's prebuilt components and relatively straigthforward sizing and layout capabilities.
+- [Bootstrap](https://getbootstrap.com/) for it's prebuilt components and relatively straightforward sizing and layout capabilities.
 - [Font-Awesome](https://fontawesome.com/) for the navbar menu items.
 - [Google Fonts](https://fonts.google.com/) for the Roboto font, which is used throughout the website.
 - [js popper](https://popper.js.org/) for the navbar menu-toggle button and the show more/show less button in the 'about-me'.
@@ -182,6 +182,7 @@ The website has been validated and tested using the methods listed below. The re
 
 # Known Issues and Potential Solutions
 - Issue: the enquiries form is not yet functional. Fix: I need to learn how to do this.
+- The 'thank you for your enquiry' modal popup shows whenever the 'send' button is pressed, regardless of whether or not any information has been entered into the form. This will be corrected when I add in the back-end code required to make the form functional.
 - Issue: navbar dropdown menu always appears on the left side. It would sometimes look better positioned on the right (on smartphones larger than iPhone 5). Potential solution: Change index.html navbar-toggler class IDs.
 - Issue: Show more / Show less button on index.html page collapses downwards at present. An upwards collapse would provide better UX and flow, and also stop my portrait photo from being used as a virtual basketball. Solution: I need to learn how to do this.
 - Issue: All images are currently served in .webp format. I understand that this may cause compatibilty issues with older Apple devices. Solution: Provide fallback images for devices which don't support .webp files. 
