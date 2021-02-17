@@ -38,7 +38,7 @@ var listAudio = [
     },
      {
         name: "Prelude in C# Minor, Rachmaninoff",
-        file: "assets/music/prelude-in-c-sharp-minor.mp3",
+        file: "assets/music/prelude-c-sharp-minor.mp3",
         duration: "04:13"
     },
     {
@@ -56,13 +56,6 @@ var listAudio = [
         file: "assets/music/the-entertainer.mp3",
         duration: "04:03"
     },
-    {
-        name: "Maple Leaf Rag, Joplin",
-        file: "assets/music/maple-leaf-rag.mp3",
-        duration: "03:36"
-    },
-   
-    
 ]
 
 for (var i = 0; i < listAudio.length; i++) {
