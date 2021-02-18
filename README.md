@@ -44,6 +44,7 @@ This website is made for my own established self-employed piano-teaching busines
 8. [Contact](#contact)
 
 # UX
+
 The target audience is internet users who might be considering taking piano lessons for themselves or someone they know, and also current students.\
 The enquiries form is not yet functional. All other parts of the website are working as intended.
 
@@ -107,6 +108,7 @@ The black keys in the main piano image have been coloured dark-blue, as they loo
 - Rounded edges are used on many elements to soften the overall look.
 - A hint of transpareny has been added to the navbar, whilst care has been taken to ensure text is still clearly legible at all scroll positions. This makes the page look nicer, and also provides subtle feedback to the user when they scroll the page.
 # Wireframes and Prototype Build
+
 These wireframes were created to outline the basic structure of the site. The current version is fairly close to these, the main changes are to the logo text, which has been changed to spread over two lines instead of one, to fit better onto small screen sizes, and to the social links, which have been moved to be above the cards in the footer, as I thought they might not be noticed right at the bottom of the page.
 
 [Piano Lessons with Greg Kaighin | Home](https://drive.google.com/file/d/1JsqgKQF5_L_WCHw1bg1dEbcjS0MShLmw/view?usp=sharing)
@@ -120,6 +122,7 @@ These wireframes were created to outline the basic structure of the site. The cu
 A prototype version of the website can be found here: [github.com/GregKaighin/piano-lessons-with-greg-kaighin-v1.0-msp1-code-institute](https://github.com/GregKaighin/piano-lessons-with-greg-kaighin-v1.0-msp1-code-institute). I was initially going to develop this version further for my project, but after deciding that I would use Bootstrap for a more responsive layout, I started a new build in a new repository. Also, I realised that my Github commit messages in this previous build were not frequent or concise enough. Now that I have become more accustomed to using GitHub, I avoid making commits that contain a large number of changes, and try to keep commit messages brief and concise.\
 The new version of the website is built with a mobile-first design, but it is also responsive enough to look acceptable on large displays.
 # Technologies Used:
+
 ## Languages
 - HTML5
 - CSS3
@@ -135,8 +138,9 @@ The new version of the website is built with a mobile-first design, but it is al
 - [GitHub](https://github.com/) for storing the repository.
 - [realfavicongenerator](https://realfavicongenerator.net/) for generating the favicons.
 # Testing
+
 The website has been validated and tested using the methods listed below. The results of these tests have been used to help refine the code as much as possible to my current level of knowledge.
-## Validation:
+## Validation
 - HTML: [validator.w3.org](https://validator.w3.org/) - No errors or warnings to show.
 - CSS: - [jigsaw.w3.org/css-validator](https://jigsaw.w3.org/css-validator/) - No Errors Found.
 <p>
@@ -152,6 +156,7 @@ The website has been validated and tested using the methods listed below. The re
 [web.dev/measure/](https://web.dev/measure/)
 ![Piano Lessons with Greg Kaighin lighthouse-test](assets/images/lighthouse-test-plwgk.png)
 # Features
+
 ## Existing Features
 ### Elements On Every page
 #### Header
@@ -176,20 +181,23 @@ The website has been validated and tested using the methods listed below. The re
 ## Features for Future Releases
 - Signup page with payment form for group workshops.
 - Automatic student waiting list, which can be easily activated/deactivated as required and which lets potential students know how many people are already on the list.
-- Update the message on the header overlay text on the home page as required to reflect current business circumstances (i.e. whether I am currently taking on new students or not).
+- Update the message on the header overlay text on the home page and the enquiries page as required to reflect current business circumstances (i.e. whether I am currently taking on new students or not).
 - An additional audio player on the resources page for the playback of backing track audio files.
 - Expansion and redesign of the resources table when more material is added.
 
 # Known Issues and Potential Solutions
+
 - Issue: the enquiries form is not yet functional. Fix: I need to learn how to do this.
-- The 'thank you for your enquiry' modal popup shows whenever the 'send' button is pressed, regardless of whether or not any information has been entered into the form. This will be corrected when I add in the back-end code required to make the form functional.
+- Issue: The 'thank you for your enquiry' modal popup shows whenever the 'send' button is pressed, regardless of whether or not any information has been entered into the form. This will be corrected when I add in the back-end code required to make the form functional.
 - Issue: navbar dropdown menu always appears on the left side. It would sometimes look better positioned on the right (on smartphones larger than iPhone 5). Potential solution: Change index.html navbar-toggler class IDs.
 - Issue: Show more / Show less button on index.html page collapses downwards at present. An upwards collapse would provide better UX and flow, and also stop my portrait photo from being used as a virtual basketball. Solution: I need to learn how to do this.
 - Issue: All images are currently served in .webp format. I understand that this may cause compatibilty issues with older Apple devices. Solution: Provide fallback images for devices which don't support .webp files. 
 # Deployment
+
 For the purposes of assesment the website has been deployed on GitHub pages here: [gregkaighin.github.io/piano-lessons-with-greg-kaighin-v2.0-msp1-code-institute](https://gregkaighin.github.io/piano-lessons-with-greg-kaighin-v2.0-msp1-code-institute/). Once I have learned how to make the enquiries form functional, I will deploy it again using a paid-for website hosting service, and it will become useful for my piano teaching business. 
 
 # Credits
+
 ## Images
 - Portrait photo: Sheila and Jeff Kaighin, thanks Mum and Dad.
 - Piano-keyboard image and card images: [shutterstock.com](https://www.shutterstock.com/) (Paid-for licence with permission for web distribution).
