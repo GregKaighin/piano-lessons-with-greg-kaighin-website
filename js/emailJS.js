@@ -1,6 +1,17 @@
-emailjs.sendForm('service_s6y906n', 'template-piano-lessons', '#contact-form')
-    .then(function(response) {
-       console.log('SUCCESS!', response.status, response.text);
-    }, function(error) {
-       console.log('FAILED...', error);
-    });
+function sendMail(contactForm) {
+    emailjs.send("default_service", "gkpianolessons", {
+        "from_name": contactForm.name.value,
+        "from_email": contactForm.email.value,
+        "phone": contactForm.phone.value,
+        "message": contactForm.message.value
+    })
+    .then(
+        function(response) {
+            console.log('Success', response);
+        },
+        function(error) {
+            console.log('Failed', error);
+        }
+    )
+    return false;
+}
