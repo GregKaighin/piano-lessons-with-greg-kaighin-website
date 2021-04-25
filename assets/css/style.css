@@ -1,469 +1,638 @@
 body {
-     font-family: 'Roboto', sans-serif;
-     color: #221d17;
-     background-color:#fffff0;
+  font-family: "Roboto", sans-serif;
+  color: #221d17;
+  background-color: #fffff0;
 }
 /*------------------------------------Navbar Colours*/
- .navbar-light {
-     color: #221d17;
-     text-transform: uppercase;
-     letter-spacing: 2px;
-     border: 2px solid rgb(34, 29, 23);
+.navbar-light {
+  color: #221d17;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: 2px solid rgb(34, 29, 23);
+  margin-bottom: 20px;
+  -webkit-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
+    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+  -moz-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
+    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+  box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
+    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
 }
- .bg-light{
-     background-color: #fffff0;
-     background: linear-gradient(to bottom right,#fffff0, #fffff0);
-     opacity: 0.98;
+.bg-light {
+  background-color: #fffff0;
+  background: linear-gradient(to bottom right, #fffff0, #fffff0);
+  opacity: 0.98;
 }
 /*------------------------------------Navbar Brand and Link Colours*/
- .logo {
-     font-size: 150%;
- }
- .logo-name {
-     font-size: 100%;
- }
- .navbar-light .navbar-brand {
-     color: #221d17;
+.logo {
+  font-size: 150%;
 }
- .navbar-light .navbar-brand:hover {
-     color: #221d17;
+.logo-name {
+  font-size: 100%;
 }
- .navbar-light .navbar-nav .nav-link {
-     color: #221d17;
+.navbar-light .navbar-brand {
+  color: #221d17;
 }
- .navbar-light .navbar-nav .nav-link:hover {
-     color: #221d17;
+.navbar-light .navbar-brand:hover {
+  color: #221d17;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #221d17;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #221d17;
 }
 /*------------------------------------Font Awesome Icon Colours*/
- .container .fa-home {
-     color: #8b0000 
+.container .fa-home {
+  color: #8b0000;
 }
- .container .fa-headphones-alt {
-     color: #006400;
+.container .fa-headphones-alt {
+  color: #006400;
 }
- .container .fa-book-open {
-     color: #000080;
+.container .fa-book-open {
+  color: #000080;
 }
- .container .fa-comment {
-     color: #ffa500;
+.container .fa-comment {
+  color: #ffa500;
 }
 /*------------------------------------Navbar Toggler Colours and Hover Underscore*/
- .navbar-light .navbar-toggler {
-     border-color: #221d17;
-     background: linear-gradient(to bottom right,rgba(255, 255, 250, 0.25),rgb(209, 209, 209));
+.navbar-light .navbar-toggler {
+  border-color: #221d17;
+  background: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 250, 0.25),
+    rgb(209, 209, 209)
+  );
+  -webkit-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
+    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+  -moz-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
+    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+  box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
+    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
 }
- .navbar-light .navbar-nav .nav-link:hover {
-     color: #221d17;
-     border-bottom: 1px solid #221d17;
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #221d17;
+  border-bottom: 1px solid #221d17;
 }
- .navbar-light .navbar-toggler:active {
-     background: #dda5a1;
+.navbar-light .navbar-toggler:active {
+  background: #dda5a1;
 }
 /*------------------------------------Jumbotron Piano*/
- .jumbo-piano {
-     background-color:#fffff0;
-     background: url("../images/hero-piano.webp");
-     border: 2px solid #221d17;
-     background-repeat: repeat-x;
-     background-position: center;
+.jumbo-piano {
+  background-color: #fffff0;
+  background: url("../images/hero-piano.webp");
+  border: 2px solid #221d17;
+  background-repeat: repeat-x;
+  background-position: center;
+  margin-bottom: 20px;
+  -webkit-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
+    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+  -moz-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
+    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+  box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
+    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
 }
 /*------------------------------------Jumbotron Piano Overlay Shape Home Page*/
- .jumbo-piano .overlay-shape-1 {
-     margin-top: 140px;
-     width: 240px;
-     height: 100px;
-     color: #221d17;
-     background-image: linear-gradient(to bottom right,rgb(255, 255, 240, 1),rgb(247, 178, 178));
-     border: 2px solid #8b0000;
-     border-radius: 12px;
+.jumbo-piano .overlay-shape-1 {
+  margin-top: 140px;
+  width: 240px;
+  height: 100px;
+  color: #221d17;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(255, 255, 240, 1),
+    rgb(247, 178, 178)
+  );
+  border: 2px solid #8b0000;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  -webkit-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
+    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+  -moz-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
+    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+  box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
+    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
 }
 /*------------------------------------Jumbotron Piano Overlay Shape Colour Music Page*/
- .jumbo-piano .overlay-shape-2 {
-     margin-top: 140px;
-     width: 240px;
-     height: 100px;
-     color: #221d17;
-     background-image: linear-gradient(to bottom right,rgb(255, 255, 240, 1),rgb(186, 247, 178));
-     border: 2px solid #006400;
-     border-radius: 12px;
+.jumbo-piano .overlay-shape-2 {
+  margin-top: 140px;
+  width: 240px;
+  height: 100px;
+  color: #221d17;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(255, 255, 240, 1),
+    rgb(186, 247, 178)
+  );
+  border: 2px solid #006400;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  -webkit-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
+    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+  -moz-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
+    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+  box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
+    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
 }
 /*------------------------------------Jumbotron Piano Overlay Shape Colour Resources Page*/
- .jumbo-piano .overlay-shape-3 {
-     margin-top: 140px;
-     width: 240px;
-     height: 100px;
-     color: #221d17;
-     background-image: linear-gradient(to bottom right,rgb(255, 255, 240, 1),rgb(178, 197, 247));
-     border: 2px solid #00008b;
-     border-radius: 12px;
+.jumbo-piano .overlay-shape-3 {
+  margin-top: 140px;
+  width: 240px;
+  height: 100px;
+  color: #221d17;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(255, 255, 240, 1),
+    rgb(178, 197, 247)
+  );
+  border: 2px solid #00008b;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  -webkit-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
+    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+  -moz-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
+    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+  box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
+    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
 }
 /*------------------------------------Jumbotron Piano Overlay Shape Colour Enquiries Page*/
- .jumbo-piano .overlay-shape-4 {
-     margin-top: 140px;
-     width: 240px;
-     height: 100px;
-     color: #221d17;
-     background-image: linear-gradient(to bottom right,rgb(255, 255, 240, 1),rgb(247, 240, 178));
-     border: 1px solid #ffa500;
-     border-radius: 12px;
+.jumbo-piano .overlay-shape-4 {
+  margin-top: 140px;
+  width: 240px;
+  height: 100px;
+  color: #221d17;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(255, 255, 240, 1),
+    rgb(247, 240, 178)
+  );
+  border: 1px solid #ffa500;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  -webkit-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
+    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+  -moz-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
+    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+  box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
+    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
 }
 /*------------------------------------Jumbotron Piano Overlay Text*/
- .overlay-heading {
-     margin-top: 0;
-     padding: 4px;
-     font-size: 140%;
-     font-weight: 300;
-     text-align: center;
-     text-transform: uppercase;
-     letter-spacing: 2px;
+.overlay-heading {
+  margin-top: 0;
+  padding: 4px;
+  font-size: 140%;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 .overlay-text {
-     margin-top: 0;
-     font-size: 100%;
-     font-weight: 300;
-     text-align: center;
-     text-transform: uppercase;
-     letter-spacing: 2px;
+  margin-top: 0;
+  font-size: 100%;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 /*------------------------------------About Me*/
- .about-me {
-     text-align: center;
+.about-me {
+  text-align: center;
 }
- .about-me .about-me-heading {
-     margin-top: 36px;
-     font-size: 150%;
-     font-weight: 300;
-     color: #221d17;
-     text-align: center;
-     text-transform: uppercase;
-     letter-spacing: 2px;
+.about-me .about-me-heading {
+  margin-top: 36px;
+  font-size: 150%;
+  font-weight: 300;
+  color: #221d17;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
- .about-me p {
-     margin-top: 16px;
-     font-size: 16px;
-     font-weight: 400;
-     letter-spacing: 1px;
+.about-me p {
+  margin-top: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
 }
 /*------------------------------------About Me Page Link Colours*/
- .resources-link {
-     color: #000080;
-     text-decoration: none;
-     border-bottom: 1px dotted #000080;
+.resources-link {
+  color: #000080;
+  text-decoration: none;
+  border-bottom: 1px dotted #000080;
 }
- .resources-link:hover {
-     border-bottom: 1px dotted #000080;
+.resources-link:hover {
+  border-bottom: 1px dotted #000080;
 }
- .enquiries-link {
-     color: #ff4500;
-     text-decoration: none;
-     border-bottom: 1px dotted #ff4500;
+.enquiries-link {
+  color: #ff4500;
+  text-decoration: none;
+  border-bottom: 1px dotted #ff4500;
 }
- .enquiries-link:hover {
-     border-bottom: 1px dotted #ff4500;
+.enquiries-link:hover {
+  border-bottom: 1px dotted #ff4500;
 }
- .music-link {
-     color: #006400;
-     text-decoration: none;
-     border-bottom: 1px dotted #006400;
+.music-link {
+  color: #006400;
+  text-decoration: none;
+  border-bottom: 1px dotted #006400;
 }
- .music-link:hover {
-     border-bottom: 1px dotted #006400;
+.music-link:hover {
+  border-bottom: 1px dotted #006400;
 }
 /*------------------------------------Buttons*/
- .btn-light {
-     margin-top: 8px;
-     color: #221d17;
-     background: linear-gradient(to bottom right,rgba(255, 255, 250, 0.25),rgb(209, 209, 209));
-     border-color: #221d17;
-     text-transform: uppercase;
-     font-size: 10px;
+.btn-light {
+  margin-top: 8px;
+  color: #221d17;
+  background: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 250, 0.25),
+    rgb(209, 209, 209)
+  );
+  border-color: #221d17;
+  text-transform: uppercase;
+  font-size: 10px;
+  margin-bottom: 20px;
+  -webkit-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
+    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+  -moz-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
+    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+  box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
+    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
 }
- .btn-light:hover, .btn-light:focus {
-     color: #221D17;
-     background: linear-gradient(to bottom right,rgba(255, 255, 250, 0.25),rgb(209, 209, 209));
-     border-color: #221d17;
+.btn-light:hover,
+.btn-light:focus {
+  color: #221d17;
+  background: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 250, 0.25),
+    rgb(209, 209, 209)
+  );
+  border-color: #221d17;
 }
- .btn-light:active {
-     color: #221D17;
-     background: linear-gradient(to bottom right,rgba(255, 255, 250, 0.25),rgb(209, 209, 209));
-     border-color: #221d17;
+.btn-light:active {
+  color: #221d17;
+  background: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 250, 0.25),
+    rgb(209, 209, 209)
+  );
+  border-color: #221d17;
 }
- .btn-light:focus {
-     border-color: #221d17 
+.btn-light:focus {
+  border-color: #221d17;
 }
- .btn-light:not(:disabled):not(.disabled).active, .btn-light:not(:disabled):not(.disabled):active, .show>.btn-light.dropdown-toggle {
-     color: #221d17;
-     background-color: #dda5a1;
-     border-color: #221d17 
+.btn-light:not(:disabled):not(.disabled).active,
+.btn-light:not(:disabled):not(.disabled):active,
+.show > .btn-light.dropdown-toggle {
+  color: #221d17;
+  background-color: #dda5a1;
+  border-color: #221d17;
 }
 /*------------------------------------About Me Links Hover Colour and Underscore*/
- .portrait-image {
-     border: 1px solid rgb(34, 29, 23);
+.portrait-image {
+  border: 1px solid rgb(34, 29, 23);
+  margin-bottom: 20px;
+  -webkit-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
+    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+  -moz-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
+    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+  box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
+    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
 }
 /*----------------------------------Ethos*/
- .ethos {
-     padding:4px;
-     text-align: center;
-     overflow: hidden;
+.ethos {
+  padding: 4px;
+  text-align: center;
+  overflow: hidden;
 }
- .ethos-section-heading {
-     font-size: 150%;
-     font-weight: 300;
-     margin-top: 24px;
-     color: #221d17;
-     text-align: center;
-     text-transform: uppercase;
-     letter-spacing: 2px;
+.ethos-section-heading {
+  font-size: 150%;
+  font-weight: 300;
+  margin-top: 24px;
+  color: #221d17;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
- .ethos-heading {
-     font-size: 120%;
-     margin-top: 12px;
-     font-weight: 300;
-     text-transform: uppercase;
-     letter-spacing: 2px;
+.ethos-heading {
+  font-size: 120%;
+  margin-top: 12px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
- .ethos p {
-     margin: 4px 0 4px 0;
-     letter-spacing: 1px;
+.ethos p {
+  margin: 4px 0 4px 0;
+  letter-spacing: 1px;
 }
 /*---------------------------------Testimonials Text*/
- .quotes-heading {
-     font-size: 150%;
-     font-weight: 300;
-     margin-top: 24px;
-     color: #221d17;
-     text-align: center;
-     text-transform: uppercase;
-     letter-spacing: 2px;
+.quotes-heading {
+  font-size: 150%;
+  font-weight: 300;
+  margin-top: 24px;
+  color: #221d17;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
- .testimonial-text {
-     font-style: italic;
-     letter-spacing: 1px;
+.testimonial-text {
+  font-style: italic;
+  letter-spacing: 1px;
 }
 /*----------------------------------Testimonials Speech Bubble*/
- .testimonial-bubble {
-     margin-top: 24px;
-     padding-top: 12px;
-     padding-left: 28px;
-     padding-right: 12px;
-     background-image: linear-gradient(to bottom right,rgba(255, 255, 240, 0.9),rgba(89, 71, 37, 0.1));
-     border: 1px solid rgb(34, 29, 23);
-     border-radius: 12px;
-     position: relative;
+.testimonial-bubble {
+  margin-top: 24px;
+  padding-top: 12px;
+  padding-left: 28px;
+  padding-right: 12px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 240, 0.9),
+    rgba(89, 71, 37, 0.1)
+  );
+  border: 1px solid rgb(34, 29, 23);
+  border-radius: 12px;
+  position: relative;
+  margin-bottom: 20px;
+  -webkit-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
+    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+  -moz-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
+    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+  box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
+    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
 }
 /*------------------------------------Testimonials Quotation Mark Icon*/
- .testimonial-icon {
-     width: 36px;
-     height: 36px;
-     background-image: linear-gradient(to bottom right,rgb(255, 255, 240, 1),rgb(247, 178, 178));
-     border: 2px solid #8b0000;
-     border-radius: 48px 48px 0 48px;
-     text-align: center;
-     font-size: 100%;
-     line-height: 36px;
-     color: #221d17;
-     top: -8px;
-     left: -12px;
-     position: absolute;
+.testimonial-icon {
+  width: 36px;
+  height: 36px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(255, 255, 240, 1),
+    rgb(247, 178, 178)
+  );
+  border: 2px solid #8b0000;
+  border-radius: 48px 48px 0 48px;
+  text-align: center;
+  font-size: 100%;
+  line-height: 36px;
+  color: #221d17;
+  top: -8px;
+  left: -12px;
+  position: absolute;
+  margin-bottom: 20px;
+  -webkit-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
+    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+  -moz-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
+    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+  box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
+    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
 }
- .social-btns{
-     text-align: center;
+.social-btns {
+  text-align: center;
+  -webkit-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
+    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+  -moz-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
+    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+  box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
+    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
 }
 /*------------------------------------Footer Social Links*/
- .social-links {
-     margin-top: 24px;
-     font-size: 240%;
-     text-align: center;
+.social-links {
+  margin-top: 24px;
+  font-size: 240%;
+  text-align: center;
 }
- .linkedin-icon {
-     margin-right: 72px;
-     color: #0e76a8;
+.linkedin-icon {
+  margin-right: 72px;
+  color: #0e76a8;
+  
 }
- .youtube-icon {
-     margin-left: 72px;
-     color: #ff0000;
+.youtube-icon {
+  margin-left: 72px;
+  color: #ff0000;
+  
 }
 /*------------------------------------Footer Cards*/
- .row {
-     margin: 0;
+.row {
+  margin: 0;
 }
- .card {
-     margin-top: 24px;
-     margin-bottom: 4px;
-     border-color: #221d17;
-     background-color: #fffff0;
-     text-align: center;
-     text-transform: uppercase;
+.card {
+  margin-top: 24px;
+  margin-bottom: 4px;
+  border-color: #221d17;
+  background-color: #fffff0;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  -webkit-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
+    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+  -moz-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
+    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+  box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
+    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
 }
- .card-title {
-     padding-top: 12px;
-     font-size: 120%;
-     font-weight: 300;
+.card-title {
+  padding-top: 12px;
+  font-size: 120%;
+  font-weight: 300;
 }
 /*-------------------------------- Resources*/
- .resources-page-heading {
-     color: #221d17;
-     font-size: 150%;
-     font-weight: 300;
-     text-align: center;
-     text-transform: uppercase;
-     letter-spacing: 2px;
+.resources-page-heading {
+  color: #221d17;
+  font-size: 150%;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
- .resources-heading {
-     margin-top: 24px;
-     color: #221d17;
-     font-size: 140%;
-     font-weight: 300;
-     text-align: center;
-     text-transform: uppercase;
-     letter-spacing: 2px;
+.resources-heading {
+  margin-top: 24px;
+  color: #221d17;
+  font-size: 140%;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
- .resources-subheading{
-     padding: 0 14px 0 14px;
-     text-transform: uppercase;
-     text-align: center;
-     font-size: 120%;
-     letter-spacing: 1px;
+.resources-subheading {
+  padding: 0 14px 0 14px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 120%;
+  letter-spacing: 1px;
 }
- .table-heading {
-     padding:0 6px 0 6px;
-     font-weight: 300;
-     text-transform: uppercase;
+.table-heading {
+  padding: 0 6px 0 6px;
+  font-weight: 300;
+  text-transform: uppercase;
 }
- .table-item {
-     padding: 0 14px 0 14px;
-     font-size: 16px;
+.table-item {
+  padding: 0 14px 0 14px;
+  font-size: 16px;
 }
- .table {
-     color: #221d17;
+.table {
+  color: #221d17;
+  margin-bottom: 20px;
+  -webkit-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
+    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+  -moz-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
+    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+  box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
+    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
 }
- .resources td a {
-     text-decoration: none;
-     color: #000080;
+.resources td a {
+  text-decoration: none;
+  color: #000080;
 }
- .resources a:hover {
-     border-bottom: 1px solid #000080;
+.resources a:hover {
+  border-bottom: 1px solid #000080;
 }
 /*---------------------------------Enquiries Form*/
 .enquiries-heading {
-     font-size: 150%;
-     font-weight: 300;
-     margin-top: 24px;
-     color: #221d17;
-     text-align: center;
-     text-transform: uppercase;
-     letter-spacing: 2px;
+  font-size: 150%;
+  font-weight: 300;
+  margin-top: 24px;
+  color: #221d17;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
- .form-control {
-     margin-bottom: 2px;
-     border-color: #221d17;
-     background-color:lightyellow;
-     letter-spacing: 1px;
+.form-control {
+  margin-bottom: 2px;
+  border-color: #221d17;
+  background-color: lightyellow;
+  letter-spacing: 1px;
+  -webkit-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
+    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+  -moz-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
+    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+  box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
+    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+  
 }
- .contact-heading {
-     margin-top: 25px;
-     margin-bottom: 20px;
-     color: #221d17;
-     letter-spacing: 2px;
+.contact-heading {
+  margin-top: 25px;
+  margin-bottom: 20px;
+  color: #221d17;
+  letter-spacing: 2px;
 }
- .center-form {
-     padding-top: 10px;
-     margin: 0 auto;
-     max-width: 67%;
+.center-form {
+  padding-top: 10px;
+  margin: 0 auto;
+  max-width: 67%;
 }
 /*------------------------------------Enquiries Form Modal*/
- .modal-content {
-     background-color:#fffff0;
-     border: solid 1px #221d17;
+.modal-content {
+  background-color: #fffff0;
+  border: solid 1px #221d17;
+  margin-bottom: 20px;
+  -webkit-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
+    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+  -moz-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
+    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+  box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
+    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
 }
- .modal-header {
-     border: none;
+.modal-header {
+  border: none;
 }
- .modal-footer {
-     border: none;
+.modal-footer {
+  border: none;
 }
 /*-------------------------------- Audio Player -- https://codepen.io/vanderzak/pen/BayjVep --*/
 .music-heading {
-     font-size: 150%;
-     font-weight: 300;
-     margin-top: 24px;
-     color: #221d17;
-     text-align: center;
-     text-transform: uppercase;
-     letter-spacing: 2px;
+  font-size: 150%;
+  font-weight: 300;
+  margin-top: 24px;
+  color: #221d17;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
- .btn-action{
-     cursor: pointer;
+.btn-action {
+  cursor: pointer;
 }
- .btn-ctn, .infos-ctn{
-     display: flex;
-     justify-content: center;
-     height: fit-content;
+.btn-ctn,
+.infos-ctn {
+  display: flex;
+  justify-content: center;
+  height: fit-content;
 }
- .infos-ctn{
-     padding-top: 20px;
+.infos-ctn {
+  padding-top: 20px;
 }
- .btn-ctn > div {
-     padding: 16px;
-     margin-top: 18px;
-     margin-bottom: 18px;
+.btn-ctn > div {
+  padding: 16px;
+  margin-top: 18px;
+  margin-bottom: 18px;
 }
- .infos-ctn > div {
-     margin-bottom: 8px;
-     color: #221d17;
+.infos-ctn > div {
+  margin-bottom: 8px;
+  color: #221d17;
 }
- .duration{
-     margin-left: 10px;
+.duration {
+  margin-left: 10px;
 }
- .title{
-     width: 33vw;
-     text-align: center;
+.title {
+  width: 33vw;
+  text-align: center;
 }
- .player-ctn{
-     border-radius: 12px;
-     width:66vw;
-     background-image: linear-gradient(to bottom right,rgb(255, 255, 240),rgb(186, 247, 178));
-     border: 2px solid #221d17;
-     margin:auto;
-     margin-top: 24px;
+.player-ctn {
+  border-radius: 12px;
+  width: 66vw;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(255, 255, 240),
+    rgb(186, 247, 178)
+  );
+  border: 2px solid #221d17;
+  margin: auto;
+  margin-top: 24px;
 }
- .playlist-track-ctn{
-     display: flex;
-     border-radius: 24px;
-     margin-left: 2vw;
-     text-align: left;
-     cursor: pointer;
+.playlist-track-ctn {
+  display: flex;
+  border-radius: 24px;
+  margin-left: 2vw;
+  text-align: left;
+  cursor: pointer;
 }
- .playlist-track-ctn > div{
-     margin:10px;
+.playlist-track-ctn > div {
+  margin: 10px;
 }
- .playlist-info-track{
-     width: 80vw;
+.playlist-info-track {
+  width: 80vw;
 }
- .playlist-info-track,.playlist-duration{
-     padding-top: 7px;
-     padding-bottom: 7px;
-     color: #221d17;
-     font-size: 16px;
-     pointer-events: none;
-     text-align: left;
+.playlist-info-track,
+.playlist-duration {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  color: #221d17;
+  font-size: 16px;
+  pointer-events: none;
+  text-align: left;
 }
- .active-track{
-     background: lightgreen;
-     border: 2px solid darkgreen;
-     color: #221d17;
-     font-weight: bold;
+.active-track {
+  background: lightgreen;
+  border: 2px solid darkgreen;
+  color: #221d17;
+  font-weight: bold;
+  margin-bottom: 20px;
+  -webkit-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
+    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+  -moz-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
+    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+  box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
+    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
 }
- .active-track > .playlist-info-track,.active-track >.playlist-duration,.active-track > .playlist-btn-play{
-     color: #221d17;
+.active-track > .playlist-info-track,
+.active-track > .playlist-duration,
+.active-track > .playlist-btn-play {
+  color: #221d17;
 }
- .playlist-btn-play{
-     pointer-events: none;
-     padding-top: 4px;
-     padding-bottom: 4px;
+.playlist-btn-play {
+  pointer-events: none;
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
- .fas{
-     color: #221d17;
-     font-size: 20px;
+.fas {
+  color: #221d17;
+  font-size: 20px;
 }
- 
