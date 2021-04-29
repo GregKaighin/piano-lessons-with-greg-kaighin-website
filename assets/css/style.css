@@ -3,6 +3,11 @@ body {
   color: #221d17;
   background-color: #fffff0;
 }
+html,
+body {
+    height: 100%;
+    scroll-behavior: smooth;
+}
 /*------------------------------------Navbar Colours*/
 .navbar-light {
   color: #221d17;
@@ -433,6 +438,37 @@ body {
   padding-top: 12px;
   font-size: 120%;
   font-weight: 300;
+}
+
+.page-break {
+    border-top: 2px solid #221d17;
+    width: 33%;
+}
+
+/* Back to top button styling */
+#back-top-btn {
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 2em;
+}
+
+#back-top-btn:hover {
+    color: orangered;
+}
+
+/* back to top paragraph */
+.back-top-p {
+    text-transform: uppercase;
+    color: #221d17;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+/* Footer text */
+p.footer-heading {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1em;
 }
 /*-------------------------------- Resources*/
 .resources-page-heading {
