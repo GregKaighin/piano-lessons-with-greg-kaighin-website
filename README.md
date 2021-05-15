@@ -1,6 +1,6 @@
 # Piano Lessons with Greg Kaighin
 
-![Piano Lessons with Greg Kaighin Logo](assets/images/logo-plwgk.png)
+![Piano Lessons with Greg Kaighin Logo](assets/images/readme/logo-plwgk.png)
 
 ## [Greg Kaighin](https://github.com/GregKaighin)
 ## [Code Institute](https://codeinstitute.net/)
@@ -10,7 +10,7 @@
 ## February 2021
 https://gregkaighin.github.io/piano-lessons-with-greg-kaighin-website/
 
-![Piano Lessons with Greg Kaighin Screenshots](assets/images/screenshots-plwgk.png)
+![Piano Lessons with Greg Kaighin Screenshots](assets/images/readme/screenshots-plwgk.png)
 This website is made for my own established self-employed piano-teaching business 'Piano Lessons with Greg Kaighin' to advertise the business to prospective students and to provide them with a means of getting in contact. It is also created to be of value to my current students by providing links to downloads of learning resources and to relevant external websites.
 
 ## Table of Contents
@@ -154,7 +154,7 @@ The website has been validated and tested using the methods listed below. The re
 ## Performance
 
 [web.dev/measure/](https://web.dev/measure/)
-![Piano Lessons with Greg Kaighin lighthouse-test](assets/images/lighthouse-test-plwgk.png)
+![Piano Lessons with Greg Kaighin lighthouse-test](assets/images/readme/lighthouse-test-plwgk.png)
 # Features
 
 ## Existing Features

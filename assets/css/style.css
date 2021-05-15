@@ -84,7 +84,7 @@ body {
 /*------------------------------------Jumbotron Piano*/
 .jumbo-piano {
   background-color: #fffff0;
-  background: url("../images/hero-piano.webp");
+  background: url("../images/hero/hero-piano.webp");
   border: 2px solid #221d17;
   background-repeat: repeat-x;
   background-position: center;
