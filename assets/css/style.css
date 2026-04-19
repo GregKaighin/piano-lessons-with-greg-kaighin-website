@@ -3,10 +3,14 @@ body {
   color: #221d17;
   background-color: #fffff0;
 }
+h1, h2, h3, h4 {
+  font-family: "Playfair Display", serif;
+}
 html,
 body {
     height: 100%;
     scroll-behavior: smooth;
+    padding-top: 72px;
 }
 /*------------------------------------Navbar Colours*/
 .navbar-light {
@@ -88,7 +92,11 @@ body {
   border: 2px solid #221d17;
   background-repeat: repeat-x;
   background-position: center;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
+  min-height: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   -webkit-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
     rgba(14, 30, 37, 0.32) 0 2px 16px 0;
   -moz-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
@@ -98,7 +106,6 @@ body {
 }
 /*------------------------------------Jumbotron Piano Overlay Shape Home Page*/
 .jumbo-piano .overlay-shape-1 {
-  margin-top: 140px;
   width: 240px;
   height: 100px;
   color: #221d17;
@@ -109,7 +116,7 @@ body {
   );
   border: 2px solid #8b0000;
   border-radius: 12px;
-  margin-bottom: 20px;
+  margin-bottom: 0;
   -webkit-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
     rgba(14, 30, 37, 0.32) 0 2px 16px 0;
   -moz-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
@@ -119,7 +126,6 @@ body {
 }
 /*------------------------------------Jumbotron Piano Overlay Shape Colour Music Page*/
 .jumbo-piano .overlay-shape-2 {
-  margin-top: 140px;
   width: 240px;
   height: 100px;
   color: #221d17;
@@ -130,7 +136,7 @@ body {
   );
   border: 2px solid #006400;
   border-radius: 12px;
-  margin-bottom: 20px;
+  margin-bottom: 0;
   -webkit-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
     rgba(14, 30, 37, 0.32) 0 2px 16px 0;
   -moz-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
@@ -140,7 +146,6 @@ body {
 }
 /*------------------------------------Jumbotron Piano Overlay Shape Colour Resources Page*/
 .jumbo-piano .overlay-shape-3 {
-  margin-top: 140px;
   width: 240px;
   height: 100px;
   color: #221d17;
@@ -151,7 +156,7 @@ body {
   );
   border: 2px solid #00008b;
   border-radius: 12px;
-  margin-bottom: 20px;
+  margin-bottom: 0;
   -webkit-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
     rgba(14, 30, 37, 0.32) 0 2px 16px 0;
   -moz-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
@@ -161,7 +166,6 @@ body {
 }
 /*------------------------------------Jumbotron Piano Overlay Shape Colour Enquiries Page*/
 .jumbo-piano .overlay-shape-4 {
-  margin-top: 140px;
   width: 240px;
   height: 100px;
   color: #221d17;
@@ -172,7 +176,7 @@ body {
   );
   border: 1px solid #ffa500;
   border-radius: 12px;
-  margin-bottom: 20px;
+  margin-bottom: 0;
   -webkit-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
     rgba(14, 30, 37, 0.32) 0 2px 16px 0;
   -moz-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
@@ -203,7 +207,7 @@ body {
   text-align: center;
 }
 .about-me .about-me-heading {
-  margin-top: 36px;
+  margin-top: 32px;
   font-size: 150%;
   font-weight: 300;
   color: #221d17;
@@ -368,13 +372,13 @@ body {
 }
 .ethos-heading {
   font-size: 120%;
-  margin-top: 12px;
+  margin-top: 16px;
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
 .ethos p {
-  margin: 4px 0 4px 0;
+  margin: 8px 0 8px 0;
   letter-spacing: 1px;
 }
 /*---------------------------------Testimonials Stars*/
@@ -488,7 +492,7 @@ body {
 }
 .card {
   margin-top: 24px;
-  margin-bottom: 4px;
+  margin-bottom: 0;
   border-color: #221d17;
   background-color: #fffff0;
   text-align: center;
