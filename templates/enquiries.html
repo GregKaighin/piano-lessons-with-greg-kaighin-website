@@ -1,0 +1,54 @@
+{% extends "_base.html" %}
+
+{% block head_extras %}
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({ publicKey: "user_3T9SW0XfUmU7E5jNTsc16" });
+        })();
+    </script>
+{% endblock %}
+
+{% block content %}
+    <section class="container-fluid about-me">
+        <h3 class="enquiries-heading">Enquiries</h3>
+        <div class="col-lg-6 col-md-8 col-sm-10 mx-auto">
+            <div class="center-form">
+                <form onsubmit="return sendMail(this);">
+                    <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
+                    <input type="email" name="email" id="email" class="form-control" placeholder="Email" required />
+                    <input type="tel" name="phone" id="phone" class="form-control" placeholder="Phone" required />
+                    <textarea rows="5" name="message" id="message" class="form-control" placeholder="Message" required></textarea>
+                    <div class="form-row text-center">
+                        <div class="col">
+                            <button type="submit" class="btn btn-light">Send</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="modal fade" id="thank-you-modal" tabindex="-1" role="dialog" aria-labelledby="thank-you-modal"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h6 class="modal-title">Thank you for your enquiry</h6>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        I'll get back to you soon
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-light" id="form-reset" data-dismiss="modal" aria-label="ok">OK</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
+
+{% block scripts %}
+    <script src="assets/js/emailJS.js"></script>
+{% endblock %}

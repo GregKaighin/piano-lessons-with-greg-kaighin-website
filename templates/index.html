@@ -1,0 +1,96 @@
+{% extends "_base.html" %}
+
+{% block content %}
+    <section class="about-me">
+        <div class="col col-lg-8 col-sm-10 mx-auto text-center">
+            <h3 class="about-me-heading">About Me</h3>
+            <input type="checkbox" id="about-me-toggle" class="about-me-toggle">
+            <div class="about-me-body">
+                <p>Hello and thank you for visiting my website. Music has been
+                    a lifelong passion, I've been a piano teacher and performing musician for more
+                    than twenty years. I am happy to teach people of all ages and abilities. Each
+                    of my students follows a dynamic, individual learning plan designed to enable effective and
+                    enjoyable musical progress.</p>
+                <p>My goal is to equip students with the skills, knowledge and mindset to be independent musicians
+                    with a lasting interest in playing the piano. This is achieved by developing a range of skills in
+                    performance, sight-reading, aural-awareness, composition and improvisation. I use modern teaching
+                    methods and books in addition to my own materials, some of which are available as a free download on
+                    the <a href="resources.html" class="resources-link">resources</a> page. I teach classical, popular
+                    and jazz piano music.
+                    Preparation for grade exams is available. I also give lessons in music theory and music technology.
+                </p>
+                <p>I am DBS-checked, my certificate is viewable on request. Lessons are available either online
+                    via Zoom, or in your own home if you live in the Bedfordshire area. For beginner to intermediate
+                    level students, one 30 minute lesson each week is suitable. For advanced students a 60 minute lesson
+                    is recommended.</p>
+                <p>If you are interested in piano lessons, or theory or technology lessons, then please get in contact
+                    using the <a href="enquiries.html" class="enquiries-link">enquiries</a> form.</p>
+                <p>Check out some of my recordings on the <a href="music.html" class="music-link">music</a> page.</p>
+                <div class="about-me-fade"></div>
+            </div>
+            <label for="about-me-toggle" class="about-me-label">
+                <span class="read-more-text">Read more</span>
+                <span class="read-less-text">Read less</span>
+            </label>
+        </div>
+        <hr class="page-break">
+    </section>
+
+    <section class="ethos">
+        <h3 class="ethos-section-heading">Why Learn Piano with Me?</h3>
+        <div class="row">
+            <div class="col-12 order-sm-12">
+                <div><img src="assets/images/portrait/portrait-greg-kaighin.jpg" class="rounded-circle portrait-image"
+                        alt="Greg Kaighin portrait photo black and white">
+                </div>
+            </div>
+            <div class="col col-lg-2 col-sm-6 mx-auto text-center order-sm-1">
+                <h3 class="ethos-heading">Experienced Teacher</h3>
+                <p>
+                    I have many years of experience as a teacher.
+                    I studied at Leeds College of Music where I gained a BA (Hons) degree in Jazz Studies.
+                </p>
+            </div>
+            <div class="col col-lg-2 col-sm-6 mx-auto text-center">
+                <h3 class="ethos-heading">Professional Musician</h3>
+                <p>
+                    I perform regularly as a bandleader
+                    and also accompany well-known acts in shows around the UK.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col col-lg-2 col-sm-6 mx-auto text-center">
+                <h3 class="ethos-heading">Tailored Learning</h3>
+                <p>
+                    Each of my students follows a well-structured learning plan, suited to their individual
+                    requirements.
+                </p>
+            </div>
+            <div class="col col-lg-2 col-sm-6 mx-auto text-center">
+                <h3 class="ethos-heading">All Ages and Abilities Welcome</h3>
+                <p>
+                    I believe that piano lessons and music-making should be enjoyable and
+                    accessible for everyone.
+                </p>
+            </div>
+        </div>
+    </section>
+    <hr class="page-break">
+
+    <section class="quotes">
+        <h3 class="quotes-heading">What my students say</h3>
+        <div class="container">
+            <div class="row" id="reviews-container">
+            </div>
+        </div>
+    </section>
+{% endblock %}
+
+{% block scripts %}
+    <!-- Google Reviews -->
+    <script src="assets/js/reviews.js"></script>
+    <script>(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
+    ({key: "AIzaSyCJ4oh6JzexEGlmfxDobKKQbVv01qdeAjU", v: "weekly"});</script>
+    <script>initReviews();</script>
+{% endblock %}

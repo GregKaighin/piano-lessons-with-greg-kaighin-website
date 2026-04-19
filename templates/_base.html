@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords"
+        content="piano lessons, bedford, bedfordshire, online, grade exams, music, theory, technology, workshops">
+    <meta name="description" content="Piano lessons with Greg Kaighin, Bedfordshire and online.">
+    <meta name="author" content="Greg Kaighin">
+    <title>{{ title }}</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-194329827-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-194329827-1');
+    </script>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <!-- Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <!-- Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png">
+    <link rel="icon" sizes="192x192" href="assets/images/favicons/android-chrome-192x192.png">
+    <link rel="icon" sizes="512x512" href="assets/images/favicons/android-chrome-512x512.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
+    {% block head_extras %}{% endblock %}
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+                <a class="navbar-brand js-scroll-trigger" href="index.html">
+                    <h1 class="logo">Piano Lessons</h1>
+                    <h2 class="logo-name">with Greg Kaighin</h2>
+                </a>
+                <button class="navbar-toggler" id="menu-button" type="button" data-toggle="collapse"
+                    data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="index.html"><i class="fas fa-home"></i> Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="music.html"><i
+                                    class="fas fa-headphones-alt headphone-icon"></i> Music</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="resources.html"><i
+                                    class="fas fa-book-open"></i> Resources</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="enquiries.html"><i
+                                    class="fas fa-comment"></i> Enquiries</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="jumbotron jumbo-piano">
+            <div class="container {{ overlay_class }}">
+                <h3 class="overlay-heading">{{ overlay_heading }}</h3>
+                <p class="overlay-text">{{ overlay_text }}</p>
+            </div>
+        </div>
+    </header>
+
+    {% block content %}{% endblock %}
+
+    <footer>
+        <hr class="page-break">
+        <div class="social-links">
+            <a class="button btn-xxl" href="https://www.linkedin.com/in/gregorykaighin/" target="_blank"
+                rel="noopener" aria-label="LinkedIn link">
+                <i class="linked-in-icon fab fa-linkedin"></i>
+            </a>
+        </div>
+        <hr class="page-break">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-12 mb-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="assets/images/cards/card-online.jpg"
+                        alt="A photo of a piano and a laptop computer">
+                    <div class="card-block">
+                        <h4 class="card-title">Online</h4>
+                        <p class="card-text">£15<br>30 Minutes</p>
+                        <p class="card-text">£30<br>1 Hour</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 mb-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="assets/images/cards/card-piano-home.jpg"
+                        alt="A photo of a piano in a room">
+                    <div class="card-block">
+                        <h4 class="card-title">In Your Home</h4>
+                        <p class="card-text">£16<br>30 Minutes</p>
+                        <p class="card-text">£32<br>1 Hour</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 mb-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="assets/images/cards/card-workshops.jpg"
+                        alt="A drawing of a band on stage">
+                    <div class="card-block">
+                        <h4 class="card-title">Workshops</h4>
+                        <p class="card-text">Pop and Jazz</p>
+                        <p class="card-text">Learn How to Play in a Group</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 mb-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="assets/images/cards/card-theory.jpg"
+                        alt="A photo of a hand writing with a pencil on music manuscript paper">
+                    <div class="card-block">
+                        <h4 class="card-title">Additional Subjects</h4>
+                        <p class="card-text">Music Theory</p>
+                        <p class="card-text">Music Technology</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-12">
+                <i id="back-top-btn" class="fas fa-arrow-up"></i>
+                <p class="back-top-p">Back to top</p>
+            </div>
+        </div>
+        <hr class="page-break">
+        <div class="col">
+            <div>
+                <p class="footer-heading">Piano Lessons with Greg Kaighin 2021</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/bd2b28ab92.js"></script>
+    <!-- Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+    <!-- Back to top button -->
+    <script src="assets/js/button.js"></script>
+    {% block scripts %}{% endblock %}
+</body>
+
+</html>
