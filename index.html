@@ -165,51 +165,10 @@
         </div>
     </section>
     <hr class="page-break">
-    <!-- Quotes - This section is adapted from a design found here https://bestjquery.com/tutorial/testimonial/demo58/ -->
     <section class="quotes">
         <h3 class="quotes-heading">What my students say</h3>
         <div class="container">
-            <div class="row">
-                <div class="testimonial col-md-6">
-                    <div class="testimonial-bubble">
-                        <div class="testimonial-icon">
-                            <i class="fa fa-quote-left"></i>
-                        </div>
-                        <p class="testimonial-text">
-                            "My piano lessons are fun, I really enjoy learning the piano".</p>
-                        <p>James,<br>Piano student, aged 8</p>
-                    </div>
-                </div>
-                <div class="testimonial col-md-6">
-                    <div class="testimonial-bubble">
-                        <div class="testimonial-icon">
-                            <i class="fa fa-quote-left"></i>
-                        </div>
-                        <p class="testimonial-text">
-                            "When I grow up I want to be a musician".</p>
-                        <p>Ravi,<br>Piano student, aged 10</p>
-                    </div>
-                </div>
-                <div class="testimonial col-md-6">
-                    <div class="testimonial-bubble">
-                        <div class="testimonial-icon">
-                            <i class="fa fa-quote-left"></i>
-                        </div>
-                        <p class="testimonial-text">
-                            "I'm delighted to have recently passed my grade 4 exam with distinction".</p>
-                        <p>Jo Pritchard,<br>Adult piano student</p>
-                    </div>
-                </div>
-                <div class="testimonial col-md-6">
-                    <div class="testimonial-bubble">
-                        <div class="testimonial-icon">
-                            <i class="fa fa-quote-left"></i>
-                        </div>
-                        <p class="testimonial-text">
-                            "What I'm learning is really helping me with my A level music course".</p>
-                        <p>Stella,<br>Piano student, aged 17</p>
-                    </div>
-                </div>
+            <div class="row" id="reviews-container">
             </div>
         </div>
     </section>
@@ -292,6 +251,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
     <!-- Back to top button -->
     <script src="assets/js/button.js"></script>
+    <!-- Google Reviews -->
+    <script src="assets/js/reviews.js"></script>
+    <script>(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
+    ({key: "AIzaSyCJ4oh6JzexEGlmfxDobKKQbVv01qdeAjU", v: "weekly"});</script>
+    <script>initReviews();</script>
 </body>
 
 </html>
