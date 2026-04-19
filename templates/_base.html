@@ -66,12 +66,14 @@
                 </div>
             </nav>
         </div>
+        {% block jumbotron %}
         <div class="jumbotron jumbo-piano">
             <div class="container {{ overlay_class }}">
                 <h3 class="overlay-heading">{{ overlay_heading }}</h3>
                 <p class="overlay-text">{{ overlay_text }}</p>
             </div>
         </div>
+        {% endblock %}
     </header>
 
     {% block content %}{% endblock %}

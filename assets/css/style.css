@@ -85,6 +85,58 @@ body {
 .navbar-light .navbar-toggler:active {
   background: #dda5a1;
 }
+/*------------------------------------Playable Piano Keyboard*/
+.jumbo-piano-playable {
+    background-image: none;
+    background-color: #221d17;
+    position: relative;
+}
+.piano-keyboard {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: stretch;
+}
+.piano-key-white {
+    flex: 1;
+    border-left: 1px solid #221d17;
+    border-bottom: 3px solid #221d17;
+    cursor: pointer;
+    border-radius: 0 0 6px 6px;
+    transition: filter 0.05s;
+    user-select: none;
+}
+.piano-key-white:last-child {
+    border-right: 1px solid #221d17;
+}
+.piano-key-white.active {
+    filter: brightness(0.7);
+}
+.piano-key-black {
+    position: absolute;
+    top: 0;
+    height: 60%;
+    background: linear-gradient(to bottom, #221d17, #3d3530);
+    border-radius: 0 0 5px 5px;
+    cursor: pointer;
+    z-index: 2;
+    border: 1px solid #000;
+    border-top: none;
+    box-shadow: 2px 4px 6px rgba(0,0,0,0.5);
+    user-select: none;
+    transition: background 0.05s;
+}
+.piano-key-black.active {
+    background: linear-gradient(to bottom, #5a4a45, #3d3530);
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.5);
+}
+.piano-overlay {
+    position: relative;
+    z-index: 3;
+}
 /*------------------------------------Jumbotron Piano*/
 .jumbo-piano {
   background-color: #fffff0;
