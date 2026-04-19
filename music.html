@@ -10,17 +10,15 @@
     <meta name="author" content="Greg Kaighin">
     <title>Piano Lessons with Greg Kaighin | Music</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-194329827-1">
-    </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-194329827-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-
         gtag('config', 'UA-194329827-1');
     </script>
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
     <!-- Font -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap">
     <!-- CSS -->
@@ -31,10 +29,10 @@
     <link rel="icon" sizes="512x512" href="assets/images/favicons/android-chrome-512x512.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
+    
 </head>
 
 <body>
-    <!-- Header -->
     <header>
         <div class="container">
             <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
@@ -54,21 +52,20 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link js-scroll-trigger" href="music.html"><i
-                                    class="fas fa-headphones-alt"></i> Music</a>
+                                    class="fas fa-headphones-alt headphone-icon"></i> Music</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="resources.html"><i class="fas fa-book-open"></i>
-                                Resources</a>
+                            <a class="nav-link js-scroll-trigger" href="resources.html"><i
+                                    class="fas fa-book-open"></i> Resources</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="enquiries.html"><i class="fas fa-comment"></i>
-                                Enquiries</a>
+                            <a class="nav-link js-scroll-trigger" href="enquiries.html"><i
+                                    class="fas fa-comment"></i> Enquiries</a>
                         </li>
                     </ul>
                 </div>
             </nav>
         </div>
-        <!-- Piano Jumbotron -->
         <div class="jumbotron jumbo-piano">
             <div class="container overlay-shape-2">
                 <h3 class="overlay-heading">Take a Listen</h3>
@@ -77,20 +74,14 @@
         </div>
     </header>
 
+    
     <section class="about-me">
         <div class="col col-lg-8 col-sm-10 mx-auto text-center">
             <h3 class="music-heading">Music</h3>
             <p>Some well-known pieces of music, performed, recorded and produced by Greg Kaighin.</p>
         </div>
-        <!-- Audio Player - IMPORTED FROM - https://codepen.io/vanderzak/pen/BayjVep The audio player used for this website 
-                    was sourced from here. The original version consists of HTML, CSS and JavaScript. I have removed some of the 
-                    JavaScript and HTML relating to the audio player's progress-bar, as this functionality is not required for the 
-                    website. The CSS has been edited to make the audio player fit in visually with the rest of the website. All other 
-                    code relating to the audio player has been imported unchanged from the original version, as found on the URL at 
-                    the top of this comment. -->
         <div class="audio-player" aria-label="Audio Player" role="region">
             <audio id="myAudio" ontimeupdate="onTimeUpdate()">
-                <!-- <source src="audio.ogg" type="audio/ogg"> -->
                 <source id="source-audio" src="#" type="audio/mpeg">
                 Your browser does not support the audio element.
             </audio>
@@ -100,7 +91,6 @@
                     <div class="title"></div>
                     <div class="duration">00:00</div>
                 </div>
-
                 <div class="btn-ctn">
                     <div class="btn-action first-btn" onclick="previous()">
                         <div id="btn-faws-back">
@@ -125,14 +115,13 @@
                         </div>
                     </div>
                 </div>
-
             </div>
             <div class="playlist-ctn"></div>
             <hr class="page-break">
         </div>
         <div class="about-me">
             <div class="col col-lg-8 col-sm-10 mx-auto text-center">
-                <p> Equipment used: Nord Stage 2 digital piano, Korg Kronos 2 music workstation, Crumar Mojo digital
+                <p>Equipment used: Nord Stage 2 digital piano, Korg Kronos 2 music workstation, Crumar Mojo digital
                     organ, Pianoteq,
                     SubZero Paradigm semi-hollow electric guitar, Dell XPS 8940 PC, Cockos Reaper Digital Audio
                     Workstation software,
@@ -142,17 +131,17 @@
             </div>
         </div>
     </section>
-    <!-- Footer -->
+
+
     <footer>
         <hr class="page-break">
-        <!-- Social-links -->
         <div class="social-links">
-            <a class="button btn-xxl" href="https://www.linkedin.com/in/gregorykaighin/" target="_blank" rel="noopener"
-                aria-label="LinkedIn link">
-                <i class="linked-in-icon fab fa-linkedin"></i></a>
+            <a class="button btn-xxl" href="https://www.linkedin.com/in/gregorykaighin/" target="_blank"
+                rel="noopener" aria-label="LinkedIn link">
+                <i class="linked-in-icon fab fa-linkedin"></i>
+            </a>
         </div>
         <hr class="page-break">
-        <!-- Cards  -->
         <div class="row">
             <div class="col-md-3 col-sm-6 col-xs-12 mb-4">
                 <div class="card h-100">
@@ -178,7 +167,8 @@
             </div>
             <div class="col-md-3 col-sm-6 col-xs-12 mb-4">
                 <div class="card h-100">
-                    <img class="card-img-top" src="assets/images/cards/card-workshops.jpg" alt="A drawing of a band on stage">
+                    <img class="card-img-top" src="assets/images/cards/card-workshops.jpg"
+                        alt="A drawing of a band on stage">
                     <div class="card-block">
                         <h4 class="card-title">Workshops</h4>
                         <p class="card-text">Pop and Jazz</p>
@@ -215,13 +205,13 @@
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/bd2b28ab92.js"></script>
     <!-- Bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
-    <!-- JavaScript -->
-    <script src="assets/js/audio-player.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
     <!-- Back to top button -->
     <script src="assets/js/button.js"></script>
+    
+    <script src="assets/js/audio-player.js"></script>
 
 </body>
 
