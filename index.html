@@ -85,22 +85,16 @@
             </div>
         </div>
     </header>
-    <!-- About me - The about-me section has a "Show more / Show less" button after the first paragraph to reduce the amount
-            of text initially displayed. It is controlled with the data-toggle and data-target attributes. The width of the text is
-            set reduce on larger viewports, to prevent the text from becoming too stretched out.  -->
     <section class="about-me">
         <div class="col col-lg-8 col-sm-10 mx-auto text-center">
             <h3 class="about-me-heading">About Me</h3>
-            <p>Hello and thank you for visiting my website. Music has been
-                a lifelong passion, I've been a piano teacher and performing musician for more
-                than twenty years. I am happy to teach people of all ages and abilities. Each
-                of my students follows a dynamic, individual learning plan designed to enable effective and
-                enjoyable musical progress.</p>
-        </div>
-        <button class="btn btn-light" id="show-more-button" data-toggle="collapse" data-target="#show-more">Show
-            more / Show less</button>
-        <div id="show-more" class="collapse">
-            <div class="col col-lg-8 col-sm-10 mx-auto text-center">
+            <input type="checkbox" id="about-me-toggle" class="about-me-toggle">
+            <div class="about-me-body">
+                <p>Hello and thank you for visiting my website. Music has been
+                    a lifelong passion, I've been a piano teacher and performing musician for more
+                    than twenty years. I am happy to teach people of all ages and abilities. Each
+                    of my students follows a dynamic, individual learning plan designed to enable effective and
+                    enjoyable musical progress.</p>
                 <p>My goal is to equip students with the skills, knowledge and mindset to be independent musicians
                     with a lasting interest in playing the piano. This is achieved by developing a range of skills in
                     performance, sight-reading, aural-awareness, composition and improvisation. I use modern teaching
@@ -108,15 +102,20 @@
                     the <a href="resources.html" class="resources-link">resources</a> page. I teach classical, popular
                     and jazz piano music.
                     Preparation for grade exams is available. I also give lessons in music theory and music technology.
-                </p><br>
+                </p>
                 <p>I am DBS-checked, my certificate is viewable on request. Lessons are available either online
                     via Zoom, or in your own home if you live in the Bedfordshire area. For beginner to intermediate
                     level students, one 30 minute lesson each week is suitable. For advanced students a 60 minute lesson
-                    is recommended.</p><br>
+                    is recommended.</p>
                 <p>If you are interested in piano lessons, or theory or technology lessons, then please get in contact
-                    using the <a href="enquiries.html" class="enquiries-link">enquiries</a> form.</p><br>
+                    using the <a href="enquiries.html" class="enquiries-link">enquiries</a> form.</p>
                 <p>Check out some of my recordings on the <a href="music.html" class="music-link">music</a> page.</p>
+                <div class="about-me-fade"></div>
             </div>
+            <label for="about-me-toggle" class="about-me-label">
+                <span class="read-more-text">Read more</span>
+                <span class="read-less-text">Read less</span>
+            </label>
         </div>
         <hr class="page-break">
     </section>

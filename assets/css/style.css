@@ -217,6 +217,55 @@ body {
   font-weight: 400;
   letter-spacing: 1px;
 }
+.about-me-toggle {
+  display: none;
+}
+.about-me-body {
+  position: relative;
+  max-height: 7.5em;
+  overflow: hidden;
+  transition: max-height 0.6s ease;
+}
+.about-me-fade {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4em;
+  background: linear-gradient(to bottom, transparent, #fffff0);
+  transition: opacity 0.4s ease;
+  pointer-events: none;
+}
+.about-me-toggle:checked ~ .about-me-body {
+  max-height: 60em;
+}
+.about-me-toggle:checked ~ .about-me-body .about-me-fade {
+  opacity: 0;
+}
+.about-me-label {
+  display: inline-block;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #221d17;
+  border-bottom: 1px dotted #221d17;
+}
+.about-me-label:hover {
+  color: #8b0000;
+  border-bottom-color: #8b0000;
+}
+.read-less-text {
+  display: none;
+}
+.about-me-toggle:checked ~ .about-me-body ~ label .read-more-text {
+  display: none;
+}
+.about-me-toggle:checked ~ .about-me-body ~ label .read-less-text {
+  display: inline;
+}
 /*------------------------------------About Me Page Link Colours*/
 .resources-link {
   color: #000080;
