@@ -5,6 +5,8 @@ on:
     paths:
       - 'templates/**'
       - 'build.py'
+  schedule:
+    - cron: '0 0 1 1 *'
 
 jobs:
   build:

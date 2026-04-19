@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 from jinja2 import Environment, FileSystemLoader
+from datetime import datetime
 import os
+
+year = datetime.now().year
 
 env = Environment(loader=FileSystemLoader('templates'))
 
@@ -41,7 +44,7 @@ pages = [
 
 for page in pages:
     template = env.get_template(page['template'])
-    output = template.render(**page)
+    output = template.render(year=year, **page)
     with open(page['output'], 'w', encoding='utf-8') as f:
         f.write(output)
     print(f"Built {page['output']}")
