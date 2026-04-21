@@ -29,7 +29,7 @@ A website for the self-employed piano teaching business 'Piano Lessons with Greg
 ### Home Page
 - **About Me** — CSS-only fade and expand, toggled via a hidden checkbox and "Read more / Read less" label. No JavaScript required.
 - **Ethos section** — portrait photo and four ethos points laid out responsively with Bootstrap.
-- **Google Reviews** — live reviews fetched from the Google Places API (New) and rendered dynamically, with reviewer initials badge and star rating.
+- **Google Reviews** — live reviews fetched from the Google Places API (New) and rendered dynamically, with reviewer initials badge and star rating. Reviews are displayed in a randomised order on each page load.
 
 ### Music Page
 - **Audio player** — jukebox-style player adapted from [codepen.io/vanderzak/pen/BayjVep](https://codepen.io/vanderzak/pen/BayjVep), with play/pause, next/previous, and mute controls.
@@ -54,9 +54,7 @@ A website for the self-employed piano teaching business 'Piano Lessons with Greg
 ### Libraries and Frameworks
 | Library | Version | Purpose |
 |---|---|---|
-| [Bootstrap](https://getbootstrap.com/) | 4.6.2 | Layout, navbar, cards, modal |
-| [jQuery](https://jquery.com/) | 3.7.1 (slim) | Bootstrap dependency |
-| [Popper.js](https://popper.js.org/) | 1.16.1 | Bootstrap dependency |
+| [Bootstrap](https://getbootstrap.com/) | 5.3.3 | Layout, navbar, cards, modal |
 | [Font Awesome](https://fontawesome.com/) | Kit | Icons |
 | [Google Fonts — Roboto](https://fonts.google.com/) | — | Typography |
 | [Google Maps JavaScript API + Places API (New)](https://developers.google.com/maps) | weekly | Live Google Reviews |
@@ -126,7 +124,7 @@ The colour scheme is designed to evoke the look of a school textbook and the vis
 Roboto (Google Fonts) is used throughout — clear, legible, and well-suited to the bold line aesthetic of the design.
 
 ### Layout
-Bootstrap 4 is used for responsive layout. The site is designed mobile-first and is functional across all common screen sizes.
+Bootstrap 5 is used for responsive layout. The site is designed mobile-first and is functional across all common screen sizes.
 
 ---
 
