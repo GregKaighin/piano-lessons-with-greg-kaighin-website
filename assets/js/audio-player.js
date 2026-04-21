@@ -91,6 +91,10 @@ function toggleMute() {
     document.getElementById('icon-vol-mute').style.display = audio.muted ? 'block' : 'none';
 }
 
+audio.addEventListener('loadedmetadata', function () {
+    document.querySelector('.duration').innerHTML = formatTime(audio.duration);
+});
+
 seekBar.addEventListener('mousedown', function () { isSeeking = true; });
 seekBar.addEventListener('touchstart', function () { isSeeking = true; }, { passive: true });
 seekBar.addEventListener('change', function () {
