@@ -720,6 +720,13 @@ p.footer-heading {
 .infos-ctn {
   padding-top: 20px;
 }
+.seek-bar {
+  display: block;
+  width: 90%;
+  margin: 4px auto;
+  cursor: pointer;
+  accent-color: #221d17;
+}
 .btn-ctn > div {
   padding: 16px;
   margin-top: 18px;

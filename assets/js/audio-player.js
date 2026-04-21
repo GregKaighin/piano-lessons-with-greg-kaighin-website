@@ -68,6 +68,7 @@ function loadNewTrack(index) {
     player.src = listAudio[index].file
     document.querySelector('.title').innerHTML = listAudio[index].name
     this.currentAudio = document.getElementById("myAudio");
+    seekBar.value = 0;
     this.currentAudio.load()
     this.toggleAudio()
     this.updateStylePlaylist(this.indexAudio, index)
@@ -127,13 +128,28 @@ function pauseAudio() {
     clearInterval(interval1);
 }
 
-var timer = document.getElementsByClassName('timer')[0]
+var timer = document.getElementsByClassName('timer')[0];
+var seekBar = document.getElementById('seek-bar');
+var isSeeking = false;
+
+seekBar.addEventListener('mousedown', function () { isSeeking = true; });
+seekBar.addEventListener('touchstart', function () { isSeeking = true; }, { passive: true });
+
+seekBar.addEventListener('change', function () {
+    if (isFinite(currentAudio.duration) && currentAudio.duration > 0) {
+        currentAudio.currentTime = (this.value / 1000) * currentAudio.duration;
+    }
+    isSeeking = false;
+});
 
 var width = 0;
 
 function onTimeUpdate() {
     var t = this.currentAudio.currentTime
     timer.innerHTML = this.getMinutes(t);
+    if (!isSeeking && isFinite(this.currentAudio.duration) && this.currentAudio.duration > 0) {
+        seekBar.value = (t / this.currentAudio.duration) * 1000;
+    }
 
     if (this.currentAudio.ended) {
         document.querySelector('#icon-play').style.display = 'block';
