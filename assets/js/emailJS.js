@@ -8,12 +8,13 @@ function sendMail(contactForm) {
     .then(
         function(response) {
             console.log("SUCCESS", response);
-            $('#thank-you-modal').modal('show');  // Opens the modal on submission of all completed form fields
-            $('#form-reset')[0].reset(); // Resets form fields on submission
+            var modal = new bootstrap.Modal(document.getElementById('thank-you-modal'));
+            modal.show();
+            contactForm.reset();
         },
         function(error) {
             console.log("FAILED", error);
         }
     );
-        return false; // Stops the page from refreshing
+    return false; // Stops the page from refreshing
 }

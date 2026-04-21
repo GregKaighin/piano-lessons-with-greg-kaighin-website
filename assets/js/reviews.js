@@ -5,7 +5,9 @@ async function initReviews() {
         await place.fetchFields({ fields: ['reviews'] });
 
         const container = document.getElementById('reviews-container');
-        const reviews = place.reviews;
+        const reviews = place.reviews
+            ? [...place.reviews].sort(() => Math.random() - 0.5)
+            : null;
 
         if (!reviews || !reviews.length) {
             container.innerHTML = '';
