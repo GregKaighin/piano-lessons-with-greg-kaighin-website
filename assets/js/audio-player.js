@@ -1,232 +1,105 @@
+const listAudio = [
+    { name: "Bagatelle 'Fur Elise', Beethoven",       file: "assets/music/bagatelle-fur-elise.mp3",   duration: "02:25" },
+    { name: "Prelude in C# Minor, Rachmaninoff",       file: "assets/music/prelude-c-sharp-minor.mp3", duration: "04:13" },
+    { name: "Waltz in F Minor, Chopin",                file: "assets/music/waltz-f-minor.mp3",         duration: "02:32" },
+    { name: "Pick Up the Pieces, Average White Band",  file: "assets/music/pick-up-the-pieces.mp3",    duration: "04:02" },
+    { name: "The Entertainer, Joplin",                 file: "assets/music/the-entertainer.mp3",       duration: "04:03" },
+];
 
-//-------------------------------- Audio Player - IMPORTED FROM - https://codepen.io/vanderzak/pen/BayjVep --//
-function createTrackItem(index, name, duration) {
-    var trackItem = document.createElement('div');
-    trackItem.setAttribute("class", "playlist-track-ctn");
-    trackItem.setAttribute("id", "ptc-" + index);
-    trackItem.setAttribute("data-index", index);
-    document.querySelector(".playlist-ctn").appendChild(trackItem);
+const audio       = document.getElementById('myAudio');
+const sourceAudio = document.getElementById('source-audio');
+const timer       = document.querySelector('.timer');
+const titleEl     = document.querySelector('.title');
+const seekBar     = document.getElementById('seek-bar');
 
-    var playBtnItem = document.createElement('div');
-    playBtnItem.setAttribute("class", "playlist-btn-play");
-    playBtnItem.setAttribute("id", "pbp-" + index);
-    document.querySelector("#ptc-" + index).appendChild(playBtnItem);
+let indexAudio = 0;
+let isSeeking  = false;
 
-    var btnImg = document.createElement('i');
-    btnImg.setAttribute("class", "fas fa-play");
-    btnImg.setAttribute("height", "40");
-    btnImg.setAttribute("width", "40");
-    btnImg.setAttribute("id", "p-img-" + index);
-    document.querySelector("#pbp-" + index).appendChild(btnImg);
+listAudio.forEach(function (track, i) {
+    const item = document.createElement('div');
+    item.className     = 'playlist-track-ctn';
+    item.id            = 'ptc-' + i;
+    item.dataset.index = i;
+    item.innerHTML =
+        '<div class="playlist-btn-play"><i class="fas fa-play" id="p-img-' + i + '"></i></div>' +
+        '<div class="playlist-info-track">' + track.name + '</div>' +
+        '<div class="playlist-duration">' + track.duration + '</div>';
+    item.addEventListener('click', function () {
+        const clicked = parseInt(this.dataset.index);
+        clicked === indexAudio ? toggleAudio() : loadTrack(clicked);
+    });
+    document.querySelector('.playlist-ctn').appendChild(item);
+});
 
-    var trackInfoItem = document.createElement('div');
-    trackInfoItem.setAttribute("class", "playlist-info-track");
-    trackInfoItem.innerHTML = name
-    document.querySelector("#ptc-" + index).appendChild(trackInfoItem);
-
-    var trackDurationItem = document.createElement('div');
-    trackDurationItem.setAttribute("class", "playlist-duration");
-    trackDurationItem.innerHTML = duration
-    document.querySelector("#ptc-" + index).appendChild(trackDurationItem);
+function loadTrack(index) {
+    setTrackIcon(indexAudio, false);
+    document.getElementById('ptc-' + indexAudio).classList.remove('active-track');
+    indexAudio      = index;
+    sourceAudio.src = listAudio[index].file;
+    titleEl.innerHTML = listAudio[index].name;
+    seekBar.value   = 0;
+    audio.load();
+    audio.play().catch(function () {});
+    document.getElementById('ptc-' + indexAudio).classList.add('active-track');
+    setPlayState(true);
 }
-
-var listAudio = [
-     {
-        name: "Bagatelle 'Fur Elise', Beethoven",
-        file: "assets/music/bagatelle-fur-elise.mp3",
-        duration: "02:25"
-    },
-     {
-        name: "Prelude in C# Minor, Rachmaninoff",
-        file: "assets/music/prelude-c-sharp-minor.mp3",
-        duration: "04:13"
-    },
-    {
-        name: "Waltz in F Minor, Chopin",
-        file: "assets/music/waltz-f-minor.mp3",
-        duration: "02:32"
-    },
-    {
-        name: "Pick Up the Pieces, Average White Band",
-        file: "assets/music/pick-up-the-pieces.mp3",
-        duration: "04:02"
-    },
-    {
-        name: "The Entertainer, Joplin",
-        file: "assets/music/the-entertainer.mp3",
-        duration: "04:03"
-    },
-]
-
-for (var i = 0; i < listAudio.length; i++) {
-    createTrackItem(i, listAudio[i].name, listAudio[i].duration);
-}
-var indexAudio = 0;
-
-function loadNewTrack(index) {
-    var player = document.querySelector('#source-audio')
-    player.src = listAudio[index].file
-    document.querySelector('.title').innerHTML = listAudio[index].name
-    this.currentAudio = document.getElementById("myAudio");
-    seekBar.value = 0;
-    this.currentAudio.load()
-    this.toggleAudio()
-    this.updateStylePlaylist(this.indexAudio, index)
-    this.indexAudio = index;
-}
-
-var playListItems = document.querySelectorAll(".playlist-track-ctn");
-
-for (let i = 0; i < playListItems.length; i++) {
-    playListItems[i].addEventListener("click", getClickedElement.bind(this));
-}
-
-function getClickedElement(event) {
-    for (let i = 0; i < playListItems.length; i++) {
-        if (playListItems[i] == event.target) {
-            var clickedIndex = event.target.getAttribute("data-index")
-            if (clickedIndex == this.indexAudio) { // alert('Same audio');
-                this.toggleAudio()
-            } else {
-                loadNewTrack(clickedIndex);
-            }
-        }
-    }
-}
-
-document.querySelector('#source-audio').src = listAudio[indexAudio].file
-document.querySelector('.title').innerHTML = listAudio[indexAudio].name
-
-var currentAudio = document.getElementById("myAudio");
-
-currentAudio.load()
-
-currentAudio.onloadedmetadata = function () {
-    document.getElementsByClassName('duration')[0].innerHTML = this.getMinutes(this.currentAudio.duration)
-}.bind(this);
-
-var interval1;
 
 function toggleAudio() {
-
-    if (this.currentAudio.paused) {
-        document.querySelector('#icon-play').style.display = 'none';
-        document.querySelector('#icon-pause').style.display = 'block';
-        document.querySelector('#ptc-' + this.indexAudio).classList.add("active-track");
-        this.playToPause(this.indexAudio)
-        this.currentAudio.play();
+    if (audio.paused) {
+        audio.play().catch(function () {});
+        document.getElementById('ptc-' + indexAudio).classList.add('active-track');
+        setPlayState(true);
     } else {
-        document.querySelector('#icon-play').style.display = 'block';
-        document.querySelector('#icon-pause').style.display = 'none';
-        this.pauseToPlay(this.indexAudio)
-        this.currentAudio.pause();
+        audio.pause();
+        setPlayState(false);
     }
 }
 
-function pauseAudio() {
-    this.currentAudio.pause();
-    clearInterval(interval1);
+function setPlayState(playing) {
+    document.getElementById('icon-play').style.display  = playing ? 'none'  : 'block';
+    document.getElementById('icon-pause').style.display = playing ? 'block' : 'none';
+    setTrackIcon(indexAudio, playing);
 }
 
-var timer = document.getElementsByClassName('timer')[0];
-var seekBar = document.getElementById('seek-bar');
-var isSeeking = false;
+function setTrackIcon(index, playing) {
+    const el = document.getElementById('p-img-' + index);
+    el.classList.toggle('fa-pause',  playing);
+    el.classList.toggle('fa-play',  !playing);
+}
+
+function formatTime(t) {
+    return String(Math.floor(t / 60)).padStart(2, '0') + ':' + String(Math.floor(t % 60)).padStart(2, '0');
+}
+
+function onTimeUpdate() {
+    timer.innerHTML = formatTime(audio.currentTime);
+    if (!isSeeking && isFinite(audio.duration) && audio.duration > 0) {
+        seekBar.value = (audio.currentTime / audio.duration) * 1000;
+    }
+    if (audio.ended) {
+        setPlayState(false);
+        if (indexAudio < listAudio.length - 1) loadTrack(indexAudio + 1);
+    }
+}
+
+function next()     { if (indexAudio < listAudio.length - 1) loadTrack(indexAudio + 1); }
+function previous() { if (indexAudio > 0)                    loadTrack(indexAudio - 1); }
+
+function toggleMute() {
+    audio.muted = !audio.muted;
+    document.getElementById('icon-vol-up').style.display   = audio.muted ? 'none'  : 'block';
+    document.getElementById('icon-vol-mute').style.display = audio.muted ? 'block' : 'none';
+}
 
 seekBar.addEventListener('mousedown', function () { isSeeking = true; });
 seekBar.addEventListener('touchstart', function () { isSeeking = true; }, { passive: true });
-
 seekBar.addEventListener('change', function () {
-    if (isFinite(currentAudio.duration) && currentAudio.duration > 0) {
-        currentAudio.currentTime = (this.value / 1000) * currentAudio.duration;
+    if (isFinite(audio.duration) && audio.duration > 0) {
+        audio.currentTime = (this.value / 1000) * audio.duration;
     }
     isSeeking = false;
 });
 
-var width = 0;
-
-function onTimeUpdate() {
-    var t = this.currentAudio.currentTime
-    timer.innerHTML = this.getMinutes(t);
-    if (!isSeeking && isFinite(this.currentAudio.duration) && this.currentAudio.duration > 0) {
-        seekBar.value = (t / this.currentAudio.duration) * 1000;
-    }
-
-    if (this.currentAudio.ended) {
-        document.querySelector('#icon-play').style.display = 'block';
-        document.querySelector('#icon-pause').style.display = 'none';
-        this.pauseToPlay(this.indexAudio)
-        if (this.indexAudio < listAudio.length - 1) {
-            var index = parseInt(this.indexAudio) + 1
-            this.loadNewTrack(index)
-        }
-    }
-}
-
-function getMinutes(t) {
-    var min = parseInt(parseInt(t) / 60);
-    var sec = parseInt(t % 60);
-    if (sec < 10) {
-        sec = "0" + sec
-    }
-    if (min < 10) {
-        min = "0" + min
-    }
-    return min + ":" + sec
-}
-
-function next() {
-    if (this.indexAudio < listAudio.length - 1) {
-        var oldIndex = this.indexAudio
-        this.indexAudio++;
-        updateStylePlaylist(oldIndex, this.indexAudio)
-        this.loadNewTrack(this.indexAudio);
-    }
-}
-
-function previous() {
-    if (this.indexAudio > 0) {
-        var oldIndex = this.indexAudio
-        this.indexAudio--;
-        updateStylePlaylist(oldIndex, this.indexAudio)
-        this.loadNewTrack(this.indexAudio);
-    }
-}
-
-function updateStylePlaylist(oldIndex, newIndex) {
-    document.querySelector('#ptc-' + oldIndex).classList.remove("active-track");
-    this.pauseToPlay(oldIndex);
-    document.querySelector('#ptc-' + newIndex).classList.add("active-track");
-    this.playToPause(newIndex)
-}
-
-function playToPause(index) {
-    var ele = document.querySelector('#p-img-' + index)
-    ele.classList.remove("fa-play");
-    ele.classList.add("fa-pause");
-}
-
-function pauseToPlay(index) {
-    var ele = document.querySelector('#p-img-' + index)
-    ele.classList.remove("fa-pause");
-    ele.classList.add("fa-play");
-}
-
-function toggleMute() {
-    var volUp = document.querySelector('#icon-vol-up');
-    var volMute = document.querySelector('#icon-vol-mute');
-    if (this.currentAudio.muted == false) {
-        this.currentAudio.muted = true
-        volUp.style.display = "none"
-        volMute.style.display = "block"
-    } else {
-        this.currentAudio.muted = false
-        volMute.style.display = "none"
-        volUp.style.display = "block"
-    }
-}
-
-
-
-
-
-
+sourceAudio.src   = listAudio[0].file;
+titleEl.innerHTML = listAudio[0].name;
+audio.load();

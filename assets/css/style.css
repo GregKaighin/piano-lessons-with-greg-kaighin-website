@@ -19,10 +19,7 @@ body {
   letter-spacing: 2px;
   border: 2px solid rgb(34, 29, 23);
   margin-bottom: 20px;
-  -webkit-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
-    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
-  -moz-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
-    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+
   box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
     rgba(14, 30, 37, 0.32) 0 2px 16px 0;
 }
@@ -71,10 +68,7 @@ body {
     rgba(255, 255, 250, 0.25),
     rgb(209, 209, 209)
   );
-  -webkit-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
-    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
-  -moz-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
-    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+
   box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
     rgba(14, 30, 37, 0.32) 0 2px 16px 0;
 }
@@ -149,10 +143,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  -webkit-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
-    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
-  -moz-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
-    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+
   box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
     rgba(14, 30, 37, 0.32) 0 2px 16px 0;
 }
@@ -169,10 +160,7 @@ body {
   border: 2px solid #8b0000;
   border-radius: 12px;
   margin-bottom: 0;
-  -webkit-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
-    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
-  -moz-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
-    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+
   box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
     rgba(14, 30, 37, 0.32) 0 2px 16px 0;
 }
@@ -189,10 +177,7 @@ body {
   border: 2px solid #006400;
   border-radius: 12px;
   margin-bottom: 0;
-  -webkit-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
-    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
-  -moz-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
-    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+
   box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
     rgba(14, 30, 37, 0.32) 0 2px 16px 0;
 }
@@ -209,10 +194,7 @@ body {
   border: 2px solid #00008b;
   border-radius: 12px;
   margin-bottom: 0;
-  -webkit-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
-    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
-  -moz-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
-    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+
   box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
     rgba(14, 30, 37, 0.32) 0 2px 16px 0;
 }
@@ -229,10 +211,7 @@ body {
   border: 1px solid #ffa500;
   border-radius: 12px;
   margin-bottom: 0;
-  -webkit-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
-    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
-  -moz-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
-    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+
   box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
     rgba(14, 30, 37, 0.32) 0 2px 16px 0;
 }
@@ -360,10 +339,7 @@ body {
   text-transform: uppercase;
   font-size: 10px;
   margin-bottom: 20px;
-  -webkit-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
-    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
-  -moz-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
-    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+
   box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
     rgba(14, 30, 37, 0.32) 0 2px 16px 0;
 }
@@ -389,21 +365,11 @@ body {
 .btn-light:focus {
   border-color: #221d17;
 }
-.btn-light:not(:disabled):not(.disabled).active,
-.btn-light:not(:disabled):not(.disabled):active,
-.show > .btn-light.dropdown-toggle {
-  color: #221d17;
-  background-color: #dda5a1;
-  border-color: #221d17;
-}
 /*------------------------------------About Me Links Hover Colour and Underscore*/
 .portrait-image {
   border: 1px solid rgb(34, 29, 23);
   margin-bottom: 20px;
-  -webkit-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
-    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
-  -moz-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
-    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+
   box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
     rgba(14, 30, 37, 0.32) 0 2px 16px 0;
 }
@@ -480,10 +446,7 @@ body {
   border-radius: 12px;
   position: relative;
   margin-bottom: 20px;
-  -webkit-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
-    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
-  -moz-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
-    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+
   box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
     rgba(14, 30, 37, 0.32) 0 2px 16px 0;
 }
@@ -506,19 +469,13 @@ body {
   left: -12px;
   position: absolute;
   margin-bottom: 20px;
-  -webkit-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
-    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
-  -moz-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
-    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+
   box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
     rgba(14, 30, 37, 0.32) 0 2px 16px 0;
 }
 .social-btns {
   text-align: center;
-  -webkit-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
-    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
-  -moz-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
-    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+
   box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
     rgba(14, 30, 37, 0.32) 0 2px 16px 0;
 }
@@ -544,16 +501,12 @@ body {
 }
 .card {
   margin-top: 24px;
-  margin-bottom: 0;
   border-color: #221d17;
   background-color: #fffff0;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 20px;
-  -webkit-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
-    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
-  -moz-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
-    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+
   box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
     rgba(14, 30, 37, 0.32) 0 2px 16px 0;
 }
@@ -632,10 +585,7 @@ p.footer-heading {
 .table {
   color: #221d17;
   margin-bottom: 20px;
-  -webkit-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
-    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
-  -moz-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
-    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+
   box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
     rgba(14, 30, 37, 0.32) 0 2px 16px 0;
 }
@@ -661,10 +611,7 @@ p.footer-heading {
   border-color: #221d17;
   background-color: lightyellow;
   letter-spacing: 1px;
-  -webkit-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
-    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
-  -moz-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
-    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+
   box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
     rgba(14, 30, 37, 0.32) 0 2px 16px 0;
   
@@ -685,10 +632,7 @@ p.footer-heading {
   background-color: #fffff0;
   border: solid 1px #221d17;
   margin-bottom: 20px;
-  -webkit-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
-    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
-  -moz-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
-    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+
   box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
     rgba(14, 30, 37, 0.32) 0 2px 16px 0;
 }
@@ -783,10 +727,7 @@ p.footer-heading {
   color: #221d17;
   font-weight: bold;
   margin-bottom: 20px;
-  -webkit-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
-    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
-  -moz-box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
-    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+
   box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
     rgba(14, 30, 37, 0.32) 0 2px 16px 0;
 }

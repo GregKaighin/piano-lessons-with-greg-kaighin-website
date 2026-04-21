@@ -32,7 +32,7 @@ A website for the self-employed piano teaching business 'Piano Lessons with Greg
 - **Google Reviews** — live reviews fetched from the Google Places API (New) and rendered dynamically, with reviewer initials badge and star rating. Reviews are displayed in a randomised order on each page load.
 
 ### Music Page
-- **Audio player** — jukebox-style player adapted from [codepen.io/vanderzak/pen/BayjVep](https://codepen.io/vanderzak/pen/BayjVep), with play/pause, next/previous, and mute controls.
+- **Audio player** — jukebox-style player adapted from [codepen.io/vanderzak/pen/BayjVep](https://codepen.io/vanderzak/pen/BayjVep), with play/pause, next/previous, mute, and a seek bar.
 
 ### Resources Page
 - **Sheet music downloads** — PDF downloads of scales, arpeggios and pieces.
@@ -66,6 +66,7 @@ A website for the self-employed piano teaching business 'Piano Lessons with Greg
 - [GitHub Pages](https://pages.github.com/) — hosting
 - [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html) — image editing and .webp encoding
 - [realfavicongenerator](https://realfavicongenerator.net/) — favicons
+- `serve.py` — local dev server with HTTP Range request support (required for audio seeking)
 
 ---
 
@@ -95,6 +96,12 @@ Requires Python 3 and Jinja2:
 ```bash
 pip install -r requirements.txt
 python build.py
+```
+
+### Local dev server
+Use `serve.py` instead of `python -m http.server` — it supports HTTP Range requests, which are required for audio seeking to work:
+```bash
+python serve.py
 ```
 
 ---
